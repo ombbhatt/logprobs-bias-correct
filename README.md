@@ -23,19 +23,19 @@ We adapt five world-knowledge text datasets for testing our bias correction meth
 
 ### Dataset Files
 
-All datasets are available as zipped password-protected directories in the `datasets` folder. The password to access the four yes-no datasets (EWoK, COMPS, bAbI, Arith) is `yesno<dataset>pass1` (e.g. `yesnoewokpass1`). The password to access MMLU is `mcqmmlupass1`.
+All datasets are available as zipped password-protected directories in the `datasets` folder. The password to access the four yes-no datasets (EWoK, COMPS, bAbI, Arith) is `yesno<dataset>pass1` (e.g. `yesnoewokpass1`). The password to access MMLU is `mcqmmlupass1`. We recommend using 7zip for zip extraction.
 
 Scripts and CSV files other than the ones specified below can be ignored; they are not used for testing purposes and were intermediary assets in adapting the following datasets. All yes-no datasets are class-balanced.
 
-1. **EWoK**: `ewokynq-scripts-data\t2q_nodup_nominpairs\` contains csv files with yes-no converted questions and answers, grouped by domain. The final yes-no dataset consists of 2056 context-question inputs across 11 domains. [Original dataset](https://ewok-core.github.io/).  
+1. **EWoK**: `ewokynq-data\` contains csv files with yes-no converted questions and answers, grouped by domain. The final yes-no dataset consists of 2056 context-question inputs across 11 domains. [Original dataset](https://ewok-core.github.io/).  
 
-2. **COMPS**: `compsynq-scripts-data\comps_yn_rand_2100.csv` contains a yes-no converted subset of 2100 questions used in both papers for testing purposes. [Original dataset](https://github.com/kanishkamisra/comps). 
+2. **COMPS**: `compsynq-data\comps_yn_rand_2100.csv` contains a yes-no converted subset of 2100 questions used in both papers for testing purposes. [Original dataset](https://github.com/kanishkamisra/comps). 
 
-3. **bAbI**: `babiynq-scripts-data\babi-ynq-big.csv` contains 18442 yes-no questions, collected and converted from 12 of the 20 domains of the original dataset, with no more than 2000 questions from any given domain. [Original dataset](https://github.com/facebookarchive/bAbI-tasks/tree/master/lua/babi)
+3. **bAbI**: `babiynq-data\` contains 18442 yes-no questions, collected and converted from 12 of the 20 domains of the original dataset, with no more than 2000 questions from any given domain. [Original dataset](https://github.com/facebookarchive/bAbI-tasks/tree/master/lua/babi)
 
-4. **Arithmetic**: `arithynq-scripts-data\arith-ynq-big.csv` contains 1200 yes-no questtions covering 1-digit and 2-digit addition, multiplication, and subtraction, derived from the Arithmetic subset of the BIGBench dataset. [Original dataset](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/arithmetic)
+4. **Arithmetic**: `arithynq-data\` contains 1200 yes-no questtions covering 1-digit and 2-digit addition, multiplication, and subtraction, derived from the Arithmetic subset of the BIGBench dataset. [Original dataset](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks/arithmetic)
 
-5. **MMLU**: `mmluynq-scripts-data\` contains the original MMLU dataset in multiple-choice format, grouped by domain. The final dataset contains 14042 questions across 57 domains. [Original dataset](https://huggingface.co/datasets/cais/mmlu)
+5. **MMLU**: `mmlu-data\` contains the original MMLU dataset in multiple-choice format, grouped by domain. The final dataset contains 14042 questions across 57 domains. [Original dataset](https://huggingface.co/datasets/cais/mmlu)
 
 ## Running Inference
 
