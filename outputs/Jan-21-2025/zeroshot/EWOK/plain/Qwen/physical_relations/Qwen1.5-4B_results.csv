@@ -1,0 +1,186 @@
+Question Number,MetaTemplateID,Domain,ItemGroupID,ContextDiff,ContextNum,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+1.0,1.0,physical-relations,,antonym,1.0,The truck is in front of the bed.,Is the truck blocking the bed?,Yes,-3.0463409423828125,-3.0698280334472656,Yes,True
+2.0,1.0,physical-relations,,antonym,1.0,The truck is in front of the bed.,Is the bed blocking the truck?,No,-3.1850337982177734,-2.985687494277954,No,True
+3.0,1.0,physical-relations,,antonym,2.0,The truck is behind the bed.,Is the truck blocking the bed?,No,-3.252210855484009,-2.997741937637329,No,True
+4.0,1.0,physical-relations,,antonym,2.0,The truck is behind the bed.,Is the bed blocking the truck?,Yes,-3.386497735977173,-2.8065648078918457,No,False
+7.0,1.0,physical-relations,,variable swap,2.0,The bed is in front of the truck.,Is the truck blocking the bed?,No,-3.410845994949341,-2.5850934982299805,No,True
+8.0,1.0,physical-relations,,variable swap,2.0,The bed is in front of the truck.,Is the bed blocking the truck?,Yes,-2.9568169116973877,-2.4933416843414307,No,False
+9.0,1.0,physical-relations,,variable swap,1.0,The bed is behind the truck.,Is the truck blocking the bed?,Yes,-3.503073215484619,-2.5578250885009766,No,False
+10.0,1.0,physical-relations,,variable swap,1.0,The bed is behind the truck.,Is the bed blocking the truck?,No,-3.0808591842651367,-2.438836097717285,No,True
+13.0,2.0,physical-relations,,variable swap,1.0,Chao needs to move the truck to reach the bed.,Is the truck blocking the bed?,Yes,-2.773505210876465,-3.562671422958374,Yes,True
+14.0,2.0,physical-relations,,variable swap,1.0,Chao needs to move the truck to reach the bed.,Is the bed blocking the truck?,No,-2.7704410552978516,-3.7352941036224365,Yes,False
+15.0,2.0,physical-relations,,variable swap,2.0,Chao needs to move the bed to reach the truck.,Is the truck blocking the bed?,No,-2.94282865524292,-3.2925174236297607,Yes,False
+16.0,2.0,physical-relations,,variable swap,2.0,Chao needs to move the bed to reach the truck.,Is the bed blocking the truck?,Yes,-2.5683274269104004,-3.364501953125,Yes,True
+17.0,3.0,physical-relations,,antonym,1.0,The truck occupies more space than the bed.,Is the truck bigger than the bed?,Yes,-2.595264434814453,-2.190434455871582,No,False
+18.0,3.0,physical-relations,,antonym,1.0,The truck occupies more space than the bed.,Is the truck smaller than the bed?,No,-2.6394357681274414,-1.8235399723052979,No,True
+19.0,3.0,physical-relations,,antonym,2.0,The truck occupies less space than the bed.,Is the truck bigger than the bed?,No,-3.0205917358398438,-1.838165044784546,No,True
+20.0,3.0,physical-relations,,antonym,2.0,The truck occupies less space than the bed.,Is the truck smaller than the bed?,Yes,-2.7221105098724365,-2.3000717163085938,No,False
+23.0,3.0,physical-relations,,variable swap,2.0,The bed occupies more space than the truck.,Is the truck bigger than the bed?,No,-2.543539524078369,-1.6998729705810547,No,True
+24.0,3.0,physical-relations,,variable swap,2.0,The bed occupies more space than the truck.,Is the truck smaller than the bed?,Yes,-2.449056386947632,-1.7478395700454712,No,False
+25.0,3.0,physical-relations,,variable swap,1.0,The bed occupies less space than the truck.,Is the truck bigger than the bed?,Yes,-2.566277503967285,-1.482801079750061,No,False
+26.0,3.0,physical-relations,,variable swap,1.0,The bed occupies less space than the truck.,Is the truck smaller than the bed?,No,-2.5950071811676025,-1.8448299169540405,No,True
+30.0,3.0,physical-relations,,antonym,1.0,The truck occupies more space than the bed.,Is the bed bigger than the truck?,No,-3.053248882293701,-2.2010138034820557,No,True
+32.0,3.0,physical-relations,,antonym,2.0,The truck occupies less space than the bed.,Is the bed bigger than the truck?,Yes,-3.1333630084991455,-2.3003387451171875,No,False
+36.0,3.0,physical-relations,,variable swap,2.0,The bed occupies more space than the truck.,Is the bed bigger than the truck?,Yes,-2.8752858638763428,-2.1466851234436035,No,False
+38.0,3.0,physical-relations,,variable swap,1.0,The bed occupies less space than the truck.,Is the bed bigger than the truck?,No,-3.4291508197784424,-1.7896974086761475,No,True
+41.0,3.0,physical-relations,,antonym,1.0,The truck occupies more space than the bed.,Is the bed smaller than the truck?,Yes,-2.66365647315979,-2.2449779510498047,No,False
+43.0,3.0,physical-relations,,antonym,2.0,The truck occupies less space than the bed.,Is the bed smaller than the truck?,No,-2.894989252090454,-2.3972277641296387,No,True
+47.0,3.0,physical-relations,,variable swap,2.0,The bed occupies more space than the truck.,Is the bed smaller than the truck?,No,-2.8938512802124023,-1.688077449798584,No,True
+49.0,3.0,physical-relations,,variable swap,1.0,The bed occupies less space than the truck.,Is the bed smaller than the truck?,Yes,-3.0366601943969727,-2.0277304649353027,No,False
+53.0,4.0,physical-relations,,antonym,1.0,The truck can completely hide the bed from view.,Is the truck bigger than the bed?,Yes,-2.9365744590759277,-1.9932806491851807,No,False
+54.0,4.0,physical-relations,,antonym,1.0,The truck can completely hide the bed from view.,Is the truck smaller than the bed?,No,-2.999898910522461,-1.9757804870605469,No,True
+55.0,4.0,physical-relations,,antonym,2.0,The truck can only partially hide the bed from view.,Is the truck bigger than the bed?,No,-2.9340176582336426,-2.390188455581665,No,True
+56.0,4.0,physical-relations,,antonym,2.0,The truck can only partially hide the bed from view.,Is the truck smaller than the bed?,Yes,-2.7743782997131348,-2.071340560913086,No,False
+59.0,4.0,physical-relations,,variable swap,2.0,The bed can completely hide the truck from view.,Is the truck bigger than the bed?,No,-2.833472967147827,-1.7774304151535034,No,True
+60.0,4.0,physical-relations,,variable swap,2.0,The bed can completely hide the truck from view.,Is the truck smaller than the bed?,Yes,-2.813941240310669,-1.9358032941818237,No,False
+61.0,4.0,physical-relations,,variable swap,1.0,The bed can only partially hide the truck from view.,Is the truck bigger than the bed?,Yes,-2.4801557064056396,-2.433669328689575,No,False
+62.0,4.0,physical-relations,,variable swap,1.0,The bed can only partially hide the truck from view.,Is the truck smaller than the bed?,No,-2.4373347759246826,-2.094433307647705,No,True
+66.0,4.0,physical-relations,,antonym,1.0,The truck can completely hide the bed from view.,Is the bed bigger than the truck?,No,-3.1769771575927734,-2.3597724437713623,No,True
+68.0,4.0,physical-relations,,antonym,2.0,The truck can only partially hide the bed from view.,Is the bed bigger than the truck?,Yes,-3.2793588638305664,-2.8516719341278076,No,False
+72.0,4.0,physical-relations,,variable swap,2.0,The bed can completely hide the truck from view.,Is the bed bigger than the truck?,Yes,-3.047170877456665,-1.9629533290863037,No,False
+74.0,4.0,physical-relations,,variable swap,1.0,The bed can only partially hide the truck from view.,Is the bed bigger than the truck?,No,-2.7268307209014893,-2.192286491394043,No,True
+77.0,4.0,physical-relations,,antonym,1.0,The truck can completely hide the bed from view.,Is the bed smaller than the truck?,Yes,-3.2792296409606934,-2.5258498191833496,No,False
+79.0,4.0,physical-relations,,antonym,2.0,The truck can only partially hide the bed from view.,Is the bed smaller than the truck?,No,-3.127129077911377,-2.5569498538970947,No,True
+83.0,4.0,physical-relations,,variable swap,2.0,The bed can completely hide the truck from view.,Is the bed smaller than the truck?,No,-3.069268226623535,-2.0965166091918945,No,True
+85.0,4.0,physical-relations,,variable swap,1.0,The bed can only partially hide the truck from view.,Is the bed smaller than the truck?,Yes,-2.65368914604187,-2.1737375259399414,No,False
+89.0,5.0,physical-relations,,other,1.0,The bed is inside the truck.,Does the truck contain the bed?,Yes,-2.695152521133423,-2.9204769134521484,Yes,True
+90.0,5.0,physical-relations,,other,1.0,The bed is inside the truck.,Does the truck support the bed?,No,-3.2815096378326416,-3.5691606998443604,Yes,False
+91.0,5.0,physical-relations,,other,2.0,The bed is on top of the truck.,Does the truck contain the bed?,No,-2.2382121086120605,-2.333958148956299,Yes,False
+92.0,5.0,physical-relations,,other,2.0,The bed is on top of the truck.,Does the truck support the bed?,Yes,-3.3364224433898926,-3.569795608520508,Yes,True
+93.0,8.0,physical-relations,,antonym,1.0,The truck is touching the bed from below.,Does the truck contain the bed?,Yes,-4.502645492553711,-4.197803497314453,No,False
+94.0,8.0,physical-relations,,antonym,1.0,The truck is touching the bed from below.,Does the truck cover the bed?,No,-4.276000022888184,-4.243057727813721,No,True
+95.0,8.0,physical-relations,,antonym,2.0,The truck is touching the bed from above.,Does the truck contain the bed?,No,-4.635988235473633,-4.370654106140137,No,True
+96.0,8.0,physical-relations,,antonym,2.0,The truck is touching the bed from above.,Does the truck cover the bed?,Yes,-4.616364002227783,-4.572413444519043,No,False
+97.0,9.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the airplane will move too.",Does the truck contain the airplane?,Yes,-2.2133781909942627,-2.411351442337036,Yes,True
+98.0,9.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the airplane will move too.",Does the truck is outide the airplane?,No,-3.234713077545166,-2.9852702617645264,No,True
+99.0,9.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the airplane will remain in its place.",Does the truck contain the airplane?,No,-2.1164908409118652,-2.844961166381836,Yes,False
+100.0,9.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the airplane will remain in its place.",Does the truck is outide the airplane?,Yes,-2.4290199279785156,-2.980814218521118,Yes,True
+102.0,9.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the airplane will move too.",Does the airplane contain the truck?,No,-2.074821949005127,-2.416829824447632,Yes,False
+104.0,9.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the airplane will remain in its place.",Does the airplane contain the truck?,Yes,-1.8727147579193115,-2.785090446472168,Yes,True
+106.0,10.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the airplane will move too.",Does the truck is inide the airplane?,No,-2.9288649559020996,-2.6292104721069336,No,True
+108.0,10.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the airplane will remain in its place.",Does the truck is inide the airplane?,Yes,-2.4048919677734375,-2.8271961212158203,Yes,True
+111.0,10.0,physical-relations,,variable swap,2.0,"If Chao moves the airplane, the truck will move too.",Does the truck contain the airplane?,No,-2.552351951599121,-2.660834550857544,Yes,False
+112.0,10.0,physical-relations,,variable swap,2.0,"If Chao moves the airplane, the truck will move too.",Does the truck is inide the airplane?,Yes,-3.068337917327881,-3.003925085067749,No,False
+113.0,10.0,physical-relations,,variable swap,1.0,"If Chao moves the airplane, the truck will remain in its place.",Does the truck contain the airplane?,Yes,-2.2123382091522217,-2.870189666748047,Yes,True
+114.0,10.0,physical-relations,,variable swap,1.0,"If Chao moves the airplane, the truck will remain in its place.",Does the truck is inide the airplane?,No,-2.5174384117126465,-2.9761030673980713,Yes,False
+124.0,10.0,physical-relations,,variable swap,2.0,"If Chao moves the airplane, the truck will move too.",Does the airplane contain the truck?,Yes,-2.5816352367401123,-2.6500535011291504,Yes,True
+126.0,10.0,physical-relations,,variable swap,1.0,"If Chao moves the airplane, the truck will remain in its place.",Does the airplane contain the truck?,No,-2.371192455291748,-2.8587167263031006,Yes,False
+129.0,10.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the airplane will move too.",Is the airplane inside the truck?,Yes,-2.496777296066284,-1.8552603721618652,No,False
+130.0,10.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the airplane will move too.",Is the truck inside the airplane?,No,-2.6355345249176025,-1.9073543548583984,No,True
+131.0,10.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the airplane will remain in its place.",Is the airplane inside the truck?,No,-2.066910743713379,-2.5468215942382812,Yes,False
+132.0,10.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the airplane will remain in its place.",Is the truck inside the airplane?,Yes,-2.079130172729492,-2.663914680480957,Yes,True
+135.0,10.0,physical-relations,,variable swap,2.0,"If Chao moves the airplane, the truck will move too.",Is the airplane inside the truck?,No,-2.5596394538879395,-1.9182130098342896,No,True
+136.0,10.0,physical-relations,,variable swap,2.0,"If Chao moves the airplane, the truck will move too.",Is the truck inside the airplane?,Yes,-2.6374595165252686,-2.192986488342285,No,False
+137.0,10.0,physical-relations,,variable swap,1.0,"If Chao moves the airplane, the truck will remain in its place.",Is the airplane inside the truck?,Yes,-2.182933807373047,-2.622807264328003,Yes,True
+138.0,10.0,physical-relations,,variable swap,1.0,"If Chao moves the airplane, the truck will remain in its place.",Is the truck inside the airplane?,No,-2.2172391414642334,-2.9588329792022705,Yes,False
+141.0,12.0,physical-relations,,antonym,1.0,The truck is in front of the airplane.,Does the truck occlude the airplane?,Yes,-3.0251221656799316,-3.1368424892425537,Yes,True
+142.0,12.0,physical-relations,,antonym,1.0,The truck is in front of the airplane.,Does the truck i occluded by the airplane?,No,-2.8479185104370117,-2.7512872219085693,No,True
+143.0,12.0,physical-relations,,antonym,2.0,The truck is behind the airplane.,Does the truck occlude the airplane?,No,-3.1826727390289307,-3.108445882797241,No,True
+144.0,12.0,physical-relations,,antonym,2.0,The truck is behind the airplane.,Does the truck i occluded by the airplane?,Yes,-2.927495002746582,-2.7515695095062256,No,False
+145.0,13.0,physical-relations,,antonym,1.0,The truck is smaller than the airplane.,Is the truck inside the airplane?,Yes,-2.781627655029297,-1.6387344598770142,No,False
+146.0,13.0,physical-relations,,antonym,1.0,The truck is smaller than the airplane.,Is the truck outside the airplane?,No,-2.681666851043701,-1.522929310798645,No,True
+147.0,13.0,physical-relations,,antonym,2.0,The truck is larger than the airplane.,Is the truck inside the airplane?,No,-2.852113723754883,-1.9078598022460938,No,True
+148.0,13.0,physical-relations,,antonym,2.0,The truck is larger than the airplane.,Is the truck outside the airplane?,Yes,-2.7227678298950195,-1.9204049110412598,No,False
+151.0,13.0,physical-relations,,variable swap,2.0,The airplane is smaller than the truck.,Is the truck inside the airplane?,No,-2.915165424346924,-2.257506847381592,No,True
+152.0,13.0,physical-relations,,variable swap,2.0,The airplane is smaller than the truck.,Is the truck outside the airplane?,Yes,-3.0262465476989746,-2.1488704681396484,No,False
+153.0,13.0,physical-relations,,variable swap,1.0,The airplane is larger than the truck.,Is the truck inside the airplane?,Yes,-2.8914053440093994,-2.437859535217285,No,False
+154.0,13.0,physical-relations,,variable swap,1.0,The airplane is larger than the truck.,Is the truck outside the airplane?,No,-3.0765435695648193,-2.4695982933044434,No,True
+158.0,13.0,physical-relations,,antonym,1.0,The truck is smaller than the airplane.,Is the airplane inside the truck?,No,-2.8031747341156006,-1.5039405822753906,No,True
+160.0,13.0,physical-relations,,antonym,2.0,The truck is larger than the airplane.,Is the airplane inside the truck?,Yes,-2.790241003036499,-1.8878118991851807,No,False
+164.0,13.0,physical-relations,,variable swap,2.0,The airplane is smaller than the truck.,Is the airplane inside the truck?,Yes,-2.903021812438965,-2.138676643371582,No,False
+166.0,13.0,physical-relations,,variable swap,1.0,The airplane is larger than the truck.,Is the airplane inside the truck?,No,-2.916862726211548,-2.253737688064575,No,True
+169.0,14.0,physical-relations,,antonym,1.0,The truck moves with the airplane.,Is the truck inside the airplane?,Yes,-2.803720712661743,-2.1050949096679688,No,False
+170.0,14.0,physical-relations,,antonym,1.0,The truck moves with the airplane.,Is the truck outside the airplane?,No,-2.623427152633667,-2.3810622692108154,No,True
+171.0,14.0,physical-relations,,antonym,2.0,The truck moves independent of the airplane.,Is the truck inside the airplane?,No,-3.079720973968506,-2.3664841651916504,No,True
+172.0,14.0,physical-relations,,antonym,2.0,The truck moves independent of the airplane.,Is the truck outside the airplane?,Yes,-2.5645334720611572,-2.725768566131592,Yes,True
+173.0,15.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the airplane will move too.",Is the truck inside the airplane?,Yes,-2.6355345249176025,-1.9073543548583984,No,False
+174.0,15.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the airplane will move too.",Is the truck outside the airplane?,No,-2.576046943664551,-2.239236831665039,No,True
+175.0,15.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the airplane will remain in its place.",Is the truck inside the airplane?,No,-2.079130172729492,-2.663914680480957,Yes,False
+176.0,15.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the airplane will remain in its place.",Is the truck outside the airplane?,Yes,-1.9325989484786987,-2.8853607177734375,Yes,True
+177.0,17.0,physical-relations,,antonym,1.0,The truck rests against the bed.,Is the truck supported by the bed?,Yes,-2.7755444049835205,-3.154496669769287,Yes,True
+178.0,17.0,physical-relations,,antonym,1.0,The truck rests against the bed.,Is the truck attached to the bed?,No,-2.7155518531799316,-2.4454784393310547,No,True
+179.0,17.0,physical-relations,,antonym,2.0,The truck is glued to the bed.,Is the truck supported by the bed?,No,-3.5477614402770996,-3.0690314769744873,No,True
+180.0,17.0,physical-relations,,antonym,2.0,The truck is glued to the bed.,Is the truck attached to the bed?,Yes,-3.1581695079803467,-3.016638994216919,No,False
+182.0,17.0,physical-relations,,antonym,1.0,The truck rests against the bed.,Is the bed supported by the truck?,No,-2.7173655033111572,-3.173440456390381,Yes,False
+184.0,17.0,physical-relations,,antonym,2.0,The truck is glued to the bed.,Is the bed supported by the truck?,Yes,-3.5932345390319824,-3.315910577774048,No,False
+185.0,18.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the bed will remain in its place.",Is the truck supported by the bed?,Yes,-2.6162097454071045,-2.6899545192718506,Yes,True
+186.0,18.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the bed will remain in its place.",Is the truck attached to the bed?,No,-1.8964215517044067,-2.208113431930542,Yes,False
+187.0,18.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the bed will move too.",Is the truck supported by the bed?,No,-2.8601624965667725,-2.351590633392334,No,True
+188.0,18.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the bed will move too.",Is the truck attached to the bed?,Yes,-3.1647870540618896,-2.2551321983337402,No,False
+190.0,18.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the bed will remain in its place.",Is the bed supported by the truck?,No,-2.4371020793914795,-2.70833420753479,Yes,False
+192.0,18.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the bed will move too.",Is the bed supported by the truck?,Yes,-2.950126886367798,-2.5486202239990234,No,False
+193.0,19.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the bed will move too.",Does the truck support the bed?,Yes,-3.3167343139648438,-3.2810792922973633,No,False
+194.0,19.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the bed will move too.",Does the truck is upported by the bed?,No,-3.7984046936035156,-4.321563720703125,Yes,False
+195.0,19.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the bed will remain in its place.",Does the truck support the bed?,No,-2.9701333045959473,-3.019223213195801,Yes,False
+196.0,19.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the bed will remain in its place.",Does the truck is upported by the bed?,Yes,-3.3761932849884033,-3.825025796890259,Yes,True
+199.0,19.0,physical-relations,,variable swap,2.0,"If Chao moves the bed, the truck will move too.",Does the truck support the bed?,No,-2.831611156463623,-2.8200981616973877,No,True
+200.0,19.0,physical-relations,,variable swap,2.0,"If Chao moves the bed, the truck will move too.",Does the truck is upported by the bed?,Yes,-3.1762492656707764,-3.487811803817749,Yes,True
+201.0,19.0,physical-relations,,variable swap,1.0,"If Chao moves the bed, the truck will remain in its place.",Does the truck support the bed?,Yes,-2.7139623165130615,-2.9796066284179688,Yes,True
+202.0,19.0,physical-relations,,variable swap,1.0,"If Chao moves the bed, the truck will remain in its place.",Does the truck is upported by the bed?,No,-3.0696654319763184,-3.531787157058716,Yes,False
+206.0,19.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the bed will move too.",Does the bed support the truck?,No,-3.404052257537842,-2.976841688156128,No,True
+208.0,19.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the bed will remain in its place.",Does the bed support the truck?,Yes,-2.8964734077453613,-2.8404622077941895,No,False
+212.0,19.0,physical-relations,,variable swap,2.0,"If Chao moves the bed, the truck will move too.",Does the bed support the truck?,Yes,-3.210827112197876,-2.743605375289917,No,False
+214.0,19.0,physical-relations,,variable swap,1.0,"If Chao moves the bed, the truck will remain in its place.",Does the bed support the truck?,No,-2.7881691455841064,-3.0325849056243896,Yes,False
+223.0,19.0,physical-relations,,variable swap,2.0,"If Chao moves the bed, the truck will move too.",Is the bed supported by the truck?,No,-2.9469659328460693,-2.306331157684326,No,True
+224.0,19.0,physical-relations,,variable swap,2.0,"If Chao moves the bed, the truck will move too.",Is the truck supported by the bed?,Yes,-2.7549355030059814,-2.298189878463745,No,False
+225.0,19.0,physical-relations,,variable swap,1.0,"If Chao moves the bed, the truck will remain in its place.",Is the bed supported by the truck?,Yes,-2.4631683826446533,-2.718388319015503,Yes,True
+226.0,19.0,physical-relations,,variable swap,1.0,"If Chao moves the bed, the truck will remain in its place.",Is the truck supported by the bed?,No,-2.572838544845581,-2.7348201274871826,Yes,False
+229.0,20.0,physical-relations,,antonym,1.0,The truck is next to the bed.,Is the truck touching the bed?,Yes,-3.061969041824341,-2.9002997875213623,No,False
+230.0,20.0,physical-relations,,antonym,1.0,The truck is next to the bed.,Is the truck connected to the bed?,No,-2.7513537406921387,-2.411020517349243,No,True
+231.0,20.0,physical-relations,,antonym,2.0,The truck is some distance away from the bed.,Is the truck touching the bed?,No,-4.207861423492432,-3.466717004776001,No,True
+232.0,20.0,physical-relations,,antonym,2.0,The truck is some distance away from the bed.,Is the truck connected to the bed?,Yes,-3.32051944732666,-3.251708507537842,No,False
+233.0,21.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the bed will remain in its place.",Is the truck touching the bed?,Yes,-3.088822603225708,-2.768540620803833,No,False
+234.0,21.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the bed will remain in its place.",Is the truck connected to the bed?,No,-2.4097204208374023,-2.372434139251709,No,True
+235.0,21.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the bed will move too.",Is the truck touching the bed?,No,-3.31839919090271,-2.669964075088501,No,True
+236.0,21.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the bed will move too.",Is the truck connected to the bed?,Yes,-2.6304166316986084,-2.397618293762207,No,False
+237.0,22.0,physical-relations,,antonym,1.0,The bed moves independent of the truck.,Is the truck touching the bed?,Yes,-3.8244106769561768,-2.9487640857696533,No,False
+238.0,22.0,physical-relations,,antonym,1.0,The bed moves independent of the truck.,Is the truck connected to the bed?,No,-3.3345022201538086,-2.9423604011535645,No,True
+239.0,22.0,physical-relations,,antonym,2.0,The bed moves with the truck.,Is the truck touching the bed?,No,-3.8919031620025635,-3.0664706230163574,No,True
+240.0,22.0,physical-relations,,antonym,2.0,The bed moves with the truck.,Is the truck connected to the bed?,Yes,-3.382962703704834,-2.9573628902435303,No,False
+241.0,23.0,physical-relations,,antonym,1.0,"If Chao picks up the cooler, the wheel will remain in its place.",Is the cooler touching the wheel?,Yes,-1.871110200881958,-2.3206374645233154,Yes,True
+242.0,23.0,physical-relations,,antonym,1.0,"If Chao picks up the cooler, the wheel will remain in its place.",Is the cooler attached to the wheel?,No,-1.7114458084106445,-2.608002185821533,Yes,False
+243.0,23.0,physical-relations,,antonym,2.0,"If Chao picks up the cooler, the wheel will move too.",Is the cooler touching the wheel?,No,-2.822103500366211,-2.4305038452148438,No,True
+244.0,23.0,physical-relations,,antonym,2.0,"If Chao picks up the cooler, the wheel will move too.",Is the cooler attached to the wheel?,Yes,-2.628697156906128,-1.9085450172424316,No,False
+245.0,24.0,physical-relations,,antonym,1.0,The truck is next to the bed.,Is the truck attached to the bed?,Yes,-2.645581007003784,-2.559680938720703,No,False
+247.0,24.0,physical-relations,,antonym,2.0,The truck is some distance away from the bed.,Is the truck attached to the bed?,No,-3.0576283931732178,-2.7092647552490234,No,True
+249.0,25.0,physical-relations,,antonym,1.0,There is no space between the truck and the bed.,Is the truck attached to the bed?,Yes,-3.0850961208343506,-2.926900863647461,No,False
+250.0,25.0,physical-relations,,antonym,1.0,There is no space between the truck and the bed.,Is the truck connected to the bed?,No,-3.2361202239990234,-3.0170176029205322,No,True
+251.0,25.0,physical-relations,,antonym,2.0,There is some space between the truck and the bed.,Is the truck attached to the bed?,No,-2.9655582904815674,-2.6190297603607178,No,True
+252.0,25.0,physical-relations,,antonym,2.0,There is some space between the truck and the bed.,Is the truck connected to the bed?,Yes,-3.1533024311065674,-2.797384262084961,No,False
+253.0,26.0,physical-relations,,antonym,1.0,The truck is below the bed.,Is the truck under the bed?,Yes,-2.84187912940979,-2.2301511764526367,No,False
+254.0,26.0,physical-relations,,antonym,1.0,The truck is below the bed.,Is the truck on the bed?,No,-3.2528393268585205,-2.7460145950317383,No,True
+255.0,26.0,physical-relations,,antonym,2.0,The truck is above the bed.,Is the truck under the bed?,No,-2.777784824371338,-2.0953614711761475,No,True
+256.0,26.0,physical-relations,,antonym,2.0,The truck is above the bed.,Is the truck on the bed?,Yes,-2.9461045265197754,-2.696209192276001,No,False
+259.0,26.0,physical-relations,,variable swap,2.0,The bed is below the truck.,Is the truck under the bed?,No,-2.5875227451324463,-1.6292767524719238,No,True
+260.0,26.0,physical-relations,,variable swap,2.0,The bed is below the truck.,Is the truck on the bed?,Yes,-3.121738910675049,-1.9214756488800049,No,False
+261.0,26.0,physical-relations,,variable swap,1.0,The bed is above the truck.,Is the truck under the bed?,Yes,-2.650499105453491,-1.8237431049346924,No,False
+262.0,26.0,physical-relations,,variable swap,1.0,The bed is above the truck.,Is the truck on the bed?,No,-3.0028605461120605,-2.0792107582092285,No,True
+266.0,26.0,physical-relations,,antonym,1.0,The truck is below the bed.,Is the bed under the truck?,No,-2.674856662750244,-2.3817570209503174,No,True
+268.0,26.0,physical-relations,,antonym,2.0,The truck is above the bed.,Is the bed under the truck?,Yes,-2.582829236984253,-2.420903205871582,No,False
+272.0,26.0,physical-relations,,variable swap,2.0,The bed is below the truck.,Is the bed under the truck?,Yes,-2.3435218334198,-2.128628969192505,No,False
+274.0,26.0,physical-relations,,variable swap,1.0,The bed is above the truck.,Is the bed under the truck?,No,-2.645327091217041,-1.6192512512207031,No,True
+277.0,26.0,physical-relations,,antonym,1.0,The truck is below the bed.,Is the bed on the truck?,Yes,-3.1818959712982178,-2.904374837875366,No,False
+279.0,26.0,physical-relations,,antonym,2.0,The truck is above the bed.,Is the bed on the truck?,No,-2.9955368041992188,-2.683776617050171,No,True
+283.0,26.0,physical-relations,,variable swap,2.0,The bed is below the truck.,Is the bed on the truck?,No,-2.621790647506714,-2.049511432647705,No,True
+285.0,26.0,physical-relations,,variable swap,1.0,The bed is above the truck.,Is the bed on the truck?,Yes,-2.424184560775757,-2.3125383853912354,No,False
+289.0,27.0,physical-relations,,antonym,1.0,The truck is lower down compared to the bed.,Is the truck under the bed?,Yes,-3.124608278274536,-2.3785345554351807,No,False
+290.0,27.0,physical-relations,,antonym,1.0,The truck is lower down compared to the bed.,Is the truck on the bed?,No,-2.835333824157715,-2.585519790649414,No,True
+291.0,27.0,physical-relations,,antonym,2.0,The truck is higher up compared to the bed.,Is the truck under the bed?,No,-3.0182130336761475,-2.4539880752563477,No,True
+292.0,27.0,physical-relations,,antonym,2.0,The truck is higher up compared to the bed.,Is the truck on the bed?,Yes,-2.8485724925994873,-2.387298107147217,No,False
+295.0,27.0,physical-relations,,variable swap,2.0,The bed is lower down compared to the truck.,Is the truck under the bed?,No,-2.940338611602783,-2.3229198455810547,No,True
+296.0,27.0,physical-relations,,variable swap,2.0,The bed is lower down compared to the truck.,Is the truck on the bed?,Yes,-2.6620075702667236,-2.4408485889434814,No,False
+297.0,27.0,physical-relations,,variable swap,1.0,The bed is higher up compared to the truck.,Is the truck under the bed?,Yes,-2.946502685546875,-2.3576009273529053,No,False
+298.0,27.0,physical-relations,,variable swap,1.0,The bed is higher up compared to the truck.,Is the truck on the bed?,No,-2.713977336883545,-2.330873966217041,No,True
+302.0,27.0,physical-relations,,antonym,1.0,The truck is lower down compared to the bed.,Is the bed under the truck?,No,-2.918916940689087,-2.637380838394165,No,True
+304.0,27.0,physical-relations,,antonym,2.0,The truck is higher up compared to the bed.,Is the bed under the truck?,Yes,-2.862035036087036,-2.6384310722351074,No,False
+308.0,27.0,physical-relations,,variable swap,2.0,The bed is lower down compared to the truck.,Is the bed under the truck?,Yes,-2.488060235977173,-2.247253179550171,No,False
+310.0,27.0,physical-relations,,variable swap,1.0,The bed is higher up compared to the truck.,Is the bed under the truck?,No,-2.4352495670318604,-2.0616254806518555,No,True
+313.0,27.0,physical-relations,,antonym,1.0,The truck is lower down compared to the bed.,Is the bed on the truck?,Yes,-2.751711845397949,-2.6661760807037354,No,False
+315.0,27.0,physical-relations,,antonym,2.0,The truck is higher up compared to the bed.,Is the bed on the truck?,No,-2.6930012702941895,-2.530225992202759,No,True
+319.0,27.0,physical-relations,,variable swap,2.0,The bed is lower down compared to the truck.,Is the bed on the truck?,No,-2.3536906242370605,-2.359525203704834,Yes,False
+321.0,27.0,physical-relations,,variable swap,1.0,The bed is higher up compared to the truck.,Is the bed on the truck?,Yes,-2.3708980083465576,-2.2292897701263428,No,False
+326.0,30.0,physical-relations,,antonym,1.0,"If Chao moves the truck, the bed will remain in its place.",Is the truck tied to the bed?,No,-2.6532702445983887,-2.847728967666626,Yes,False
+328.0,30.0,physical-relations,,antonym,2.0,"If Chao moves the truck, the bed will move too.",Is the truck tied to the bed?,Yes,-3.692960262298584,-2.5358376502990723,No,False
+330.0,31.0,physical-relations,,antonym,1.0,The bed moves independent of the truck.,Is the truck tied to the bed?,No,-4.001523494720459,-3.1290805339813232,No,True
+332.0,31.0,physical-relations,,antonym,2.0,The bed moves with the truck.,Is the truck tied to the bed?,Yes,-3.782637357711792,-2.595554828643799,No,False
+"Overall accuracy: 0.500, TP: 23, TN: 69, FP: 23, FN: 69, Bias score: -0.500",,,,,,,,,,,,

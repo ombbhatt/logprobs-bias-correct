@@ -1,0 +1,101 @@
+Question Number,MetaTemplateID,Domain,ItemGroupID,ContextDiff,ContextNum,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+1,1,material-properties,,negation,1,Chao can see through the wheel.,Is the wheel transparent?,Yes,-0.7648200988769531,-1.2079752683639526,Yes,True
+2,1,material-properties,,negation,1,Chao can see through the wheel.,Is the wheel opaque?,No,-1.1364824771881104,-0.8836981654167175,No,True
+3,1,material-properties,,negation,2,Chao cannot see through the wheel.,Is the wheel transparent?,No,-1.0894091129302979,-0.8994612693786621,No,True
+4,1,material-properties,,negation,2,Chao cannot see through the wheel.,Is the wheel opaque?,Yes,-0.7740781307220459,-1.2789956331253052,Yes,True
+5,2,material-properties,,material,1,The wheel is made of polyethylene.,Is the wheel transparent?,Yes,-0.893079936504364,-1.0822522640228271,Yes,True
+6,2,material-properties,,material,1,The wheel is made of polyethylene.,Is the wheel opaque?,No,-0.936313271522522,-1.058292269706726,Yes,False
+7,2,material-properties,,material,2,The wheel is made of bronze.,Is the wheel transparent?,No,-1.5488048791885376,-0.6800076961517334,No,True
+8,2,material-properties,,material,2,The wheel is made of bronze.,Is the wheel opaque?,Yes,-0.8697662353515625,-1.246919870376587,Yes,True
+9,3,material-properties,,antonym,1,The surface of the wheel is completely flat.,Is the surface of the wheel smooth?,Yes,-0.6542304754257202,-2.0253214836120605,Yes,True
+10,3,material-properties,,antonym,1,The surface of the wheel is completely flat.,Is the surface of the wheel rough?,No,-1.1367723941802979,-0.9565255641937256,No,True
+11,3,material-properties,,antonym,2,The surface of the wheel is somewhat bumpy.,Is the surface of the wheel smooth?,No,-1.4805223941802979,-0.8589017391204834,No,True
+12,3,material-properties,,antonym,2,The surface of the wheel is somewhat bumpy.,Is the surface of the wheel rough?,Yes,-0.8572013974189758,-1.5482285022735596,Yes,True
+13,4,material-properties,,material,1,The wheel is made of polyethylene.,Is the surface of the wheel smooth?,Yes,-0.7281627655029297,-1.8562464714050293,Yes,True
+14,4,material-properties,,material,1,The wheel is made of polyethylene.,Is the surface of the wheel rough?,No,-0.9848717451095581,-1.2380125522613525,Yes,False
+15,4,material-properties,,material,2,The wheel is made of concrete.,Is the surface of the wheel smooth?,No,-1.3780087232589722,-0.8803174495697021,No,True
+16,4,material-properties,,material,2,The wheel is made of concrete.,Is the surface of the wheel rough?,Yes,-1.3231302499771118,-0.8838808536529541,No,False
+17,5,material-properties,,antonym,1,Chao squeezed the wheel. It changed its shape.,Is the wheel soft?,Yes,-0.9570149779319763,-1.0211297273635864,Yes,True
+18,5,material-properties,,antonym,1,Chao squeezed the wheel. It changed its shape.,Is the wheel hard?,No,-1.0978193283081055,-0.8492183685302734,No,True
+19,5,material-properties,,antonym,2,Chao squeezed the wheel. It kept its shape.,Is the wheel soft?,No,-1.245792269706726,-0.8058856725692749,No,True
+20,5,material-properties,,antonym,2,Chao squeezed the wheel. It kept its shape.,Is the wheel hard?,Yes,-0.6915693283081055,-1.3803941011428833,Yes,True
+21,6,material-properties,,material,1,The wheel is made of flannel.,Is the wheel soft?,Yes,-0.9960467219352722,-1.0601003170013428,Yes,True
+22,6,material-properties,,material,1,The wheel is made of flannel.,Is the wheel hard?,No,-1.2462859153747559,-0.8062034845352173,No,True
+23,6,material-properties,,material,2,The wheel is made of bronze.,Is the wheel soft?,No,-0.9680179953575134,-1.091195821762085,Yes,False
+24,6,material-properties,,material,2,The wheel is made of bronze.,Is the wheel hard?,Yes,-0.6563094854354858,-1.5293806791305542,Yes,True
+25,7,material-properties,,antonym,1,Chao squeezed the wheel. It changed its shape.,Is the surface of the wheel soft?,Yes,-0.9437558054924011,-1.1294037103652954,Yes,True
+26,7,material-properties,,antonym,1,Chao squeezed the wheel. It changed its shape.,Is the surface of the wheel hard?,No,-1.018993854522705,-1.0206544399261475,Yes,False
+27,7,material-properties,,antonym,2,Chao squeezed the wheel. It kept its shape.,Is the surface of the wheel soft?,No,-1.0807442665100098,-0.9533602595329285,No,True
+28,7,material-properties,,antonym,2,Chao squeezed the wheel. It kept its shape.,Is the surface of the wheel hard?,Yes,-0.7807984352111816,-1.3408561944961548,Yes,True
+29,8,material-properties,,material,1,The wheel is made of flannel.,Is the surface of the wheel soft?,Yes,-0.9128358960151672,-1.348258376121521,Yes,True
+30,8,material-properties,,material,1,The wheel is made of flannel.,Is the surface of the wheel hard?,No,-1.151483416557312,-1.0284451246261597,No,True
+31,8,material-properties,,material,2,The wheel is made of bronze.,Is the surface of the wheel soft?,No,-0.8388325572013855,-1.4659451246261597,Yes,False
+32,8,material-properties,,material,2,The wheel is made of bronze.,Is the surface of the wheel hard?,Yes,-0.7264690399169922,-1.6621187925338745,Yes,True
+33,9,material-properties,,antonym,1,The wheel is stretchy.,Is the wheel elastic?,Yes,-0.7329444289207458,-1.4187464714050293,Yes,True
+34,9,material-properties,,antonym,1,The wheel is stretchy.,Is the wheel inelastic?,No,-0.9078983664512634,-1.1606537103652954,Yes,False
+35,9,material-properties,,antonym,2,The wheel is rigid.,Is the wheel elastic?,No,-0.9134376049041748,-1.0368602275848389,Yes,False
+36,9,material-properties,,antonym,2,The wheel is rigid.,Is the wheel inelastic?,Yes,-0.846449613571167,-1.0993602275848389,Yes,True
+37,10,material-properties,,antonym,1,Chao pulled on the wheel with both hands. It changed its shape.,Is the wheel elastic?,Yes,-1.0260162353515625,-0.965764582157135,No,False
+38,10,material-properties,,antonym,1,Chao pulled on the wheel with both hands. It changed its shape.,Is the wheel inelastic?,No,-1.0957708358764648,-0.9110536575317383,No,True
+39,10,material-properties,,antonym,2,Chao pulled on the wheel with both hands. It kept its shape.,Is the wheel elastic?,No,-0.8032152056694031,-1.2390345335006714,Yes,False
+40,10,material-properties,,antonym,2,Chao pulled on the wheel with both hands. It kept its shape.,Is the wheel inelastic?,Yes,-0.8974454402923584,-1.090669870376587,Yes,True
+41,11,material-properties,,material,1,The wheel is made of flannel.,Is the wheel elastic?,Yes,-1.2760162353515625,-0.9029715061187744,No,False
+42,11,material-properties,,material,1,The wheel is made of flannel.,Is the wheel inelastic?,No,-1.1981302499771118,-0.9501857161521912,No,True
+43,11,material-properties,,material,2,The wheel is made of bronze.,Is the wheel elastic?,No,-1.0486187934875488,-1.1142252683639526,Yes,False
+44,11,material-properties,,material,2,The wheel is made of bronze.,Is the wheel inelastic?,Yes,-0.9469127655029297,-1.2002760171890259,Yes,True
+45,12,material-properties,,antonym,1,The wheel looks shiny.,Is the surface of the wheel glossy?,Yes,-0.5967587232589722,-1.6606537103652954,Yes,True
+46,12,material-properties,,antonym,1,The wheel looks shiny.,Is the surface of the wheel matte?,No,-1.0952033996582031,-1.0346875190734863,No,True
+47,12,material-properties,,antonym,2,The wheel looks dim.,Is the surface of the wheel glossy?,No,-0.9193474054336548,-1.174808144569397,Yes,False
+48,12,material-properties,,antonym,2,The wheel looks dim.,Is the surface of the wheel matte?,Yes,-0.71612149477005,-1.6516298055648804,Yes,True
+49,13,material-properties,,antonym,1,The surface of the wheel reflects sunlight.,Is the surface of the wheel glossy?,Yes,-0.5369662046432495,-1.7896159887313843,Yes,True
+50,13,material-properties,,antonym,1,The surface of the wheel reflects sunlight.,Is the surface of the wheel matte?,No,-0.6300804615020752,-1.6338043212890625,Yes,False
+51,13,material-properties,,antonym,2,The surface of the wheel does not reflect sunlight.,Is the surface of the wheel glossy?,No,-1.2918832302093506,-0.8578036427497864,No,True
+52,13,material-properties,,antonym,2,The surface of the wheel does not reflect sunlight.,Is the surface of the wheel matte?,Yes,-0.8941230177879333,-1.3359034061431885,Yes,True
+53,14,material-properties,,material,1,The wheel is made of aluminum.,Is the surface of the wheel glossy?,Yes,-0.7573267221450806,-1.3876856565475464,Yes,True
+54,14,material-properties,,material,1,The wheel is made of aluminum.,Is the surface of the wheel matte?,No,-0.7021708488464355,-1.5828813314437866,Yes,False
+55,14,material-properties,,material,2,The wheel is made of concrete.,Is the surface of the wheel glossy?,No,-1.385932207107544,-0.7628635168075562,No,True
+56,14,material-properties,,material,2,The wheel is made of concrete.,Is the surface of the wheel matte?,Yes,-1.1437079906463623,-1.0206544399261475,No,False
+57,15,material-properties,,antonym,1,The wheel is easy to break.,Is the wheel fragile?,Yes,-0.6307204961776733,-1.574689507484436,Yes,True
+58,15,material-properties,,antonym,1,The wheel is easy to break.,Is the wheel sturdy?,No,-0.9908802509307861,-0.9297767877578735,No,True
+59,15,material-properties,,antonym,2,The wheel is hard to break.,Is the wheel fragile?,No,-0.8956544399261475,-1.1443907022476196,Yes,False
+60,15,material-properties,,antonym,2,The wheel is hard to break.,Is the wheel sturdy?,Yes,-0.32440924644470215,-2.6989824771881104,Yes,True
+61,16,material-properties,,antonym,1,Chao applied pressure to the wheel. It broke.,Is the wheel fragile?,Yes,-0.6780449748039246,-1.6837859153747559,Yes,True
+62,16,material-properties,,antonym,1,Chao applied pressure to the wheel. It broke.,Is the wheel sturdy?,No,-1.4871536493301392,-0.6791327595710754,No,True
+63,16,material-properties,,antonym,2,Chao applied pressure to the wheel. It remained intact.,Is the wheel fragile?,No,-0.9750058054924011,-0.9132941961288452,No,True
+64,16,material-properties,,antonym,2,Chao applied pressure to the wheel. It remained intact.,Is the wheel sturdy?,Yes,-0.2813095152378082,-2.9652605056762695,Yes,True
+65,17,material-properties,,material,1,The wheel is made of ceramic.,Is the wheel fragile?,Yes,-0.8537171483039856,-1.168545126914978,Yes,True
+66,17,material-properties,,material,1,The wheel is made of ceramic.,Is the wheel sturdy?,No,-0.5888325572013855,-1.7158561944961548,Yes,False
+67,17,material-properties,,material,2,The wheel is made of bronze.,Is the wheel fragile?,No,-0.9440858960151672,-1.1299856901168823,Yes,False
+68,17,material-properties,,material,2,The wheel is made of bronze.,Is the wheel sturdy?,Yes,-0.5193907022476196,-2.1538503170013428,Yes,True
+69,18,material-properties,,antonym,1,The wheel's temperature is lower than Chao's hand'.,Is the wheel cold?,Yes,-0.924329936504364,-1.2383854389190674,Yes,True
+70,18,material-properties,,antonym,1,The wheel's temperature is lower than Chao's hand'.,Is the wheel warm?,No,-1.2518374919891357,-1.0657991170883179,No,True
+71,18,material-properties,,antonym,2,The wheel's temperature is the same than Chao's hand'.,Is the wheel cold?,No,-1.1035380363464355,-1.1052324771881104,Yes,False
+72,18,material-properties,,antonym,2,The wheel's temperature is the same than Chao's hand'.,Is the wheel warm?,Yes,-0.8727661967277527,-1.3784375190734863,Yes,True
+73,19,material-properties,,antonym,1,The wheel's temperature is lower than Chao's hand'.,Is the surface of the wheel cold?,Yes,-1.0020208358764648,-1.2534375190734863,Yes,True
+74,19,material-properties,,antonym,1,The wheel's temperature is lower than Chao's hand'.,Is the surface of the wheel warm?,No,-1.1107285022735596,-1.2369942665100098,Yes,False
+75,19,material-properties,,antonym,2,The wheel's temperature is the same than Chao's hand'.,Is the surface of the wheel cold?,No,-1.1182847023010254,-1.182100534439087,Yes,False
+76,19,material-properties,,antonym,2,The wheel's temperature is the same than Chao's hand'.,Is the surface of the wheel warm?,Yes,-0.9814338684082031,-1.3542221784591675,Yes,True
+77,20,material-properties,,antonym,1,"Chao dropped the wheel, and saw it jumping off the floor.",Is the wheel bouncy?,Yes,-0.6557984352111816,-1.5994936227798462,Yes,True
+78,20,material-properties,,antonym,1,"Chao dropped the wheel, and saw it jumping off the floor.",Is the wheel not bouncy?,No,-1.2071354389190674,-1.0834810733795166,No,True
+79,20,material-properties,,antonym,2,"Chao dropped the wheel, and saw it lying on the floor.",Is the wheel bouncy?,No,-0.9207670092582703,-1.1065260171890259,Yes,False
+80,20,material-properties,,antonym,2,"Chao dropped the wheel, and saw it lying on the floor.",Is the wheel not bouncy?,Yes,-1.0739824771881104,-1.1378635168075562,Yes,True
+81,21,material-properties,,material,1,Chao threw the wheel against the wall. The wheel hit the wall and flew in the opposite direction.,Is the wheel bouncy?,Yes,-0.8239824771881104,-1.1380306482315063,Yes,True
+82,21,material-properties,,material,1,Chao threw the wheel against the wall. The wheel hit the wall and flew in the opposite direction.,Is the wheel not bouncy?,No,-1.089796781539917,-1.0279715061187744,No,True
+83,21,material-properties,,material,2,Chao threw the wheel against the wall. The wheel hit the wall and remained by the wall.,Is the wheel bouncy?,No,-1.0648707151412964,-0.8829609751701355,No,True
+84,21,material-properties,,material,2,Chao threw the wheel against the wall. The wheel hit the wall and remained by the wall.,Is the wheel not bouncy?,Yes,-1.1519091129302979,-0.9650359153747559,No,False
+85,22,material-properties,,material,1,The wheel is made of latex.,Is the wheel bouncy?,Yes,-0.7401881814002991,-1.3718222379684448,Yes,True
+86,22,material-properties,,material,1,The wheel is made of latex.,Is the wheel not bouncy?,No,-1.2594127655029297,-1.011351227760315,No,True
+87,22,material-properties,,material,2,The wheel is made of bronze.,Is the wheel bouncy?,No,-0.9709485173225403,-1.0988225936889648,Yes,False
+88,22,material-properties,,material,2,The wheel is made of bronze.,Is the wheel not bouncy?,Yes,-1.3232835531234741,-1.0751856565475464,No,False
+89,23,material-properties,,antonym,1,The wheel weighs a lot.,Is the wheel heavy?,Yes,-0.48023247718811035,-1.9193603992462158,Yes,True
+90,23,material-properties,,antonym,1,The wheel weighs a lot.,Is the wheel light?,No,-1.745792269706726,-0.5550076961517334,No,True
+91,23,material-properties,,antonym,2,The wheel weighs little.,Is the wheel heavy?,No,-1.6758854389190674,-0.6184688806533813,No,True
+92,23,material-properties,,antonym,2,The wheel weighs little.,Is the wheel light?,Yes,-0.4922768175601959,-2.1850242614746094,Yes,True
+93,24,material-properties,,antonym,1,Chao exerts significant force to hold the wheel.,Is the wheel heavy?,Yes,-0.8117679953575134,-1.254708170890808,Yes,True
+94,24,material-properties,,antonym,1,Chao exerts significant force to hold the wheel.,Is the wheel light?,No,-1.0655087232589722,-0.9417957067489624,No,True
+95,24,material-properties,,antonym,2,Chao exerts little force to hold the wheel.,Is the wheel heavy?,No,-1.2141298055648804,-0.836474597454071,No,True
+96,24,material-properties,,antonym,2,Chao exerts little force to hold the wheel.,Is the wheel light?,Yes,-0.9295311570167542,-1.0595145225524902,Yes,True
+97,25,material-properties,,material,1,The wheel is made of aluminum.,Is the wheel heavy?,Yes,-0.9140918254852295,-0.9772536158561707,Yes,True
+98,25,material-properties,,material,1,The wheel is made of aluminum.,Is the wheel light?,No,-0.3509376347064972,-2.2932183742523193,Yes,False
+99,25,material-properties,,material,2,The wheel is made of wool.,Is the wheel heavy?,No,-1.0274182558059692,-0.9660313129425049,No,True
+100,25,material-properties,,material,2,The wheel is made of wool.,Is the wheel light?,Yes,-1.2220491170883179,-0.8519381880760193,No,False

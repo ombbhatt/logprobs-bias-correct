@@ -1,0 +1,589 @@
+Question Number,MetaTemplateID,Domain,ItemGroupID,ContextDiff,ContextNum,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+1,1,agent-properties,1,negation,1,Chao is looking at the wheel.,Does Chao see the wheel?,Yes,-0.04377974569797516,-3.296786069869995,Yes,True
+2,1,agent-properties,1,negation,2,Chao is not looking at the wheel.,Does Chao see the wheel?,No,-4.874769687652588,-0.00954020582139492,No,True
+3,1,agent-properties,1,negation,1,Chao is looking at the wheel.,Does Chao not see the wheel?,No,-1.3199949264526367,-0.32206013798713684,No,True
+4,1,agent-properties,1,negation,2,Chao is not looking at the wheel.,Does Chao not see the wheel?,Yes,-1.2341011762619019,-0.3552927076816559,No,False
+5,2,agent-properties,2,antonym,1,The wheel is in front of Chao. Chao is awake.,Does Chao see the wheel?,Yes,-0.2399412840604782,-1.6170092821121216,Yes,True
+6,2,agent-properties,2,antonym,2,The wheel is in front of Chao. Chao is asleep.,Does Chao see the wheel?,No,-6.687119960784912,-0.008313789963722229,No,True
+7,2,agent-properties,2,antonym,1,The wheel is in front of Chao. Chao is awake.,Does Chao not see the wheel?,No,-0.43913739919662476,-1.0622694492340088,Yes,False
+8,2,agent-properties,2,antonym,2,The wheel is in front of Chao. Chao is asleep.,Does Chao not see the wheel?,Yes,-0.05737295746803284,-3.0623416900634766,Yes,True
+9,3,agent-properties,3,antonym,1,The wheel is in front of Chao. Chao's eyes are open.,Does Chao see the wheel?,Yes,-0.0402553454041481,-3.6717190742492676,Yes,True
+10,3,agent-properties,3,antonym,2,The wheel is in front of Chao. Chao's eyes are closed.,Does Chao see the wheel?,No,-8.187143325805664,-0.005239018704742193,No,True
+11,3,agent-properties,3,antonym,1,The wheel is in front of Chao. Chao's eyes are open.,Does Chao not see the wheel?,No,-0.3590647578239441,-1.2341480255126953,Yes,False
+12,3,agent-properties,3,antonym,2,The wheel is in front of Chao. Chao's eyes are closed.,Does Chao not see the wheel?,Yes,-0.017357731238007545,-4.53112268447876,Yes,True
+13,4,agent-properties,4,antonym,1,The wheel is in front of Chao.,Does Chao see the wheel?,Yes,-0.39820149540901184,-1.1482943296432495,Yes,True
+14,4,agent-properties,4,antonym,2,The wheel is behind Chao.,Does Chao see the wheel?,No,-2.4685401916503906,-0.09264624863862991,No,True
+15,4,agent-properties,4,antonym,1,The wheel is in front of Chao.,Does Chao not see the wheel?,No,-0.7731149792671204,-0.6482418775558472,No,True
+16,4,agent-properties,4,antonym,2,The wheel is behind Chao.,Does Chao not see the wheel?,Yes,-0.9060264825820923,-0.5311144590377808,No,False
+17,6,agent-properties,5,antonym,1,The bed is in the same room as Chao. The door is closed.,Does Chao see the bed?,Yes,-2.0309040546417236,-0.15207532048225403,No,False
+18,6,agent-properties,5,antonym,2,The bed is in a different room than Chao. The door is closed.,Does Chao see the bed?,No,-4.155881404876709,-0.024070048704743385,No,True
+19,6,agent-properties,5,antonym,1,The bed is in the same room as Chao. The door is closed.,Does Chao not see the bed?,No,-0.39811497926712036,-1.1482014656066895,Yes,False
+20,6,agent-properties,5,antonym,2,The bed is in a different room than Chao. The door is closed.,Does Chao not see the bed?,Yes,-0.29265981912612915,-1.4138509035110474,Yes,True
+21,7,agent-properties,6,antonym,1,The airplane is making sounds. The airplane is within earshot of Chao.,Does Chao hear the airplane?,Yes,-0.2046663463115692,-1.8279049396514893,Yes,True
+22,7,agent-properties,6,antonym,2,The airplane is making sounds. The airplane is out of earshot of Chao.,Does Chao hear the airplane?,No,-4.093061923980713,-0.02943962812423706,No,True
+23,7,agent-properties,6,antonym,1,The airplane is making sounds. The airplane is within earshot of Chao.,Does Chao not hear the airplane?,No,-1.522905707359314,-0.2750466465950012,No,True
+24,7,agent-properties,6,antonym,2,The airplane is making sounds. The airplane is out of earshot of Chao.,Does Chao not hear the airplane?,Yes,-1.1636147499084473,-0.41182079911231995,No,False
+25,8,agent-properties,7,antonym,1,The airplane is making sounds. The airplane is in front of Chao. Chao is awake.,Does Chao hear the airplane?,Yes,-0.06562094390392303,-3.0623602867126465,Yes,True
+26,8,agent-properties,7,antonym,2,The airplane is making sounds. The airplane is in front of Chao. Chao is asleep.,Does Chao hear the airplane?,No,-1.9214236736297607,-0.1725410670042038,No,True
+27,8,agent-properties,7,antonym,1,The airplane is making sounds. The airplane is in front of Chao. Chao is awake.,Does Chao not hear the airplane?,No,-1.2340009212493896,-0.3611007034778595,No,True
+28,8,agent-properties,7,antonym,2,The airplane is making sounds. The airplane is in front of Chao. Chao is asleep.,Does Chao not hear the airplane?,Yes,-0.4000243544578552,-1.1482157707214355,Yes,True
+29,9,agent-properties,8,antonym,1,The airplane is making sounds. The airplane is in front of Chao. Chao's ears are uncovered.,Does Chao hear the airplane?,Yes,-0.08277252316474915,-2.703007221221924,Yes,True
+30,9,agent-properties,8,antonym,2,The airplane is making sounds. The airplane is in front of Chao. Chao's ears are covered.,Does Chao hear the airplane?,No,-4.9684247970581055,-0.01595224253833294,No,True
+31,9,agent-properties,8,antonym,1,The airplane is making sounds. The airplane is in front of Chao. Chao's ears are uncovered.,Does Chao not hear the airplane?,No,-1.062119960784912,-0.4411598742008209,No,True
+32,9,agent-properties,8,antonym,2,The airplane is making sounds. The airplane is in front of Chao. Chao's ears are covered.,Does Chao not hear the airplane?,Yes,-0.3609972596168518,-1.2341867685317993,Yes,True
+33,10,agent-properties,9,antonym,1,The airplane is making sounds. The airplane is in front of Chao. Chao is wearing goggles.,Does Chao hear the airplane?,Yes,-0.7027843594551086,-0.7029049396514893,Yes,True
+34,10,agent-properties,9,antonym,2,The airplane is making sounds. The airplane is in front of Chao. Chao is wearing earplugs.,Does Chao hear the airplane?,No,-4.999703884124756,-0.014619480818510056,No,True
+35,10,agent-properties,9,antonym,1,The airplane is making sounds. The airplane is in front of Chao. Chao is wearing goggles.,Does Chao not hear the airplane?,No,-0.7028242945671082,-0.7029308080673218,Yes,False
+36,10,agent-properties,9,antonym,2,The airplane is making sounds. The airplane is in front of Chao. Chao is wearing earplugs.,Does Chao not hear the airplane?,Yes,-0.26143744587898254,-1.5154536962509155,Yes,True
+37,11,agent-properties,10,antonym,1,The airplane is making sounds. The airplane is near Chao.,Does Chao hear the airplane?,Yes,-0.292443186044693,-1.5387547016143799,Yes,True
+38,11,agent-properties,10,antonym,2,The airplane is making sounds. The airplane is far from Chao.,Does Chao hear the airplane?,No,-2.139904022216797,-0.14700649678707123,No,True
+39,11,agent-properties,10,antonym,1,The airplane is making sounds. The airplane is near Chao.,Does Chao not hear the airplane?,No,-1.2571403980255127,-0.378446102142334,No,True
+40,11,agent-properties,10,antonym,2,The airplane is making sounds. The airplane is far from Chao.,Does Chao not hear the airplane?,Yes,-1.436744213104248,-0.31396424770355225,No,False
+41,12,agent-properties,11,antonym,1,The airplane is making sounds. The airplane is in the same room as Chao.,Does Chao hear the airplane?,Yes,-0.49951207637786865,-0.9996646046638489,Yes,True
+42,12,agent-properties,11,antonym,2,The airplane is making sounds. The airplane is in a different room than Chao.,Does Chao hear the airplane?,No,-2.0307140350341797,-0.16076262295246124,No,True
+43,12,agent-properties,11,antonym,1,The airplane is making sounds. The airplane is in the same room as Chao.,Does Chao not hear the airplane?,No,-1.1635550260543823,-0.4117388129234314,No,True
+44,12,agent-properties,11,antonym,2,The airplane is making sounds. The airplane is in a different room than Chao.,Does Chao not hear the airplane?,Yes,-0.7768726348876953,-0.6520395874977112,No,False
+45,13,agent-properties,12,antonym,1,The candle is in front of Chao. Chao's nose is uncovered.,Does Chao smell the candle?,Yes,-0.08762267976999283,-2.593575954437256,Yes,True
+46,13,agent-properties,12,antonym,2,The candle is in front of Chao. Chao's nose is covered.,Does Chao smell the candle?,No,-3.1715009212493896,-0.04980650544166565,No,True
+47,13,agent-properties,12,antonym,1,The candle is in front of Chao. Chao's nose is uncovered.,Does Chao not smell the candle?,No,-0.09738568216562271,-2.468575954437256,Yes,False
+48,13,agent-properties,12,antonym,2,The candle is in front of Chao. Chao's nose is covered.,Does Chao not smell the candle?,Yes,-0.039554983377456665,-3.4216983318328857,Yes,True
+49,14,agent-properties,13,antonym,1,The candle is in front of Chao. Chao has a strong headache.,Does Chao smell the candle?,Yes,-0.7691436409950256,-0.6442648768424988,No,False
+50,14,agent-properties,13,antonym,2,The candle is in front of Chao. Chao has a strong cold.,Does Chao smell the candle?,No,-0.43907231092453003,-1.062221884727478,Yes,False
+51,14,agent-properties,13,antonym,1,The candle is in front of Chao. Chao has a strong headache.,Does Chao not smell the candle?,No,-0.5856149792671204,-0.8357157707214355,Yes,False
+52,14,agent-properties,13,antonym,2,The candle is in front of Chao. Chao has a strong cold.,Does Chao not smell the candle?,Yes,-0.5855719447135925,-0.8356528878211975,Yes,True
+53,15,agent-properties,14,antonym,1,The candle is in the same room as Chao.,Does Chao smell the candle?,Yes,-0.8434446454048157,-0.5935264825820923,No,False
+54,15,agent-properties,14,antonym,2,The candle is in a different room than Chao.,Does Chao smell the candle?,No,-2.593357801437378,-0.08959153294563293,No,True
+55,15,agent-properties,14,antonym,1,The candle is in the same room as Chao.,Does Chao not smell the candle?,No,-1.4214767217636108,-0.2985704243183136,No,True
+56,15,agent-properties,14,antonym,2,The candle is in a different room than Chao.,Does Chao not smell the candle?,Yes,-1.8199048042297363,-0.1930796355009079,No,False
+57,16,agent-properties,15,other,1,The sandwich is in Chao's mouth.,Does Chao taste the sandwich?,Yes,-0.20970991253852844,-1.710785150527954,Yes,True
+58,16,agent-properties,15,other,2,The sandwich is in Chao's bag.,Does Chao taste the sandwich?,No,-1.4214510917663574,-0.2946310341358185,No,True
+59,16,agent-properties,15,other,1,The sandwich is in Chao's mouth.,Does Chao not taste the sandwich?,No,-0.5348497033119202,-0.9099582433700562,Yes,False
+60,16,agent-properties,15,other,2,The sandwich is in Chao's bag.,Does Chao not taste the sandwich?,Yes,-0.5894012451171875,-0.8395395874977112,Yes,True
+61,17,agent-properties,16,antonym,1,The sandwich is inside Chao's mouth.,Does Chao taste the sandwich?,Yes,-0.39618200063705444,-1.1482418775558472,Yes,True
+62,17,agent-properties,16,antonym,2,The sandwich is outside Chao's mouth.,Does Chao taste the sandwich?,No,-1.9137547016143799,-0.16585053503513336,No,True
+63,17,agent-properties,16,antonym,1,The sandwich is inside Chao's mouth.,Does Chao not taste the sandwich?,No,-0.4859759211540222,-0.9880533218383789,Yes,False
+64,17,agent-properties,16,antonym,2,The sandwich is outside Chao's mouth.,Does Chao not taste the sandwich?,Yes,-0.39618200063705444,-1.1482292413711548,Yes,True
+65,18,agent-properties,17,antonym,1,The sandwich is in Chao's mouth. Chao just had a very bland dish.,Does Chao taste the sandwich?,Yes,-0.9097864031791687,-0.5348857045173645,No,False
+66,18,agent-properties,17,antonym,2,The sandwich is in Chao's mouth. Chao just had a very spicy dish.,Does Chao taste the sandwich?,No,-1.2340646982192993,-0.35720911622047424,No,True
+67,18,agent-properties,17,antonym,1,The sandwich is in Chao's mouth. Chao just had a very bland dish.,Does Chao not taste the sandwich?,No,-0.835594117641449,-0.5857157707214355,No,True
+68,18,agent-properties,17,antonym,2,The sandwich is in Chao's mouth. Chao just had a very spicy dish.,Does Chao not taste the sandwich?,Yes,-0.3220178186893463,-1.3201425075531006,Yes,True
+69,19,agent-properties,18,negation,1,Chao is touching the wheel.,Does Chao feel the wheel?,Yes,-0.530963122844696,-0.9060759544372559,Yes,True
+70,19,agent-properties,18,negation,2,Chao is not touching the wheel.,Does Chao feel the wheel?,No,-2.70285964012146,-0.07308198511600494,No,True
+71,19,agent-properties,18,negation,1,Chao is touching the wheel.,Does Chao not feel the wheel?,No,-1.710405707359314,-0.21449905633926392,No,True
+72,19,agent-properties,18,negation,2,Chao is not touching the wheel.,Does Chao not feel the wheel?,Yes,-1.507474422454834,-0.2614704668521881,No,False
+73,20,agent-properties,19,other,1,Chao's hand is touching the wheel.,Does Chao feel the wheel?,Yes,-0.5818103551864624,-0.8318886756896973,Yes,True
+74,20,agent-properties,19,other,2,Chao's phone is touching the wheel.,Does Chao feel the wheel?,No,-1.4136912822723389,-0.28879085183143616,No,True
+75,20,agent-properties,19,other,1,Chao's hand is touching the wheel.,Does Chao not feel the wheel?,No,-1.4136418104171753,-0.29074349999427795,No,True
+76,20,agent-properties,19,other,2,Chao's phone is touching the wheel.,Does Chao not feel the wheel?,Yes,-1.147905707359314,-0.40000078082084656,No,False
+77,21,agent-properties,20,other,1,Chao's foot is touching the wheel.,Does Chao feel the wheel?,Yes,-0.7614192366600037,-0.6365253925323486,No,False
+78,21,agent-properties,20,other,2,Chao's chair is touching the wheel.,Does Chao feel the wheel?,No,-0.9801598191261292,-0.48024263978004456,No,True
+79,21,agent-properties,20,other,1,Chao's foot is touching the wheel.,Does Chao not feel the wheel?,No,-0.9839236736297607,-0.4840448498725891,No,True
+80,21,agent-properties,20,other,2,Chao's chair is touching the wheel.,Does Chao not feel the wheel?,Yes,-0.9135857820510864,-0.5387547612190247,No,False
+81,22,agent-properties,21,other,1,The wheel is in Chao's hand.,Does Chao feel the wheel?,Yes,-0.6403757929801941,-0.7654995918273926,Yes,True
+82,22,agent-properties,21,other,2,The wheel is in Chao's closet.,Does Chao feel the wheel?,No,-1.8120694160461426,-0.19114401936531067,No,True
+83,22,agent-properties,21,other,1,The wheel is in Chao's hand.,Does Chao not feel the wheel?,No,-0.5309446454048157,-0.9060759544372559,Yes,False
+84,22,agent-properties,21,other,2,The wheel is in Chao's closet.,Does Chao not feel the wheel?,Yes,-0.5933057069778442,-0.843463122844696,Yes,True
+85,23,agent-properties,22,other,1,The airplane is in front of Chao. Chao's ears are covered.,Does Chao see the airplane?,Yes,-4.5934247970581055,-0.018005626276135445,No,False
+86,23,agent-properties,22,other,2,The airplane is in front of Chao. Chao's eyes are covered.,Does Chao see the airplane?,No,-6.874703884124756,-0.00671172933652997,No,True
+87,23,agent-properties,22,other,1,The airplane is in front of Chao. Chao's ears are covered.,Does Chao hear the airplane?,No,-4.46844482421875,-0.017905009910464287,No,True
+88,23,agent-properties,22,other,2,The airplane is in front of Chao. Chao's eyes are covered.,Does Chao hear the airplane?,Yes,-2.030963182449341,-0.14924122393131256,No,False
+89,24,agent-properties,23,other,1,The airplane is in front of Chao. Chao is wearing earplugs.,Does Chao see the airplane?,Yes,-5.0309038162231445,-0.016052858904004097,No,False
+90,24,agent-properties,23,other,2,The airplane is in front of Chao. Chao is wearing a sleep mask.,Does Chao see the airplane?,No,-6.187203884124756,-0.008708964101970196,No,True
+91,24,agent-properties,23,other,1,The airplane is in front of Chao. Chao is wearing earplugs.,Does Chao hear the airplane?,No,-5.374684810638428,-0.011455188505351543,No,True
+92,24,agent-properties,23,other,2,The airplane is in front of Chao. Chao is wearing a sleep mask.,Does Chao hear the airplane?,Yes,-4.1559247970581055,-0.023386850953102112,No,False
+93,26,agent-properties,24,other,1,Chao is looking at the sandwich.,Does Chao see the sandwich?,Yes,-0.027170434594154358,-3.9061570167541504,Yes,True
+94,26,agent-properties,24,other,2,Chao is swallowing the sandwich.,Does Chao see the sandwich?,No,-1.0622833967208862,-0.43345439434051514,No,True
+95,26,agent-properties,24,other,1,Chao is looking at the sandwich.,Does Chao taste the sandwich?,No,-3.046583652496338,-0.05228878930211067,No,True
+96,26,agent-properties,24,other,2,Chao is swallowing the sandwich.,Does Chao taste the sandwich?,Yes,-1.0622386932373047,-0.43536773324012756,No,False
+97,27,agent-properties,25,other,1,The sandwich is in Chao's hand.,Does Chao see the sandwich?,Yes,-0.21068623661994934,-1.7108030319213867,Yes,True
+98,27,agent-properties,25,other,2,The sandwich is in Chao's mouth.,Does Chao see the sandwich?,No,-1.3199949264526367,-0.324025422334671,No,True
+99,27,agent-properties,25,other,1,The sandwich is in Chao's hand.,Does Chao taste the sandwich?,No,-1.1402842998504639,-0.3943103849887848,No,True
+101,28,agent-properties,26,antonym,1,The sandwich is outside Chao's mouth.,Does Chao see the sandwich?,Yes,-0.9059805274009705,-0.5310865640640259,No,False
+102,28,agent-properties,26,antonym,2,The sandwich is inside Chao's mouth.,Does Chao see the sandwich?,No,-1.4137547016143799,-0.29081645607948303,No,True
+105,29,agent-properties,27,other,1,Chao is taking a picture of the wheel.,Does Chao see the wheel?,Yes,-0.11897291243076324,-2.2498910427093506,Yes,True
+106,29,agent-properties,27,other,2,Chao is sitting on top of the wheel.,Does Chao see the wheel?,No,-0.18536771833896637,-1.8123977184295654,Yes,False
+107,29,agent-properties,27,other,1,Chao is taking a picture of the wheel.,Does Chao feel the wheel?,No,-3.780881643295288,-0.02847721427679062,No,True
+108,29,agent-properties,27,other,2,Chao is sitting on top of the wheel.,Does Chao feel the wheel?,Yes,-1.5075322389602661,-0.25568974018096924,No,False
+109,30,agent-properties,28,negation,1,Chao is in the shop. Chao sees the bed inside.,Does Chao believe that the bed is in the shop?,Yes,-0.3590235114097595,-1.2341177463531494,Yes,True
+110,30,agent-properties,28,negation,2,Chao is in the shop. Chao doesn't see the bed inside.,Does Chao believe that the bed is in the shop?,No,-3.655857801437378,-0.03267161175608635,No,True
+111,30,agent-properties,28,negation,1,Chao is in the shop. Chao sees the bed inside.,Does Chao doubt that the bed is in the shop?,No,-2.0307769775390625,-0.14907032251358032,No,True
+112,30,agent-properties,28,negation,2,Chao is in the shop. Chao doesn't see the bed inside.,Does Chao doubt that the bed is in the shop?,Yes,-1.5074527263641357,-0.2575322687625885,No,False
+113,31,agent-properties,29,antonym,1,Chao is in the shop. Chao sees the wheel inside.,Does Chao believe that the wheel is in the shop?,Yes,-0.21252436935901642,-1.710686206817627,Yes,True
+114,31,agent-properties,29,antonym,2,Chao is in the shop. Chao sees the wheel outside.,Does Chao believe that the wheel is in the shop?,No,-2.1401875019073486,-0.13350848853588104,No,True
+115,31,agent-properties,29,antonym,1,Chao is in the shop. Chao sees the wheel inside.,Does Chao doubt that the wheel is in the shop?,No,-1.7104378938674927,-0.20861953496932983,No,True
+116,31,agent-properties,29,antonym,2,Chao is in the shop. Chao sees the wheel outside.,Does Chao doubt that the wheel is in the shop?,Yes,-2.0308055877685547,-0.14907032251358032,No,False
+117,32,agent-properties,30,antonym,1,"Chao recently saw the wheel inside the shop. Earlier, Chao saw the wheel inside the zoo.",Does Chao believe that the wheel is in the shop?,Yes,-0.7143099308013916,-0.7144278883934021,Yes,True
+118,32,agent-properties,30,antonym,2,"Chao recently saw the wheel inside the shop. Later, Chao saw the wheel inside the zoo.",Does Chao believe that the wheel is in the shop?,No,-2.7025632858276367,-0.08407183736562729,No,True
+119,32,agent-properties,30,antonym,1,"Chao recently saw the wheel inside the shop. Earlier, Chao saw the wheel inside the zoo.",Does Chao doubt that the wheel is in the shop?,No,-1.3276593685150146,-0.32778435945510864,No,True
+120,32,agent-properties,30,antonym,2,"Chao recently saw the wheel inside the shop. Later, Chao saw the wheel inside the zoo.",Does Chao doubt that the wheel is in the shop?,Yes,-1.3276876211166382,-0.3258899748325348,No,False
+121,33,agent-properties,31,antonym,1,Chao moved the wheel inside the shop.,Does Chao believe that the wheel is in the shop?,Yes,-0.10273782908916473,-2.484186887741089,Yes,True
+122,33,agent-properties,31,antonym,2,Chao moved the wheel outside the shop.,Does Chao believe that the wheel is in the shop?,No,-3.2965009212493896,-0.044207241386175156,No,True
+123,33,agent-properties,31,antonym,1,Chao moved the wheel inside the shop.,Does Chao doubt that the wheel is in the shop?,No,-1.9214767217636108,-0.16765980422496796,No,True
+124,33,agent-properties,31,antonym,2,Chao moved the wheel outside the shop.,Does Chao doubt that the wheel is in the shop?,Yes,-1.5074294805526733,-0.2575322687625885,No,False
+125,34,agent-properties,32,other,1,"The wheel is in the shop. Then, Chao sees that the wheel is moved to the other side of the shop.",Does Chao believe that the wheel is in the shop?,Yes,-3.530857801437378,-0.037830982357263565,No,False
+126,34,agent-properties,32,other,2,"The wheel is in the shop. Then, Chao sees that the wheel is removed from the shop.",Does Chao believe that the wheel is in the shop?,No,-4.937095642089844,-0.01415529940277338,No,True
+127,34,agent-properties,32,other,1,"The wheel is in the shop. Then, Chao sees that the wheel is moved to the other side of the shop.",Does Chao doubt that the wheel is in the shop?,No,-2.2495954036712646,-0.11987295746803284,No,True
+128,34,agent-properties,32,other,2,"The wheel is in the shop. Then, Chao sees that the wheel is removed from the shop.",Does Chao doubt that the wheel is in the shop?,Yes,-2.2495954036712646,-0.12081674486398697,No,False
+129,35,agent-properties,33,antonym,1,Chao has learned that the wheel was moved to the shop.,Does Chao believe that the wheel is in the shop?,Yes,-0.441089928150177,-1.06230890750885,Yes,True
+130,35,agent-properties,33,antonym,2,Chao has learned that the wheel was moved from the shop.,Does Chao believe that the wheel is in the shop?,No,-3.4215447902679443,-0.0417800173163414,No,True
+131,35,agent-properties,33,antonym,1,Chao has learned that the wheel was moved to the shop.,Does Chao doubt that the wheel is in the shop?,No,-1.507474422454834,-0.2614854872226715,No,True
+132,35,agent-properties,33,antonym,2,Chao has learned that the wheel was moved from the shop.,Does Chao doubt that the wheel is in the shop?,Yes,-1.5074527263641357,-0.2595328390598297,No,False
+133,36,agent-properties,34,antonym,1,Chao was mistakenly informed that the wheel was moved to the shop.,Does Chao believe that the wheel is in the shop?,Yes,-3.6559040546417236,-0.03154100850224495,No,False
+134,36,agent-properties,34,antonym,2,Chao was mistakenly informed that the wheel was moved from the shop.,Does Chao believe that the wheel is in the shop?,No,-2.577784299850464,-0.08475282043218613,No,True
+135,36,agent-properties,34,antonym,1,Chao was mistakenly informed that the wheel was moved to the shop.,Does Chao doubt that the wheel is in the shop?,No,-1.1403424739837646,-0.3923836052417755,No,True
+136,36,agent-properties,34,antonym,2,Chao was mistakenly informed that the wheel was moved from the shop.,Does Chao doubt that the wheel is in the shop?,Yes,-0.9020395874977112,-0.5271472930908203,No,False
+137,37,agent-properties,35,antonym,1,Yan successfully lied to Chao that the wheel was moved to the shop.,Does Chao believe that the wheel is in the shop?,Yes,-1.8120694160461426,-0.18915657699108124,No,False
+138,37,agent-properties,35,antonym,2,Yan successfully lied to Chao that the wheel was moved from the shop.,Does Chao believe that the wheel is in the shop?,No,-2.0308055877685547,-0.15299612283706665,No,True
+139,37,agent-properties,35,antonym,1,Yan successfully lied to Chao that the wheel was moved to the shop.,Does Chao doubt that the wheel is in the shop?,No,-0.7652140259742737,-0.6403425335884094,No,True
+140,37,agent-properties,35,antonym,2,Yan successfully lied to Chao that the wheel was moved from the shop.,Does Chao doubt that the wheel is in the shop?,Yes,-0.7690638303756714,-0.6442477107048035,No,False
+142,37,agent-properties,36,variable swap,2,Chao successfully lied to Yan that the wheel was moved to the shop.,Does Chao believe that the wheel is in the shop?,No,-1.7105485200881958,-0.21166256070137024,No,True
+144,37,agent-properties,36,variable swap,2,Chao successfully lied to Yan that the wheel was moved to the shop.,Does Chao doubt that the wheel is in the shop?,Yes,-1.3199048042297363,-0.32198479771614075,No,False
+145,37,agent-properties,37,variable swap,1,Chao successfully lied to Yan that the wheel was moved from the shop.,Does Chao believe that the wheel is in the shop?,Yes,-2.2495694160461426,-0.12276939302682877,No,False
+147,37,agent-properties,37,variable swap,1,Chao successfully lied to Yan that the wheel was moved from the shop.,Does Chao doubt that the wheel is in the shop?,No,-1.2339236736297607,-0.357148677110672,No,True
+149,38,agent-properties,38,antonym,1,Chao wishes that the wheel was moved from the shop.,Does Chao believe that the wheel is in the shop?,Yes,-1.8121429681777954,-0.18821504712104797,No,False
+150,38,agent-properties,38,antonym,2,Chao wishes that the wheel was moved to the shop.,Does Chao believe that the wheel is in the shop?,No,-1.7105485200881958,-0.2087174952030182,No,True
+151,38,agent-properties,38,antonym,1,Chao wishes that the wheel was moved from the shop.,Does Chao doubt that the wheel is in the shop?,No,-1.8121429681777954,-0.18430987000465393,No,True
+152,38,agent-properties,38,antonym,2,Chao wishes that the wheel was moved to the shop.,Does Chao doubt that the wheel is in the shop?,Yes,-1.8121848106384277,-0.18432560563087463,No,False
+153,39,agent-properties,39,other,1,Chao sees that the wheel is in the shop.,Does Chao believe that the wheel is in the shop?,Yes,-0.06515077501535416,-2.9373204708099365,Yes,True
+154,39,agent-properties,39,other,2,Chao pretends that the wheel is in the shop.,Does Chao believe that the wheel is in the shop?,No,-1.7104681730270386,-0.20868198573589325,No,True
+155,39,agent-properties,39,other,1,Chao sees that the wheel is in the shop.,Does Chao imagine that the wheel is in the shop?,No,-0.5309039950370789,-0.9060121774673462,Yes,False
+156,39,agent-properties,39,other,2,Chao pretends that the wheel is in the shop.,Does Chao imagine that the wheel is in the shop?,Yes,-0.18718485534191132,-1.81230890750885,Yes,True
+157,40,agent-properties,40,negation,1,Chao knows that the wheel is in the shop.,Does Chao believe that the wheel is in the shop?,Yes,-0.05099455267190933,-3.1717190742492676,Yes,True
+158,40,agent-properties,40,negation,2,Chao knows that the wheel is not in the shop.,Does Chao believe that the wheel is in the shop?,No,-6.124664783477783,-0.005567684303969145,No,True
+159,40,agent-properties,40,negation,1,Chao knows that the wheel is in the shop.,Does Chao imagine that the wheel is in the shop?,No,-0.09686152637004852,-2.468575954437256,Yes,False
+160,40,agent-properties,40,negation,2,Chao knows that the wheel is not in the shop.,Does Chao imagine that the wheel is in the shop?,Yes,-4.749569416046143,-0.013484151102602482,No,False
+161,41,agent-properties,41,antonym,1,"When choosing between playing football and playing pool, Chao always decides in favor of playing football.",Does Chao prefer football over pool?,Yes,-0.007021324243396521,-6.624904155731201,Yes,True
+162,41,agent-properties,41,antonym,2,"When choosing between playing football and playing pool, Chao always decides against playing football.",Does Chao prefer football over pool?,No,-6.562041759490967,-0.00800731498748064,No,True
+163,41,agent-properties,41,antonym,1,"When choosing between playing football and playing pool, Chao always decides in favor of playing football.",Does Chao prefer pool over football?,No,-10.37451171875,-0.00594878988340497,No,True
+164,41,agent-properties,41,antonym,2,"When choosing between playing football and playing pool, Chao always decides against playing football.",Does Chao prefer pool over football?,Yes,-0.03198853135108948,-3.6561226844787598,Yes,True
+165,42,agent-properties,42,game,1,"When choosing between playing football and playing pool, Chao always decides to play football.",Does Chao prefer football over pool?,Yes,-0.00882794614881277,-5.9373979568481445,Yes,True
+166,42,agent-properties,42,game,2,"When choosing between playing football and playing pool, Chao always decides to play pool.",Does Chao prefer football over pool?,No,-7.437095642089844,-0.005252014845609665,No,True
+167,42,agent-properties,42,game,1,"When choosing between playing football and playing pool, Chao always decides to play football.",Does Chao prefer pool over football?,No,-8.999568939208984,-0.005491145420819521,No,True
+168,42,agent-properties,42,game,2,"When choosing between playing football and playing pool, Chao always decides to play pool.",Does Chao prefer pool over football?,Yes,-0.006920469459146261,-6.124904155731201,Yes,True
+169,43,agent-properties,43,game,1,"When choosing between playing football and playing pool, Chao decides against playing pool.",Does Chao prefer football over pool?,Yes,-0.015771174803376198,-4.656137466430664,Yes,True
+170,43,agent-properties,43,game,2,"When choosing between playing football and playing pool, Chao decides against playing football.",Does Chao prefer football over pool?,No,-6.812069416046143,-0.006849184166640043,No,True
+171,43,agent-properties,43,game,1,"When choosing between playing football and playing pool, Chao decides against playing pool.",Does Chao prefer pool over football?,No,-7.999541759490967,-0.007284302264451981,No,True
+172,43,agent-properties,43,game,2,"When choosing between playing football and playing pool, Chao decides against playing football.",Does Chao prefer pool over football?,Yes,-0.01895763725042343,-4.281137466430664,Yes,True
+173,44,agent-properties,44,antonym,1,Chao likes the wheel more than the truck.,Does Chao prefer the wheel over the truck?,Yes,-0.01883556693792343,-4.531105995178223,Yes,True
+174,44,agent-properties,44,antonym,2,Chao likes the wheel less than the truck.,Does Chao prefer the wheel over the truck?,No,-6.749569416046143,-0.0072457934729754925,No,True
+175,44,agent-properties,44,antonym,1,Chao likes the wheel more than the truck.,Does Chao prefer the truck over the wheel?,No,-6.687069416046143,-0.007223267108201981,No,True
+176,44,agent-properties,44,antonym,2,Chao likes the wheel less than the truck.,Does Chao prefer the truck over the wheel?,Yes,-0.5817294716835022,-0.83184814453125,Yes,True
+178,44,agent-properties,45,variable swap,2,Chao likes the truck more than the wheel.,Does Chao prefer the wheel over the truck?,No,-5.562041759490967,-0.010372073389589787,No,True
+180,44,agent-properties,45,variable swap,2,Chao likes the truck more than the wheel.,Does Chao prefer the truck over the wheel?,Yes,-0.045901209115982056,-3.2967190742492676,Yes,True
+181,44,agent-properties,46,variable swap,1,Chao likes the truck less than the wheel.,Does Chao prefer the wheel over the truck?,Yes,-0.1676960289478302,-1.9217089414596558,Yes,True
+183,44,agent-properties,46,variable swap,1,Chao likes the truck less than the wheel.,Does Chao prefer the truck over the wheel?,No,-6.624595642089844,-0.006838218774646521,No,True
+185,45,agent-properties,47,antonym,1,Chao hates the wheel less than the truck.,Does Chao prefer the wheel over the truck?,Yes,-1.3276876211166382,-0.3258899748325348,No,False
+186,45,agent-properties,47,antonym,2,Chao hates the wheel more than the truck.,Does Chao prefer the wheel over the truck?,No,-2.3588945865631104,-0.1115054339170456,No,True
+187,45,agent-properties,47,antonym,1,Chao hates the wheel less than the truck.,Does Chao prefer the truck over the wheel?,No,-1.7104966640472412,-0.21162907779216766,No,True
+188,45,agent-properties,47,antonym,2,Chao hates the wheel more than the truck.,Does Chao prefer the truck over the wheel?,Yes,-0.8355719447135925,-0.5856862664222717,No,False
+190,45,agent-properties,48,variable swap,2,Chao hates the truck less than the wheel.,Does Chao prefer the wheel over the truck?,No,-0.585548460483551,-0.8356528878211975,Yes,False
+192,45,agent-properties,48,variable swap,2,Chao hates the truck less than the wheel.,Does Chao prefer the truck over the wheel?,Yes,-2.2495694160461426,-0.12179306894540787,No,False
+193,45,agent-properties,49,variable swap,1,Chao hates the truck more than the wheel.,Does Chao prefer the wheel over the truck?,Yes,-0.39611953496932983,-1.1482157707214355,Yes,True
+195,45,agent-properties,49,variable swap,1,Chao hates the truck more than the wheel.,Does Chao prefer the truck over the wheel?,No,-4.0932464599609375,-0.025959651917219162,No,True
+197,46,agent-properties,50,antonym,1,Chao always chooses the wheel over the truck.,Does Chao prefer the wheel over the truck?,Yes,-0.020028380677103996,-4.468605995178223,Yes,True
+198,46,agent-properties,50,antonym,2,Chao never chooses the wheel over the truck.,Does Chao prefer the wheel over the truck?,No,-6.249569416046143,-0.00763155659660697,No,True
+199,46,agent-properties,50,antonym,1,Chao always chooses the wheel over the truck.,Does Chao prefer the truck over the wheel?,No,-5.499569416046143,-0.009302878752350807,No,True
+200,46,agent-properties,50,antonym,2,Chao never chooses the wheel over the truck.,Does Chao prefer the truck over the wheel?,Yes,-0.530963122844696,-0.9060400724411011,Yes,True
+202,46,agent-properties,51,variable swap,2,Chao always chooses the truck over the wheel.,Does Chao prefer the wheel over the truck?,No,-5.437095642089844,-0.011878988705575466,No,True
+204,46,agent-properties,51,variable swap,2,Chao always chooses the truck over the wheel.,Does Chao prefer the truck over the wheel?,Yes,-0.04129185527563095,-3.4217536449432373,Yes,True
+205,46,agent-properties,52,variable swap,1,Chao never chooses the truck over the wheel.,Does Chao prefer the wheel over the truck?,Yes,-0.12037590146064758,-2.2498602867126465,Yes,True
+207,46,agent-properties,52,variable swap,1,Chao never chooses the truck over the wheel.,Does Chao prefer the truck over the wheel?,No,-7.749512195587158,-0.006448051426559687,No,True
+209,47,agent-properties,53,antonym,1,"When presented with the wheel and the truck, Chao reached for the wheel but not the truck.",Does Chao prefer the wheel over the truck?,Yes,-0.03064599446952343,-3.7811057567596436,Yes,True
+210,47,agent-properties,53,antonym,2,"When presented with the wheel and the truck, Chao avoided the wheel but not the truck.",Does Chao prefer the wheel over the truck?,No,-2.7026875019073486,-0.0793241634964943,No,True
+211,47,agent-properties,53,antonym,1,"When presented with the wheel and the truck, Chao reached for the wheel but not the truck.",Does Chao prefer the truck over the wheel?,No,-4.030858039855957,-0.025886444374918938,No,True
+212,47,agent-properties,53,antonym,2,"When presented with the wheel and the truck, Chao avoided the wheel but not the truck.",Does Chao prefer the truck over the wheel?,Yes,-0.09689752012491226,-2.468575954437256,Yes,True
+214,47,agent-properties,54,variable swap,2,"When presented with the truck and the wheel, Chao reached for the truck but not the wheel.",Does Chao prefer the wheel over the truck?,No,-3.0620694160461426,-0.05829887092113495,No,True
+216,47,agent-properties,54,variable swap,2,"When presented with the truck and the wheel, Chao reached for the truck but not the wheel.",Does Chao prefer the truck over the wheel?,Yes,-0.16865472495555878,-1.9217089414596558,Yes,True
+217,47,agent-properties,55,variable swap,1,"When presented with the truck and the wheel, Chao avoided the truck but not the wheel.",Does Chao prefer the wheel over the truck?,Yes,-0.03929546847939491,-3.5467090606689453,Yes,True
+219,47,agent-properties,55,variable swap,1,"When presented with the truck and the wheel, Chao avoided the truck but not the wheel.",Does Chao prefer the truck over the wheel?,No,-2.1401593685150146,-0.13932864367961884,No,True
+221,48,agent-properties,56,antonym,1,"When presented with the wheel and the truck, Chao decided to get the wheel but not the truck.",Does Chao prefer the wheel over the truck?,Yes,-0.020345967262983322,-4.531086444854736,Yes,True
+222,48,agent-properties,56,antonym,2,"When presented with the wheel and the truck, Chao decided to leave the wheel but not the truck.",Does Chao prefer the wheel over the truck?,No,-1.062119960784912,-0.44114401936531067,No,True
+223,48,agent-properties,56,antonym,1,"When presented with the wheel and the truck, Chao decided to get the wheel but not the truck.",Does Chao prefer the truck over the wheel?,No,-5.437041759490967,-0.013926294632256031,No,True
+224,48,agent-properties,56,antonym,2,"When presented with the wheel and the truck, Chao decided to leave the wheel but not the truck.",Does Chao prefer the truck over the wheel?,Yes,-0.21061496436595917,-1.7107536792755127,Yes,True
+226,48,agent-properties,57,variable swap,2,"When presented with the truck and the wheel, Chao decided to get the truck but not the wheel.",Does Chao prefer the wheel over the truck?,No,-5.186946868896484,-0.015115534886717796,No,True
+228,48,agent-properties,57,variable swap,2,"When presented with the truck and the wheel, Chao decided to get the truck but not the wheel.",Does Chao prefer the truck over the wheel?,Yes,-0.0714593455195427,-2.8279309272766113,Yes,True
+229,48,agent-properties,58,variable swap,1,"When presented with the truck and the wheel, Chao decided to leave the truck but not the wheel.",Does Chao prefer the wheel over the truck?,Yes,-0.21254664659500122,-1.7107014656066895,Yes,True
+231,48,agent-properties,58,variable swap,1,"When presented with the truck and the wheel, Chao decided to leave the truck but not the wheel.",Does Chao prefer the truck over the wheel?,No,-1.9214510917663574,-0.17257754504680634,No,True
+233,49,agent-properties,59,antonym,1,"When presented with the wheel and the truck, Chao moved toward the wheel but not the truck.",Does Chao prefer the wheel over the truck?,Yes,-0.031758811324834824,-3.7811145782470703,Yes,True
+234,49,agent-properties,59,antonym,2,"When presented with the wheel and the truck, Chao moved away from the wheel but not the truck.",Does Chao prefer the wheel over the truck?,No,-1.3199527263641357,-0.3220018446445465,No,True
+235,49,agent-properties,59,antonym,1,"When presented with the wheel and the truck, Chao moved toward the wheel but not the truck.",Does Chao prefer the truck over the wheel?,No,-3.6557769775390625,-0.035600464791059494,No,True
+236,49,agent-properties,59,antonym,2,"When presented with the wheel and the truck, Chao moved away from the wheel but not the truck.",Does Chao prefer the truck over the wheel?,Yes,-0.10763684660196304,-2.359186887741089,Yes,True
+238,49,agent-properties,60,variable swap,2,"When presented with the truck and the wheel, Chao moved toward the truck but not the wheel.",Does Chao prefer the wheel over the truck?,No,-2.468332529067993,-0.09979026019573212,No,True
+240,49,agent-properties,60,variable swap,2,"When presented with the truck and the wheel, Chao moved toward the truck but not the wheel.",Does Chao prefer the truck over the wheel?,Yes,-0.07928876578807831,-2.7029426097869873,Yes,True
+241,49,agent-properties,61,variable swap,1,"When presented with the truck and the wheel, Chao moved away from the truck but not the wheel.",Does Chao prefer the wheel over the truck?,Yes,-0.05221489816904068,-3.1716983318328857,Yes,True
+243,49,agent-properties,61,variable swap,1,"When presented with the truck and the wheel, Chao moved away from the truck but not the wheel.",Does Chao prefer the truck over the wheel?,No,-1.6089767217636108,-0.2360704243183136,No,True
+245,50,agent-properties,62,antonym,1,"Upon seeing Yan and Ali, Chao started walking towards Yan but not Ali.",Does Chao prefer Yan over Ali?,Yes,-0.040531307458877563,-3.421745777130127,Yes,True
+246,50,agent-properties,62,antonym,2,"Upon seeing Yan and Ali, Chao started walking away from Yan but not Ali.",Does Chao prefer Yan over Ali?,No,-0.48211222887039185,-0.9841982126235962,Yes,False
+247,50,agent-properties,62,antonym,1,"Upon seeing Yan and Ali, Chao started walking towards Yan but not Ali.",Does Chao prefer Ali over Yan?,No,-3.4215009212493896,-0.03932550176978111,No,True
+248,50,agent-properties,62,antonym,2,"Upon seeing Yan and Ali, Chao started walking away from Yan but not Ali.",Does Chao prefer Ali over Yan?,Yes,-0.4410695433616638,-1.0623204708099365,Yes,True
+250,50,agent-properties,63,variable swap,2,"Upon seeing Ali and Yan, Chao started walking towards Ali but not Yan.",Does Chao prefer Yan over Ali?,No,-4.030881404876709,-0.022863052785396576,No,True
+252,50,agent-properties,63,variable swap,2,"Upon seeing Ali and Yan, Chao started walking towards Ali but not Yan.",Does Chao prefer Ali over Yan?,Yes,-0.037616875022649765,-3.5311226844787598,Yes,True
+253,50,agent-properties,64,variable swap,1,"Upon seeing Ali and Yan, Chao started walking away from Ali but not Yan.",Does Chao prefer Yan over Ali?,Yes,-0.21262267231941223,-1.7107943296432495,Yes,True
+255,50,agent-properties,64,variable swap,1,"Upon seeing Ali and Yan, Chao started walking away from Ali but not Yan.",Does Chao prefer Ali over Yan?,No,-0.5309805274009705,-0.9060759544372559,Yes,False
+257,51,agent-properties,65,antonym,1,Chao decided to talk to Yan but not Ali.,Does Chao prefer Yan over Ali?,Yes,-0.0488145686686039,-3.2967286109924316,Yes,True
+258,51,agent-properties,65,antonym,2,Chao decided to avoid Yan but not Ali.,Does Chao prefer Yan over Ali?,No,-1.7105485200881958,-0.20973947644233704,No,True
+259,51,agent-properties,65,antonym,1,Chao decided to talk to Yan but not Ali.,Does Chao prefer Ali over Yan?,No,-2.8120415210723877,-0.06903795897960663,No,True
+260,51,agent-properties,65,antonym,2,Chao decided to avoid Yan but not Ali.,Does Chao prefer Ali over Yan?,Yes,-0.13641922175884247,-2.1404829025268555,Yes,True
+262,51,agent-properties,66,variable swap,2,Chao decided to talk to Ali but not Yan.,Does Chao prefer Yan over Ali?,No,-3.0619804859161377,-0.055370137095451355,No,True
+264,51,agent-properties,66,variable swap,2,Chao decided to talk to Ali but not Yan.,Does Chao prefer Ali over Yan?,Yes,-0.04075995460152626,-3.5467374324798584,Yes,True
+265,51,agent-properties,67,variable swap,1,Chao decided to avoid Ali but not Yan.,Does Chao prefer Yan over Ali?,Yes,-0.1715448498725891,-1.9217089414596558,Yes,True
+267,51,agent-properties,67,variable swap,1,Chao decided to avoid Ali but not Yan.,Does Chao prefer Ali over Yan?,No,-1.0620955228805542,-0.4372834265232086,No,True
+269,52,agent-properties,68,antonym,1,"When presented with the choice between the wheel and the truck, Chao randomly chose the wheel.",Does Chao ha no preference for the wheel over the truck?,Yes,-0.7728349566459656,-0.6479378938674927,No,False
+270,52,agent-properties,68,antonym,2,"When presented with the choice between the wheel and the truck, Chao intentionally chose the wheel.",Does Chao ha no preference for the wheel over the truck?,No,-1.3275270462036133,-0.32771405577659607,No,True
+271,52,agent-properties,68,antonym,1,"When presented with the choice between the wheel and the truck, Chao randomly chose the wheel.",Does Chao prefer the wheel over the truck?,No,-0.835548460483551,-0.5857014656066895,No,True
+272,52,agent-properties,68,antonym,2,"When presented with the choice between the wheel and the truck, Chao intentionally chose the wheel.",Does Chao prefer the wheel over the truck?,Yes,-0.03441396728157997,-3.6561145782470703,Yes,True
+273,53,agent-properties,69,antonym,1,"When presented with the choice between the wheel and the truck, Chao flipped a coin and then chose the wheel.",Does Chao ha no preference for the wheel over the truck?,Yes,-0.9172276854515076,-0.5424593687057495,No,False
+274,53,agent-properties,69,antonym,2,"When presented with the choice between the wheel and the truck, Chao deliberated and then chose the wheel.",Does Chao ha no preference for the wheel over the truck?,No,-1.5227106809616089,-0.2690178155899048,No,True
+275,53,agent-properties,69,antonym,1,"When presented with the choice between the wheel and the truck, Chao flipped a coin and then chose the wheel.",Does Chao prefer the wheel over the truck?,No,-0.21343860030174255,-1.7107014656066895,Yes,False
+276,53,agent-properties,69,antonym,2,"When presented with the choice between the wheel and the truck, Chao deliberated and then chose the wheel.",Does Chao prefer the wheel over the truck?,Yes,-0.05292944610118866,-3.1717090606689453,Yes,True
+277,54,agent-properties,70,antonym,1,Chao decides in favor of playing football.,Does Chao intend to play football?,Yes,-0.039899662137031555,-3.7341480255126953,Yes,True
+278,54,agent-properties,70,antonym,2,Chao decides against playing football.,Does Chao intend to play football?,No,-7.061946868896484,-0.0068170176818966866,No,True
+279,54,agent-properties,70,antonym,1,Chao decides in favor of playing football.,Does Chao not intend to play football?,No,-2.1399474143981934,-0.14020106196403503,No,True
+280,54,agent-properties,70,antonym,2,Chao decides against playing football.,Does Chao not intend to play football?,Yes,-0.03877333924174309,-3.531075954437256,Yes,True
+281,55,agent-properties,71,antonym,1,Chao has decided in favor of getting the wheel.,Does Chao intend to get the wheel?,Yes,-0.04731575772166252,-3.4217090606689453,Yes,True
+282,55,agent-properties,71,antonym,2,Chao has decided against getting the wheel.,Does Chao intend to get the wheel?,No,-6.062041759490967,-0.007271787617355585,No,True
+283,55,agent-properties,71,antonym,1,Chao has decided in favor of getting the wheel.,Does Chao not intend to get the wheel?,No,-2.8276875019073486,-0.07346633821725845,No,True
+284,55,agent-properties,71,antonym,2,Chao has decided against getting the wheel.,Does Chao not intend to get the wheel?,Yes,-0.16771259903907776,-1.921728491783142,Yes,True
+285,56,agent-properties,72,antonym,1,Chao is moving toward the wheel.,Does Chao intend to get the wheel?,Yes,-0.11598244309425354,-2.3592374324798584,Yes,True
+286,56,agent-properties,72,antonym,2,Chao is moving away from the wheel.,Does Chao intend to get the wheel?,No,-1.6091177463531494,-0.23127974569797516,No,True
+287,56,agent-properties,72,antonym,1,Chao is moving toward the wheel.,Does Chao not intend to get the wheel?,No,-0.21162907779216766,-1.7107752561569214,Yes,False
+288,56,agent-properties,72,antonym,2,Chao is moving away from the wheel.,Does Chao not intend to get the wheel?,Yes,-1.5074949264526367,-0.2595726549625397,No,False
+290,57,agent-properties,73,other,2,Chao is moving past the wheel.,Does Chao intend to get the wheel?,No,-0.5349021553993225,-0.9099814891815186,Yes,False
+292,57,agent-properties,73,other,2,Chao is moving past the wheel.,Does Chao not intend to get the wheel?,Yes,-0.6442099213600159,-0.7693363428115845,Yes,True
+293,58,agent-properties,74,other,1,Chao is reaching for the wheel.,Does Chao intend to get the wheel?,Yes,-0.05964626371860504,-3.0624098777770996,Yes,True
+294,58,agent-properties,74,other,2,Chao is turning away from the wheel.,Does Chao intend to get the wheel?,No,-1.1481528282165527,-0.3962765038013458,No,True
+295,58,agent-properties,74,other,1,Chao is reaching for the wheel.,Does Chao not intend to get the wheel?,No,-0.9060121774673462,-0.5311057567596436,No,True
+296,58,agent-properties,74,other,2,Chao is turning away from the wheel.,Does Chao not intend to get the wheel?,Yes,-1.3199949264526367,-0.32206013798713684,No,False
+297,59,agent-properties,75,antonym,1,Chao is deliberately moving toward the wheel.,Does Chao intend to get the wheel?,Yes,-0.09252050518989563,-2.5935964584350586,Yes,True
+298,59,agent-properties,75,antonym,2,Chao is inadvertently moving toward the wheel.,Does Chao intend to get the wheel?,No,-1.4215235710144043,-0.2966480553150177,No,True
+299,59,agent-properties,75,antonym,1,Chao is deliberately moving toward the wheel.,Does Chao not intend to get the wheel?,No,-0.7066671252250671,-0.7068103551864624,Yes,False
+300,59,agent-properties,75,antonym,2,Chao is inadvertently moving toward the wheel.,Does Chao not intend to get the wheel?,Yes,-1.5152623653411865,-0.2653757631778717,No,False
+301,60,agent-properties,76,antonym,1,Chao is knowingly moving toward the wheel.,Does Chao intend to get the wheel?,Yes,-0.16466744244098663,-2.0466177463531494,Yes,True
+302,60,agent-properties,76,antonym,2,Chao is unknowingly moving toward the wheel.,Does Chao intend to get the wheel?,No,-1.616928219795227,-0.24104370176792145,No,True
+303,60,agent-properties,76,antonym,1,Chao is knowingly moving toward the wheel.,Does Chao not intend to get the wheel?,No,-0.6518422365188599,-0.7769990563392639,Yes,False
+304,60,agent-properties,76,antonym,2,Chao is unknowingly moving toward the wheel.,Does Chao not intend to get the wheel?,Yes,-2.249664545059204,-0.12286771833896637,No,False
+305,61,agent-properties,77,other,1,"In the store, Chao asks about the wheel.",Does Chao intend to get the wheel?,Yes,-0.23015980422496796,-1.7263509035110474,Yes,True
+306,61,agent-properties,77,other,2,"In the store, Chao walks past the wheel.",Does Chao intend to get the wheel?,No,-1.24176025390625,-0.3629283308982849,No,True
+307,61,agent-properties,77,other,1,"In the store, Chao asks about the wheel.",Does Chao not intend to get the wheel?,No,-1.3277390003204346,-0.3278757631778717,No,True
+308,61,agent-properties,77,other,2,"In the store, Chao walks past the wheel.",Does Chao not intend to get the wheel?,Yes,-1.1480233669281006,-0.3981345295906067,No,False
+309,62,agent-properties,78,antonym,1,Chao has decided in favor of speaking to Yan.,Does Chao intend to interact with Yan?,Yes,-0.13926275074481964,-2.2654309272766113,Yes,True
+310,62,agent-properties,78,antonym,2,Chao has decided against speaking to Yan.,Does Chao intend to interact with Yan?,No,-4.5309038162231445,-0.01643003523349762,No,True
+311,62,agent-properties,78,antonym,1,Chao has decided in favor of speaking to Yan.,Does Chao not intend to interact with Yan?,No,-2.827629327774048,-0.07833067327737808,No,True
+312,62,agent-properties,78,antonym,2,Chao has decided against speaking to Yan.,Does Chao not intend to interact with Yan?,Yes,-0.2389649599790573,-1.6170302629470825,Yes,True
+313,63,agent-properties,79,antonym,1,Chao is deliberately moving toward Yan.,Does Chao intend to interact with Yan?,Yes,-0.10182549804449081,-2.4842536449432373,Yes,True
+314,63,agent-properties,79,antonym,2,Chao is inadvertently moving toward Yan.,Does Chao intend to interact with Yan?,No,-1.7105940580368042,-0.2146473079919815,No,True
+315,63,agent-properties,79,antonym,1,Chao is deliberately moving toward Yan.,Does Chao not intend to interact with Yan?,No,-2.140284299850464,-0.13652540743350983,No,True
+316,63,agent-properties,79,antonym,2,Chao is inadvertently moving toward Yan.,Does Chao not intend to interact with Yan?,Yes,-2.030881643295288,-0.15311099588871002,No,False
+317,64,agent-properties,80,antonym,1,Chao is knowingly moving toward Yan.,Does Chao intend to interact with Yan?,Yes,-0.1822834610939026,-1.9294978380203247,Yes,True
+318,64,agent-properties,80,antonym,2,Chao is unknowingly moving toward Yan.,Does Chao intend to interact with Yan?,No,-1.6169439554214478,-0.23911060392856598,No,True
+319,64,agent-properties,80,antonym,1,Chao is knowingly moving toward Yan.,Does Chao not intend to interact with Yan?,No,-2.3588945865631104,-0.1139993965625763,No,True
+320,64,agent-properties,80,antonym,2,Chao is unknowingly moving toward Yan.,Does Chao not intend to interact with Yan?,Yes,-1.8121429681777954,-0.19024957716464996,No,False
+321,65,agent-properties,81,antonym,1,Chao is moving toward Yan.,Does Chao intend to interact with Yan?,Yes,-0.1628873497247696,-2.03113055229187,Yes,True
+322,65,agent-properties,81,antonym,2,Chao is moving away from Yan.,Does Chao intend to interact with Yan?,No,-2.9372546672821045,-0.05919516831636429,No,True
+323,65,agent-properties,81,antonym,1,Chao is moving toward Yan.,Does Chao not intend to interact with Yan?,No,-1.507474422454834,-0.25956013798713684,No,True
+324,65,agent-properties,81,antonym,2,Chao is moving away from Yan.,Does Chao not intend to interact with Yan?,Yes,-0.4802563488483429,-0.9803398847579956,Yes,True
+326,66,agent-properties,82,other,2,Chao is moving past Yan.,Does Chao intend to interact with Yan?,No,-0.9099174737930298,-0.5350021123886108,No,True
+328,66,agent-properties,82,other,2,Chao is moving past Yan.,Does Chao not intend to interact with Yan?,Yes,-0.7653242945671082,-0.6404536962509155,No,False
+329,67,agent-properties,83,antonym,1,Chao is starting a conversation with Yan.,Does Chao intend to interact with Yan?,Yes,-0.037630461156368256,-3.656144618988037,Yes,True
+330,67,agent-properties,83,antonym,2,Chao is ending a conversation with Yan.,Does Chao intend to interact with Yan?,No,-3.671295642852783,-0.03922300785779953,No,True
+331,67,agent-properties,83,antonym,1,Chao is starting a conversation with Yan.,Does Chao not intend to interact with Yan?,No,-2.7027390003204346,-0.07791831344366074,No,True
+332,67,agent-properties,83,antonym,2,Chao is ending a conversation with Yan.,Does Chao not intend to interact with Yan?,Yes,-0.43917444348335266,-1.0623313188552856,Yes,True
+333,68,agent-properties,84,negation,1,Chao is trying to win a game of football.,Does Chao make an effort to play football?,Yes,-0.016272684559226036,-4.718630313873291,Yes,True
+334,68,agent-properties,84,negation,2,Chao is not trying to win a game of football.,Does Chao make an effort to play football?,No,-3.296564817428589,-0.04279269278049469,No,True
+335,68,agent-properties,84,negation,1,Chao is trying to win a game of football.,Does Chao make no effort to play football?,No,-4.4059038162231445,-0.016907231882214546,No,True
+336,68,agent-properties,84,negation,2,Chao is not trying to win a game of football.,Does Chao make no effort to play football?,Yes,-0.35327544808387756,-1.2263977527618408,Yes,True
+337,69,agent-properties,85,negation,1,Chao wants to play football.,Does Chao make an effort to play football?,Yes,-0.06422212719917297,-2.937368631362915,Yes,True
+338,69,agent-properties,85,negation,2,Chao doesn't want to play football.,Does Chao make an effort to play football?,No,-5.312184810638428,-0.007997648790478706,No,True
+339,69,agent-properties,85,negation,1,Chao wants to play football.,Does Chao make no effort to play football?,No,-2.8120954036712646,-0.06860068440437317,No,True
+340,69,agent-properties,85,negation,2,Chao doesn't want to play football.,Does Chao make no effort to play football?,Yes,-0.20679619908332825,-1.7029426097869873,Yes,True
+341,70,agent-properties,86,antonym,1,Chao has decided in favor of playing football.,Does Chao make an effort to play football?,Yes,-0.053866561502218246,-3.4216480255126953,Yes,True
+342,70,agent-properties,86,antonym,2,Chao has decided against playing football.,Does Chao make an effort to play football?,No,-5.187041759490967,-0.011607554741203785,No,True
+343,70,agent-properties,86,antonym,1,Chao has decided in favor of playing football.,Does Chao make no effort to play football?,No,-4.030642509460449,-0.02919560670852661,No,True
+344,70,agent-properties,86,antonym,2,Chao has decided against playing football.,Does Chao make no effort to play football?,Yes,-0.7028049826622009,-0.7028907537460327,Yes,True
+345,71,agent-properties,87,negation,1,Chao is trying to get the wheel.,Does Chao make an effort to get the wheel?,Yes,-0.09744551032781601,-2.468637704849243,Yes,True
+346,71,agent-properties,87,negation,2,Chao is not trying to get the wheel.,Does Chao make an effort to get the wheel?,No,-4.499703884124756,-0.01430453173816204,No,True
+347,71,agent-properties,87,negation,1,Chao is trying to get the wheel.,Does Chao make no effort to get the wheel?,No,-2.8122220039367676,-0.06675411015748978,No,True
+348,71,agent-properties,87,negation,2,Chao is not trying to get the wheel.,Does Chao make no effort to get the wheel?,Yes,-0.6364704966545105,-0.7615681886672974,Yes,True
+349,72,agent-properties,88,negation,1,Chao wants the wheel.,Does Chao make an effort to get the wheel?,Yes,-0.11396495997905731,-2.3592286109924316,Yes,True
+350,72,agent-properties,88,negation,2,Chao doesn't want the wheel.,Does Chao make an effort to get the wheel?,No,-3.530963182449341,-0.033981937915086746,No,True
+351,72,agent-properties,88,negation,1,Chao wants the wheel.,Does Chao make no effort to get the wheel?,No,-2.812164545059204,-0.06818975508213043,No,True
+352,72,agent-properties,88,negation,2,Chao doesn't want the wheel.,Does Chao make no effort to get the wheel?,Yes,-0.5818238258361816,-0.8318972587585449,Yes,True
+353,73,agent-properties,89,antonym,1,Chao has decided in favor of getting the wheel.,Does Chao make an effort to get the wheel?,Yes,-0.1783570647239685,-1.929485559463501,Yes,True
+354,73,agent-properties,89,antonym,2,Chao has decided against getting the wheel.,Does Chao make an effort to get the wheel?,No,-4.0932769775390625,-0.025627048686146736,No,True
+355,73,agent-properties,89,antonym,1,Chao has decided in favor of getting the wheel.,Does Chao make no effort to get the wheel?,No,-3.8432769775390625,-0.03319350257515907,No,True
+356,73,agent-properties,89,antonym,2,Chao has decided against getting the wheel.,Does Chao make no effort to get the wheel?,Yes,-1.5153049230575562,-0.26345232129096985,No,False
+357,74,agent-properties,90,antonym,1,Chao deliberately approaches Yan.,Does Chao make an effort to interact with Yan?,Yes,-0.14128117263317108,-2.1404640674591064,Yes,True
+358,74,agent-properties,90,antonym,2,Chao accidentally approaches Yan.,Does Chao make an effort to interact with Yan?,No,-1.069974422454834,-0.4412020742893219,No,True
+359,74,agent-properties,90,antonym,1,Chao deliberately approaches Yan.,Does Chao make no effort to interact with Yan?,No,-4.030832767486572,-0.02434029057621956,No,True
+360,74,agent-properties,90,antonym,2,Chao accidentally approaches Yan.,Does Chao make no effort to interact with Yan?,Yes,-2.249642848968506,-0.12137927860021591,No,False
+361,75,agent-properties,91,antonym,1,Chao wants to see Yan.,Does Chao make an effort to interact with Yan?,Yes,-0.11544720083475113,-2.3591983318328857,Yes,True
+362,75,agent-properties,91,antonym,2,Chao wants to avoid Yan.,Does Chao make an effort to interact with Yan?,No,-4.280962944030762,-0.018428929150104523,No,True
+363,75,agent-properties,91,antonym,1,Chao wants to see Yan.,Does Chao make no effort to interact with Yan?,No,-2.2495415210723877,-0.12327436357736588,No,True
+364,75,agent-properties,91,antonym,2,Chao wants to avoid Yan.,Does Chao make no effort to interact with Yan?,Yes,-0.4353307783603668,-1.062376618385315,Yes,True
+365,76,agent-properties,92,antonym,1,Chao has decided in favor of speaking to Yan.,Does Chao make an effort to interact with Yan?,Yes,-0.28080567717552185,-1.5310121774673462,Yes,True
+366,76,agent-properties,92,antonym,2,Chao has decided against speaking to Yan.,Does Chao make an effort to interact with Yan?,No,-4.030858039855957,-0.025816695764660835,No,True
+367,76,agent-properties,92,antonym,1,Chao has decided in favor of speaking to Yan.,Does Chao make no effort to interact with Yan?,No,-4.59321403503418,-0.019540218636393547,No,True
+368,76,agent-properties,92,antonym,2,Chao has decided against speaking to Yan.,Does Chao make no effort to interact with Yan?,Yes,-1.1480720043182373,-0.39824190735816956,No,False
+369,77,agent-properties,93,antonym,1,Chao is more intent on playing football than on playing pool.,Does Chao make more effort to play football than to play pool?,Yes,-0.01783171109855175,-4.593596458435059,Yes,True
+370,77,agent-properties,93,antonym,2,Chao is less intent on playing football than on playing pool.,Does Chao make more effort to play football than to play pool?,No,-2.030832529067993,-0.15012267231941223,No,True
+371,77,agent-properties,93,antonym,1,Chao is more intent on playing football than on playing pool.,Does Chao make less effort to play football than to play pool?,No,-0.7027623057365417,-0.7028596997261047,Yes,False
+372,77,agent-properties,93,antonym,2,Chao is less intent on playing football than on playing pool.,Does Chao make less effort to play football than to play pool?,Yes,-0.07785967737436295,-2.7029640674591064,Yes,True
+374,77,agent-properties,94,variable swap,2,Chao is more intent on playing pool than on playing football.,Does Chao make more effort to play football than to play pool?,No,-3.7808055877685547,-0.02916625328361988,No,True
+376,77,agent-properties,94,variable swap,2,Chao is more intent on playing pool than on playing football.,Does Chao make less effort to play football than to play pool?,Yes,-0.061262521892786026,-2.937331438064575,Yes,True
+377,77,agent-properties,95,variable swap,1,Chao is less intent on playing pool than on playing football.,Does Chao make more effort to play football than to play pool?,Yes,-0.06080498918890953,-2.9373602867126465,Yes,True
+379,77,agent-properties,95,variable swap,1,Chao is less intent on playing pool than on playing football.,Does Chao make less effort to play football than to play pool?,No,-0.2077573835849762,-1.710785150527954,Yes,False
+383,77,agent-properties,96,antonym,1,Chao is more intent on playing football than on playing pool.,Does Chao make more effort to play pool than to play football?,No,-3.4214510917663574,-0.0402553454041481,No,True
+384,77,agent-properties,96,antonym,2,Chao is less intent on playing football than on playing pool.,Does Chao make more effort to play pool than to play football?,Yes,-0.040775448083877563,-3.4217190742492676,Yes,True
+388,77,agent-properties,97,variable swap,2,Chao is more intent on playing pool than on playing football.,Does Chao make more effort to play pool than to play football?,Yes,-0.03037027083337307,-3.781075954437256,Yes,True
+391,77,agent-properties,98,variable swap,1,Chao is less intent on playing pool than on playing football.,Does Chao make more effort to play pool than to play football?,No,-2.249642848968506,-0.11842325329780579,No,True
+393,77,agent-properties,99,antonym,1,Chao is more intent on playing football than on playing pool.,Does Chao make less effort to play pool than to play football?,Yes,-0.10618892312049866,-2.3591983318328857,Yes,True
+394,77,agent-properties,99,antonym,2,Chao is less intent on playing football than on playing pool.,Does Chao make less effort to play pool than to play football?,No,-0.16963104903697968,-1.9216982126235962,Yes,False
+398,77,agent-properties,100,variable swap,2,Chao is more intent on playing pool than on playing football.,Does Chao make less effort to play pool than to play football?,No,-0.4371848702430725,-1.0622833967208862,Yes,False
+401,77,agent-properties,101,variable swap,1,Chao is less intent on playing pool than on playing football.,Does Chao make less effort to play pool than to play football?,Yes,-0.11938479542732239,-2.2498602867126465,Yes,True
+405,78,agent-properties,102,antonym,1,Chao is less hesitant to play football than to play pool.,Does Chao make more effort to play football than to play pool?,Yes,-0.06858471781015396,-2.8123416900634766,Yes,True
+406,78,agent-properties,102,antonym,2,Chao is more hesitant to play football than to play pool.,Does Chao make more effort to play football than to play pool?,No,-1.1480940580368042,-0.3943103849887848,No,True
+407,78,agent-properties,102,antonym,1,Chao is less hesitant to play football than to play pool.,Does Chao make less effort to play football than to play pool?,No,-0.8356149792671204,-0.5857292413711548,No,True
+408,78,agent-properties,102,antonym,2,Chao is more hesitant to play football than to play pool.,Does Chao make less effort to play football than to play pool?,Yes,-0.2575322687625885,-1.5076425075531006,Yes,True
+410,78,agent-properties,103,variable swap,2,Chao is less hesitant to play pool than to play football.,Does Chao make more effort to play football than to play pool?,No,-2.702784299850464,-0.07548990100622177,No,True
+412,78,agent-properties,103,variable swap,2,Chao is less hesitant to play pool than to play football.,Does Chao make less effort to play football than to play pool?,Yes,-0.28685465455055237,-1.413907766342163,Yes,True
+413,78,agent-properties,104,variable swap,1,Chao is more hesitant to play pool than to play football.,Does Chao make more effort to play football than to play pool?,Yes,-0.6364854574203491,-0.7615584135055542,Yes,True
+415,78,agent-properties,104,variable swap,1,Chao is more hesitant to play pool than to play football.,Does Chao make less effort to play football than to play pool?,No,-1.0622040033340454,-0.43536773324012756,No,True
+419,78,agent-properties,105,antonym,1,Chao is less hesitant to play football than to play pool.,Does Chao make more effort to play pool than to play football?,No,-1.6089510917663574,-0.23410122096538544,No,True
+420,78,agent-properties,105,antonym,2,Chao is more hesitant to play football than to play pool.,Does Chao make more effort to play pool than to play football?,Yes,-0.14912907779216766,-2.031052827835083,Yes,True
+424,78,agent-properties,106,variable swap,2,Chao is less hesitant to play pool than to play football.,Does Chao make more effort to play pool than to play football?,Yes,-0.10620442032814026,-2.359245777130127,Yes,True
+427,78,agent-properties,107,variable swap,1,Chao is more hesitant to play pool than to play football.,Does Chao make more effort to play pool than to play football?,No,-0.9801960587501526,-0.48028138279914856,No,True
+429,78,agent-properties,108,antonym,1,Chao is less hesitant to play football than to play pool.,Does Chao make less effort to play pool than to play football?,Yes,-0.2868383228778839,-1.4138871431350708,Yes,True
+430,78,agent-properties,108,antonym,2,Chao is more hesitant to play football than to play pool.,Does Chao make less effort to play pool than to play football?,No,-0.5309446454048157,-0.9060264825820923,Yes,False
+434,78,agent-properties,109,variable swap,2,Chao is less hesitant to play pool than to play football.,Does Chao make less effort to play pool than to play football?,No,-0.8317477107048035,-0.5818592309951782,No,True
+437,78,agent-properties,110,variable swap,1,Chao is more hesitant to play pool than to play football.,Does Chao make less effort to play pool than to play football?,Yes,-0.35327544808387756,-1.226407766342163,Yes,True
+441,79,agent-properties,111,antonym,1,Chao hates playing football less than playing pool.,Does Chao make more effort to play football than to play pool?,Yes,-0.6479681730270386,-0.773094117641449,Yes,True
+442,79,agent-properties,111,antonym,2,Chao hates playing football more than playing pool.,Does Chao make more effort to play football than to play pool?,No,-1.0698784589767456,-0.4410695433616638,No,True
+443,79,agent-properties,111,antonym,1,Chao hates playing football less than playing pool.,Does Chao make less effort to play football than to play pool?,No,-0.1392861008644104,-2.14035964012146,Yes,False
+444,79,agent-properties,111,antonym,2,Chao hates playing football more than playing pool.,Does Chao make less effort to play football than to play pool?,Yes,-0.13735562562942505,-2.140375852584839,Yes,True
+446,79,agent-properties,112,variable swap,2,Chao hates playing pool less than playing football.,Does Chao make more effort to play football than to play pool?,No,-0.2379055768251419,-1.6091177463531494,Yes,False
+448,79,agent-properties,112,variable swap,2,Chao hates playing pool less than playing football.,Does Chao make less effort to play football than to play pool?,Yes,-0.4409739673137665,-1.0699949264526367,Yes,True
+449,79,agent-properties,113,variable swap,1,Chao hates playing pool more than playing football.,Does Chao make more effort to play football than to play pool?,Yes,-0.13735562562942505,-2.1403908729553223,Yes,True
+451,79,agent-properties,113,variable swap,1,Chao hates playing pool more than playing football.,Does Chao make less effort to play football than to play pool?,No,-0.4409739673137665,-1.0622040033340454,Yes,False
+455,79,agent-properties,114,antonym,1,Chao hates playing football less than playing pool.,Does Chao make more effort to play pool than to play football?,No,-0.06800026446580887,-2.9372546672821045,Yes,False
+456,79,agent-properties,114,antonym,2,Chao hates playing football more than playing pool.,Does Chao make more effort to play pool than to play football?,Yes,-0.10069139301776886,-2.468496799468994,Yes,True
+460,79,agent-properties,115,variable swap,2,Chao hates playing pool less than playing football.,Does Chao make more effort to play pool than to play football?,Yes,-0.5347371697425842,-0.9098682999610901,Yes,True
+463,79,agent-properties,116,variable swap,1,Chao hates playing pool more than playing football.,Does Chao make more effort to play pool than to play football?,No,-0.9097371697425842,-0.5348497033119202,No,True
+465,79,agent-properties,117,antonym,1,Chao hates playing football less than playing pool.,Does Chao make less effort to play pool than to play football?,Yes,-0.17442937195301056,-1.9216011762619019,Yes,True
+466,79,agent-properties,117,antonym,2,Chao hates playing football more than playing pool.,Does Chao make less effort to play pool than to play football?,No,-0.2134769707918167,-1.710634469985962,Yes,False
+470,79,agent-properties,118,variable swap,2,Chao hates playing pool less than playing football.,Does Chao make less effort to play pool than to play football?,No,-0.3609033524990082,-1.2341011762619019,Yes,False
+473,79,agent-properties,119,variable swap,1,Chao hates playing pool more than playing football.,Does Chao make less effort to play pool than to play football?,Yes,-0.13735562562942505,-2.140375852584839,Yes,True
+477,80,agent-properties,120,antonym,1,Chao is more intent on getting the wheel than getting the truck.,Does Chao make more effort to get the wheel than to get the truck?,Yes,-0.14912907779216766,-2.031064748764038,Yes,True
+478,80,agent-properties,120,antonym,2,Chao is less intent on getting the wheel than getting the truck.,Does Chao make more effort to get the wheel than to get the truck?,No,-0.9801185727119446,-0.48218074440956116,No,True
+479,80,agent-properties,120,antonym,1,Chao is more intent on getting the wheel than getting the truck.,Does Chao make less effort to get the wheel than to get the truck?,No,-0.5855719447135925,-0.8357014656066895,Yes,False
+480,80,agent-properties,120,antonym,2,Chao is less intent on getting the wheel than getting the truck.,Does Chao make less effort to get the wheel than to get the truck?,Yes,-0.39420992136001587,-1.1482536792755127,Yes,True
+482,80,agent-properties,121,variable swap,2,Chao is more intent on getting the truck than getting the wheel.,Does Chao make more effort to get the wheel than to get the truck?,No,-2.030881643295288,-0.14919212460517883,No,True
+484,80,agent-properties,121,variable swap,2,Chao is more intent on getting the truck than getting the wheel.,Does Chao make less effort to get the wheel than to get the truck?,Yes,-0.7653049826622009,-0.640418291091919,No,False
+485,80,agent-properties,122,variable swap,1,Chao is less intent on getting the truck than getting the wheel.,Does Chao make more effort to get the wheel than to get the truck?,Yes,-0.1676960289478302,-1.9217089414596558,Yes,True
+487,80,agent-properties,122,variable swap,1,Chao is less intent on getting the truck than getting the wheel.,Does Chao make less effort to get the wheel than to get the truck?,No,-0.2887733280658722,-1.4138758182525635,Yes,False
+491,80,agent-properties,123,antonym,1,Chao is more intent on getting the wheel than getting the truck.,Does Chao make more effort to get the truck than to get the wheel?,No,-2.1402390003204346,-0.1345178186893463,No,True
+492,80,agent-properties,123,antonym,2,Chao is less intent on getting the wheel than getting the truck.,Does Chao make more effort to get the truck than to get the wheel?,Yes,-0.25946667790412903,-1.507619857788086,Yes,True
+496,80,agent-properties,124,variable swap,2,Chao is more intent on getting the truck than getting the wheel.,Does Chao make more effort to get the truck than to get the wheel?,Yes,-0.1325491964817047,-2.1404640674591064,Yes,True
+499,80,agent-properties,125,variable swap,1,Chao is less intent on getting the truck than getting the wheel.,Does Chao make more effort to get the truck than to get the wheel?,No,-1.5074294805526733,-0.2595328390598297,No,True
+501,80,agent-properties,126,antonym,1,Chao is more intent on getting the wheel than getting the truck.,Does Chao make less effort to get the truck than to get the wheel?,Yes,-0.28685465455055237,-1.4138977527618408,Yes,True
+502,80,agent-properties,126,antonym,2,Chao is less intent on getting the wheel than getting the truck.,Does Chao make less effort to get the truck than to get the wheel?,No,-0.3200141489505768,-1.320131540298462,Yes,False
+506,80,agent-properties,127,variable swap,2,Chao is more intent on getting the truck than getting the wheel.,Does Chao make less effort to get the truck than to get the wheel?,No,-0.9059249758720398,-0.531052827835083,No,True
+509,80,agent-properties,128,variable swap,1,Chao is less intent on getting the truck than getting the wheel.,Does Chao make less effort to get the truck than to get the wheel?,Yes,-0.2595178186893463,-1.5076425075531006,Yes,True
+513,81,agent-properties,129,antonym,1,Chao is less hesitant to get the wheel than to get the truck.,Does Chao make more effort to get the wheel than to get the truck?,Yes,-0.21059411764144897,-1.7107157707214355,Yes,True
+514,81,agent-properties,129,antonym,2,Chao is more hesitant to get the wheel than to get the truck.,Does Chao make more effort to get the wheel than to get the truck?,No,-0.48209232091903687,-0.9841333627700806,Yes,False
+515,81,agent-properties,129,antonym,1,Chao is less hesitant to get the wheel than to get the truck.,Does Chao make less effort to get the wheel than to get the truck?,No,-0.2906873822212219,-1.4138637781143188,Yes,False
+516,81,agent-properties,129,antonym,2,Chao is more hesitant to get the wheel than to get the truck.,Does Chao make less effort to get the wheel than to get the truck?,Yes,-0.39420992136001587,-1.140418291091919,Yes,True
+518,81,agent-properties,130,variable swap,2,Chao is less hesitant to get the truck than to get the wheel.,Does Chao make more effort to get the wheel than to get the truck?,No,-1.0620694160461426,-0.4411090910434723,No,True
+520,81,agent-properties,130,variable swap,2,Chao is less hesitant to get the truck than to get the wheel.,Does Chao make less effort to get the wheel than to get the truck?,Yes,-0.5309039950370789,-0.9060264825820923,Yes,True
+521,81,agent-properties,131,variable swap,1,Chao is more hesitant to get the truck than to get the wheel.,Does Chao make more effort to get the wheel than to get the truck?,Yes,-0.39611953496932983,-1.1482292413711548,Yes,True
+523,81,agent-properties,131,variable swap,1,Chao is more hesitant to get the truck than to get the wheel.,Does Chao make less effort to get the wheel than to get the truck?,No,-0.4820711016654968,-0.9841617345809937,Yes,False
+527,81,agent-properties,132,antonym,1,Chao is less hesitant to get the wheel than to get the truck.,Does Chao make more effort to get the truck than to get the wheel?,No,-0.7027389407157898,-0.7028596997261047,Yes,False
+528,81,agent-properties,132,antonym,2,Chao is more hesitant to get the wheel than to get the truck.,Does Chao make more effort to get the truck than to get the wheel?,Yes,-0.35711222887039185,-1.2341747283935547,Yes,True
+532,81,agent-properties,133,variable swap,2,Chao is less hesitant to get the truck than to get the wheel.,Does Chao make more effort to get the truck than to get the wheel?,Yes,-0.16963104903697968,-1.9216867685317993,Yes,True
+535,81,agent-properties,134,variable swap,1,Chao is more hesitant to get the truck than to get the wheel.,Does Chao make more effort to get the truck than to get the wheel?,No,-0.7027843594551086,-0.702918291091919,Yes,False
+537,81,agent-properties,135,antonym,1,Chao is less hesitant to get the wheel than to get the truck.,Does Chao make less effort to get the truck than to get the wheel?,Yes,-0.28875476121902466,-1.4138509035110474,Yes,True
+538,81,agent-properties,135,antonym,2,Chao is more hesitant to get the wheel than to get the truck.,Does Chao make less effort to get the truck than to get the wheel?,No,-0.5855719447135925,-0.8357157707214355,Yes,False
+542,81,agent-properties,136,variable swap,2,Chao is less hesitant to get the truck than to get the wheel.,Does Chao make less effort to get the truck than to get the wheel?,No,-0.4391170144081116,-1.0622965097427368,Yes,False
+545,81,agent-properties,137,variable swap,1,Chao is more hesitant to get the truck than to get the wheel.,Does Chao make less effort to get the truck than to get the wheel?,Yes,-0.4371848702430725,-1.06230890750885,Yes,True
+549,82,agent-properties,138,antonym,1,Chao wants the wheel more than the truck.,Does Chao make more effort to get the wheel than to get the truck?,Yes,-0.23408357799053192,-1.6091617345809937,Yes,True
+550,82,agent-properties,138,antonym,2,Chao wants the wheel less than the truck.,Does Chao make more effort to get the wheel than to get the truck?,No,-0.9839510917663574,-0.48601728677749634,No,True
+551,82,agent-properties,138,antonym,1,Chao wants the wheel more than the truck.,Does Chao make less effort to get the wheel than to get the truck?,No,-0.9840008616447449,-0.4841177761554718,No,True
+552,82,agent-properties,138,antonym,2,Chao wants the wheel less than the truck.,Does Chao make less effort to get the wheel than to get the truck?,Yes,-0.5894012451171875,-0.8395395874977112,Yes,True
+554,82,agent-properties,139,variable swap,2,Chao wants the truck more than the wheel.,Does Chao make more effort to get the wheel than to get the truck?,No,-1.6090235710144043,-0.2351243793964386,No,True
+556,82,agent-properties,139,variable swap,2,Chao wants the truck more than the wheel.,Does Chao make less effort to get the wheel than to get the truck?,Yes,-0.9840448498725891,-0.48413339257240295,No,False
+557,82,agent-properties,140,variable swap,1,Chao wants the truck less than the wheel.,Does Chao make more effort to get the wheel than to get the truck?,Yes,-0.39611953496932983,-1.1482157707214355,Yes,True
+559,82,agent-properties,140,variable swap,1,Chao wants the truck less than the wheel.,Does Chao make less effort to get the wheel than to get the truck?,No,-0.39807194471359253,-1.1482157707214355,Yes,False
+563,82,agent-properties,141,antonym,1,Chao wants the wheel more than the truck.,Does Chao make more effort to get the truck than to get the wheel?,No,-1.413713812828064,-0.29075995087623596,No,True
+564,82,agent-properties,141,antonym,2,Chao wants the wheel less than the truck.,Does Chao make more effort to get the truck than to get the wheel?,Yes,-1.0698784589767456,-0.44304245710372925,No,False
+568,82,agent-properties,142,variable swap,2,Chao wants the truck more than the wheel.,Does Chao make more effort to get the truck than to get the wheel?,Yes,-0.10862961411476135,-2.3592190742492676,Yes,True
+571,82,agent-properties,143,variable swap,1,Chao wants the truck less than the wheel.,Does Chao make more effort to get the truck than to get the wheel?,No,-0.7653049826622009,-0.6404308080673218,No,True
+573,82,agent-properties,144,antonym,1,Chao wants the wheel more than the truck.,Does Chao make less effort to get the truck than to get the wheel?,Yes,-0.9840647578239441,-0.4841480553150177,No,False
+574,82,agent-properties,144,antonym,2,Chao wants the wheel less than the truck.,Does Chao make less effort to get the truck than to get the wheel?,No,-0.909710168838501,-0.5348682999610901,No,True
+578,82,agent-properties,145,variable swap,2,Chao wants the truck more than the wheel.,Does Chao make less effort to get the truck than to get the wheel?,No,-0.9059446454048157,-0.5310647487640381,No,True
+581,82,agent-properties,146,variable swap,1,Chao wants the truck less than the wheel.,Does Chao make less effort to get the truck than to get the wheel?,Yes,-0.6403049826622009,-0.7654308080673218,Yes,True
+585,83,agent-properties,147,antonym,1,Chao hates the wheel less than the truck.,Does Chao make more effort to get the wheel than to get the truck?,Yes,-0.9878556728363037,-0.48798874020576477,No,False
+586,83,agent-properties,147,antonym,2,Chao hates the wheel more than the truck.,Does Chao make more effort to get the wheel than to get the truck?,No,-0.8394278883934021,-0.5895395874977112,No,True
+587,83,agent-properties,147,antonym,1,Chao hates the wheel less than the truck.,Does Chao make less effort to get the wheel than to get the truck?,No,-0.7729681730270386,-0.6481149792671204,No,True
+588,83,agent-properties,147,antonym,2,Chao hates the wheel more than the truck.,Does Chao make less effort to get the wheel than to get the truck?,Yes,-0.5386147499084473,-0.9137547612190247,Yes,True
+590,83,agent-properties,148,variable swap,2,Chao hates the truck less than the wheel.,Does Chao make more effort to get the wheel than to get the truck?,No,-0.4410247206687927,-1.0700491666793823,Yes,False
+592,83,agent-properties,148,variable swap,2,Chao hates the truck less than the wheel.,Does Chao make less effort to get the wheel than to get the truck?,Yes,-0.4878813922405243,-0.9880231022834778,Yes,True
+593,83,agent-properties,149,variable swap,1,Chao hates the truck more than the wheel.,Does Chao make more effort to get the wheel than to get the truck?,Yes,-0.48595327138900757,-0.9880386590957642,Yes,True
+595,83,agent-properties,149,variable swap,1,Chao hates the truck more than the wheel.,Does Chao make less effort to get the wheel than to get the truck?,No,-0.48592910170555115,-0.9880386590957642,Yes,False
+599,83,agent-properties,150,antonym,1,Chao hates the wheel less than the truck.,Does Chao make more effort to get the truck than to get the wheel?,No,-0.773048460483551,-0.6481345295906067,No,True
+600,83,agent-properties,150,antonym,2,Chao hates the wheel more than the truck.,Does Chao make more effort to get the truck than to get the wheel?,Yes,-0.5347864031791687,-0.9099021553993225,Yes,True
+604,83,agent-properties,151,variable swap,2,Chao hates the truck less than the wheel.,Does Chao make more effort to get the truck than to get the wheel?,Yes,-0.769189178943634,-0.6442961692810059,No,False
+607,83,agent-properties,152,variable swap,1,Chao hates the truck more than the wheel.,Does Chao make more effort to get the truck than to get the wheel?,No,-0.5348088145256042,-0.9099318981170654,Yes,False
+609,83,agent-properties,153,antonym,1,Chao hates the wheel less than the truck.,Does Chao make less effort to get the truck than to get the wheel?,Yes,-0.7729966640472412,-0.6481345295906067,No,False
+610,83,agent-properties,153,antonym,2,Chao hates the wheel more than the truck.,Does Chao make less effort to get the truck than to get the wheel?,No,-0.5894012451171875,-0.8395395874977112,Yes,False
+614,83,agent-properties,154,variable swap,2,Chao hates the truck less than the wheel.,Does Chao make less effort to get the truck than to get the wheel?,No,-0.5347864031791687,-0.9099318981170654,Yes,False
+617,83,agent-properties,155,variable swap,1,Chao hates the truck more than the wheel.,Does Chao make less effort to get the truck than to get the wheel?,Yes,-0.3590448498725891,-1.2341617345809937,Yes,True
+621,84,agent-properties,156,antonym,1,Chao is more intent on meeting Yan than meeting Ali.,Does Chao make more effort to interact with Yan than with Ali?,Yes,-0.023969106376171112,-4.406075954437256,Yes,True
+622,84,agent-properties,156,antonym,2,Chao is less intent on meeting Yan than meeting Ali.,Does Chao make more effort to interact with Yan than with Ali?,No,-1.5074048042297363,-0.2614544928073883,No,True
+624,84,agent-properties,156,antonym,2,Chao is less intent on meeting Yan than meeting Ali.,Does Chao make less effort to interact with Yan than with Ali?,Yes,-0.12419681996107101,-2.2497966289520264,Yes,True
+626,84,agent-properties,157,variable swap,2,Chao is more intent on meeting Ali than meeting Yan.,Does Chao make more effort to interact with Yan than with Ali?,No,-4.468142509460449,-0.01841059885919094,No,True
+628,84,agent-properties,157,variable swap,2,Chao is more intent on meeting Ali than meeting Yan.,Does Chao make less effort to interact with Yan than with Ali?,Yes,-0.07973676919937134,-2.7029309272766113,Yes,True
+629,84,agent-properties,158,variable swap,1,Chao is less intent on meeting Ali than meeting Yan.,Does Chao make more effort to interact with Yan than with Ali?,Yes,-0.05416754633188248,-3.1716983318328857,Yes,True
+631,84,agent-properties,158,variable swap,1,Chao is less intent on meeting Ali than meeting Yan.,Does Chao make less effort to interact with Yan than with Ali?,No,-0.11248175799846649,-2.3591983318328857,Yes,False
+635,84,agent-properties,159,antonym,1,Chao is more intent on meeting Yan than meeting Ali.,Does Chao make more effort to interact with Ali than with Yan?,No,-4.468179702758789,-0.01828852854669094,No,True
+636,84,agent-properties,159,antonym,2,Chao is less intent on meeting Yan than meeting Ali.,Does Chao make more effort to interact with Ali than with Yan?,Yes,-0.19397646188735962,-1.8200942277908325,Yes,True
+640,84,agent-properties,160,variable swap,2,Chao is more intent on meeting Ali than meeting Yan.,Does Chao make more effort to interact with Ali than with Yan?,Yes,-0.027487218379974365,-4.281064987182617,Yes,True
+643,84,agent-properties,161,variable swap,1,Chao is less intent on meeting Ali than meeting Yan.,Does Chao make more effort to interact with Ali than with Yan?,No,-1.6089236736297607,-0.23601727187633514,No,True
+645,84,agent-properties,162,antonym,1,Chao is more intent on meeting Yan than meeting Ali.,Does Chao make less effort to interact with Ali than with Yan?,Yes,-0.15297526121139526,-2.0310401916503906,Yes,True
+646,84,agent-properties,162,antonym,2,Chao is less intent on meeting Yan than meeting Ali.,Does Chao make less effort to interact with Ali than with Yan?,No,-0.21545298397541046,-1.718540072441101,Yes,False
+650,84,agent-properties,163,variable swap,2,Chao is more intent on meeting Ali than meeting Yan.,Does Chao make less effort to interact with Ali than with Yan?,No,-0.3609033524990082,-1.2341480255126953,Yes,False
+653,84,agent-properties,164,variable swap,1,Chao is less intent on meeting Ali than meeting Yan.,Does Chao make less effort to interact with Ali than with Yan?,Yes,-0.11152426898479462,-2.3591983318328857,Yes,True
+657,85,agent-properties,165,antonym,1,Chao is less hesitant to meet with Yan than with Ali.,Does Chao make more effort to interact with Yan than with Ali?,Yes,-0.06464473903179169,-2.9373416900634766,Yes,True
+658,85,agent-properties,165,antonym,2,Chao is more hesitant to meet with Yan than with Ali.,Does Chao make more effort to interact with Yan than with Ali?,No,-1.2340447902679443,-0.35528138279914856,No,True
+659,85,agent-properties,165,antonym,1,Chao is less hesitant to meet with Yan than with Ali.,Does Chao make less effort to interact with Yan than with Ali?,No,-0.5856149792671204,-0.8357536792755127,Yes,False
+660,85,agent-properties,165,antonym,2,Chao is more hesitant to meet with Yan than with Ali.,Does Chao make less effort to interact with Yan than with Ali?,Yes,-0.1345018446445465,-2.140453815460205,Yes,True
+662,85,agent-properties,166,variable swap,2,Chao is less hesitant to meet with Ali than with Yan.,Does Chao make more effort to interact with Yan than with Ali?,No,-2.2495415210723877,-0.12034539133310318,No,True
+664,85,agent-properties,166,variable swap,2,Chao is less hesitant to meet with Ali than with Yan.,Does Chao make less effort to interact with Yan than with Ali?,Yes,-0.32192689180374146,-1.320131540298462,Yes,True
+665,85,agent-properties,167,variable swap,1,Chao is more hesitant to meet with Ali than with Yan.,Does Chao make more effort to interact with Yan than with Ali?,Yes,-0.25946667790412903,-1.507652759552002,Yes,True
+667,85,agent-properties,167,variable swap,1,Chao is more hesitant to meet with Ali than with Yan.,Does Chao make less effort to interact with Yan than with Ali?,No,-0.7652389407157898,-0.6404049396514893,No,True
+671,85,agent-properties,168,antonym,1,Chao is less hesitant to meet with Yan than with Ali.,Does Chao make more effort to interact with Ali than with Yan?,No,-2.0308055877685547,-0.15113046765327454,No,True
+672,85,agent-properties,168,antonym,2,Chao is more hesitant to meet with Yan than with Ali.,Does Chao make more effort to interact with Ali than with Yan?,Yes,-0.3219473958015442,-1.320152759552002,Yes,True
+676,85,agent-properties,169,variable swap,2,Chao is less hesitant to meet with Ali than with Yan.,Does Chao make more effort to interact with Ali than with Yan?,Yes,-0.04780391976237297,-3.2966983318328857,Yes,True
+679,85,agent-properties,170,variable swap,1,Chao is more hesitant to meet with Ali than with Yan.,Does Chao make more effort to interact with Ali than with Yan?,No,-0.9059039950370789,-0.531052827835083,No,True
+681,85,agent-properties,171,antonym,1,Chao is less hesitant to meet with Yan than with Ali.,Does Chao make less effort to interact with Ali than with Yan?,Yes,-0.3219473958015442,-1.320131540298462,Yes,True
+682,85,agent-properties,171,antonym,2,Chao is more hesitant to meet with Yan than with Ali.,Does Chao make less effort to interact with Ali than with Yan?,No,-0.835594117641449,-0.5857292413711548,No,True
+686,85,agent-properties,172,variable swap,2,Chao is less hesitant to meet with Ali than with Yan.,Does Chao make less effort to interact with Ali than with Yan?,No,-0.7027843594551086,-0.7029426097869873,Yes,False
+689,85,agent-properties,173,variable swap,1,Chao is more hesitant to meet with Ali than with Yan.,Does Chao make less effort to interact with Ali than with Yan?,Yes,-0.15012267231941223,-2.031075954437256,Yes,True
+693,86,agent-properties,174,antonym,1,Chao likes Yan more than Ali.,Does Chao make more effort to interact with Yan than with Ali?,Yes,-0.05000058934092522,-3.296686887741089,Yes,True
+694,86,agent-properties,174,antonym,2,Chao likes Yan less than Ali.,Does Chao make more effort to interact with Yan than with Ali?,No,-1.5152140855789185,-0.2614704668521881,No,True
+695,86,agent-properties,174,antonym,1,Chao likes Yan more than Ali.,Does Chao make less effort to interact with Yan than with Ali?,No,-0.2945711016654968,-1.4216333627700806,Yes,False
+696,86,agent-properties,174,antonym,2,Chao likes Yan less than Ali.,Does Chao make less effort to interact with Yan than with Ali?,Yes,-0.2145199179649353,-1.7107157707214355,Yes,True
+698,86,agent-properties,175,variable swap,2,Chao likes Ali more than Yan.,Does Chao make more effort to interact with Yan than with Ali?,No,-2.2495954036712646,-0.12083355337381363,No,True
+700,86,agent-properties,175,variable swap,2,Chao likes Ali more than Yan.,Does Chao make less effort to interact with Yan than with Ali?,Yes,-0.2945484519004822,-1.4216480255126953,Yes,True
+701,86,agent-properties,176,variable swap,1,Chao likes Ali less than Yan.,Does Chao make more effort to interact with Yan than with Ali?,Yes,-0.11103610694408417,-2.3591983318328857,Yes,True
+703,86,agent-properties,176,variable swap,1,Chao likes Ali less than Yan.,Does Chao make less effort to interact with Yan than with Ali?,No,-0.2965235114097595,-1.4216480255126953,Yes,False
+707,86,agent-properties,177,antonym,1,Chao likes Yan more than Ali.,Does Chao make more effort to interact with Ali than with Yan?,No,-2.3589766025543213,-0.10862961411476135,No,True
+708,86,agent-properties,177,antonym,2,Chao likes Yan less than Ali.,Does Chao make more effort to interact with Ali than with Yan?,Yes,-0.19206611812114716,-1.820119857788086,Yes,True
+712,86,agent-properties,178,variable swap,2,Chao likes Ali more than Yan.,Does Chao make more effort to interact with Ali than with Yan?,Yes,-0.04951242730021477,-3.2966747283935547,Yes,True
+715,86,agent-properties,179,variable swap,1,Chao likes Ali less than Yan.,Does Chao make more effort to interact with Ali than with Yan?,No,-1.5152390003204346,-0.2614544928073883,No,True
+717,86,agent-properties,180,antonym,1,Chao likes Yan more than Ali.,Does Chao make less effort to interact with Ali than with Yan?,Yes,-0.26528435945510864,-1.5153757333755493,Yes,True
+718,86,agent-properties,180,antonym,2,Chao likes Yan less than Ali.,Does Chao make less effort to interact with Ali than with Yan?,No,-0.36490219831466675,-1.24197256565094,Yes,False
+722,86,agent-properties,181,variable swap,2,Chao likes Ali more than Yan.,Does Chao make less effort to interact with Ali than with Yan?,No,-0.5894278883934021,-0.839557945728302,Yes,False
+725,86,agent-properties,182,variable swap,1,Chao likes Ali less than Yan.,Does Chao make less effort to interact with Ali than with Yan?,Yes,-0.21449905633926392,-1.7184967994689941,Yes,True
+729,87,agent-properties,183,antonym,1,Chao hates Yan less than Ali.,Does Chao make more effort to interact with Yan than with Ali?,Yes,-0.7730233073234558,-0.6481528878211975,No,False
+730,87,agent-properties,183,antonym,2,Chao hates Yan more than Ali.,Does Chao make more effort to interact with Yan than with Ali?,No,-0.7104681730270386,-0.7106345295906067,Yes,False
+731,87,agent-properties,183,antonym,1,Chao hates Yan less than Ali.,Does Chao make less effort to interact with Yan than with Ali?,No,-0.29845327138900757,-1.4216177463531494,Yes,False
+732,87,agent-properties,183,antonym,2,Chao hates Yan more than Ali.,Does Chao make less effort to interact with Yan than with Ali?,Yes,-0.19688184559345245,-1.8200491666793823,Yes,True
+734,87,agent-properties,184,variable swap,2,Chao hates Ali less than Yan.,Does Chao make more effort to interact with Yan than with Ali?,No,-0.1578773856163025,-2.0310122966766357,Yes,False
+736,87,agent-properties,184,variable swap,2,Chao hates Ali less than Yan.,Does Chao make less effort to interact with Yan than with Ali?,Yes,-0.29845327138900757,-1.4216011762619019,Yes,True
+737,87,agent-properties,185,variable swap,1,Chao hates Ali more than Yan.,Does Chao make more effort to interact with Yan than with Ali?,Yes,-0.3277389705181122,-1.3278757333755493,Yes,True
+739,87,agent-properties,185,variable swap,1,Chao hates Ali more than Yan.,Does Chao make less effort to interact with Yan than with Ali?,No,-0.2671663463115692,-1.5153424739837646,Yes,False
+743,87,agent-properties,186,antonym,1,Chao hates Yan less than Ali.,Does Chao make more effort to interact with Ali than with Yan?,No,-0.331643670797348,-1.3278757333755493,Yes,False
+744,87,agent-properties,186,antonym,2,Chao hates Yan more than Ali.,Does Chao make more effort to interact with Ali than with Yan?,Yes,-0.5386672616004944,-0.9137908816337585,Yes,True
+748,87,agent-properties,187,variable swap,2,Chao hates Ali less than Yan.,Does Chao make more effort to interact with Ali than with Yan?,Yes,-0.6480233073234558,-0.7731528878211975,Yes,True
+751,87,agent-properties,188,variable swap,1,Chao hates Ali more than Yan.,Does Chao make more effort to interact with Ali than with Yan?,No,-0.8393726348876953,-0.5895395874977112,No,True
+753,87,agent-properties,189,antonym,1,Chao hates Yan less than Ali.,Does Chao make less effort to interact with Ali than with Yan?,Yes,-0.4488094747066498,-1.0700322389602661,Yes,True
+754,87,agent-properties,189,antonym,2,Chao hates Yan more than Ali.,Does Chao make less effort to interact with Ali than with Yan?,No,-0.3316187560558319,-1.335634469985962,Yes,False
+758,87,agent-properties,190,variable swap,2,Chao hates Ali less than Yan.,Does Chao make less effort to interact with Ali than with Yan?,No,-0.269143670797348,-1.523186206817627,Yes,False
+761,87,agent-properties,191,variable swap,1,Chao hates Ali more than Yan.,Does Chao make less effort to interact with Ali than with Yan?,Yes,-0.2183193862438202,-1.7184804677963257,Yes,True
+765,88,agent-properties,192,antonym,1,Chao enjoys playing football more than playing pool.,Does Chao choose football over pool?,Yes,-0.02199533022940159,-4.406105995178223,Yes,True
+766,88,agent-properties,192,antonym,2,Chao enjoys playing football less than playing pool.,Does Chao choose football over pool?,No,-2.937142848968506,-0.06275764107704163,No,True
+767,88,agent-properties,192,antonym,1,Chao enjoys playing football more than playing pool.,Does Chao choose pool over football?,No,-5.187069416046143,-0.013667137362062931,No,True
+768,88,agent-properties,192,antonym,2,Chao enjoys playing football less than playing pool.,Does Chao choose pool over football?,Yes,-0.2331414520740509,-1.6091747283935547,Yes,True
+770,88,agent-properties,193,variable swap,2,Chao enjoys playing pool more than playing football.,Does Chao choose football over pool?,No,-4.999569416046143,-0.014109400101006031,No,True
+772,88,agent-properties,193,variable swap,2,Chao enjoys playing pool more than playing football.,Does Chao choose pool over football?,Yes,-0.019540218636393547,-4.656096458435059,Yes,True
+773,88,agent-properties,194,variable swap,1,Chao enjoys playing pool less than playing football.,Does Chao choose football over pool?,Yes,-0.3961624503135681,-1.1482014656066895,Yes,True
+775,88,agent-properties,194,variable swap,1,Chao enjoys playing pool less than playing football.,Does Chao choose pool over football?,No,-3.0620694160461426,-0.05686906352639198,No,True
+777,89,agent-properties,195,antonym,1,Chao thinks that playing football requires less effort than playing pool. Chao is tired.,Does Chao choose football over pool?,Yes,-0.8357292413711548,-0.5857418775558472,No,False
+778,89,agent-properties,195,antonym,2,Chao thinks that playing football requires more effort than playing pool. Chao is tired.,Does Chao choose football over pool?,No,-2.4841012954711914,-0.10377814620733261,No,True
+779,89,agent-properties,195,antonym,1,Chao thinks that playing football requires less effort than playing pool. Chao is tired.,Does Chao choose pool over football?,No,-0.2615129053592682,-1.5076425075531006,Yes,False
+780,89,agent-properties,195,antonym,2,Chao thinks that playing football requires more effort than playing pool. Chao is tired.,Does Chao choose pool over football?,Yes,-0.11111452430486679,-2.3592090606689453,Yes,True
+782,89,agent-properties,196,variable swap,2,Chao thinks that playing pool requires less effort than playing football. Chao is tired.,Does Chao choose football over pool?,No,-1.8200322389602661,-0.19309666752815247,No,True
+784,89,agent-properties,196,variable swap,2,Chao thinks that playing pool requires less effort than playing football. Chao is tired.,Does Chao choose pool over football?,Yes,-0.06377340853214264,-2.9373416900634766,Yes,True
+785,89,agent-properties,197,variable swap,1,Chao thinks that playing pool requires more effort than playing football. Chao is tired.,Does Chao choose football over pool?,Yes,-0.5349021553993225,-0.9099174737930298,Yes,True
+787,89,agent-properties,197,variable swap,1,Chao thinks that playing pool requires more effort than playing football. Chao is tired.,Does Chao choose pool over football?,No,-1.5153757333755493,-0.26540496945381165,No,True
+789,90,agent-properties,198,antonym,1,Chao will be more satisfied after getting the wheel than after getting the truck.,Does Chao choose the wheel over the truck?,Yes,-0.585594117641449,-0.8357418775558472,Yes,True
+790,90,agent-properties,198,antonym,2,Chao will be less satisfied after getting the wheel than after getting the truck.,Does Chao choose the wheel over the truck?,No,-1.413713812828064,-0.29081645607948303,No,True
+791,90,agent-properties,198,antonym,1,Chao will be more satisfied after getting the wheel than after getting the truck.,Does Chao choose the truck over the wheel?,No,-2.249619960784912,-0.12278620153665543,No,True
+792,90,agent-properties,198,antonym,2,Chao will be less satisfied after getting the wheel than after getting the truck.,Does Chao choose the truck over the wheel?,Yes,-0.530963122844696,-0.906052827835083,Yes,True
+794,90,agent-properties,199,variable swap,2,Chao will be more satisfied after getting the truck than after getting the wheel.,Does Chao choose the wheel over the truck?,No,-3.5464236736297607,-0.039051447063684464,No,True
+796,90,agent-properties,199,variable swap,2,Chao will be more satisfied after getting the truck than after getting the wheel.,Does Chao choose the truck over the wheel?,Yes,-0.19009333848953247,-1.81230890750885,Yes,True
+797,90,agent-properties,200,variable swap,1,Chao will be less satisfied after getting the truck than after getting the wheel.,Does Chao choose the wheel over the truck?,Yes,-0.7691436409950256,-0.6443103551864624,No,False
+799,90,agent-properties,200,variable swap,1,Chao will be less satisfied after getting the truck than after getting the wheel.,Does Chao choose the truck over the wheel?,No,-0.9098088145256042,-0.5349454879760742,No,True
+801,91,agent-properties,201,antonym,1,Chao wants either the wheel or the truck. The wheel costs less than the truck.,Does Chao choose the wheel over the truck?,Yes,-0.1686723530292511,-1.9217089414596558,Yes,True
+802,91,agent-properties,201,antonym,2,Chao wants either the wheel or the truck. The wheel costs more than the truck.,Does Chao choose the wheel over the truck?,No,-0.9097625613212585,-0.5349021553993225,No,True
+803,91,agent-properties,201,antonym,1,Chao wants either the wheel or the truck. The wheel costs less than the truck.,Does Chao choose the truck over the wheel?,No,-2.1402390003204346,-0.13641922175884247,No,True
+804,91,agent-properties,201,antonym,2,Chao wants either the wheel or the truck. The wheel costs more than the truck.,Does Chao choose the truck over the wheel?,Yes,-0.835548460483551,-0.5856700539588928,No,False
+806,91,agent-properties,202,variable swap,2,Chao wants either the truck or the wheel. The truck costs less than the wheel.,Does Chao choose the wheel over the truck?,No,-1.6089510917663574,-0.23603610694408417,No,True
+808,91,agent-properties,202,variable swap,2,Chao wants either the truck or the wheel. The truck costs less than the wheel.,Does Chao choose the truck over the wheel?,Yes,-0.3609759211540222,-1.2341747283935547,Yes,True
+809,91,agent-properties,203,variable swap,1,Chao wants either the truck or the wheel. The truck costs more than the wheel.,Does Chao choose the wheel over the truck?,Yes,-0.7691671252250671,-0.6442961692810059,No,False
+811,91,agent-properties,203,variable swap,1,Chao wants either the truck or the wheel. The truck costs more than the wheel.,Does Chao choose the truck over the wheel?,No,-0.9839766621589661,-0.4860704243183136,No,True
+813,92,agent-properties,204,antonym,1,Chao wants either the wheel or the truck. The wheel is closer to Chao than the truck.,Does Chao choose the wheel over the truck?,Yes,-0.025871189311146736,-4.031130313873291,Yes,True
+814,92,agent-properties,204,antonym,2,Chao wants either the wheel or the truck. The wheel is farther from Chao than the truck.,Does Chao choose the wheel over the truck?,No,-0.6403049826622009,-0.7654426097869873,Yes,False
+815,92,agent-properties,204,antonym,1,Chao wants either the wheel or the truck. The wheel is closer to Chao than the truck.,Does Chao choose the truck over the wheel?,No,-3.7809040546417236,-0.030795954167842865,No,True
+816,92,agent-properties,204,antonym,2,Chao wants either the wheel or the truck. The wheel is farther from Chao than the truck.,Does Chao choose the truck over the wheel?,Yes,-0.530963122844696,-0.9060964584350586,Yes,True
+818,92,agent-properties,205,variable swap,2,Chao wants either the truck or the wheel. The truck is closer to Chao than the wheel.,Does Chao choose the wheel over the truck?,No,-4.405881404876709,-0.020922917872667313,No,True
+820,92,agent-properties,205,variable swap,2,Chao wants either the truck or the wheel. The truck is closer to Chao than the wheel.,Does Chao choose the truck over the wheel?,Yes,-0.017737172544002533,-4.593630313873291,Yes,True
+821,92,agent-properties,206,variable swap,1,Chao wants either the truck or the wheel. The truck is farther from Chao than the wheel.,Does Chao choose the wheel over the truck?,Yes,-0.3942648470401764,-1.1404829025268555,Yes,True
+823,92,agent-properties,206,variable swap,1,Chao wants either the truck or the wheel. The truck is farther from Chao than the wheel.,Does Chao choose the truck over the wheel?,No,-0.7653596997261047,-0.6404426097869873,No,True
+825,93,agent-properties,207,antonym,1,Chao likes both the wheel and the truck. Getting the wheel takes less time than getting the truck.,Does Chao choose the wheel over the truck?,Yes,-0.08856324851512909,-2.593575954437256,Yes,True
+826,93,agent-properties,207,antonym,2,Chao likes both the wheel and the truck. Getting the wheel takes more time than getting the truck.,Does Chao choose the wheel over the truck?,No,-2.030881643295288,-0.15207532048225403,No,True
+827,93,agent-properties,207,antonym,1,Chao likes both the wheel and the truck. Getting the wheel takes less time than getting the truck.,Does Chao choose the truck over the wheel?,No,-2.4683055877685547,-0.10078518092632294,No,True
+828,93,agent-properties,207,antonym,2,Chao likes both the wheel and the truck. Getting the wheel takes more time than getting the truck.,Does Chao choose the truck over the wheel?,Yes,-0.7027623057365417,-0.7028757929801941,Yes,True
+830,93,agent-properties,208,variable swap,2,Chao likes both the truck and the wheel. Getting the truck takes less time than getting the wheel.,Does Chao choose the wheel over the truck?,No,-2.249664545059204,-0.12185432761907578,No,True
+832,93,agent-properties,208,variable swap,2,Chao likes both the truck and the wheel. Getting the truck takes less time than getting the wheel.,Does Chao choose the truck over the wheel?,Yes,-0.0793241634964943,-2.7029426097869873,Yes,True
+833,93,agent-properties,209,variable swap,1,Chao likes both the truck and the wheel. Getting the truck takes more time than getting the wheel.,Does Chao choose the wheel over the truck?,Yes,-0.4372219145298004,-1.06230890750885,Yes,True
+835,93,agent-properties,209,variable swap,1,Chao likes both the truck and the wheel. Getting the truck takes more time than getting the wheel.,Does Chao choose the truck over the wheel?,No,-1.7105940580368042,-0.21359899640083313,No,True
+837,94,agent-properties,210,antonym,1,Chao likes Yan more than Ali.,Does Chao choose Yan over Ali?,Yes,-0.05735722556710243,-3.0623416900634766,Yes,True
+838,94,agent-properties,210,antonym,2,Chao likes Yan less than Ali.,Does Chao choose Yan over Ali?,No,-2.702784299850464,-0.0750134140253067,No,True
+839,94,agent-properties,210,antonym,1,Chao likes Yan more than Ali.,Does Chao choose Ali over Yan?,No,-1.8121429681777954,-0.18723872303962708,No,True
+840,94,agent-properties,210,antonym,2,Chao likes Yan less than Ali.,Does Chao choose Ali over Yan?,Yes,-0.2096938192844391,-1.7107752561569214,Yes,True
+842,94,agent-properties,211,variable swap,2,Chao likes Ali more than Yan.,Does Chao choose Yan over Ali?,No,-3.1714236736297607,-0.0493183434009552,No,True
+844,94,agent-properties,211,variable swap,2,Chao likes Ali more than Yan.,Does Chao choose Ali over Yan?,Yes,-0.06466261297464371,-2.9373416900634766,Yes,True
+845,94,agent-properties,212,variable swap,1,Chao likes Ali less than Yan.,Does Chao choose Yan over Ali?,Yes,-0.13546113669872284,-2.1404738426208496,Yes,True
+847,94,agent-properties,212,variable swap,1,Chao likes Ali less than Yan.,Does Chao choose Ali over Yan?,No,-1.7105940580368042,-0.20780016481876373,No,True
+849,95,agent-properties,213,antonym,1,Chao hates Yan less than Ali.,Does Chao choose Yan over Ali?,Yes,-1.1480940580368042,-0.3943103849887848,No,False
+850,95,agent-properties,213,antonym,2,Chao hates Yan more than Ali.,Does Chao choose Yan over Ali?,No,-1.3199048042297363,-0.3220018446445465,No,True
+851,95,agent-properties,213,antonym,1,Chao hates Yan less than Ali.,Does Chao choose Ali over Yan?,No,-0.48601728677749634,-0.9841867685317993,Yes,False
+852,95,agent-properties,213,antonym,2,Chao hates Yan more than Ali.,Does Chao choose Ali over Yan?,Yes,-0.4859759211540222,-0.9841480255126953,Yes,True
+854,95,agent-properties,214,variable swap,2,Chao hates Ali less than Yan.,Does Chao choose Yan over Ali?,No,-0.32389992475509644,-1.320131540298462,Yes,False
+856,95,agent-properties,214,variable swap,2,Chao hates Ali less than Yan.,Does Chao choose Ali over Yan?,Yes,-0.7027623057365417,-0.7029049396514893,Yes,True
+857,95,agent-properties,215,variable swap,1,Chao hates Ali more than Yan.,Does Chao choose Yan over Ali?,Yes,-0.3960960805416107,-1.1482157707214355,Yes,True
+859,95,agent-properties,215,variable swap,1,Chao hates Ali more than Yan.,Does Chao choose Ali over Yan?,No,-0.9840235114097595,-0.48413339257240295,No,True
+861,96,agent-properties,216,antonym,1,Chao needs to see either Yan or Ali. Yan charges less than Ali.,Does Chao choose Yan over Ali?,Yes,-0.1304771453142166,-2.2497966289520264,Yes,True
+862,96,agent-properties,216,antonym,2,Chao needs to see either Yan or Ali. Yan charges more than Ali.,Does Chao choose Yan over Ali?,No,-1.2417327165603638,-0.3629283308982849,No,True
+863,96,agent-properties,216,antonym,1,Chao needs to see either Yan or Ali. Yan charges less than Ali.,Does Chao choose Ali over Yan?,No,-1.5150973796844482,-0.26528435945510864,No,True
+864,96,agent-properties,216,antonym,2,Chao needs to see either Yan or Ali. Yan charges more than Ali.,Does Chao choose Ali over Yan?,Yes,-0.44492942094802856,-1.0700491666793823,Yes,True
+866,96,agent-properties,217,variable swap,2,Chao needs to see either Ali or Yan. Ali charges less than Yan.,Does Chao choose Yan over Ali?,No,-1.8120120763778687,-0.19007164239883423,No,True
+868,96,agent-properties,217,variable swap,2,Chao needs to see either Ali or Yan. Ali charges less than Yan.,Does Chao choose Ali over Yan?,Yes,-0.16178232431411743,-2.0310401916503906,Yes,True
+869,96,agent-properties,218,variable swap,1,Chao needs to see either Ali or Yan. Ali charges more than Yan.,Does Chao choose Yan over Ali?,Yes,-0.4859759211540222,-0.9880671501159668,Yes,True
+871,96,agent-properties,218,variable swap,1,Chao needs to see either Ali or Yan. Ali charges more than Yan.,Does Chao choose Ali over Yan?,No,-1.2339767217636108,-0.36105385422706604,No,True
+873,97,agent-properties,219,antonym,1,Chao needs to see either Yan or Ali. Yan lives closer than Ali.,Does Chao choose Yan over Ali?,Yes,-0.03657666966319084,-3.843575954437256,Yes,True
+874,97,agent-properties,219,antonym,2,Chao needs to see either Yan or Ali. Yan lives further than Ali.,Does Chao choose Yan over Ali?,No,-0.3257865309715271,-1.32785964012146,Yes,False
+875,97,agent-properties,219,antonym,1,Chao needs to see either Yan or Ali. Yan lives closer than Ali.,Does Chao choose Ali over Yan?,No,-2.5932140350341797,-0.08996493369340897,No,True
+876,97,agent-properties,219,antonym,2,Chao needs to see either Yan or Ali. Yan lives further than Ali.,Does Chao choose Ali over Yan?,Yes,-1.6088945865631104,-0.23785564303398132,No,False
+878,97,agent-properties,220,variable swap,2,Chao needs to see either Ali or Yan. Ali lives closer than Yan.,Does Chao choose Yan over Ali?,No,-3.421363592147827,-0.04361611232161522,No,True
+880,97,agent-properties,220,variable swap,2,Chao needs to see either Ali or Yan. Ali lives closer than Yan.,Does Chao choose Ali over Yan?,Yes,-0.045119207352399826,-3.6091983318328857,Yes,True
+881,97,agent-properties,221,variable swap,1,Chao needs to see either Ali or Yan. Ali lives further than Yan.,Does Chao choose Yan over Ali?,Yes,-2.1400632858276367,-0.13820718228816986,No,False
+883,97,agent-properties,221,variable swap,1,Chao needs to see either Ali or Yan. Ali lives further than Yan.,Does Chao choose Ali over Yan?,No,-0.3629055619239807,-1.2341177463531494,Yes,False
+885,98,agent-properties,222,antonym,1,Chao needs to see either Yan or Ali. It will take less time to see Yan than Ali.,Does Chao choose Yan over Ali?,Yes,-0.03094463236629963,-4.156075954437256,Yes,True
+886,98,agent-properties,222,antonym,2,Chao needs to see either Yan or Ali. It will take more time to see Yan than Ali.,Does Chao choose Yan over Ali?,No,-1.1479681730270386,-0.4000466465950012,No,True
+887,98,agent-properties,222,antonym,1,Chao needs to see either Yan or Ali. It will take less time to see Yan than Ali.,Does Chao choose Ali over Yan?,No,-3.7806427478790283,-0.03308946266770363,No,True
+888,98,agent-properties,222,antonym,2,Chao needs to see either Yan or Ali. It will take more time to see Yan than Ali.,Does Chao choose Ali over Yan?,Yes,-0.3629055619239807,-1.2340835332870483,Yes,True
+890,98,agent-properties,223,variable swap,2,Chao needs to see either Ali or Yan. It will take less time to see Ali than Yan.,Does Chao choose Yan over Ali?,No,-4.34321403503418,-0.021792100742459297,No,True
+892,98,agent-properties,223,variable swap,2,Chao needs to see either Ali or Yan. It will take less time to see Ali than Yan.,Does Chao choose Ali over Yan?,Yes,-0.03997509554028511,-3.734186887741089,Yes,True
+893,98,agent-properties,224,variable swap,1,Chao needs to see either Ali or Yan. It will take more time to see Ali than Yan.,Does Chao choose Yan over Ali?,Yes,-0.4000243544578552,-1.148186206817627,Yes,True
+895,98,agent-properties,224,variable swap,1,Chao needs to see either Ali or Yan. It will take more time to see Ali than Yan.,Does Chao choose Ali over Yan?,No,-0.9879055619239807,-0.486036092042923,No,True

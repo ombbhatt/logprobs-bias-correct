@@ -1,0 +1,329 @@
+Question Number,MetaTemplateID,Domain,ItemGroupID,ContextDiff,ContextNum,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+1,1,social-relations,1,negation,1,Chao knows Yan.,Are Chao and Yan friends?,Yes,-10.308158874511719,-11.937095642089844,Yes,True
+2,1,social-relations,1,negation,1,Chao knows Yan.,Are Chao and Yan strangers?,No,-12.436400413513184,-10.374859809875488,No,True
+3,1,social-relations,1,negation,2,Chao doesn't know Yan.,Are Chao and Yan friends?,No,-10.185900688171387,-4.4684038162231445,No,True
+4,1,social-relations,1,negation,2,Chao doesn't know Yan.,Are Chao and Yan strangers?,Yes,-6.936911582946777,-9.62476921081543,Yes,True
+5,2,social-relations,2,antonym,1,Chao is warm toward Yan.,Are Chao and Yan friends?,Yes,-3.868690252304077,-5.68451452255249,Yes,True
+6,2,social-relations,2,antonym,1,Chao is warm toward Yan.,Are Chao and Yan strangers?,No,-7.154600143432617,-2.952629327774048,No,True
+8,2,social-relations,2,antonym,2,Chao is indifferent toward Yan.,Are Chao and Yan strangers?,Yes,-9.498674392700195,-5.906053066253662,No,False
+9,3,social-relations,3,other,1,Chao likes Yan.,Are Chao and Yan friends?,Yes,-7.120921611785889,-8.624446868896484,Yes,True
+10,3,social-relations,3,other,1,Chao likes Yan.,Are Chao and Yan strangers?,No,-11.186530113220215,-6.6873979568481445,No,True
+13,4,social-relations,4,antonym,1,Chao enjoys spending time with Yan.,Are Chao and Yan friends?,Yes,-7.061173915863037,-13.437143325805664,Yes,True
+14,4,social-relations,4,antonym,1,Chao enjoys spending time with Yan.,Are Chao and Yan strangers?,No,-12.374195098876953,-5.812341690063477,No,True
+16,4,social-relations,4,antonym,2,Chao is indifferent about spending time with Yan.,Are Chao and Yan strangers?,Yes,-11.74882984161377,-7.374796390533447,No,False
+17,5,social-relations,5,antonym,1,Chao likes Yan.,Is Chao Yan's friend?,Yes,-7.9348649978637695,-9.749619483947754,Yes,True
+18,5,social-relations,5,antonym,1,Chao likes Yan.,Is Chao Yan's enemy?,No,-12.243284225463867,-5.811588764190674,No,True
+19,5,social-relations,5,antonym,2,Chao hates Yan.,Is Chao Yan's friend?,No,-10.936254501342773,-7.249703884124756,No,True
+20,5,social-relations,5,antonym,2,Chao hates Yan.,Is Chao Yan's enemy?,Yes,-8.560315132141113,-8.124541282653809,No,False
+21,6,social-relations,6,antonym,1,Chao enjoys spending time with Yan.,Is Chao Yan's friend?,Yes,-6.904881954193115,-12.312283515930176,Yes,True
+22,6,social-relations,6,antonym,1,Chao enjoys spending time with Yan.,Is Chao Yan's enemy?,No,-12.368284225463867,-4.029964923858643,No,True
+23,6,social-relations,6,antonym,2,Chao dislikes spending time with Yan.,Is Chao Yan's friend?,No,-10.124195098876953,-6.281053066253662,No,True
+24,6,social-relations,6,antonym,2,Chao dislikes spending time with Yan.,Is Chao Yan's enemy?,Yes,-10.746822357177734,-3.7489006519317627,No,False
+25,7,social-relations,7,antonym,1,Chao wants to work together with Yan.,Is Chao Yan's friend?,Yes,-7.5565714836120605,-12.187143325805664,Yes,True
+26,7,social-relations,7,antonym,1,Chao wants to work together with Yan.,Is Chao Yan's enemy?,No,-11.73895263671875,-4.749195575714111,No,True
+27,7,social-relations,7,antonym,2,Chao wants to work against Yan.,Is Chao Yan's friend?,No,-11.12252426147461,-5.4998087882995605,No,True
+28,7,social-relations,7,antonym,2,Chao wants to work against Yan.,Is Chao Yan's enemy?,Yes,-9.93502426147461,-4.468630313873291,No,False
+30,8,social-relations,8,antonym,1,Chao likes Yan.,Are Chao and Yan enemies?,No,-10.745379447937012,-4.218358039855957,No,True
+31,8,social-relations,8,antonym,2,Chao hates Yan.,Are Chao and Yan friends?,No,-10.810446739196777,-6.561911582946777,No,True
+32,8,social-relations,8,antonym,2,Chao hates Yan.,Are Chao and Yan enemies?,Yes,-8.683899879455566,-7.499332904815674,No,False
+34,9,social-relations,9,antonym,1,Chao enjoys spending time with Yan.,Are Chao and Yan enemies?,No,-12.058158874511719,-2.374333143234253,No,True
+35,9,social-relations,9,antonym,2,Chao dislikes spending time with Yan.,Are Chao and Yan friends?,No,-10.935900688171387,-8.31201171875,No,True
+36,9,social-relations,9,antonym,2,Chao dislikes spending time with Yan.,Are Chao and Yan enemies?,Yes,-11.685446739196777,-0.8431036472320557,No,False
+37,10,social-relations,10,antonym,1,Chao wants to work together with Yan.,Are Chao and Yan friends?,Yes,-7.244429588317871,-10.999195098876953,Yes,True
+38,10,social-relations,10,antonym,1,Chao wants to work together with Yan.,Are Chao and Yan enemies?,No,-12.434514999389648,-5.749684810638428,No,True
+39,10,social-relations,10,antonym,2,Chao wants to work against Yan.,Are Chao and Yan friends?,No,-10.808158874511719,-4.999446868896484,No,True
+40,10,social-relations,10,antonym,2,Chao wants to work against Yan.,Are Chao and Yan enemies?,Yes,-9.930353164672852,-6.187041759490967,No,False
+41,11,social-relations,11,antonym,1,Chao gives orders to Yan.,Is Chao Yan's boss?,Yes,-5.715669631958008,-8.93722152709961,Yes,True
+42,11,social-relations,11,antonym,1,Chao gives orders to Yan.,Is Chao Yan's subordinate?,No,-5.242853164672852,-9.811400413513184,Yes,False
+43,11,social-relations,11,antonym,2,Chao gets orders from Yan.,Is Chao Yan's boss?,No,-10.873071670532227,-5.687296390533447,No,True
+44,11,social-relations,11,antonym,2,Chao gets orders from Yan.,Is Chao Yan's subordinate?,Yes,-8.12008285522461,-8.999568939208984,Yes,True
+47,11,social-relations,12,variable swap,2,Yan gives orders to Chao.,Is Chao Yan's boss?,No,-9.561254501342773,-4.406144618988037,No,True
+48,11,social-relations,12,variable swap,2,Yan gives orders to Chao.,Is Chao Yan's subordinate?,Yes,-5.80787992477417,-10.061980247497559,Yes,True
+49,11,social-relations,13,variable swap,1,Yan gets orders from Chao.,Is Chao Yan's boss?,Yes,-10.122815132141113,-8.74976921081543,No,False
+50,11,social-relations,13,variable swap,1,Yan gets orders from Chao.,Is Chao Yan's subordinate?,No,-9.620379447937012,-10.124446868896484,Yes,False
+54,11,social-relations,14,antonym,1,Chao gives orders to Yan.,Is Yan Chao's boss?,No,-9.998297691345215,-5.062341690063477,No,True
+56,11,social-relations,14,antonym,2,Chao gets orders from Yan.,Is Yan Chao's boss?,Yes,-9.809514999389648,-8.87476921081543,No,False
+60,11,social-relations,15,variable swap,2,Yan gives orders to Chao.,Is Yan Chao's boss?,Yes,-8.62349796295166,-8.93735122680664,Yes,True
+62,11,social-relations,16,variable swap,1,Yan gets orders from Chao.,Is Yan Chao's boss?,No,-12.311254501342773,-7.812331199645996,No,True
+65,11,social-relations,17,antonym,1,Chao gives orders to Yan.,Is Yan Chao's subordinate?,Yes,-5.026176929473877,-7.842970371246338,Yes,True
+67,11,social-relations,17,antonym,2,Chao gets orders from Yan.,Is Yan Chao's subordinate?,No,-8.556190490722656,-9.624290466308594,Yes,False
+71,11,social-relations,18,variable swap,2,Yan gives orders to Chao.,Is Yan Chao's subordinate?,No,-6.745082378387451,-11.561833381652832,Yes,False
+73,11,social-relations,19,variable swap,1,Yan gets orders from Chao.,Is Yan Chao's subordinate?,Yes,-9.809117317199707,-10.374664306640625,Yes,True
+77,12,social-relations,20,antonym,1,Chao is Yan's employer.,Is Chao Yan's boss?,Yes,-8.996822357177734,-12.937283515930176,Yes,True
+78,12,social-relations,20,antonym,1,Chao is Yan's employer.,Is Chao Yan's subordinate?,No,-12.305353164672852,-10.749373435974121,No,True
+79,12,social-relations,20,antonym,2,Chao is Yan's employee.,Is Chao Yan's boss?,No,-12.622815132141113,-8.187397956848145,No,True
+80,12,social-relations,20,antonym,2,Chao is Yan's employee.,Is Chao Yan's subordinate?,Yes,-8.245658874511719,-14.562254905700684,Yes,True
+83,12,social-relations,21,variable swap,2,Yan is Chao's employer.,Is Chao Yan's boss?,No,-10.435446739196777,-9.187368392944336,No,True
+84,12,social-relations,21,variable swap,2,Yan is Chao's employer.,Is Chao Yan's subordinate?,Yes,-9.87116813659668,-11.562331199645996,Yes,True
+85,12,social-relations,22,variable swap,1,Yan is Chao's employee.,Is Chao Yan's boss?,Yes,-8.748071670532227,-10.874903678894043,Yes,True
+86,12,social-relations,22,variable swap,1,Yan is Chao's employee.,Is Chao Yan's subordinate?,No,-9.247014999389648,-11.874859809875488,Yes,False
+90,12,social-relations,23,antonym,1,Chao is Yan's employer.,Is Yan Chao's boss?,No,-11.748071670532227,-10.249859809875488,No,True
+92,12,social-relations,23,antonym,2,Chao is Yan's employee.,Is Yan Chao's boss?,Yes,-10.122815132141113,-10.874903678894043,Yes,True
+96,12,social-relations,24,variable swap,2,Yan is Chao's employer.,Is Yan Chao's boss?,Yes,-10.186088562011719,-9.249841690063477,No,False
+98,12,social-relations,25,variable swap,1,Yan is Chao's employee.,Is Yan Chao's boss?,No,-12.249290466308594,-7.18745756149292,No,True
+101,12,social-relations,26,antonym,1,Chao is Yan's employer.,Is Yan Chao's subordinate?,Yes,-9.868690490722656,-12.187041282653809,Yes,True
+103,12,social-relations,26,antonym,2,Chao is Yan's employee.,Is Yan Chao's subordinate?,No,-9.12092113494873,-12.249704360961914,Yes,False
+107,12,social-relations,27,variable swap,2,Yan is Chao's employer.,Is Yan Chao's subordinate?,No,-11.12092113494873,-10.187095642089844,No,True
+109,12,social-relations,28,variable swap,1,Yan is Chao's employee.,Is Yan Chao's subordinate?,Yes,-7.622673988342285,-13.624841690063477,Yes,True
+113,13,social-relations,29,antonym,1,Chao pays salary to Yan.,Is Chao Yan's boss?,Yes,-9.056571006774902,-9.749704360961914,Yes,True
+114,13,social-relations,29,antonym,1,Chao pays salary to Yan.,Is Chao Yan's subordinate?,No,-9.347026824951172,-8.560446739196777,No,True
+115,13,social-relations,29,antonym,2,Chao receives salary from Yan.,Is Chao Yan's boss?,No,-11.743284225463867,-7.34321403503418,No,True
+116,13,social-relations,29,antonym,2,Chao receives salary from Yan.,Is Chao Yan's subordinate?,Yes,-10.290647506713867,-9.123071670532227,No,False
+119,13,social-relations,30,variable swap,2,Yan pays salary to Chao.,Is Chao Yan's boss?,No,-9.184514999389648,-6.749831199645996,No,True
+120,13,social-relations,30,variable swap,2,Yan pays salary to Chao.,Is Chao Yan's subordinate?,Yes,-8.674188613891602,-8.186588287353516,No,False
+121,13,social-relations,31,variable swap,1,Yan receives salary from Chao.,Is Chao Yan's boss?,Yes,-9.744429588317871,-9.812041282653809,Yes,True
+122,13,social-relations,31,variable swap,1,Yan receives salary from Chao.,Is Chao Yan's subordinate?,No,-9.989618301391602,-8.686530113220215,No,True
+128,13,social-relations,32,antonym,2,Chao receives salary from Yan.,Is Yan Chao's boss?,Yes,-10.617853164672852,-9.561980247497559,No,False
+132,13,social-relations,33,variable swap,2,Yan pays salary to Chao.,Is Yan Chao's boss?,Yes,-9.684117317199707,-8.749738693237305,No,False
+134,13,social-relations,34,variable swap,1,Yan receives salary from Chao.,Is Yan Chao's boss?,No,-11.871822357177734,-8.062185287475586,No,True
+137,13,social-relations,35,antonym,1,Chao pays salary to Yan.,Is Yan Chao's subordinate?,Yes,-8.537774085998535,-8.060688018798828,No,False
+139,13,social-relations,35,antonym,2,Chao receives salary from Yan.,Is Yan Chao's subordinate?,No,-10.481849670410156,-8.310688018798828,No,True
+143,13,social-relations,36,variable swap,2,Yan pays salary to Chao.,Is Yan Chao's subordinate?,No,-9.236688613891602,-8.248588562011719,No,True
+145,13,social-relations,37,variable swap,1,Yan receives salary from Chao.,Is Yan Chao's subordinate?,Yes,-10.30074405670166,-9.124088287353516,No,False
+149,14,social-relations,38,antonym,1,Chao has a lot of power over Yan.,Is Chao Yan's boss?,Yes,-7.373400688171387,-10.249903678894043,Yes,True
+151,14,social-relations,38,antonym,2,Chao has little power over Yan.,Is Chao Yan's boss?,No,-8.249411582946777,-3.921774387359619,No,True
+152,14,social-relations,38,antonym,2,Chao has little power over Yan.,Is Chao Yan's subordinate?,Yes,-8.811088562011719,-6.812119960784912,No,False
+155,14,social-relations,39,variable swap,2,Yan has a lot of power over Chao.,Is Chao Yan's boss?,No,-11.749619483947754,-2.140575885772705,No,True
+156,14,social-relations,39,variable swap,2,Yan has a lot of power over Chao.,Is Chao Yan's subordinate?,Yes,-7.9363298416137695,-6.249831199645996,No,False
+157,14,social-relations,40,variable swap,1,Yan has little power over Chao.,Is Chao Yan's boss?,Yes,-8.311911582946777,-4.156189918518066,No,False
+158,14,social-relations,40,variable swap,1,Yan has little power over Chao.,Is Chao Yan's subordinate?,No,-9.311643600463867,-6.749868869781494,No,True
+162,14,social-relations,41,antonym,1,Chao has a lot of power over Yan.,Is Yan Chao's boss?,No,-11.749619483947754,-4.499964714050293,No,True
+164,14,social-relations,41,antonym,2,Chao has little power over Yan.,Is Yan Chao's boss?,Yes,-8.311790466308594,-6.4999098777771,No,False
+168,14,social-relations,42,variable swap,2,Yan has a lot of power over Chao.,Is Yan Chao's boss?,Yes,-7.061911582946777,-7.687429904937744,Yes,True
+170,14,social-relations,43,variable swap,1,Yan has little power over Chao.,Is Yan Chao's boss?,No,-10.062283515930176,-4.6562113761901855,No,True
+173,14,social-relations,44,antonym,1,Chao has a lot of power over Yan.,Is Yan Chao's subordinate?,Yes,-8.686088562011719,-8.124841690063477,No,False
+175,14,social-relations,44,antonym,2,Chao has little power over Yan.,Is Yan Chao's subordinate?,No,-8.748674392700195,-7.999703884124756,No,True
+179,14,social-relations,45,variable swap,2,Yan has a lot of power over Chao.,Is Yan Chao's subordinate?,No,-9.311530113220215,-8.437331199645996,No,True
+181,14,social-relations,46,variable swap,1,Yan has little power over Chao.,Is Yan Chao's subordinate?,Yes,-10.124446868896484,-7.99991512298584,No,False
+185,15,social-relations,47,antonym,1,Chao is at a later career stage than Yan.,Is Chao Yan's boss?,Yes,-11.810688018798828,-8.437283515930176,No,False
+186,15,social-relations,47,antonym,1,Chao is at a later career stage than Yan.,Is Chao Yan's subordinate?,No,-11.99752426147461,-9.624619483947754,No,True
+187,15,social-relations,47,antonym,2,Chao is at an earlier career stage than Yan.,Is Chao Yan's boss?,No,-12.80986499786377,-6.937119960784912,No,True
+188,15,social-relations,47,antonym,2,Chao is at an earlier career stage than Yan.,Is Chao Yan's subordinate?,Yes,-12.24719524383545,-8.437041282653809,No,False
+192,15,social-relations,48,antonym,2,Chao is at an earlier career stage than Yan.,Is Yan Chao's boss?,Yes,-11.184117317199707,-6.874569416046143,No,False
+193,15,social-relations,49,antonym,1,Chao is at a later career stage than Yan.,Is Yan Chao's subordinate?,Yes,-11.49719524383545,-7.874569416046143,No,False
+195,15,social-relations,49,antonym,2,Chao is at an earlier career stage than Yan.,Is Yan Chao's subordinate?,No,-11.99719524383545,-6.874446868896484,No,True
+197,16,social-relations,50,other,1,Chao has the same duties as Yan.,Is Chao Yan's colleague?,Yes,-7.118284702301025,-11.373297691345215,Yes,True
+198,16,social-relations,50,other,1,Chao has the same duties as Yan.,Is Chao Yan's boss?,No,-10.552118301391602,-5.029380798339844,No,True
+199,16,social-relations,50,other,2,Chao gives orders to Yan.,Is Chao Yan's colleague?,No,-9.368690490722656,-7.936588764190674,No,True
+203,17,social-relations,51,antonym,2,Chao has different duties than Yan.,Is Chao Yan's colleague?,No,-10.93258285522461,-11.936744689941406,Yes,False
+204,17,social-relations,51,antonym,2,Chao has different duties than Yan.,Is Chao Yan's boss?,Yes,-12.806929588317871,-7.092684268951416,No,False
+205,18,social-relations,52,antonym,1,Chao has little power over Yan.,Is Chao Yan's colleague?,Yes,-9.936088562011719,-8.18722152709961,No,False
+207,18,social-relations,52,antonym,2,Chao has a lot of power over Yan.,Is Chao Yan's colleague?,No,-11.248297691345215,-7.687283515930176,No,True
+209,19,social-relations,53,antonym,1,Chao is at the same career stage as Yan.,Is Chao Yan's colleague?,Yes,-10.48824405670166,-10.310900688171387,No,False
+210,19,social-relations,53,antonym,1,Chao is at the same career stage as Yan.,Is Chao Yan's boss?,No,-12.620379447937012,-7.061946868896484,No,True
+211,19,social-relations,53,antonym,2,Chao is at a later career stage than Yan.,Is Chao Yan's colleague?,No,-11.30986499786377,-9.812185287475586,No,True
+213,20,social-relations,54,other,1,Chao works alongside Yan.,Is Chao Yan's colleague?,Yes,-7.373188018798828,-15.624738693237305,Yes,True
+214,20,social-relations,54,other,1,Chao works alongside Yan.,Is Chao Yan's subordinate?,No,-8.744766235351562,-10.999619483947754,Yes,False
+215,20,social-relations,54,other,2,Chao works for Yan.,Is Chao Yan's colleague?,No,-9.433158874511719,-12.999664306640625,Yes,False
+216,20,social-relations,54,other,2,Chao works for Yan.,Is Chao Yan's subordinate?,Yes,-8.428332328796387,-12.311911582946777,Yes,True
+217,21,social-relations,55,antonym,1,Yan has little power over Chao.,Is Chao Yan's colleague?,Yes,-10.249373435974121,-7.8123979568481445,No,False
+219,21,social-relations,55,antonym,2,Yan has a lot of power over Chao.,Is Chao Yan's colleague?,No,-10.437143325805664,-5.218689918518066,No,True
+222,22,social-relations,56,antonym,1,Chao is at the same career stage as Yan.,Is Chao Yan's subordinate?,No,-11.536199569702148,-8.247014999389648,No,True
+223,22,social-relations,56,antonym,2,Chao is at an earlier career stage than Yan.,Is Chao Yan's colleague?,No,-11.621399879455566,-8.49951171875,No,True
+225,23,social-relations,57,antonym,1,The relationship between Chao and Yan is platonic.,Is Chao Yan's friend?,Yes,-2.373400926589966,-9.749859809875488,Yes,True
+226,23,social-relations,57,antonym,1,The relationship between Chao and Yan is platonic.,Is Chao Yan's romantic partner?,No,-8.062119483947754,-0.6445049047470093,No,True
+227,23,social-relations,57,antonym,2,The relationship between Chao and Yan is intimate.,Is Chao Yan's friend?,No,-4.401176929473877,-8.061088562011719,Yes,False
+228,23,social-relations,57,antonym,2,The relationship between Chao and Yan is intimate.,Is Chao Yan's romantic partner?,Yes,-9.060446739196777,-6.749642848968506,No,False
+229,24,social-relations,58,other,1,Chao and Yan shake hands when they meet.,Is Chao Yan's friend?,Yes,-7.678885459899902,-5.184117794036865,No,False
+230,24,social-relations,58,other,1,Chao and Yan shake hands when they meet.,Is Chao Yan's romantic partner?,No,-11.369766235351562,-3.9054200649261475,No,True
+231,24,social-relations,58,other,2,Chao and Yan make out when they meet.,Is Chao Yan's friend?,No,-5.614618301391602,-3.0445852279663086,No,True
+232,24,social-relations,58,other,2,Chao and Yan make out when they meet.,Is Chao Yan's romantic partner?,Yes,-7.248497486114502,-8.937368392944336,Yes,True
+233,25,social-relations,59,antonym,1,The relationship between Chao and Yan is platonic.,Are Chao and Yan friends?,Yes,-2.826859712600708,-9.749796867370605,Yes,True
+234,25,social-relations,59,antonym,1,The relationship between Chao and Yan is platonic.,Are Chao and Yan romantic partners?,No,-7.624820709228516,-1.0702934265136719,No,True
+235,25,social-relations,59,antonym,2,The relationship between Chao and Yan is intimate.,Are Chao and Yan friends?,No,-8.370379447937012,-11.186911582946777,Yes,False
+236,25,social-relations,59,antonym,2,The relationship between Chao and Yan is intimate.,Are Chao and Yan romantic partners?,Yes,-6.905517578125,-5.468630313873291,No,False
+237,26,social-relations,60,other,1,Chao and Yan shake hands when they meet.,Are Chao and Yan friends?,Yes,-6.678332328796387,-5.810173988342285,No,False
+238,26,social-relations,60,other,1,Chao and Yan shake hands when they meet.,Are Chao and Yan romantic partners?,No,-9.681571006774902,-1.4520083665847778,No,True
+239,26,social-relations,60,other,2,Chao and Yan make out when they meet.,Are Chao and Yan friends?,No,-5.341031551361084,-3.155517578125,No,True
+240,26,social-relations,60,other,2,Chao and Yan make out when they meet.,Are Chao and Yan romantic partners?,Yes,-4.999029636383057,-8.74976921081543,Yes,True
+241,27,social-relations,61,negation,1,Chao and Yan are not in a relationship.,Are Chao and Yan strangers?,Yes,-11.373674392700195,-2.0623204708099365,No,False
+242,27,social-relations,61,negation,1,Chao and Yan are not in a relationship.,Are Chao and Yan romantic partners?,No,-11.812095642089844,-2.8124098777770996,No,True
+243,27,social-relations,61,negation,2,Chao and Yan are in a relationship.,Are Chao and Yan strangers?,No,-12.811088562011719,-3.2967090606689453,No,True
+244,27,social-relations,61,negation,2,Chao and Yan are in a relationship.,Are Chao and Yan romantic partners?,Yes,-4.872815132141113,-12.937095642089844,Yes,True
+245,28,social-relations,62,antonym,1,Chao and Yan never spend time together.,Are Chao and Yan strangers?,Yes,-7.9354472160339355,-1.7418748140335083,No,False
+246,28,social-relations,62,antonym,1,Chao and Yan never spend time together.,Are Chao and Yan romantic partners?,No,-9.873967170715332,-4.6873087882995605,No,True
+247,28,social-relations,62,antonym,2,Chao and Yan always spend time together.,Are Chao and Yan strangers?,No,-8.560446739196777,-3.187142848968506,No,True
+248,28,social-relations,62,antonym,2,Chao and Yan always spend time together.,Are Chao and Yan romantic partners?,Yes,-8.12349796295166,-6.999769687652588,No,False
+249,29,social-relations,63,other,1,Chao and Yan are exchanging business cards.,Are Chao and Yan strangers?,Yes,-10.310688018798828,-10.937254905700684,Yes,True
+250,29,social-relations,63,other,1,Chao and Yan are exchanging business cards.,Are Chao and Yan romantic partners?,No,-9.681929588317871,-5.780309677124023,No,True
+251,29,social-relations,63,other,2,Chao and Yan are making out.,Are Chao and Yan strangers?,No,-8.498674392700195,-2.73413348197937,No,True
+252,29,social-relations,63,other,2,Chao and Yan are making out.,Are Chao and Yan romantic partners?,Yes,-3.546131134033203,-10.562331199645996,Yes,True
+253,30,social-relations,64,antonym,1,Chao lectures Yan.,Is Chao Yan's teacher?,Yes,-6.622815132141113,-12.437041282653809,Yes,True
+254,30,social-relations,64,antonym,1,Chao lectures Yan.,Is Chao Yan's student?,No,-7.24616813659668,-11.436643600463867,Yes,False
+255,30,social-relations,64,antonym,2,Chao learns from Yan.,Is Chao Yan's teacher?,No,-7.122195243835449,-8.374664306640625,Yes,False
+256,30,social-relations,64,antonym,2,Chao learns from Yan.,Is Chao Yan's student?,Yes,-6.121617794036865,-12.874568939208984,Yes,True
+259,30,social-relations,65,variable swap,2,Yan lectures Chao.,Is Chao Yan's teacher?,No,-8.811174392700195,-4.687269687652588,No,True
+260,30,social-relations,65,variable swap,2,Yan lectures Chao.,Is Chao Yan's student?,Yes,-7.6229472160339355,-11.062143325805664,Yes,True
+261,30,social-relations,66,variable swap,1,Yan learns from Chao.,Is Chao Yan's teacher?,Yes,-5.373497486114502,-10.312331199645996,Yes,True
+262,30,social-relations,66,variable swap,1,Yan learns from Chao.,Is Chao Yan's student?,No,-6.373497486114502,-11.437368392944336,Yes,False
+268,30,social-relations,67,antonym,2,Chao learns from Yan.,Is Yan Chao's teacher?,Yes,-4.8729472160339355,-11.187254905700684,Yes,True
+272,30,social-relations,68,variable swap,2,Yan lectures Chao.,Is Yan Chao's teacher?,Yes,-6.185571193695068,-9.749568939208984,Yes,True
+274,30,social-relations,69,variable swap,1,Yan learns from Chao.,Is Yan Chao's teacher?,No,-7.997815132141113,-8.18722152709961,Yes,False
+277,30,social-relations,70,antonym,1,Chao lectures Yan.,Is Yan Chao's student?,Yes,-8.74592113494873,-11.624446868896484,Yes,True
+283,30,social-relations,71,variable swap,2,Yan lectures Chao.,Is Yan Chao's student?,No,-7.2473649978637695,-10.249373435974121,Yes,False
+285,30,social-relations,72,variable swap,1,Yan learns from Chao.,Is Yan Chao's student?,Yes,-7.497195243835449,-12.687143325805664,Yes,True
+289,31,social-relations,73,antonym,1,Chao assigns homework to Yan.,Is Chao Yan's teacher?,Yes,-8.430784225463867,-10.061530113220215,Yes,True
+290,31,social-relations,73,antonym,1,Chao assigns homework to Yan.,Is Chao Yan's student?,No,-6.683899879455566,-13.312041282653809,Yes,False
+291,31,social-relations,73,antonym,2,Chao submits homework to Yan.,Is Chao Yan's teacher?,No,-12.559117317199707,-7.249595642089844,No,True
+292,31,social-relations,73,antonym,2,Chao submits homework to Yan.,Is Chao Yan's student?,Yes,-9.37252426147461,-14.374704360961914,Yes,True
+295,31,social-relations,74,variable swap,2,Yan assigns homework to Chao.,Is Chao Yan's teacher?,No,-12.37219524383545,-5.186873435974121,No,True
+296,31,social-relations,74,variable swap,2,Yan assigns homework to Chao.,Is Chao Yan's student?,Yes,-7.435024261474609,-11.312143325805664,Yes,True
+297,31,social-relations,75,variable swap,1,Yan submits homework to Chao.,Is Chao Yan's teacher?,Yes,-10.123297691345215,-7.280980587005615,No,False
+298,31,social-relations,75,variable swap,1,Yan submits homework to Chao.,Is Chao Yan's student?,No,-8.498071670532227,-10.624796867370605,Yes,False
+304,31,social-relations,76,antonym,2,Chao submits homework to Yan.,Is Yan Chao's teacher?,Yes,-12.121822357177734,-9.124704360961914,No,False
+308,31,social-relations,77,variable swap,2,Yan assigns homework to Chao.,Is Yan Chao's teacher?,Yes,-8.309322357177734,-8.436873435974121,Yes,True
+310,31,social-relations,78,variable swap,1,Yan submits homework to Chao.,Is Yan Chao's teacher?,No,-12.186088562011719,-6.374796390533447,No,True
+313,31,social-relations,79,antonym,1,Chao assigns homework to Yan.,Is Yan Chao's student?,Yes,-8.80969524383545,-13.312143325805664,Yes,True
+315,31,social-relations,79,antonym,2,Chao submits homework to Yan.,Is Yan Chao's student?,No,-9.997815132141113,-12.124796867370605,Yes,False
+319,31,social-relations,80,variable swap,2,Yan assigns homework to Chao.,Is Yan Chao's student?,No,-5.934695243835449,-11.561980247497559,Yes,False
+321,31,social-relations,81,variable swap,1,Yan submits homework to Chao.,Is Yan Chao's student?,Yes,-8.310571670532227,-12.562254905700684,Yes,True
+325,32,social-relations,82,other,1,Chao's alumni spoke with Yan.,Is Chao Yan's teacher?,Yes,-11.997815132141113,-9.562185287475586,No,False
+326,32,social-relations,82,other,1,Chao's alumni spoke with Yan.,Is Chao Yan's student?,No,-10.99752426147461,-13.124738693237305,Yes,False
+327,32,social-relations,82,other,2,Chao's parents spoke with Yan.,Is Chao Yan's teacher?,No,-10.80986499786377,-8.874373435974121,No,True
+328,32,social-relations,82,other,2,Chao's parents spoke with Yan.,Is Chao Yan's student?,Yes,-10.623071670532227,-12.624704360961914,Yes,True
+331,32,social-relations,83,variable swap,2,Yan's alumni spoke with Chao.,Is Chao Yan's teacher?,No,-10.749195098876953,-8.562368392944336,No,True
+332,32,social-relations,83,variable swap,2,Yan's alumni spoke with Chao.,Is Chao Yan's student?,Yes,-11.061643600463867,-11.187409400939941,Yes,True
+333,32,social-relations,84,variable swap,1,Yan's parents spoke with Chao.,Is Chao Yan's teacher?,Yes,-8.935688018798828,-9.812143325805664,Yes,True
+334,32,social-relations,84,variable swap,1,Yan's parents spoke with Chao.,Is Chao Yan's student?,No,-8.248674392700195,-10.437309265136719,Yes,False
+338,32,social-relations,85,other,1,Chao's alumni spoke with Yan.,Is Yan Chao's teacher?,No,-11.123297691345215,-10.187309265136719,No,True
+340,32,social-relations,85,other,2,Chao's parents spoke with Yan.,Is Yan Chao's teacher?,Yes,-8.05866813659668,-11.061643600463867,Yes,True
+344,32,social-relations,86,variable swap,2,Yan's alumni spoke with Chao.,Is Yan Chao's teacher?,Yes,-10.061744689941406,-8.624859809875488,No,False
+346,32,social-relations,87,variable swap,1,Yan's parents spoke with Chao.,Is Yan Chao's teacher?,No,-11.686744689941406,-7.562368869781494,No,True
+349,32,social-relations,88,other,1,Chao's alumni spoke with Yan.,Is Yan Chao's student?,Yes,-10.498071670532227,-13.749796867370605,Yes,True
+351,32,social-relations,88,other,2,Chao's parents spoke with Yan.,Is Yan Chao's student?,No,-8.434514999389648,-13.374568939208984,Yes,False
+355,32,social-relations,89,variable swap,2,Yan's alumni spoke with Chao.,Is Yan Chao's student?,No,-9.87382984161377,-10.624841690063477,Yes,False
+357,32,social-relations,90,variable swap,1,Yan's parents spoke with Chao.,Is Yan Chao's student?,Yes,-9.373588562011719,-11.12476921081543,Yes,True
+361,33,social-relations,91,antonym,1,Chao rents a duplex to Yan.,Is Chao Yan's landlord?,Yes,-6.7479472160339355,-13.249704360961914,Yes,True
+362,33,social-relations,91,antonym,1,Chao rents a duplex to Yan.,Is Chao Yan's tenant?,No,-7.684695243835449,-12.874738693237305,Yes,False
+363,33,social-relations,91,antonym,2,Chao rents a duplex from Yan.,Is Chao Yan's landlord?,No,-8.248297691345215,-8.81235122680664,Yes,False
+364,33,social-relations,91,antonym,2,Chao rents a duplex from Yan.,Is Chao Yan's tenant?,Yes,-8.371822357177734,-12.562309265136719,Yes,True
+368,33,social-relations,92,variable swap,2,Yan rents a duplex to Chao.,Is Chao Yan's tenant?,Yes,-7.529493808746338,-8.999876976013184,Yes,True
+369,33,social-relations,93,variable swap,1,Yan rents a duplex from Chao.,Is Chao Yan's landlord?,Yes,-6.248588562011719,-9.812309265136719,Yes,True
+370,33,social-relations,93,variable swap,1,Yan rents a duplex from Chao.,Is Chao Yan's tenant?,No,-7.1854472160339355,-10.312331199645996,Yes,False
+374,33,social-relations,94,antonym,1,Chao rents a duplex to Yan.,Is Yan Chao's landlord?,No,-8.936088562011719,-6.437331199645996,No,True
+376,33,social-relations,94,antonym,2,Chao rents a duplex from Yan.,Is Yan Chao's landlord?,Yes,-6.936088562011719,-9.624859809875488,Yes,True
+380,33,social-relations,95,variable swap,2,Yan rents a duplex to Chao.,Is Yan Chao's landlord?,Yes,-5.998400688171387,-8.999738693237305,Yes,True
+382,33,social-relations,96,variable swap,1,Yan rents a duplex from Chao.,Is Yan Chao's landlord?,No,-7.6854472160339355,-8.249704360961914,Yes,False
+385,33,social-relations,97,antonym,1,Chao rents a duplex to Yan.,Is Yan Chao's tenant?,Yes,-7.9354472160339355,-11.18735122680664,Yes,True
+387,33,social-relations,97,antonym,2,Chao rents a duplex from Yan.,Is Yan Chao's tenant?,No,-7.435173988342285,-9.624841690063477,Yes,False
+391,33,social-relations,98,variable swap,2,Yan rents a duplex to Chao.,Is Yan Chao's tenant?,No,-7.1848649978637695,-8.562143325805664,Yes,False
+393,33,social-relations,99,variable swap,1,Yan rents a duplex from Chao.,Is Yan Chao's tenant?,Yes,-7.183899879455566,-11.499619483947754,Yes,True
+397,34,social-relations,100,antonym,1,Chao collects rent from Yan.,Is Chao Yan's landlord?,Yes,-7.8729472160339355,-10.187309265136719,Yes,True
+398,34,social-relations,100,antonym,1,Chao collects rent from Yan.,Is Chao Yan's tenant?,No,-8.807879447937012,-8.937095642089844,Yes,False
+399,34,social-relations,100,antonym,2,Chao pays rent to Yan.,Is Chao Yan's landlord?,No,-6.748967170715332,-10.37489128112793,Yes,False
+400,34,social-relations,100,antonym,2,Chao pays rent to Yan.,Is Chao Yan's tenant?,Yes,-5.685315132141113,-12.874738693237305,Yes,True
+403,34,social-relations,101,variable swap,2,Yan collects rent from Chao.,Is Chao Yan's landlord?,No,-9.624195098876953,-6.24992036819458,No,True
+404,34,social-relations,101,variable swap,2,Yan collects rent from Chao.,Is Chao Yan's tenant?,Yes,-8.122815132141113,-10.062331199645996,Yes,True
+405,34,social-relations,102,variable swap,1,Yan pays rent to Chao.,Is Chao Yan's landlord?,Yes,-4.529964923858643,-8.624859809875488,Yes,True
+406,34,social-relations,102,variable swap,1,Yan pays rent to Chao.,Is Chao Yan's tenant?,No,-4.778850555419922,-8.062254905700684,Yes,False
+410,34,social-relations,103,antonym,1,Chao collects rent from Yan.,Is Yan Chao's landlord?,No,-10.498674392700195,-7.312384128570557,No,True
+412,34,social-relations,103,antonym,2,Chao pays rent to Yan.,Is Yan Chao's landlord?,Yes,-6.248900890350342,-10.37491512298584,Yes,True
+416,34,social-relations,104,variable swap,2,Yan collects rent from Chao.,Is Yan Chao's landlord?,Yes,-7.748400688171387,-9.874796867370605,Yes,True
+418,34,social-relations,105,variable swap,1,Yan pays rent to Chao.,Is Yan Chao's landlord?,No,-6.498673915863037,-7.749796390533447,Yes,False
+421,34,social-relations,106,antonym,1,Chao collects rent from Yan.,Is Yan Chao's tenant?,Yes,-8.621399879455566,-10.74976921081543,Yes,True
+423,34,social-relations,106,antonym,2,Chao pays rent to Yan.,Is Yan Chao's tenant?,No,-6.1223649978637695,-9.874796867370605,Yes,False
+427,34,social-relations,107,variable swap,2,Yan collects rent from Chao.,Is Yan Chao's tenant?,No,-8.559514999389648,-8.499568939208984,No,True
+429,34,social-relations,108,variable swap,1,Yan pays rent to Chao.,Is Yan Chao's tenant?,Yes,-4.403531551361084,-10.24951171875,Yes,True
+433,35,social-relations,109,antonym,1,Chao collects money from Yan.,Is Chao Yan's landlord?,Yes,-11.809117317199707,-7.436695575714111,No,False
+434,35,social-relations,109,antonym,1,Chao collects money from Yan.,Is Chao Yan's tenant?,No,-9.804893493652344,-8.936088562011719,No,True
+435,35,social-relations,109,antonym,2,Chao pays money to Yan.,Is Chao Yan's landlord?,No,-9.871617317199707,-7.061832904815674,No,True
+436,35,social-relations,109,antonym,2,Chao pays money to Yan.,Is Chao Yan's tenant?,Yes,-7.712240695953369,-7.967684268951416,Yes,True
+439,35,social-relations,110,variable swap,2,Yan collects money from Chao.,Is Chao Yan's landlord?,No,-12.435173988342285,-7.187041759490967,No,True
+440,35,social-relations,110,variable swap,2,Yan collects money from Chao.,Is Chao Yan's tenant?,Yes,-9.746822357177734,-8.749568939208984,No,False
+441,35,social-relations,111,variable swap,1,Yan pays money to Chao.,Is Chao Yan's landlord?,Yes,-9.935688018798828,-6.374664783477783,No,False
+442,35,social-relations,111,variable swap,1,Yan pays money to Chao.,Is Chao Yan's tenant?,No,-8.37116813659668,-7.249411582946777,No,True
+446,35,social-relations,112,antonym,1,Chao collects money from Yan.,Is Yan Chao's landlord?,No,-12.372815132141113,-6.999595642089844,No,True
+448,35,social-relations,112,antonym,2,Chao pays money to Yan.,Is Yan Chao's landlord?,Yes,-10.745379447937012,-7.999512195587158,No,False
+452,35,social-relations,113,variable swap,2,Yan collects money from Chao.,Is Yan Chao's landlord?,Yes,-11.998071670532227,-8.311946868896484,No,False
+454,35,social-relations,114,variable swap,1,Yan pays money to Chao.,Is Yan Chao's landlord?,No,-10.123071670532227,-6.187069416046143,No,True
+457,35,social-relations,115,antonym,1,Chao collects money from Yan.,Is Yan Chao's tenant?,Yes,-9.74508285522461,-9.124373435974121,No,False
+459,35,social-relations,115,antonym,2,Chao pays money to Yan.,Is Yan Chao's tenant?,No,-7.866385459899902,-8.186588287353516,Yes,False
+463,35,social-relations,116,variable swap,2,Yan collects money from Chao.,Is Yan Chao's tenant?,No,-9.371617317199707,-9.124373435974121,No,True
+465,35,social-relations,117,variable swap,1,Yan pays money to Chao.,Is Yan Chao's tenant?,Yes,-7.465035915374756,-7.217919826507568,No,False
+470,36,social-relations,118,other,1,Chao rents a duplex to Yan.,Is Chao Yan's roommate?,No,-10.184322357177734,-9.937143325805664,No,True
+472,36,social-relations,118,other,2,Chao shares a duplex with Yan.,Is Chao Yan's roommate?,Yes,-6.936254501342773,-7.8123979568481445,Yes,True
+474,37,social-relations,119,other,1,Chao collects rent from Yan.,Is Chao Yan's roommate?,No,-11.49592113494873,-8.87451171875,No,True
+475,37,social-relations,119,other,2,Chao splits rent with Yan.,Is Chao Yan's landlord?,No,-8.685900688171387,-5.999642848968506,No,True
+476,37,social-relations,119,other,2,Chao splits rent with Yan.,Is Chao Yan's roommate?,Yes,-6.373497486114502,-10.999738693237305,Yes,True
+478,38,social-relations,120,other,1,Chao rents a duplex from Yan.,Is Chao Yan's roommate?,No,-11.12092113494873,-8.374704360961914,No,True
+479,38,social-relations,120,other,2,Chao shares a duplex with Yan.,Is Chao Yan's tenant?,No,-6.935571193695068,-8.999841690063477,Yes,False
+481,40,social-relations,121,other,1,Chao cooks for Yan.,Is Chao Yan's parent?,Yes,-11.244071006774902,-7.249480724334717,No,False
+482,40,social-relations,121,other,1,Chao cooks for Yan.,Is Chao Yan's sibling?,No,-9.747014999389648,-6.343512058258057,No,True
+483,40,social-relations,121,other,2,Chao shares toys with Yan.,Is Chao Yan's parent?,No,-13.93366813659668,-4.405642509460449,No,True
+484,40,social-relations,121,other,2,Chao shares toys with Yan.,Is Chao Yan's sibling?,Yes,-9.62236499786377,-3.8591177463531494,No,False
+485,41,social-relations,122,other,1,Maria gave birth to Yan.,Is Maria Yan's parent?,Yes,-2.4664957523345947,-7.093667984008789,Yes,True
+486,41,social-relations,122,other,1,Maria gave birth to Yan.,Is Maria Yan's sibling?,No,-4.810997486114502,-3.7968013286590576,No,True
+488,41,social-relations,122,other,2,Maria shares parents with Yan.,Is Maria Yan's sibling?,Yes,-6.498967170715332,-6.437404155731201,No,False
+489,42,social-relations,123,other,1,Chao chose a school for Yan.,Is Chao Yan's parent?,Yes,-11.48895263671875,-9.686254501342773,No,False
+490,42,social-relations,123,other,1,Chao chose a school for Yan.,Is Chao Yan's sibling?,No,-9.369766235351562,-10.436980247497559,Yes,False
+491,42,social-relations,123,other,2,Chao went to school with Yan.,Is Chao Yan's parent?,No,-12.248297691345215,-3.7809040546417236,No,True
+492,42,social-relations,123,other,2,Chao went to school with Yan.,Is Chao Yan's sibling?,Yes,-7.123400688171387,-4.812283515930176,No,False
+493,43,social-relations,124,other,1,Chao is 35 years older than Yan.,Is Chao Yan's parent?,Yes,-8.807266235351562,-4.343142509460449,No,False
+494,43,social-relations,124,other,1,Chao is 35 years older than Yan.,Is Chao Yan's sibling?,No,-8.184322357177734,-3.280832529067993,No,True
+495,43,social-relations,124,other,2,Chao is 5 years older than Yan.,Is Chao Yan's parent?,No,-9.057266235351562,-2.265213966369629,No,True
+496,43,social-relations,124,other,2,Chao is 5 years older than Yan.,Is Chao Yan's sibling?,Yes,-6.684695243835449,-4.499738693237305,No,False
+497,44,social-relations,125,active-passive,1,Chao raised Yan.,Is Chao Yan's parent?,Yes,-7.621399879455566,-8.562185287475586,Yes,True
+498,44,social-relations,125,active-passive,1,Chao raised Yan.,Is Chao Yan's child?,No,-7.871399879455566,-8.812143325805664,Yes,False
+499,44,social-relations,125,active-passive,2,Chao was raised by Yan.,Is Chao Yan's parent?,No,-8.123071670532227,-5.531172752380371,No,True
+500,44,social-relations,125,active-passive,2,Chao was raised by Yan.,Is Chao Yan's child?,Yes,-8.12252426147461,-12.062331199645996,Yes,True
+503,44,social-relations,126,variable swap,2,Yan raised Chao.,Is Chao Yan's parent?,No,-8.87252426147461,-7.124754428863525,No,True
+504,44,social-relations,126,variable swap,2,Yan raised Chao.,Is Chao Yan's child?,Yes,-8.373071670532227,-9.12476921081543,Yes,True
+505,44,social-relations,127,variable swap,1,Yan was raised by Chao.,Is Chao Yan's parent?,Yes,-2.826284646987915,-7.124964714050293,Yes,True
+506,44,social-relations,127,variable swap,1,Yan was raised by Chao.,Is Chao Yan's child?,No,-6.373900890350342,-9.124972343444824,Yes,False
+510,44,social-relations,128,active-passive,1,Chao raised Yan.,Is Yan Chao's parent?,No,-10.12219524383545,-8.687254905700684,No,True
+512,44,social-relations,128,active-passive,2,Chao was raised by Yan.,Is Yan Chao's parent?,Yes,-3.6547000408172607,-6.843706130981445,Yes,True
+516,44,social-relations,129,variable swap,2,Yan raised Chao.,Is Yan Chao's parent?,Yes,-7.997524261474609,-9.999820709228516,Yes,True
+518,44,social-relations,130,variable swap,1,Yan was raised by Chao.,Is Yan Chao's parent?,No,-9.373588562011719,-7.93742036819458,No,True
+521,44,social-relations,131,active-passive,1,Chao raised Yan.,Is Yan Chao's child?,Yes,-7.933899879455566,-11.062143325805664,Yes,True
+523,44,social-relations,131,active-passive,2,Chao was raised by Yan.,Is Yan Chao's child?,No,-6.748400688171387,-10.374934196472168,Yes,False
+527,44,social-relations,132,variable swap,2,Yan raised Chao.,Is Yan Chao's child?,No,-8.68599796295166,-9.74989128112793,Yes,False
+529,44,social-relations,133,variable swap,1,Yan was raised by Chao.,Is Yan Chao's child?,Yes,-8.060797691345215,-11.12489128112793,Yes,True
+533,45,social-relations,134,antonym,1,Chao disciplines Yan.,Is Chao Yan's parent?,Yes,-10.310688018798828,-6.124868869781494,No,False
+534,45,social-relations,134,antonym,1,Chao disciplines Yan.,Is Chao Yan's child?,No,-11.999195098876953,-7.624934196472168,No,True
+535,45,social-relations,134,antonym,2,Chao obeys Yan.,Is Chao Yan's parent?,No,-9.998297691345215,-7.2498602867126465,No,True
+536,45,social-relations,134,antonym,2,Chao obeys Yan.,Is Chao Yan's child?,Yes,-9.810900688171387,-9.999796867370605,Yes,True
+539,45,social-relations,135,variable swap,2,Yan disciplines Chao.,Is Chao Yan's parent?,No,-11.561400413513184,-4.156144618988037,No,True
+540,45,social-relations,135,variable swap,2,Yan disciplines Chao.,Is Chao Yan's child?,Yes,-12.186833381652832,-5.6249518394470215,No,False
+541,45,social-relations,136,variable swap,1,Yan obeys Chao.,Is Chao Yan's parent?,Yes,-10.371822357177734,-8.062185287475586,No,False
+542,45,social-relations,136,variable swap,1,Yan obeys Chao.,Is Chao Yan's child?,No,-11.373297691345215,-8.437383651733398,No,True
+546,45,social-relations,137,antonym,1,Chao disciplines Yan.,Is Yan Chao's parent?,No,-12.373297691345215,-5.499851226806641,No,True
+548,45,social-relations,137,antonym,2,Chao obeys Yan.,Is Yan Chao's parent?,Yes,-8.74752426147461,-5.749783515930176,No,False
+552,45,social-relations,138,variable swap,2,Yan disciplines Chao.,Is Yan Chao's parent?,Yes,-9.623674392700195,-4.156096458435059,No,False
+554,45,social-relations,139,variable swap,1,Yan obeys Chao.,Is Yan Chao's parent?,No,-13.185446739196777,-9.06235122680664,No,True
+557,45,social-relations,140,antonym,1,Chao disciplines Yan.,Is Yan Chao's child?,Yes,-11.999088287353516,-7.49991512298584,No,False
+559,45,social-relations,140,antonym,2,Chao obeys Yan.,Is Yan Chao's child?,No,-9.311088562011719,-6.8123602867126465,No,True
+563,45,social-relations,141,variable swap,2,Yan disciplines Chao.,Is Yan Chao's child?,No,-10.374290466308594,-5.687429904937744,No,True
+565,45,social-relations,142,variable swap,1,Yan obeys Chao.,Is Yan Chao's child?,Yes,-12.68486499786377,-10.93722152709961,No,False
+569,46,social-relations,143,antonym,1,Chao makes decisions more often than Yan.,Is Chao Yan's parent?,Yes,-11.99592113494873,-9.186744689941406,No,False
+570,46,social-relations,143,antonym,1,Chao makes decisions more often than Yan.,Is Chao Yan's child?,No,-11.37349796295166,-8.624796867370605,No,True
+571,46,social-relations,143,antonym,2,Chao makes decisions less often than Yan.,Is Chao Yan's parent?,No,-12.246399879455566,-7.6867899894714355,No,True
+572,46,social-relations,143,antonym,2,Chao makes decisions less often than Yan.,Is Chao Yan's child?,Yes,-12.24849796295166,-7.499796390533447,No,False
+575,46,social-relations,144,variable swap,2,Yan makes decisions more often than Chao.,Is Chao Yan's parent?,No,-13.87219524383545,-8.187068939208984,No,True
+576,46,social-relations,144,variable swap,2,Yan makes decisions more often than Chao.,Is Chao Yan's child?,Yes,-14.124088287353516,-7.12491512298584,No,False
+577,46,social-relations,145,variable swap,1,Yan makes decisions less often than Chao.,Is Chao Yan's parent?,Yes,-11.560173988342285,-7.186980724334717,No,False
+578,46,social-relations,145,variable swap,1,Yan makes decisions less often than Chao.,Is Chao Yan's child?,No,-12.936744689941406,-6.1873979568481445,No,True
+582,46,social-relations,146,antonym,1,Chao makes decisions more often than Yan.,Is Yan Chao's parent?,No,-13.309117317199707,-6.937142848968506,No,True
+584,46,social-relations,146,antonym,2,Chao makes decisions less often than Yan.,Is Yan Chao's parent?,Yes,-12.370379447937012,-6.812012195587158,No,False
+588,46,social-relations,147,variable swap,2,Yan makes decisions more often than Chao.,Is Yan Chao's parent?,Yes,-13.184117317199707,-8.374373435974121,No,False
+590,46,social-relations,148,variable swap,1,Yan makes decisions less often than Chao.,Is Yan Chao's parent?,No,-12.122815132141113,-7.562012195587158,No,True
+593,46,social-relations,149,antonym,1,Chao makes decisions more often than Yan.,Is Yan Chao's child?,Yes,-13.373674392700195,-6.6873979568481445,No,False
+595,46,social-relations,149,antonym,2,Chao makes decisions less often than Yan.,Is Yan Chao's child?,No,-12.74849796295166,-6.499904155731201,No,True
+599,46,social-relations,150,variable swap,2,Yan makes decisions more often than Chao.,Is Yan Chao's child?,No,-12.74849796295166,-7.624820709228516,No,True
+601,46,social-relations,151,variable swap,1,Yan makes decisions less often than Chao.,Is Yan Chao's child?,Yes,-12.186530113220215,-6.7498602867126465,No,False
+606,47,social-relations,152,antonym,1,Chao is 35 years older than Yan.,Is Chao Yan's child?,No,-12.55986499786377,-3.562119960784912,No,True
+607,47,social-relations,152,antonym,2,Chao is 35 years younger than Yan.,Is Chao Yan's parent?,No,-10.869766235351562,-0.8744470477104187,No,True
+608,47,social-relations,152,antonym,2,Chao is 35 years younger than Yan.,Is Chao Yan's child?,Yes,-11.623071670532227,-2.54663348197937,No,False
+610,47,social-relations,153,antonym,1,Chao is 35 years older than Yan.,Is Yan Chao's parent?,No,-10.745379447937012,-1.843424916267395,No,True
+612,47,social-relations,153,antonym,2,Chao is 35 years younger than Yan.,Is Yan Chao's parent?,Yes,-9.683899879455566,-0.7809805274009705,No,False
+613,47,social-relations,154,antonym,1,Chao is 35 years older than Yan.,Is Yan Chao's child?,Yes,-12.872815132141113,-2.8747546672821045,No,False
+615,47,social-relations,154,antonym,2,Chao is 35 years younger than Yan.,Is Yan Chao's child?,No,-11.935900688171387,-1.773264765739441,No,True
+617,48,social-relations,155,other,1,Chao shares parents with Yan.,Is Chao Yan's sibling?,Yes,-6.998588562011719,-8.62491512298584,Yes,True
+618,48,social-relations,155,other,1,Chao shares parents with Yan.,Is Chao Yan's child?,No,-11.060900688171387,-8.437397956848145,No,True
+619,48,social-relations,155,other,2,Chao was born to Yan.,Is Chao Yan's sibling?,No,-6.123754501342773,-8.249954223632812,Yes,False
+620,48,social-relations,155,other,2,Chao was born to Yan.,Is Chao Yan's child?,Yes,-7.623297691345215,-10.749876976013184,Yes,True
+621,49,social-relations,156,other,1,Chao grew up with Yan.,Is Chao Yan's sibling?,Yes,-7.811400890350342,-7.812429904937744,Yes,True
+622,49,social-relations,156,other,1,Chao grew up with Yan.,Is Chao Yan's child?,No,-10.498071670532227,-8.74976921081543,No,True
+623,49,social-relations,156,other,2,Chao was raised by Yan.,Is Chao Yan's sibling?,No,-7.060024261474609,-8.812397956848145,Yes,False
+625,50,social-relations,157,other,1,Yan is 5 years older than Chao.,Is Chao Yan's sibling?,Yes,-8.311254501342773,-3.2811057567596436,No,False
+626,50,social-relations,157,other,1,Yan is 5 years older than Chao.,Is Chao Yan's child?,No,-12.374195098876953,-1.710764765739441,No,True
+628,50,social-relations,157,other,2,Yan is 35 years older than Chao.,Is Chao Yan's child?,Yes,-12.874088287353516,-3.296686887741089,No,False

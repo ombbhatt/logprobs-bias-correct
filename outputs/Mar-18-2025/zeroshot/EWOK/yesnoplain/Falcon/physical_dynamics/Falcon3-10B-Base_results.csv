@@ -1,0 +1,61 @@
+Question Number,MetaTemplateID,Domain,ItemGroupID,ContextDiff,ContextNum,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+1,1,physical-dynamics,,negation,1,The speck on the wheel is rotating.,Is the wheel rolling?,Yes,-4.965035915374756,-6.935571193695068,Yes,True
+2,1,physical-dynamics,,negation,1,The speck on the wheel is rotating.,Is the wheel sliding?,No,-4.466760158538818,-5.561529636383057,Yes,False
+3,1,physical-dynamics,,negation,2,The speck on the wheel is not rotating.,Is the wheel rolling?,No,-4.901771545410156,-6.653696060180664,Yes,False
+4,1,physical-dynamics,,negation,2,The speck on the wheel is not rotating.,Is the wheel sliding?,Yes,-4.404260158538818,-5.655249118804932,Yes,True
+5,2,physical-dynamics,,other,1,"In a moment, the top of the wheel will touch the floor.",Is the wheel rolling?,Yes,-4.216993808746338,-5.874088764190674,Yes,True
+6,2,physical-dynamics,,other,1,"In a moment, the top of the wheel will touch the floor.",Is the wheel sliding?,No,-4.030419826507568,-4.937119960784912,Yes,False
+7,2,physical-dynamics,,other,2,"In a moment, the top of the wheel will remain at the top.",Is the wheel rolling?,No,-3.980602502822876,-5.216631889343262,Yes,False
+8,2,physical-dynamics,,other,2,"In a moment, the top of the wheel will remain at the top.",Is the wheel sliding?,Yes,-3.6391913890838623,-4.4992899894714355,Yes,True
+9,3,physical-dynamics,,other,1,The wheel is moving forward on a surface. The surface is very flat.,Is the wheel rolling?,Yes,-3.653531312942505,-5.779600143432617,Yes,True
+10,3,physical-dynamics,,other,1,The wheel is moving forward on a surface. The surface is very flat.,Is the wheel sliding?,No,-3.8417601585388184,-5.09254264831543,Yes,False
+11,3,physical-dynamics,,other,2,The wheel is moving forward on a surface. The surface is very slippery.,Is the wheel rolling?,No,-3.7797937393188477,-5.530309677124023,Yes,False
+12,3,physical-dynamics,,other,2,The wheel is moving forward on a surface. The surface is very slippery.,Is the wheel sliding?,Yes,-3.8892781734466553,-5.499244213104248,Yes,True
+13,4,physical-dynamics,,antonym,1,The wheel is moving down.,Is the wheel falling?,Yes,-4.153169631958008,-4.810797691345215,Yes,True
+14,4,physical-dynamics,,antonym,1,The wheel is moving down.,Is the wheel rising?,No,-4.059322357177734,-2.670199155807495,No,True
+15,4,physical-dynamics,,antonym,2,The wheel is moving up.,Is the wheel falling?,No,-3.698715925216675,-4.091495513916016,Yes,False
+16,4,physical-dynamics,,antonym,2,The wheel is moving up.,Is the wheel rising?,Yes,-3.9345145225524902,-4.966760158538818,Yes,True
+17,5,physical-dynamics,,antonym,1,The wheel is getting closer to the ground.,Is the wheel falling?,Yes,-3.5114824771881104,-4.091350555419922,Yes,True
+18,5,physical-dynamics,,antonym,1,The wheel is getting closer to the ground.,Is the wheel rising?,No,-3.637397289276123,-2.8570852279663086,No,True
+19,5,physical-dynamics,,antonym,2,The wheel is getting closer to the sky.,Is the wheel falling?,No,-3.5708658695220947,-3.5575826168060303,No,True
+20,5,physical-dynamics,,antonym,2,The wheel is getting closer to the sky.,Is the wheel rising?,Yes,-3.324233055114746,-3.9658563137054443,Yes,True
+21,6,physical-dynamics,,antonym,1,The wheel is losing altitude.,Is the wheel sinking?,Yes,-4.308421611785889,-4.997524261474609,Yes,True
+22,6,physical-dynamics,,antonym,1,The wheel is losing altitude.,Is the wheel floating?,No,-4.74616813659668,-4.528696060180664,No,True
+23,6,physical-dynamics,,antonym,2,The wheel is staying at the same altitude.,Is the wheel sinking?,No,-4.059322357177734,-2.3261661529541016,No,True
+24,6,physical-dynamics,,antonym,2,The wheel is staying at the same altitude.,Is the wheel floating?,Yes,-4.183899879455566,-4.310173988342285,Yes,True
+25,7,physical-dynamics,,antonym,1,The wheel is going underwater.,Is the wheel sinking?,Yes,-3.901176929473877,-4.496399879455566,Yes,True
+26,7,physical-dynamics,,antonym,1,The wheel is going underwater.,Is the wheel floating?,No,-3.759967088699341,-3.277535915374756,No,True
+27,7,physical-dynamics,,antonym,2,The wheel is staying on the surface.,Is the wheel sinking?,No,-4.152042388916016,-2.5913503170013428,No,True
+28,7,physical-dynamics,,antonym,2,The wheel is staying on the surface.,Is the wheel floating?,Yes,-3.9795336723327637,-4.3098649978637695,Yes,True
+29,8,physical-dynamics,,antonym,1,The wheel is heavy.,Is the wheel sinking?,Yes,-3.902535915374756,-4.528356075286865,Yes,True
+30,8,physical-dynamics,,antonym,1,The wheel is heavy.,Is the wheel floating?,No,-3.575448513031006,-4.5604472160339355,Yes,False
+31,8,physical-dynamics,,antonym,2,The wheel is light.,Is the wheel sinking?,No,-4.090035915374756,-4.8723649978637695,Yes,False
+32,8,physical-dynamics,,antonym,2,The wheel is light.,Is the wheel floating?,Yes,-4.059695243835449,-4.998188018798828,Yes,True
+33,9,physical-dynamics,,antonym,1,"In a minute, the wheel will disappear from view.",Is the wheel sinking?,Yes,-5.278850555419922,-5.529600143432617,Yes,True
+34,9,physical-dynamics,,antonym,1,"In a minute, the wheel will disappear from view.",Is the wheel floating?,No,-4.810024261474609,-5.061088562011719,Yes,False
+35,9,physical-dynamics,,antonym,2,"In a minute, the wheel will remain visible.",Is the wheel sinking?,No,-4.621399879455566,-5.497673988342285,Yes,False
+36,9,physical-dynamics,,antonym,2,"In a minute, the wheel will remain visible.",Is the wheel floating?,Yes,-4.466196060180664,-5.404881954193115,Yes,True
+37,10,physical-dynamics,,antonym,1,The wheel is larger than its initial size.,Is the wheel growing?,Yes,-4.21720027923584,-5.15536642074585,Yes,True
+38,10,physical-dynamics,,antonym,1,The wheel is larger than its initial size.,Is the wheel shrinking?,No,-4.685688018798828,-3.7646396160125732,No,True
+39,10,physical-dynamics,,antonym,2,The wheel is smaller than its initial size.,Is the wheel growing?,No,-4.278531551361084,-3.6854472160339355,No,True
+40,10,physical-dynamics,,antonym,2,The wheel is smaller than its initial size.,Is the wheel shrinking?,Yes,-4.185997486114502,-5.999195575714111,Yes,True
+41,11,physical-dynamics,,antonym,1,The wheel is inflating.,Is the wheel growing?,Yes,-3.903531312942505,-4.435688018798828,Yes,True
+42,11,physical-dynamics,,antonym,1,The wheel is inflating.,Is the wheel shrinking?,No,-4.245921611785889,-3.3566136360168457,No,True
+43,11,physical-dynamics,,antonym,2,The wheel is deflating.,Is the wheel growing?,No,-4.215035915374756,-3.668935775756836,No,True
+44,11,physical-dynamics,,antonym,2,The wheel is deflating.,Is the wheel shrinking?,Yes,-4.338983535766602,-4.340669631958008,Yes,True
+45,12,physical-dynamics,,antonym,1,The speed of the wheel is increasing.,Is the wheel accelerating?,Yes,-4.968381404876709,-8.43735122680664,Yes,True
+46,12,physical-dynamics,,antonym,1,The speed of the wheel is increasing.,Is the wheel slowing down?,No,-5.123967170715332,-4.312095642089844,No,True
+47,12,physical-dynamics,,antonym,2,The speed of the wheel is decreasing.,Is the wheel accelerating?,No,-4.811873435974121,-8.687254905700684,Yes,False
+48,12,physical-dynamics,,antonym,2,The speed of the wheel is decreasing.,Is the wheel slowing down?,Yes,-4.092919826507568,-7.249595642089844,Yes,True
+49,13,physical-dynamics,,antonym,1,The wheel is about to crash. Why?,Is the wheel accelerating?,Yes,-3.904132127761841,-4.092615604400635,Yes,True
+50,13,physical-dynamics,,antonym,1,The wheel is about to crash. Why?,Is the wheel slowing down?,No,-3.887948513031006,-2.795199155807495,No,True
+51,13,physical-dynamics,,antonym,2,The wheel is about to stop. Why?,Is the wheel accelerating?,No,-3.795091152191162,-5.905309677124023,Yes,False
+52,13,physical-dynamics,,antonym,2,The wheel is about to stop. Why?,Is the wheel slowing down?,Yes,-3.278695821762085,-3.3110885620117188,Yes,True
+53,14,physical-dynamics,,antonym,1,The speck on the wheel is moving back and forth.,Is the wheel oscillating?,Yes,-4.811400890350342,-6.030805587768555,Yes,True
+54,14,physical-dynamics,,antonym,1,The speck on the wheel is moving back and forth.,Is the wheel spinning?,No,-4.3402605056762695,-6.373071193695068,Yes,False
+55,14,physical-dynamics,,antonym,2,The speck on the wheel is moving in a circle.,Is the wheel oscillating?,No,-4.624088764190674,-5.843358039855957,Yes,False
+56,14,physical-dynamics,,antonym,2,The speck on the wheel is moving in a circle.,Is the wheel spinning?,Yes,-4.683899879455566,-6.3729472160339355,Yes,True
+57,15,physical-dynamics,,antonym,1,The wheel keeps accelerating and slowing down.,Is the wheel oscillating?,Yes,-4.404380798339844,-5.374029636383057,Yes,True
+58,15,physical-dynamics,,antonym,1,The wheel keeps accelerating and slowing down.,Is the wheel spinning?,No,-3.2459216117858887,-4.653356075286865,Yes,False
+59,15,physical-dynamics,,antonym,2,The wheel moves at a constant speed.,Is the wheel oscillating?,No,-5.342970371246338,-6.9684247970581055,Yes,False
+60,15,physical-dynamics,,antonym,2,The wheel moves at a constant speed.,Is the wheel spinning?,Yes,-5.028531551361084,-7.467100143432617,Yes,True
