@@ -70,18 +70,16 @@ The other home directory scripts are core implementation files that are organize
 
 ## Outputs
 
-Outputs are CSV files ccontaining the question, ground-truth, model answer, log probabilities, and all other configuration relevant details. **These outputs are saved in the `outputs` directory, where files are organized as `<date>/<prompt-type>/<dataset>/<implementation-type>/<model-family>/<domain>/<specific-model>_results.csv`.** These are then used to generate the plots seen in the papers (all plotting scripts and figures can be found in the `plotting-tables-scripts/` directory.)
+Outputs are CSV files ccontaining the question, ground-truth, model answer, log probabilities, and all other configuration relevant details. **These outputs are saved in the `outputs` directory. The latest and most complete set of results is found in `outputs/Mar-18-2025`. The `zeroshot`, `fewshot` and `instronly` directories contain detailed per-question model results per prompt-type. The password to access these files is `mar18<prompt-type>pass1`.** 
+
+The result files in the zipped files are organized as `<prompt-type>/<dataset>/<implementation-type>/<model-family>/<domain>/<specific-model>_results.csv`. These are then used to generate the plots seen in the papers. The plots are in the `plots/` directory. 
 
 *Note: The `<date>` designation for the outputs was simply a tracking mechanism for experiment runs; it can be specified near the top of the `unified_runner.py` script. The `<domain>` subdirectories are only organizationally useful for EWOK and MMLU; the other datasets simply have one domain subdirectory sharing the dataset's name.*
-
-The latest and most complete set of results is found in `outputs/Mar-18-2025`. The `zeroshot`, `fewshot` and `instronly` directories contain detailed per-question model results per prompt-type. The password to access these files is `mar18<prompt-type>pass1`. The plots are in the `plots/` directory.
 
 The `summary_jsons` contains useful aggregated model results for each model, prompt-type and dataset configuration, generated using the `extract_stats.py` script in `plotting-tables-scripts/`. 
 
 The `mmlu_results` contains useful aggregated model performance data on MMLU, generated using the `acc-bias-mmlu.py` script in `plotting-tables-scripts/`. 
 
 The `bias_analysis_detailed.csv` and `bias_analysis_summary.csv` contains bias comparison results between base and instruct-tuned counterparts of models, generated using the `instructvbase_stats.py` script in `plotting-tables-scripts/`.
-
-All of this data can be used to generate the plots shown in the papers.
 
 The scripts to generate the scatterplots, heatmaps for yes-no datasets, and heatmap for MMLU are `scatterplots-new.py`, `heatmaps-new.py`, and `heatmap-mmlu.py` in `plotting-tables-scripts/`.
