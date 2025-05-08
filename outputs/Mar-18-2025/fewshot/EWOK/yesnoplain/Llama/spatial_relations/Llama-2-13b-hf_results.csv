@@ -1,0 +1,149 @@
+Question Number,MetaTemplateID,Domain,ItemGroupID,ContextDiff,ContextNum,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+1,1,spatial-relations,,antonym,1,The nail is to the right of the wheel.,Is the wheel to the left of the nail?,Yes,-1.069334626197815,-0.44677281379699707,No,False
+2,1,spatial-relations,,antonym,1,The nail is to the right of the wheel.,Is the wheel to the right of the nail?,No,-0.991283118724823,-0.48975110054016113,No,True
+3,1,spatial-relations,,antonym,2,The nail is to the left of the wheel.,Is the wheel to the left of the nail?,No,-0.9913378953933716,-0.48978039622306824,No,True
+4,1,spatial-relations,,antonym,2,The nail is to the left of the wheel.,Is the wheel to the right of the nail?,Yes,-0.9170464873313904,-0.5424593687057495,No,False
+5,2,spatial-relations,,antonym,1,The nail is next to the right side of the wheel.,Is the wheel to the left of the nail?,Yes,-0.9951273202896118,-0.493624210357666,No,False
+6,2,spatial-relations,,antonym,1,The nail is next to the right side of the wheel.,Is the wheel to the right of the nail?,No,-0.9949986934661865,-0.4935908615589142,No,True
+7,2,spatial-relations,,antonym,2,The nail is next to the left side of the wheel.,Is the wheel to the left of the nail?,No,-0.9950650334358215,-0.4936554431915283,No,True
+8,2,spatial-relations,,antonym,2,The nail is next to the left side of the wheel.,Is the wheel to the right of the nail?,Yes,-0.9950650334358215,-0.49557626247406006,No,False
+10,2,spatial-relations,,antonym,1,The nail is next to the right side of the wheel.,Is the nail to the left of the wheel?,No,-1.2333581447601318,-0.36269956827163696,No,True
+12,2,spatial-relations,,antonym,2,The nail is next to the left side of the wheel.,Is the nail to the left of the wheel?,Yes,-0.7763150334358215,-0.6517755389213562,No,False
+13,2,spatial-relations,,antonym,1,The nail is next to the right side of the wheel.,Is the nail to the right of the wheel?,Yes,-0.9167847633361816,-0.5423348546028137,No,False
+15,2,spatial-relations,,antonym,2,The nail is next to the left side of the wheel.,Is the nail to the right of the wheel?,No,-1.2411627769470215,-0.36266201734542847,No,True
+17,3,spatial-relations,,antonym,1,The wheel is in front of Chao. Chao turns right.,Is the wheel to the left of Chao?,Yes,-0.9130846261978149,-0.5384309887886047,No,False
+18,3,spatial-relations,,antonym,1,The wheel is in front of Chao. Chao turns right.,Is the wheel to the right of Chao?,No,-0.7763773202896118,-0.6517755389213562,No,True
+19,3,spatial-relations,,antonym,2,The wheel is in front of Chao. Chao turns left.,Is the wheel to the left of Chao?,No,-0.7763773202896118,-0.6517755389213562,No,True
+20,3,spatial-relations,,antonym,2,The wheel is in front of Chao. Chao turns left.,Is the wheel to the right of Chao?,Yes,-0.9169238209724426,-0.5423348546028137,No,False
+21,4,spatial-relations,,antonym,1,The wheel is to the right of Chao. Chao turns around.,Is the wheel to the left of Chao?,Yes,-0.9872605204582214,-0.48769956827163696,No,False
+22,4,spatial-relations,,antonym,1,The wheel is to the right of Chao. Chao turns around.,Is the wheel to the right of Chao?,No,-0.9873804450035095,-0.4878281056880951,No,True
+23,4,spatial-relations,,antonym,2,The wheel is to the left of Chao. Chao turns around.,Is the wheel to the left of Chao?,No,-0.987434983253479,-0.4878281056880951,No,True
+24,4,spatial-relations,,antonym,2,The wheel is to the left of Chao. Chao turns around.,Is the wheel to the right of Chao?,Yes,-0.9872605204582214,-0.48769956827163696,No,False
+25,5,spatial-relations,,antonym,1,"The shop is in front of Chao, and the zoo is behind. Chao turns right.",Is the shop to the left of Chao?,Yes,-1.0768598318099976,-0.4485004246234894,No,False
+26,5,spatial-relations,,antonym,1,"The shop is in front of Chao, and the zoo is behind. Chao turns right.",Is the shop to the right of Chao?,No,-0.9949280619621277,-0.49733829498291016,No,True
+27,5,spatial-relations,,antonym,2,"The shop is in front of Chao, and the zoo is behind. Chao turns left.",Is the shop to the left of Chao?,No,-0.9949280619621277,-0.49738118052482605,No,True
+28,5,spatial-relations,,antonym,2,"The shop is in front of Chao, and the zoo is behind. Chao turns left.",Is the shop to the right of Chao?,Yes,-0.9948529601097107,-0.497292697429657,No,False
+31,5,spatial-relations,,variable swap,2,"The zoo is in front of Chao, and the shop is behind. Chao turns right.",Is the shop to the left of Chao?,No,-1.0690571069717407,-0.4485440254211426,No,True
+32,5,spatial-relations,,variable swap,2,"The zoo is in front of Chao, and the shop is behind. Chao turns right.",Is the shop to the right of Chao?,Yes,-0.9948529601097107,-0.49738118052482605,No,False
+33,5,spatial-relations,,variable swap,1,"The zoo is in front of Chao, and the shop is behind. Chao turns left.",Is the shop to the left of Chao?,Yes,-0.9949280619621277,-0.4954293668270111,No,False
+34,5,spatial-relations,,variable swap,1,"The zoo is in front of Chao, and the shop is behind. Chao turns left.",Is the shop to the right of Chao?,No,-0.9168564081192017,-0.542250394821167,No,True
+37,6,spatial-relations,,antonym,1,The nail is below the wheel.,Is the wheel above the nail?,Yes,-1.0695017576217651,-0.4428982734680176,No,False
+38,6,spatial-relations,,antonym,1,The nail is below the wheel.,Is the wheel below the nail?,No,-1.069449543952942,-0.4448784291744232,No,True
+39,6,spatial-relations,,antonym,2,The nail is above the wheel.,Is the wheel above the nail?,No,-1.0695017576217651,-0.4429524838924408,No,True
+40,6,spatial-relations,,antonym,2,The nail is above the wheel.,Is the wheel below the nail?,Yes,-1.0693939924240112,-0.4429261386394501,No,False
+41,7,spatial-relations,,antonym,1,The baseball bounced off the wheel from below.,Is the wheel above the baseball?,Yes,-1.1553096771240234,-0.4018726348876953,No,False
+42,7,spatial-relations,,antonym,1,The baseball bounced off the wheel from below.,Is the wheel below the baseball?,No,-0.9131995439529419,-0.5386147499084473,No,True
+43,7,spatial-relations,,antonym,2,The baseball bounced off the wheel from above.,Is the wheel above the baseball?,No,-0.9912248849868774,-0.4935908615589142,No,True
+44,7,spatial-relations,,antonym,2,The baseball bounced off the wheel from above.,Is the wheel below the baseball?,Yes,-0.9912248849868774,-0.493624210357666,No,False
+45,8,spatial-relations,,antonym,1,The wheel and the nail are on the same surface. Then the wheel is moved higher.,Is the wheel above the nail?,Yes,-0.9910263419151306,-0.4935177266597748,No,False
+46,8,spatial-relations,,antonym,1,The wheel and the nail are on the same surface. Then the wheel is moved higher.,Is the wheel below the nail?,No,-0.9910967350006104,-0.4915257394313812,No,True
+47,8,spatial-relations,,antonym,2,The wheel and the nail are on the same surface. Then the wheel is moved lower.,Is the wheel above the nail?,No,-0.9911628365516663,-0.4915257394313812,No,True
+48,8,spatial-relations,,antonym,2,The wheel and the nail are on the same surface. Then the wheel is moved lower.,Is the wheel below the nail?,Yes,-0.9168564081192017,-0.5423348546028137,No,False
+51,8,spatial-relations,,variable swap,2,The nail and the wheel are on the same surface. Then the nail is moved higher.,Is the wheel above the nail?,No,-1.0770083665847778,-0.45053669810295105,No,True
+52,8,spatial-relations,,variable swap,2,The nail and the wheel are on the same surface. Then the nail is moved higher.,Is the wheel below the nail?,Yes,-0.9910263419151306,-0.4935177266597748,No,False
+53,8,spatial-relations,,variable swap,1,The nail and the wheel are on the same surface. Then the nail is moved lower.,Is the wheel above the nail?,Yes,-0.9950650334358215,-0.49355548620224,No,False
+54,8,spatial-relations,,variable swap,1,The nail and the wheel are on the same surface. Then the nail is moved lower.,Is the wheel below the nail?,No,-0.9949986934661865,-0.4954696595668793,No,True
+58,8,spatial-relations,,antonym,1,The wheel and the nail are on the same surface. Then the wheel is moved higher.,Is the nail above the wheel?,No,-0.9911628365516663,-0.49156588315963745,No,True
+60,8,spatial-relations,,antonym,2,The wheel and the nail are on the same surface. Then the wheel is moved lower.,Is the nail above the wheel?,Yes,-0.9910967350006104,-0.49156588315963745,No,False
+64,8,spatial-relations,,variable swap,2,The nail and the wheel are on the same surface. Then the nail is moved higher.,Is the nail above the wheel?,Yes,-0.9909515976905823,-0.4915257394313812,No,False
+66,8,spatial-relations,,variable swap,1,The nail and the wheel are on the same surface. Then the nail is moved lower.,Is the nail above the wheel?,No,-1.1550798416137695,-0.40367159247398376,No,True
+69,8,spatial-relations,,antonym,1,The wheel and the nail are on the same surface. Then the wheel is moved higher.,Is the nail below the wheel?,Yes,-0.912954568862915,-0.5383903980255127,No,False
+71,8,spatial-relations,,antonym,2,The wheel and the nail are on the same surface. Then the wheel is moved lower.,Is the nail below the wheel?,No,-0.9130216240882874,-0.5384692549705505,No,True
+75,8,spatial-relations,,variable swap,2,The nail and the wheel are on the same surface. Then the nail is moved higher.,Is the nail below the wheel?,No,-1.0691331624984741,-0.4446810185909271,No,True
+77,8,spatial-relations,,variable swap,1,The nail and the wheel are on the same surface. Then the nail is moved lower.,Is the nail below the wheel?,Yes,-0.9130216240882874,-0.5384692549705505,No,False
+81,9,spatial-relations,,antonym,1,Chao and Yan are on the same floor. Then Chao goes one floor up.,Is Chao above Yan?,Yes,-1.1549240350723267,-0.4054942727088928,No,False
+82,9,spatial-relations,,antonym,1,Chao and Yan are on the same floor. Then Chao goes one floor up.,Is Chao below Yan?,No,-1.1550043821334839,-0.40363118052482605,No,True
+83,9,spatial-relations,,antonym,2,Chao and Yan are on the same floor. Then Chao goes one floor down.,Is Chao above Yan?,No,-1.326819658279419,-0.3313295841217041,No,True
+84,9,spatial-relations,,antonym,2,Chao and Yan are on the same floor. Then Chao goes one floor down.,Is Chao below Yan?,Yes,-1.0689761638641357,-0.4445970356464386,No,False
+87,9,spatial-relations,,variable swap,2,Yan and Chao are on the same floor. Then Yan goes one floor up.,Is Chao above Yan?,No,-1.2408719062805176,-0.3684347867965698,No,True
+88,9,spatial-relations,,variable swap,2,Yan and Chao are on the same floor. Then Yan goes one floor up.,Is Chao below Yan?,Yes,-1.0690571069717407,-0.4465025067329407,No,False
+89,9,spatial-relations,,variable swap,1,Yan and Chao are on the same floor. Then Yan goes one floor down.,Is Chao above Yan?,Yes,-1.2408719062805176,-0.3683892786502838,No,False
+90,9,spatial-relations,,variable swap,1,Yan and Chao are on the same floor. Then Yan goes one floor down.,Is Chao below Yan?,No,-1.1549240350723267,-0.40558311343193054,No,True
+94,9,spatial-relations,,antonym,1,Chao and Yan are on the same floor. Then Chao goes one floor up.,Is Yan above Chao?,No,-1.0768598318099976,-0.4504057765007019,No,True
+96,9,spatial-relations,,antonym,2,Chao and Yan are on the same floor. Then Chao goes one floor down.,Is Yan above Chao?,Yes,-1.240787148475647,-0.3684347867965698,No,False
+100,9,spatial-relations,,variable swap,2,Yan and Chao are on the same floor. Then Yan goes one floor up.,Is Yan above Chao?,Yes,-1.1550043821334839,-0.4074918031692505,No,False
+102,9,spatial-relations,,variable swap,1,Yan and Chao are on the same floor. Then Yan goes one floor down.,Is Yan above Chao?,No,-1.2409515380859375,-0.3684347867965698,No,True
+105,9,spatial-relations,,antonym,1,Chao and Yan are on the same floor. Then Chao goes one floor up.,Is Yan below Chao?,Yes,-1.0690571069717407,-0.446548730134964,No,False
+107,9,spatial-relations,,antonym,2,Chao and Yan are on the same floor. Then Chao goes one floor down.,Is Yan below Chao?,No,-0.9948529601097107,-0.4934347867965698,No,True
+111,9,spatial-relations,,variable swap,2,Yan and Chao are on the same floor. Then Yan goes one floor up.,Is Yan below Chao?,No,-1.1550798416137695,-0.4037094712257385,No,True
+113,9,spatial-relations,,variable swap,1,Yan and Chao are on the same floor. Then Yan goes one floor down.,Is Yan below Chao?,Yes,-1.0691331624984741,-0.44659221172332764,No,False
+117,10,spatial-relations,,antonym,1,Chao touched the wheel from below.,Is the wheel above Chao?,Yes,-1.0695970058441162,-0.44490477442741394,No,False
+118,10,spatial-relations,,antonym,1,Chao touched the wheel from below.,Is the wheel below Chao?,No,-0.9134504199028015,-0.5387137532234192,No,True
+119,10,spatial-relations,,antonym,2,Chao touched the wheel from above.,Is the wheel above Chao?,No,-1.06955087184906,-0.4468570649623871,No,True
+120,10,spatial-relations,,antonym,2,Chao touched the wheel from above.,Is the wheel below Chao?,Yes,-0.9914830923080444,-0.4917602241039276,No,False
+121,11,spatial-relations,,antonym,1,The nail is south of the wheel.,Is the wheel north of the nail?,Yes,-0.9875343441963196,-0.489833801984787,No,False
+122,11,spatial-relations,,antonym,1,The nail is south of the wheel.,Is the wheel south of the nail?,No,-1.06955087184906,-0.44490477442741394,No,True
+123,11,spatial-relations,,antonym,2,The nail is north of the wheel.,Is the wheel north of the nail?,No,-1.155470371246338,-0.40195319056510925,No,True
+124,11,spatial-relations,,antonym,2,The nail is north of the wheel.,Is the wheel south of the nail?,Yes,-0.9913893342018127,-0.489833801984787,No,False
+125,12,spatial-relations,,antonym,1,The wheel is north of Chao. Chao turns around.,Is the wheel north of Chao?,Yes,-0.9916035532951355,-0.48988085985183716,No,False
+126,12,spatial-relations,,antonym,1,The wheel is north of Chao. Chao turns around.,Is the wheel south of Chao?,No,-1.0695970058441162,-0.44492942094802856,No,True
+127,12,spatial-relations,,antonym,2,The wheel is south of Chao. Chao turns around.,Is the wheel north of Chao?,No,-1.0695970058441162,-0.44492942094802856,No,True
+128,12,spatial-relations,,antonym,2,The wheel is south of Chao. Chao turns around.,Is the wheel south of Chao?,Yes,-1.1556036472320557,-0.4019990563392639,No,False
+129,13,spatial-relations,,antonym,1,The wheel is south of Chao. Chao reaches the wheel and continues to move straight ahead.,Is the wheel north of Chao?,Yes,-1.2410264015197754,-0.36656588315963745,No,False
+130,13,spatial-relations,,antonym,1,The wheel is south of Chao. Chao reaches the wheel and continues to move straight ahead.,Is the wheel south of Chao?,No,-1.1551845073699951,-0.40562352538108826,No,True
+131,13,spatial-relations,,antonym,2,The wheel is north of Chao. Chao reaches the wheel and continues to move straight ahead.,Is the wheel north of Chao?,No,-1.0693939924240112,-0.4466713070869446,No,True
+132,13,spatial-relations,,antonym,2,The wheel is north of Chao. Chao reaches the wheel and continues to move straight ahead.,Is the wheel south of Chao?,Yes,-1.2410264015197754,-0.3666035532951355,No,False
+133,14,spatial-relations,,antonym,1,The shop is north of Chao. Chao turns around.,Is the shop north of Chao?,Yes,-1.1556036472320557,-0.4019990563392639,No,False
+134,14,spatial-relations,,antonym,1,The shop is north of Chao. Chao turns around.,Is the shop south of Chao?,No,-1.1477106809616089,-0.4019279181957245,No,True
+135,14,spatial-relations,,antonym,2,The shop is south of Chao. Chao turns around.,Is the shop north of Chao?,No,-1.1477106809616089,-0.4019279181957245,No,True
+136,14,spatial-relations,,antonym,2,The shop is south of Chao. Chao turns around.,Is the shop south of Chao?,Yes,-1.155561923980713,-0.4019990563392639,No,False
+137,15,spatial-relations,,antonym,1,The shop is south of Chao. Chao reaches the shop and exits on the other side.,Is the shop north of Chao?,Yes,-1.2412248849868774,-0.3666035532951355,No,False
+138,15,spatial-relations,,antonym,1,The shop is south of Chao. Chao reaches the shop and exits on the other side.,Is the shop south of Chao?,No,-1.2410967350006104,-0.36855548620224,No,True
+139,15,spatial-relations,,antonym,2,The shop is north of Chao. Chao reaches the shop and exits on the other side.,Is the shop north of Chao?,No,-1.2411627769470215,-0.3685908615589142,No,True
+140,15,spatial-relations,,antonym,2,The shop is north of Chao. Chao reaches the shop and exits on the other side.,Is the shop south of Chao?,Yes,-1.2412248849868774,-0.3646867573261261,No,False
+141,16,spatial-relations,,antonym,1,The nail is west of the wheel.,Is the wheel east of the nail?,Yes,-0.9913378953933716,-0.4917602241039276,No,False
+142,16,spatial-relations,,antonym,1,The nail is west of the wheel.,Is the wheel west of the nail?,No,-0.9914377331733704,-0.49178609251976013,No,True
+143,16,spatial-relations,,antonym,2,The nail is east of the wheel.,Is the wheel east of the nail?,No,-0.9914377331733704,-0.49178609251976013,No,True
+144,16,spatial-relations,,antonym,2,The nail is east of the wheel.,Is the wheel west of the nail?,Yes,-0.9913378953933716,-0.4917602241039276,No,False
+145,17,spatial-relations,,antonym,1,The wheel is east of Chao. Chao turns around.,Is the wheel east of Chao?,Yes,-0.9916035532951355,-0.48988085985183716,No,False
+146,17,spatial-relations,,antonym,1,The wheel is east of Chao. Chao turns around.,Is the wheel west of Chao?,No,-0.9875795841217041,-0.4898579716682434,No,True
+147,17,spatial-relations,,antonym,2,The wheel is west of Chao. Chao turns around.,Is the wheel east of Chao?,No,-0.9876221418380737,-0.48990219831466675,No,True
+148,17,spatial-relations,,antonym,2,The wheel is west of Chao. Chao turns around.,Is the wheel west of Chao?,Yes,-0.9876620173454285,-0.48990219831466675,No,False
+149,18,spatial-relations,,antonym,1,The wheel is west of Chao. Chao reaches the wheel and continues to move straight ahead.,Is the wheel east of Chao?,Yes,-1.1550798416137695,-0.40367159247398376,No,False
+150,18,spatial-relations,,antonym,1,The wheel is west of Chao. Chao reaches the wheel and continues to move straight ahead.,Is the wheel west of Chao?,No,-1.1551506519317627,-0.40367159247398376,No,True
+151,18,spatial-relations,,antonym,2,The wheel is east of Chao. Chao reaches the wheel and continues to move straight ahead.,Is the wheel east of Chao?,No,-1.0692716836929321,-0.4466713070869446,No,True
+152,18,spatial-relations,,antonym,2,The wheel is east of Chao. Chao reaches the wheel and continues to move straight ahead.,Is the wheel west of Chao?,Yes,-1.1550043821334839,-0.4055401086807251,No,False
+153,19,spatial-relations,,antonym,1,The shop is east of Chao. Chao turns around.,Is the shop east of Chao?,Yes,-1.1477106809616089,-0.4019767642021179,No,False
+154,19,spatial-relations,,antonym,1,The shop is east of Chao. Chao turns around.,Is the shop west of Chao?,No,-1.0695970058441162,-0.4410000741481781,No,True
+155,19,spatial-relations,,antonym,2,The shop is west of Chao. Chao turns around.,Is the shop east of Chao?,No,-1.06955087184906,-0.4429771304130554,No,True
+156,19,spatial-relations,,antonym,2,The shop is west of Chao. Chao turns around.,Is the shop west of Chao?,Yes,-1.0696403980255127,-0.44300025701522827,No,False
+157,20,spatial-relations,,antonym,1,The shop is west of Chao. Chao reaches the shop and exits on the other side.,Is the shop east of Chao?,Yes,-1.2410967350006104,-0.36656588315963745,No,False
+158,20,spatial-relations,,antonym,1,The shop is west of Chao. Chao reaches the shop and exits on the other side.,Is the shop west of Chao?,No,-1.1551845073699951,-0.405661404132843,No,True
+159,20,spatial-relations,,antonym,2,The shop is east of Chao. Chao reaches the shop and exits on the other side.,Is the shop east of Chao?,No,-1.1551845073699951,-0.405661404132843,No,True
+160,20,spatial-relations,,antonym,2,The shop is east of Chao. Chao reaches the shop and exits on the other side.,Is the shop west of Chao?,Yes,-1.1551506519317627,-0.4037094712257385,No,False
+161,21,spatial-relations,,antonym,1,The nail is behind the wheel.,Is the wheel in front of the nail?,Yes,-1.155248999595642,-0.4038248062133789,No,False
+162,21,spatial-relations,,antonym,1,The nail is behind the wheel.,Is the wheel behind the nail?,No,-1.06955087184906,-0.4468570649623871,No,True
+163,21,spatial-relations,,antonym,2,The nail is in front of the wheel.,Is the wheel in front of the nail?,No,-1.1553096771240234,-0.4018726348876953,No,True
+164,21,spatial-relations,,antonym,2,The nail is in front of the wheel.,Is the wheel behind the nail?,Yes,-1.069334626197815,-0.4428982734680176,No,False
+165,22,spatial-relations,,antonym,1,Chao can touch the wheel after making a step forward.,Is the wheel in front of Chao?,Yes,-0.9911628365516663,-0.4916720390319824,No,False
+166,22,spatial-relations,,antonym,1,Chao can touch the wheel after making a step forward.,Is the wheel behind Chao?,No,-0.9169870615005493,-0.5423732399940491,No,True
+167,22,spatial-relations,,antonym,2,Chao can touch the wheel after making a step backward.,Is the wheel in front of Chao?,No,-0.9912248849868774,-0.4916720390319824,No,True
+168,22,spatial-relations,,antonym,2,Chao can touch the wheel after making a step backward.,Is the wheel behind Chao?,Yes,-0.9131439328193665,-0.5385857820510864,No,False
+169,23,spatial-relations,,antonym,1,The wheel is to the right of Chao. Chao turns right.,Is the wheel in front of Chao?,Yes,-0.9130846261978149,-0.5384692549705505,No,False
+170,23,spatial-relations,,antonym,1,The wheel is to the right of Chao. Chao turns right.,Is the wheel behind Chao?,No,-0.9131439328193665,-0.5385857820510864,No,True
+171,23,spatial-relations,,antonym,2,The wheel is to the right of Chao. Chao turns left.,Is the wheel in front of Chao?,No,-0.9910967350006104,-0.4916035532951355,No,True
+172,23,spatial-relations,,antonym,2,The wheel is to the right of Chao. Chao turns left.,Is the wheel behind Chao?,Yes,-0.8389357924461365,-0.5892388224601746,No,False
+173,24,spatial-relations,,antonym,1,The wheel is to the left of Chao. Chao turns left.,Is the wheel in front of Chao?,Yes,-0.9130846261978149,-0.5385223627090454,No,False
+174,24,spatial-relations,,antonym,1,The wheel is to the left of Chao. Chao turns left.,Is the wheel behind Chao?,No,-0.9131439328193665,-0.5385550260543823,No,True
+175,24,spatial-relations,,antonym,2,The wheel is to the left of Chao. Chao turns right.,Is the wheel in front of Chao?,No,-0.9911628365516663,-0.4916035532951355,No,True
+176,24,spatial-relations,,antonym,2,The wheel is to the left of Chao. Chao turns right.,Is the wheel behind Chao?,Yes,-0.9130846261978149,-0.5385223627090454,No,False
+177,25,spatial-relations,,antonym,1,The shop is to the right of Chao. Chao turns right.,Is the shop in front of Chao?,Yes,-1.1550798416137695,-0.40363118052482605,No,False
+178,25,spatial-relations,,antonym,1,The shop is to the right of Chao. Chao turns right.,Is the shop behind Chao?,No,-1.0693939924240112,-0.4466713070869446,No,True
+179,25,spatial-relations,,antonym,2,The shop is to the right of Chao. Chao turns left.,Is the shop in front of Chao?,No,-1.2410264015197754,-0.36461395025253296,No,True
+180,25,spatial-relations,,antonym,2,The shop is to the right of Chao. Chao turns left.,Is the shop behind Chao?,Yes,-1.069334626197815,-0.44670727849006653,No,False
+181,26,spatial-relations,,antonym,1,The shop is to the left of Chao. Chao turns left.,Is the shop in front of Chao?,Yes,-1.0770083665847778,-0.4504958391189575,No,False
+182,26,spatial-relations,,antonym,1,The shop is to the left of Chao. Chao turns left.,Is the shop behind Chao?,No,-1.1553665399551392,-0.4076826870441437,No,True
+183,26,spatial-relations,,antonym,2,The shop is to the left of Chao. Chao turns right.,Is the shop in front of Chao?,No,-1.1551506519317627,-0.40562352538108826,No,True
+184,26,spatial-relations,,antonym,2,The shop is to the left of Chao. Chao turns right.,Is the shop behind Chao?,Yes,-1.1553096771240234,-0.4057305157184601,No,False
+185,27,spatial-relations,,antonym,1,The nail is close to the wheel.,Is the wheel close to the nail?,Yes,-0.9172276854515076,-0.542519211769104,No,False
+186,27,spatial-relations,,antonym,1,The nail is close to the wheel.,Is the wheel far from the nail?,No,-1.069449543952942,-0.4429261386394501,No,True
+187,27,spatial-relations,,antonym,2,The nail is far from the wheel.,Is the wheel close to the nail?,No,-1.2414376735687256,-0.3628813922405243,No,True
+188,27,spatial-relations,,antonym,2,The nail is far from the wheel.,Is the wheel far from the nail?,Yes,-0.9914830923080444,-0.4918103814125061,No,False
+189,28,spatial-relations,,antonym,1,Chao is close to the wheel.,Is the wheel close to Chao?,Yes,-0.9953410029411316,-0.4957152009010315,No,False
+190,28,spatial-relations,,antonym,1,Chao is close to the wheel.,Is the wheel far from Chao?,No,-1.0695970058441162,-0.44495266675949097,No,True
+191,28,spatial-relations,,antonym,2,Chao is far from the wheel.,Is the wheel close to Chao?,No,-0.9134504199028015,-0.5386912226676941,No,True
+192,28,spatial-relations,,antonym,2,Chao is far from the wheel.,Is the wheel far from Chao?,Yes,-0.7766140699386597,-0.6519531607627869,No,False
+193,29,spatial-relations,,negation,1,Chao can touch the wheel.,Is the wheel close to Chao?,Yes,-0.8470073938369751,-0.5973088145256042,No,False
+194,29,spatial-relations,,negation,1,Chao can touch the wheel.,Is the wheel far from Chao?,No,-1.077488660812378,-0.4508524537086487,No,True
+195,29,spatial-relations,,negation,2,Chao cannot touch the wheel.,Is the wheel close to Chao?,No,-1.2414830923080444,-0.3687627911567688,No,True
+196,29,spatial-relations,,negation,2,Chao cannot touch the wheel.,Is the wheel far from Chao?,Yes,-0.9953410029411316,-0.49378567934036255,No,False

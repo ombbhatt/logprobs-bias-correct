@@ -1,0 +1,186 @@
+Question Number,MetaTemplateID,Domain,ItemGroupID,ContextDiff,ContextNum,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+1.0,1.0,physical-interactions,,variable_swap,1.0,The wheel and the nail are touching. Heat is flowing from the wheel to the nail.,Is the wheel heating the nail?,Yes,-3.1924498081207275,-2.33124041557312,No,False
+2.0,1.0,physical-interactions,,variable_swap,1.0,The wheel and the nail are touching. Heat is flowing from the wheel to the nail.,Is the wheel cooling the nail?,No,-4.067449569702148,-2.33124041557312,No,True
+3.0,1.0,physical-interactions,,variable_swap,2.0,The wheel and the nail are touching. Heat is flowing from the nail to the wheel.,Is the wheel heating the nail?,No,-3.726754665374756,-2.365244150161743,No,True
+4.0,1.0,physical-interactions,,variable_swap,2.0,The wheel and the nail are touching. Heat is flowing from the nail to the wheel.,Is the wheel cooling the nail?,Yes,-4.254949569702148,-2.395202159881592,No,False
+6.0,1.0,physical-interactions,,variable_swap,1.0,The wheel and the nail are touching. Heat is flowing from the wheel to the nail.,Is the nail heating the wheel?,No,-4.098699569702148,-2.2234976291656494,No,True
+8.0,1.0,physical-interactions,,variable_swap,2.0,The wheel and the nail are touching. Heat is flowing from the nail to the wheel.,Is the nail heating the wheel?,Yes,-3.320504665374756,-2.207702159881592,No,False
+9.0,1.0,physical-interactions,,variable_swap,1.0,The wheel and the nail are touching. Heat is flowing from the wheel to the nail.,Is the nail cooling the wheel?,Yes,-4.164254665374756,-2.176452159881592,No,False
+11.0,1.0,physical-interactions,,variable_swap,2.0,The wheel and the nail are touching. Heat is flowing from the nail to the wheel.,Is the nail cooling the wheel?,No,-3.7607080936431885,-2.146494150161743,No,True
+13.0,2.0,physical-interactions,,antonym,1.0,The wheel and the nail are touching. The wheel is much hotter than the nail.,Is the wheel heating the nail?,Yes,-3.0107080936431885,-2.76874041557312,No,False
+14.0,2.0,physical-interactions,,antonym,1.0,The wheel and the nail are touching. The wheel is much hotter than the nail.,Is the wheel cooling the nail?,No,-3.4818501472473145,-2.740244150161743,No,True
+15.0,2.0,physical-interactions,,antonym,2.0,The wheel and the nail are touching. The wheel is much colder than the nail.,Is the wheel heating the nail?,No,-3.4193501472473145,-2.4233365058898926,No,True
+16.0,2.0,physical-interactions,,antonym,2.0,The wheel and the nail are touching. The wheel is much colder than the nail.,Is the wheel cooling the nail?,Yes,-3.5310873985290527,-2.538393497467041,No,False
+19.0,2.0,physical-interactions,,variable swap,2.0,The nail and the wheel are touching. The nail is much hotter than the wheel.,Is the wheel heating the nail?,No,-4.1068501472473145,-2.613952159881592,No,True
+20.0,2.0,physical-interactions,,variable swap,2.0,The nail and the wheel are touching. The nail is much hotter than the wheel.,Is the wheel cooling the nail?,Yes,-4.075029373168945,-2.569643497467041,No,False
+21.0,2.0,physical-interactions,,variable swap,1.0,The nail and the wheel are touching. The nail is much colder than the wheel.,Is the wheel heating the nail?,Yes,-3.9734976291656494,-2.475625514984131,No,False
+22.0,2.0,physical-interactions,,variable swap,1.0,The nail and the wheel are touching. The nail is much colder than the wheel.,Is the wheel cooling the nail?,No,-3.926452159881592,-2.4307847023010254,No,True
+26.0,2.0,physical-interactions,,antonym,1.0,The wheel and the nail are touching. The wheel is much hotter than the nail.,Is the nail heating the wheel?,No,-3.903441905975342,-2.161966323852539,No,True
+28.0,2.0,physical-interactions,,antonym,2.0,The wheel and the nail are touching. The wheel is much colder than the nail.,Is the nail heating the wheel?,Yes,-3.6262402534484863,-1.8838043212890625,No,False
+32.0,2.0,physical-interactions,,variable swap,2.0,The nail and the wheel are touching. The nail is much hotter than the wheel.,Is the nail heating the wheel?,Yes,-3.6579296588897705,-2.413393497467041,No,False
+34.0,2.0,physical-interactions,,variable swap,1.0,The nail and the wheel are touching. The nail is much colder than the wheel.,Is the nail heating the wheel?,No,-3.801452159881592,-2.3057847023010254,No,True
+37.0,2.0,physical-interactions,,antonym,1.0,The wheel and the nail are touching. The wheel is much hotter than the nail.,Is the nail cooling the wheel?,Yes,-3.7631001472473145,-2.1476354598999023,No,False
+39.0,2.0,physical-interactions,,antonym,2.0,The wheel and the nail are touching. The wheel is much colder than the nail.,Is the nail cooling the wheel?,No,-3.7045865058898926,-1.9620347023010254,No,True
+43.0,2.0,physical-interactions,,variable swap,2.0,The nail and the wheel are touching. The nail is much hotter than the wheel.,Is the nail cooling the wheel?,No,-4.075029373168945,-2.3351354598999023,No,True
+45.0,2.0,physical-interactions,,variable swap,1.0,The nail and the wheel are touching. The nail is much colder than the wheel.,Is the nail cooling the wheel?,Yes,-3.9233365058898926,-2.1807847023010254,No,False
+49.0,3.0,physical-interactions,,antonym,1.0,The wheel is moving down.,Is Chao dropping the wheel?,Yes,-3.700610399246216,-2.4519362449645996,No,False
+50.0,3.0,physical-interactions,,antonym,1.0,The wheel is moving down.,Is Chao lifting the wheel?,No,-3.044976234436035,-2.0459775924682617,No,True
+51.0,3.0,physical-interactions,,antonym,2.0,The wheel is moving up.,Is Chao dropping the wheel?,No,-3.888110399246216,-2.6394362449645996,No,True
+52.0,3.0,physical-interactions,,antonym,2.0,The wheel is moving up.,Is Chao lifting the wheel?,Yes,-3.3569376468658447,-2.1084775924682617,No,False
+53.0,4.0,physical-interactions,,antonym,1.0,The wheel is moving toward the ground.,Is Chao dropping the wheel?,Yes,-4.180784702301025,-2.2011661529541016,No,False
+54.0,4.0,physical-interactions,,antonym,1.0,The wheel is moving toward the ground.,Is Chao lifting the wheel?,No,-3.823432207107544,-2.0763959884643555,No,True
+55.0,4.0,physical-interactions,,antonym,2.0,The wheel is moving away from the ground.,Is Chao dropping the wheel?,No,-4.272899627685547,-2.4194376468658447,No,True
+56.0,4.0,physical-interactions,,antonym,2.0,The wheel is moving away from the ground.,Is Chao lifting the wheel?,Yes,-3.9913854598999023,-2.1384055614471436,No,False
+57.0,5.0,physical-interactions,,antonym,1.0,The nail is moving closer to the magnet.,Is the magnet attracting the nail?,Yes,-2.8256001472473145,-2.3351354598999023,No,False
+58.0,5.0,physical-interactions,,antonym,1.0,The nail is moving closer to the magnet.,Is the magnet repelling the nail?,No,-3.6357080936431885,-2.148643970489502,No,True
+59.0,5.0,physical-interactions,,antonym,2.0,The nail is moving away from the magnet.,Is the magnet attracting the nail?,No,-2.726754665374756,-1.9913854598999023,No,True
+60.0,5.0,physical-interactions,,antonym,2.0,The nail is moving away from the magnet.,Is the magnet repelling the nail?,Yes,-3.4641482830047607,-2.475893497467041,No,False
+61.0,6.0,physical-interactions,,antonym,1.0,The magnet is moving closer to the screwdriver.,Is the screwdriver attracting the magnet?,Yes,-3.466503858566284,-2.1035380363464355,No,False
+62.0,6.0,physical-interactions,,antonym,1.0,The magnet is moving closer to the screwdriver.,Is the screwdriver repelling the magnet?,No,-3.8484976291656494,-2.3562464714050293,No,True
+63.0,6.0,physical-interactions,,antonym,2.0,The magnet is moving away from the screwdriver.,Is the screwdriver attracting the magnet?,No,-3.7420177459716797,-2.0088043212890625,No,True
+64.0,6.0,physical-interactions,,antonym,2.0,The magnet is moving away from the screwdriver.,Is the screwdriver repelling the magnet?,Yes,-3.909558057785034,-2.543330669403076,No,False
+65.0,7.0,physical-interactions,,antonym,1.0,The nail will collide with the magnet.,Is the magnet attracting the nail?,Yes,-2.9858365058898926,-1.7369942665100098,No,False
+66.0,7.0,physical-interactions,,antonym,1.0,The nail will collide with the magnet.,Is the magnet repelling the nail?,No,-3.457702159881592,-1.9635162353515625,No,True
+67.0,7.0,physical-interactions,,antonym,2.0,The nail will move further from the magnet.,Is the magnet attracting the nail?,No,-2.154003858566284,-1.6667221784591675,No,True
+68.0,7.0,physical-interactions,,antonym,2.0,The nail will move further from the magnet.,Is the magnet repelling the nail?,Yes,-2.7943501472473145,-2.0572662353515625,No,False
+69.0,8.0,physical-interactions,,antonym,1.0,The truck is moving forward but Chao is not.,Is Chao throwing the truck?,Yes,-4.309322357177734,-1.8191331624984741,No,False
+70.0,8.0,physical-interactions,,antonym,1.0,The truck is moving forward but Chao is not.,Is Chao climbing on the truck?,No,-3.166722059249878,-1.9194376468658447,No,True
+71.0,8.0,physical-interactions,,antonym,2.0,The truck is staying in the same spot but Chao is not.,Is Chao throwing the truck?,No,-4.430784702301025,-1.4277738332748413,No,True
+72.0,8.0,physical-interactions,,antonym,2.0,The truck is staying in the same spot but Chao is not.,Is Chao climbing on the truck?,Yes,-3.1484034061431885,-1.6534451246261597,No,False
+73.0,9.0,physical-interactions,,antonym,1.0,Chao is staying in the same spot but the truck is not.,Is Chao throwing the truck?,Yes,-4.116385459899902,-1.6234976053237915,No,False
+74.0,9.0,physical-interactions,,antonym,1.0,Chao is staying in the same spot but the truck is not.,Is Chao climbing on the truck?,No,-3.5823535919189453,-1.9664956331253052,No,True
+75.0,9.0,physical-interactions,,antonym,2.0,Chao is moving but the truck is not.,Is Chao throwing the truck?,No,-3.837240695953369,-1.7250949144363403,No,True
+76.0,9.0,physical-interactions,,antonym,2.0,Chao is moving but the truck is not.,Is Chao climbing on the truck?,Yes,-3.679893970489502,-1.8107978105545044,No,False
+77.0,10.0,physical-interactions,,antonym,1.0,The truck is in the air.,Is Chao throwing the truck?,Yes,-3.0904715061187744,-2.0925426483154297,No,False
+78.0,10.0,physical-interactions,,antonym,1.0,The truck is in the air.,Is Chao climbing on the truck?,No,-3.2459216117858887,-2.2480714321136475,No,True
+79.0,10.0,physical-interactions,,antonym,2.0,The truck is on the ground.,Is Chao throwing the truck?,No,-3.2619683742523193,-1.7567716836929321,No,True
+80.0,10.0,physical-interactions,,antonym,2.0,The truck is on the ground.,Is Chao climbing on the truck?,Yes,-2.7468223571777344,-1.7567716836929321,No,False
+81.0,11.0,physical-interactions,,antonym,1.0,Chao is on the ground but the truck is not.,Is Chao throwing the truck?,Yes,-3.6822662353515625,-2.185997724533081,No,False
+82.0,11.0,physical-interactions,,antonym,1.0,Chao is on the ground but the truck is not.,Is Chao climbing on the truck?,No,-3.225893497467041,-2.107476234436035,No,True
+83.0,11.0,physical-interactions,,antonym,2.0,Chao is above the ground but the truck is not.,Is Chao throwing the truck?,No,-3.97688627243042,-1.8500949144363403,No,True
+84.0,11.0,physical-interactions,,antonym,2.0,Chao is above the ground but the truck is not.,Is Chao climbing on the truck?,Yes,-4.203205108642578,-2.1069376468658447,No,False
+85.0,12.0,physical-interactions,,antonym,1.0,The truck is smaller than Chao.,Is Chao throwing the truck?,Yes,-4.332353591918945,-2.0749964714050293,No,False
+86.0,12.0,physical-interactions,,antonym,1.0,The truck is smaller than Chao.,Is Chao climbing on the truck?,No,-3.7073535919189453,-1.8331544399261475,No,True
+87.0,12.0,physical-interactions,,antonym,2.0,The truck is larger than Chao.,Is Chao throwing the truck?,No,-4.741385459899902,-1.997524380683899,No,True
+88.0,12.0,physical-interactions,,antonym,2.0,The truck is larger than Chao.,Is Chao climbing on the truck?,Yes,-3.6609976291656494,-1.7862356901168823,No,False
+89.0,13.0,physical-interactions,,antonym,1.0,The truck is lighter than Chao.,Is Chao throwing the truck?,Yes,-4.058421611785889,-1.8187984228134155,No,False
+90.0,13.0,physical-interactions,,antonym,1.0,The truck is lighter than Chao.,Is Chao climbing on the truck?,No,-3.8057847023010254,-1.8105714321136475,No,True
+91.0,13.0,physical-interactions,,antonym,2.0,The truck is heavier than Chao.,Is Chao throwing the truck?,No,-4.152296543121338,-1.4207229614257812,No,True
+92.0,13.0,physical-interactions,,antonym,2.0,The truck is heavier than Chao.,Is Chao climbing on the truck?,Yes,-3.524740695953369,-1.4121187925338745,No,False
+93.0,14.0,physical-interactions,,antonym,1.0,The wheel is moving towards Chao.,Is Chao catching the wheel?,Yes,-3.2777605056762695,-2.0303666591644287,No,False
+94.0,14.0,physical-interactions,,antonym,1.0,The wheel is moving towards Chao.,Is Chao throwing the wheel?,No,-3.6834216117858887,-2.186174154281616,No,True
+95.0,14.0,physical-interactions,,antonym,2.0,The wheel is moving away from Chao.,Is Chao catching the wheel?,No,-3.0423262119293213,-1.7877672910690308,No,True
+96.0,14.0,physical-interactions,,antonym,2.0,The wheel is moving away from Chao.,Is Chao throwing the wheel?,Yes,-3.1843223571777344,-1.6865885257720947,No,False
+97.0,15.0,physical-interactions,,antonym,1.0,Chao is making the wheel stop.,Is Chao catching the wheel?,Yes,-2.9798262119293213,-2.358069658279419,No,False
+98.0,15.0,physical-interactions,,antonym,1.0,Chao is making the wheel stop.,Is Chao throwing the wheel?,No,-3.9334216117858887,-2.4355714321136475,No,True
+99.0,15.0,physical-interactions,,antonym,2.0,Chao is making the wheel move.,Is Chao catching the wheel?,No,-3.401176929473877,-1.9127672910690308,No,True
+100.0,15.0,physical-interactions,,antonym,2.0,Chao is making the wheel move.,Is Chao throwing the wheel?,Yes,-3.995379686355591,-2.13909912109375,No,False
+101.0,16.0,physical-interactions,,antonym,1.0,The wheel is now within Chao's reach.,Is Chao catching the wheel?,Yes,-2.7726354598999023,-2.404493808746338,No,False
+102.0,16.0,physical-interactions,,antonym,1.0,The wheel is now within Chao's reach.,Is Chao throwing the wheel?,No,-2.6209216117858887,-1.6240885257720947,No,True
+103.0,16.0,physical-interactions,,antonym,2.0,The wheel is now out of Chao's reach.,Is Chao catching the wheel?,No,-3.086822271347046,-2.0917601585388184,No,True
+104.0,16.0,physical-interactions,,antonym,2.0,The wheel is now out of Chao's reach.,Is Chao throwing the wheel?,Yes,-2.7447662353515625,-1.4988298416137695,No,False
+105.0,17.0,physical-interactions,,antonym,1.0,The wheel is moving away from Chao.,Is Chao pushing the wheel?,Yes,-3.1660380363464355,-1.6707229614257812,No,False
+106.0,17.0,physical-interactions,,antonym,1.0,The wheel is moving away from Chao.,Is Chao pulling the wheel?,No,-2.8402605056762695,-1.4678665399551392,No,True
+107.0,17.0,physical-interactions,,antonym,2.0,The wheel is moving towards Chao.,Is Chao pushing the wheel?,No,-4.026483535766602,-1.7803096771240234,No,True
+108.0,17.0,physical-interactions,,antonym,2.0,The wheel is moving towards Chao.,Is Chao pulling the wheel?,Yes,-3.6678595542907715,-1.9209775924682617,No,False
+109.0,18.0,physical-interactions,,antonym,1.0,The distance between Chao and the wheel is increasing.,Is Chao pushing the wheel?,Yes,-3.9387402534484863,-1.9421098232269287,No,False
+110.0,18.0,physical-interactions,,antonym,1.0,The distance between Chao and the wheel is increasing.,Is Chao pulling the wheel?,No,-3.833685874938965,-1.841274380683899,No,True
+111.0,18.0,physical-interactions,,antonym,2.0,The distance between Chao and the wheel is decreasing.,Is Chao pushing the wheel?,No,-3.67499041557312,-2.0593223571777344,No,True
+112.0,18.0,physical-interactions,,antonym,2.0,The distance between Chao and the wheel is decreasing.,Is Chao pulling the wheel?,Yes,-3.677744150161743,-2.1843223571777344,No,False
+113.0,19.0,physical-interactions,,antonym,1.0,"When the action is complete, Chao will no longer be touching the wheel.",Is Chao pushing the wheel?,Yes,-3.2670865058898926,-2.1521716117858887,No,False
+114.0,19.0,physical-interactions,,antonym,1.0,"When the action is complete, Chao will no longer be touching the wheel.",Is Chao pulling the wheel?,No,-2.6788854598999023,-2.1850242614746094,No,True
+115.0,19.0,physical-interactions,,antonym,2.0,"When the action is complete, Chao will still be touching the wheel.",Is Chao pushing the wheel?,No,-3.462240695953369,-1.9748997688293457,No,True
+116.0,19.0,physical-interactions,,antonym,2.0,"When the action is complete, Chao will still be touching the wheel.",Is Chao pulling the wheel?,Yes,-3.370379686355591,-2.373674154281616,No,False
+117.0,20.0,physical-interactions,,other,1.0,The wheel is exerting force upon the nail.,Is the wheel pushing the nail?,Yes,-3.503308057785034,-3.0103089809417725,No,False
+118.0,20.0,physical-interactions,,other,1.0,The wheel is exerting force upon the nail.,Is the nail pushing the wheel?,No,-4.616385459899902,-2.1218223571777344,No,True
+119.0,20.0,physical-interactions,,other,2.0,The wheel is moving away from the nail.,Is the wheel pushing the nail?,No,-3.8213043212890625,-1.5834810733795166,No,True
+120.0,20.0,physical-interactions,,other,2.0,The wheel is moving away from the nail.,Is the nail pushing the wheel?,Yes,-4.3697662353515625,-1.6147310733795166,No,False
+123.0,20.0,physical-interactions,,variable swap,2.0,The nail is exerting force upon the wheel.,Is the wheel pushing the nail?,No,-4.303885459899902,-2.3093223571777344,No,True
+124.0,20.0,physical-interactions,,variable swap,2.0,The nail is exerting force upon the wheel.,Is the nail pushing the wheel?,Yes,-3.833040237426758,-2.589796781539917,No,False
+125.0,20.0,physical-interactions,,variable swap,1.0,The nail is moving away from the wheel.,Is the wheel pushing the nail?,Yes,-3.7098634243011475,-1.7077845335006714,No,False
+126.0,20.0,physical-interactions,,variable swap,1.0,The nail is moving away from the wheel.,Is the nail pushing the wheel?,No,-3.988952159881592,-1.7459216117858887,No,True
+129.0,22.0,physical-interactions,,other,1.0,The wheel is moving because of Chao.,Is Chao throwing the wheel?,Yes,-3.4975242614746094,-1.5070970058441162,No,False
+130.0,22.0,physical-interactions,,other,1.0,The wheel is moving because of Chao.,Is Chao dropping the wheel?,No,-3.465669870376587,-1.975419282913208,No,True
+131.0,22.0,physical-interactions,,other,2.0,The wheel is moving because of gravity.,Is Chao throwing the wheel?,No,-4.302743911743164,-1.7941135168075562,No,True
+132.0,22.0,physical-interactions,,other,2.0,The wheel is moving because of gravity.,Is Chao dropping the wheel?,Yes,-4.083685874938965,-2.0753636360168457,No,False
+133.0,23.0,physical-interactions,,antonym,1.0,The wheel will soon be in pieces.,Is Chao breaking the wheel?,Yes,-3.9668805599212646,-2.967615842819214,No,False
+134.0,23.0,physical-interactions,,antonym,1.0,The wheel will soon be in pieces.,Is Chao fixing the wheel?,No,-4.057582378387451,-2.4516913890838623,No,True
+135.0,23.0,physical-interactions,,antonym,2.0,The wheel will soon be in one piece.,Is Chao breaking the wheel?,No,-3.762397289276123,-2.26409912109375,No,True
+136.0,23.0,physical-interactions,,antonym,2.0,The wheel will soon be in one piece.,Is Chao fixing the wheel?,Yes,-3.6353089809417725,-3.013784646987915,No,False
+137.0,24.0,physical-interactions,,antonym,1.0,The wheel is being damaged.,Is Chao breaking the wheel?,Yes,-4.088676929473877,-2.5918805599212646,No,False
+138.0,24.0,physical-interactions,,antonym,1.0,The wheel is being damaged.,Is Chao fixing the wheel?,No,-4.740832328796387,-3.3726742267608643,No,True
+139.0,24.0,physical-interactions,,antonym,2.0,The wheel is being repaired.,Is Chao breaking the wheel?,No,-4.149322032928467,-2.154493808746338,No,True
+140.0,24.0,physical-interactions,,antonym,2.0,The wheel is being repaired.,Is Chao fixing the wheel?,Yes,-5.114618301391602,-3.8709216117858887,No,False
+141.0,26.0,physical-interactions,,antonym,1.0,Chao is repeatedly throwing the wheel.,Is Chao breaking the wheel?,Yes,-3.7902634143829346,-2.294976234436035,No,False
+142.0,26.0,physical-interactions,,antonym,1.0,Chao is repeatedly throwing the wheel.,Is Chao fixing the wheel?,No,-3.527535915374756,-2.0300426483154297,No,True
+143.0,26.0,physical-interactions,,antonym,2.0,Chao is putting together the wheel.,Is Chao breaking the wheel?,No,-3.4959216117858887,-1.9906967878341675,No,True
+144.0,26.0,physical-interactions,,antonym,2.0,Chao is putting together the wheel.,Is Chao fixing the wheel?,Yes,-3.9795336723327637,-2.232985496520996,No,False
+145.0,27.0,physical-interactions,,antonym,1.0,The wheel is exerting force upon the nail.,Is the wheel colliding with the nail?,Yes,-4.569775581359863,-3.332702159881592,No,False
+146.0,27.0,physical-interactions,,antonym,1.0,The wheel is exerting force upon the nail.,Is the nail colliding with the wheel?,No,-4.5443501472473145,-3.319375514984131,No,True
+147.0,27.0,physical-interactions,,antonym,2.0,The wheel is taking a hit from the nail.,Is the wheel colliding with the nail?,No,-3.863952159881592,-2.8709216117858887,No,True
+148.0,27.0,physical-interactions,,antonym,2.0,The wheel is taking a hit from the nail.,Is the nail colliding with the wheel?,Yes,-4.020540237426758,-3.027296781539917,No,False
+151.0,27.0,physical-interactions,,variable swap,2.0,The nail is exerting force upon the wheel.,Is the wheel colliding with the nail?,No,-4.7943501472473145,-3.038393497467041,No,True
+152.0,27.0,physical-interactions,,variable swap,2.0,The nail is exerting force upon the wheel.,Is the nail colliding with the wheel?,Yes,-4.638653755187988,-2.8995347023010254,No,False
+153.0,27.0,physical-interactions,,variable swap,1.0,The nail is taking a hit from the wheel.,Is the wheel colliding with the nail?,Yes,-3.9734976291656494,-2.729222059249878,No,False
+154.0,27.0,physical-interactions,,variable swap,1.0,The nail is taking a hit from the wheel.,Is the nail colliding with the wheel?,No,-4.142519474029541,-2.916722059249878,No,True
+157.0,28.0,physical-interactions,,antonym,1.0,"The wheel is moving, and the nail is not.",Is the wheel colliding with the nail?,Yes,-4.610836505889893,-2.3713998794555664,No,False
+158.0,28.0,physical-interactions,,antonym,1.0,"The wheel is moving, and the nail is not.",Is the nail colliding with the wheel?,No,-4.426452159881592,-2.184695243835449,No,True
+159.0,28.0,physical-interactions,,antonym,2.0,"The wheel is stationary, and the nail is not.",Is the wheel colliding with the nail?,No,-4.580019474029541,-2.3552324771881104,No,True
+160.0,28.0,physical-interactions,,antonym,2.0,"The wheel is stationary, and the nail is not.",Is the nail colliding with the wheel?,Yes,-4.426452159881592,-2.1850242614746094,No,False
+161.0,29.0,physical-interactions,,other,1.0,Chao's foot is touching the wheel.,Is Chao kicking the wheel?,Yes,-3.711822271347046,-2.216993808746338,No,False
+162.0,29.0,physical-interactions,,other,1.0,Chao's foot is touching the wheel.,Is Chao throwing the wheel?,No,-3.5902605056762695,-2.0927491188049316,No,True
+163.0,29.0,physical-interactions,,other,2.0,Chao's hand is touching the wheel.,Is Chao kicking the wheel?,No,-3.9178595542907715,-2.670396089553833,No,True
+164.0,29.0,physical-interactions,,other,2.0,Chao's hand is touching the wheel.,Is Chao throwing the wheel?,Yes,-3.950610399246216,-2.202404022216797,No,False
+165.0,30.0,physical-interactions,,antonym,1.0,The wheel is on the ground.,Is Chao kicking the wheel?,Yes,-3.2734034061431885,-2.029493808746338,No,False
+166.0,30.0,physical-interactions,,antonym,1.0,The wheel is on the ground.,Is Chao throwing the wheel?,No,-3.1822662353515625,-1.8189761638641357,No,True
+167.0,30.0,physical-interactions,,antonym,2.0,The wheel is above the ground.,Is Chao kicking the wheel?,No,-3.4609034061431885,-2.2164957523345947,No,True
+168.0,30.0,physical-interactions,,antonym,2.0,The wheel is above the ground.,Is Chao throwing the wheel?,Yes,-3.1978089809417725,-2.0763959884643555,No,False
+169.0,31.0,physical-interactions,,antonym,1.0,Chao is applying significant force to the wheel.,Is Chao kicking the wheel?,Yes,-4.399322032928467,-2.63909912109375,No,False
+170.0,31.0,physical-interactions,,antonym,1.0,Chao is applying significant force to the wheel.,Is Chao dropping the wheel?,No,-3.948432207107544,-2.202075958251953,No,True
+171.0,31.0,physical-interactions,,antonym,2.0,Chao is applying negligible force to the wheel.,Is Chao kicking the wheel?,No,-4.393345832824707,-2.013110399246216,No,True
+172.0,31.0,physical-interactions,,antonym,2.0,Chao is applying negligible force to the wheel.,Is Chao dropping the wheel?,Yes,-3.97688627243042,-1.8578959703445435,No,False
+173.0,32.0,physical-interactions,,other,1.0,The wheel is moving upward.,Is Chao kicking the wheel?,Yes,-3.5402634143829346,-2.4197237491607666,No,False
+174.0,32.0,physical-interactions,,other,1.0,The wheel is moving upward.,Is Chao dropping the wheel?,No,-3.762397289276123,-2.2642781734466553,No,True
+175.0,32.0,physical-interactions,,other,2.0,The wheel is moving downward.,Is Chao kicking the wheel?,No,-3.649322271347046,-2.4039957523345947,No,True
+176.0,32.0,physical-interactions,,other,2.0,The wheel is moving downward.,Is Chao dropping the wheel?,Yes,-3.8869683742523193,-2.38909912109375,No,False
+178.0,33.0,physical-interactions,,antonym,1.0,Chao is applying significant force to the wheel.,Is Chao touching the wheel?,No,-3.0954296588897705,-3.2319376468658447,Yes,False
+180.0,33.0,physical-interactions,,antonym,2.0,Chao is applying negligible force to the wheel.,Is Chao touching the wheel?,Yes,-2.7670865058898926,-2.7783563137054443,Yes,True
+181.0,34.0,physical-interactions,,antonym,1.0,The speed of the wheel changes.,Is Chao kicking the wheel?,Yes,-4.151176929473877,-2.4038503170013428,No,False
+182.0,34.0,physical-interactions,,antonym,1.0,The speed of the wheel changes.,Is Chao touching the wheel?,No,-3.6807847023010254,-2.4350242614746094,No,True
+183.0,34.0,physical-interactions,,antonym,2.0,The speed of the wheel remains the same.,Is Chao kicking the wheel?,No,-4.268345832824707,-2.0128636360168457,No,True
+184.0,34.0,physical-interactions,,antonym,2.0,The speed of the wheel remains the same.,Is Chao touching the wheel?,Yes,-3.381875514984131,-1.8881876468658447,No,False
+185.0,35.0,physical-interactions,,negation,1.0,"In a moment, the wheel will not be in the same place.",Is Chao kicking the wheel?,Yes,-3.575610399246216,-2.5769362449645996,No,False
+186.0,35.0,physical-interactions,,negation,1.0,"In a moment, the wheel will not be in the same place.",Is Chao touching the wheel?,No,-2.967615842819214,-2.218332529067993,No,True
+187.0,35.0,physical-interactions,,negation,2.0,"In a moment, the wheel will be in the same place.",Is Chao kicking the wheel?,No,-2.9043805599212646,-1.905561923980713,No,True
+188.0,35.0,physical-interactions,,negation,2.0,"In a moment, the wheel will be in the same place.",Is Chao touching the wheel?,Yes,-2.3582229614257812,-1.8668546676635742,No,False
+189.0,36.0,physical-interactions,,antonym,1.0,Chao is applying significant force to the wheel.,Is Chao throwing the wheel?,Yes,-4.0876336097717285,-2.8263959884643555,No,False
+191.0,36.0,physical-interactions,,antonym,2.0,Chao is applying negligible force to the wheel.,Is Chao throwing the wheel?,No,-3.7728993892669678,-2.029132127761841,No,True
+193.0,37.0,physical-interactions,,antonym,1.0,The speed of the wheel changes.,Is Chao throwing the wheel?,Yes,-4.341196060180664,-2.5925426483154297,No,False
+195.0,37.0,physical-interactions,,antonym,2.0,The speed of the wheel remains the same.,Is Chao throwing the wheel?,No,-4.084863185882568,-1.8256876468658447,No,True
+197.0,38.0,physical-interactions,,negation,1.0,"In a moment, the wheel will not be in the same place.",Is Chao throwing the wheel?,Yes,-3.5613298416137695,-2.3119471073150635,No,False
+199.0,38.0,physical-interactions,,negation,2.0,"In a moment, the wheel will be in the same place.",Is Chao throwing the wheel?,No,-2.9207229614257812,-1.9214510917663574,No,True
+201.0,39.0,physical-interactions,,other,1.0,Chao's feet are beside the bed.,Is Chao sitting on the bed?,Yes,-3.5842928886413574,-2.091993808746338,No,False
+202.0,39.0,physical-interactions,,other,1.0,Chao's feet are beside the bed.,Is Chao standing on the bed?,No,-3.524322271347046,-1.779260277748108,No,True
+203.0,39.0,physical-interactions,,other,2.0,Chao's feet are on the bed.,Is Chao sitting on the bed?,No,-3.583685874938965,-1.95896315574646,No,True
+204.0,39.0,physical-interactions,,other,2.0,Chao's feet are on the bed.,Is Chao standing on the bed?,Yes,-3.583685874938965,-1.716993808746338,No,False
+205.0,40.0,physical-interactions,,antonym,1.0,Chao is closer to the ground compared to when Chao was standing on the ground.,Is Chao sitting on the wheel?,Yes,-3.2675790786743164,-1.6652634143829346,No,False
+206.0,40.0,physical-interactions,,antonym,1.0,Chao is closer to the ground compared to when Chao was standing on the ground.,Is Chao standing on the wheel?,No,-3.238250970840454,-1.8964941501617432,No,True
+207.0,40.0,physical-interactions,,antonym,2.0,Chao is closer to the sky compared to when Chao was standing on the ground.,Is Chao sitting on the wheel?,No,-3.4781625270843506,-2.132143497467041,No,True
+208.0,40.0,physical-interactions,,antonym,2.0,Chao is closer to the sky compared to when Chao was standing on the ground.,Is Chao standing on the wheel?,Yes,-3.493208646774292,-2.2726354598999023,No,False
+209.0,41.0,physical-interactions,,antonym,1.0,Chao is closer to the floor compared to when Chao was standing on the ground.,Is Chao sitting on the wheel?,Yes,-3.463512897491455,-1.6057183742523193,No,False
+210.0,41.0,physical-interactions,,antonym,1.0,Chao is closer to the floor compared to when Chao was standing on the ground.,Is Chao standing on the wheel?,No,-3.3881001472473145,-1.9021716117858887,No,True
+211.0,41.0,physical-interactions,,antonym,2.0,Chao is farther from the floor compared to when Chao was standing on the ground.,Is Chao sitting on the wheel?,No,-3.2652158737182617,-1.5284451246261597,No,True
+212.0,41.0,physical-interactions,,antonym,2.0,Chao is farther from the floor compared to when Chao was standing on the ground.,Is Chao standing on the wheel?,Yes,-3.3123373985290527,-1.6999964714050293,No,False
+213.0,42.0,physical-interactions,,antonym,1.0,The distance between the wheel and the nail is constant over time.,Is the wheel revolving around the nail?,Yes,-3.892519235610962,-2.3995347023010254,No,False
+214.0,42.0,physical-interactions,,antonym,1.0,The distance between the wheel and the nail is constant over time.,Is the wheel approaching the nail?,No,-4.716031551361084,-4.967464923858643,Yes,False
+215.0,42.0,physical-interactions,,antonym,2.0,The distance between the wheel and the nail decreases over time.,Is the wheel revolving around the nail?,No,-4.137529373168945,-2.6476354598999023,No,True
+216.0,42.0,physical-interactions,,antonym,2.0,The distance between the wheel and the nail decreases over time.,Is the wheel approaching the nail?,Yes,-4.2440714836120605,-3.9968223571777344,No,False
+217.0,43.0,physical-interactions,,antonym,1.0,The wheel and the nail will stay apart.,Is the wheel revolving around the nail?,Yes,-4.149322032928467,-1.4043214321136475,No,False
+218.0,43.0,physical-interactions,,antonym,1.0,The wheel and the nail will stay apart.,Is the wheel approaching the nail?,No,-3.0402634143829346,-1.29534912109375,No,True
+219.0,43.0,physical-interactions,,antonym,2.0,The wheel and the nail will make contact.,Is the wheel revolving around the nail?,No,-3.525850534439087,-1.779260277748108,No,True
+220.0,43.0,physical-interactions,,antonym,2.0,The wheel and the nail will make contact.,Is the wheel approaching the nail?,Yes,-3.1053595542907715,-1.8586760759353638,No,False
+221.0,44.0,physical-interactions,,variable swap,1.0,"The wheel is moving, and the nail is stationary.",Is the wheel revolving around the nail?,Yes,-3.9387402534484863,-1.699109673500061,No,False
+222.0,44.0,physical-interactions,,variable swap,1.0,"The wheel is moving, and the nail is stationary.",Is the nail revolving around the wheel?,No,-3.8348634243011475,-1.3334810733795166,No,True
+223.0,44.0,physical-interactions,,variable swap,2.0,"The nail is moving, and the wheel is stationary.",Is the wheel revolving around the nail?,No,-3.895540237426758,-2.1521716117858887,No,True
+224.0,44.0,physical-interactions,,variable swap,2.0,"The nail is moving, and the wheel is stationary.",Is the nail revolving around the wheel?,Yes,-3.6448535919189453,-1.9030722379684448,No,False
+"Overall accuracy: 0.495, TP: 1, TN: 90, FP: 2, FN: 91, Bias score: -0.967",,,,,,,,,,,,

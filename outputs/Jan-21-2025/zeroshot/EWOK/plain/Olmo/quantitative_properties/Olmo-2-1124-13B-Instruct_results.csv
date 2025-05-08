@@ -1,0 +1,140 @@
+Question Number,MetaTemplateID,Domain,ItemGroupID,ContextDiff,ContextNum,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+1.0,1.0,quantitative-properties,,antonym,1.0,There are fewer keychains than staplers.,Are there more staplers than keychains?,Yes,-1.2937464714050293,-2.013784646987915,Yes,True
+2.0,1.0,quantitative-properties,,antonym,1.0,There are fewer keychains than staplers.,Are there fewer staplers than keychains?,No,-2.5591177940368652,-1.4986740350723267,No,True
+3.0,1.0,quantitative-properties,,antonym,2.0,There are more keychains than staplers.,Are there more staplers than keychains?,No,-2.9509055614471436,-1.709812045097351,No,True
+4.0,1.0,quantitative-properties,,antonym,2.0,There are more keychains than staplers.,Are there fewer staplers than keychains?,Yes,-1.8407645225524902,-2.763784646987915,Yes,True
+5.0,2.0,quantitative-properties,,antonym,1.0,There are many staplers relative to keychains.,Are there more staplers than keychains?,Yes,-1.600419282913208,-4.8738298416137695,Yes,True
+6.0,2.0,quantitative-properties,,antonym,1.0,There are many staplers relative to keychains.,Are there fewer staplers than keychains?,No,-4.1854472160339355,-5.622673988342285,Yes,False
+7.0,2.0,quantitative-properties,,antonym,2.0,There are few staplers relative to keychains.,Are there more staplers than keychains?,No,-3.186174154281616,-3.3422000408172607,Yes,False
+8.0,2.0,quantitative-properties,,antonym,2.0,There are few staplers relative to keychains.,Are there fewer staplers than keychains?,Yes,-1.5924649238586426,-2.9053096771240234,Yes,True
+12.0,2.0,quantitative-properties,,variable swap,2.0,There are many keychains relative to staplers.,Are there fewer staplers than keychains?,Yes,-1.513841152191162,-3.4513959884643555,Yes,True
+13.0,2.0,quantitative-properties,,variable swap,1.0,There are few keychains relative to staplers.,Are there more staplers than keychains?,Yes,-2.1548819541931152,-4.779600143432617,Yes,True
+14.0,2.0,quantitative-properties,,variable swap,1.0,There are few keychains relative to staplers.,Are there fewer staplers than keychains?,No,-2.1394362449645996,-2.920858144760132,Yes,False
+17.0,3.0,quantitative-properties,,antonym,1.0,Staplers are added to the truck that initially contained the same number of staplers and keychains.,Are there more staplers than keychains?,Yes,-2.623674154281616,-5.186467170715332,Yes,True
+19.0,3.0,quantitative-properties,,antonym,2.0,Staplers are removed from the truck that initially contained the same number of staplers and keychains.,Are there more staplers than keychains?,No,-2.733358144760132,-4.249143600463867,Yes,False
+20.0,3.0,quantitative-properties,,antonym,2.0,Staplers are removed from the truck that initially contained the same number of staplers and keychains.,Are there fewer staplers than keychains?,Yes,-2.608631134033203,-3.796330690383911,Yes,True
+21.0,4.0,quantitative-properties,,antonym,1.0,Yan has two fewer staplers compared to Chao.,Does Chao have more staplers than Yan?,Yes,-1.3580282926559448,-4.405184268951416,Yes,True
+22.0,4.0,quantitative-properties,,antonym,1.0,Yan has two fewer staplers compared to Chao.,Does Chao have fewer staplers than Yan?,No,-3.357591152191162,-1.2487543821334839,No,True
+23.0,4.0,quantitative-properties,,antonym,2.0,Yan has two additional staplers compared to Chao.,Does Chao have more staplers than Yan?,No,-2.88909912109375,-1.2645083665847778,No,True
+24.0,4.0,quantitative-properties,,antonym,2.0,Yan has two additional staplers compared to Chao.,Does Chao have fewer staplers than Yan?,Yes,-1.4285967350006104,-2.9367902278900146,Yes,True
+25.0,5.0,quantitative-properties,,antonym,1.0,The truck full of staplers that belongs to Chao is bigger than that of Yan.,Does Chao have more staplers than Yan?,Yes,-2.123188018798828,-2.468017578125,Yes,True
+26.0,5.0,quantitative-properties,,antonym,1.0,The truck full of staplers that belongs to Chao is bigger than that of Yan.,Does Chao have fewer staplers than Yan?,No,-4.123497486114502,-1.8037248849868774,No,True
+27.0,5.0,quantitative-properties,,antonym,2.0,The truck full of staplers that belongs to Chao is smaller than that of Yan.,Does Chao have more staplers than Yan?,No,-3.185688018798828,-1.3741437196731567,No,True
+28.0,5.0,quantitative-properties,,antonym,2.0,The truck full of staplers that belongs to Chao is smaller than that of Yan.,Does Chao have fewer staplers than Yan?,Yes,-2.170792579650879,-1.9290659427642822,No,False
+29.0,6.0,quantitative-properties,,antonym,1.0,There are two fewer staplers in the zoo than in the shop.,Are there more staplers in the shop than in the zoo?,Yes,-1.49736487865448,-4.215856075286865,Yes,True
+30.0,6.0,quantitative-properties,,antonym,1.0,There are two fewer staplers in the zoo than in the shop.,Are there fewer staplers in the shop than in the zoo?,No,-2.341031312942505,-1.154493808746338,No,True
+31.0,6.0,quantitative-properties,,antonym,2.0,There are nine more staplers in the zoo than in the shop.,Are there more staplers in the shop than in the zoo?,No,-2.5428595542907715,-1.364490032196045,No,True
+32.0,6.0,quantitative-properties,,antonym,2.0,There are nine more staplers in the zoo than in the shop.,Are there fewer staplers in the shop than in the zoo?,Yes,-0.9974458813667297,-4.746822357177734,Yes,True
+33.0,7.0,quantitative-properties,,number,1.0,Chao has three staplers and three keychains.,Is the number of staplers and keychains the same?,Yes,-1.0993602275848389,-4.560797691345215,Yes,True
+34.0,7.0,quantitative-properties,,number,1.0,Chao has three staplers and three keychains.,Is the number of staplers and keychains different?,No,-1.70876944065094,-3.7177491188049316,Yes,False
+35.0,7.0,quantitative-properties,,number,2.0,Chao has three staplers and five keychains.,Is the number of staplers and keychains the same?,No,-4.210399627685547,-4.588003158569336,Yes,False
+36.0,7.0,quantitative-properties,,number,2.0,Chao has three staplers and five keychains.,Is the number of staplers and keychains different?,Yes,-2.697467088699341,-4.934322357177734,Yes,True
+37.0,8.0,quantitative-properties,,antonym,1.0,The cooler has an equal number of staplers compared to keychains.,Is the number of staplers and keychains the same?,Yes,-1.3118735551834106,-2.4682769775390625,Yes,True
+39.0,8.0,quantitative-properties,,antonym,2.0,The cooler has a greater number of staplers compared to keychains.,Is the number of staplers and keychains the same?,No,-3.124619960784912,-1.7417327165603638,No,True
+40.0,8.0,quantitative-properties,,antonym,2.0,The cooler has a greater number of staplers compared to keychains.,Is the number of staplers and keychains different?,Yes,-1.2025632858276367,-3.7808055877685547,Yes,True
+41.0,9.0,quantitative-properties,,other,1.0,There are three staplers. All staplers are paired with keychains.,Is the number of staplers and keychains the same?,Yes,-1.348458170890808,-3.6538503170013428,Yes,True
+42.0,9.0,quantitative-properties,,other,1.0,There are three staplers. All staplers are paired with keychains.,Is the number of staplers and keychains different?,No,-2.1230714321136475,-3.1549649238586426,Yes,False
+43.0,9.0,quantitative-properties,,other,2.0,There are three staplers. Most staplers are paired with keychains.,Is the number of staplers and keychains the same?,No,-1.9978148937225342,-3.248497724533081,Yes,False
+44.0,9.0,quantitative-properties,,other,2.0,There are three staplers. Most staplers are paired with keychains.,Is the number of staplers and keychains different?,Yes,-2.1860885620117188,-3.7800426483154297,Yes,True
+45.0,10.0,quantitative-properties,,number,1.0,There are five staplers. Chao has zero staplers.,Does Chao have none of the staplers?,Yes,-0.49357345700263977,-3.390418291091919,Yes,True
+46.0,10.0,quantitative-properties,,number,1.0,There are five staplers. Chao has zero staplers.,Does Chao have some of the staplers?,No,-3.9214236736297607,-3.8904049396514893,No,True
+47.0,10.0,quantitative-properties,,number,2.0,There are five staplers. Chao has two staplers.,Does Chao have none of the staplers?,No,-2.5300426483154297,-1.9053665399551392,No,True
+48.0,10.0,quantitative-properties,,number,2.0,There are five staplers. Chao has two staplers.,Does Chao have some of the staplers?,Yes,-0.788276731967926,-5.905470371246338,Yes,True
+49.0,11.0,quantitative-properties,,number,1.0,There are five staplers in total. There are zero staplers in the cooler belonging to Chao.,Does Chao have none of the staplers?,Yes,-0.0959937795996666,-2.71866774559021,Yes,True
+50.0,11.0,quantitative-properties,,number,1.0,There are five staplers in total. There are zero staplers in the cooler belonging to Chao.,Does Chao have some of the staplers?,No,-1.5854966640472412,-1.1168104410171509,No,True
+51.0,11.0,quantitative-properties,,number,2.0,There are five staplers in total. There are two staplers in the cooler belonging to Chao.,Does Chao have none of the staplers?,No,-2.279600143432617,-0.9362926483154297,No,True
+52.0,11.0,quantitative-properties,,number,2.0,There are five staplers in total. There are two staplers in the cooler belonging to Chao.,Does Chao have some of the staplers?,Yes,-0.2905527353286743,-5.624512195587158,Yes,True
+53.0,12.0,quantitative-properties,,other,1.0,"There are six staplers in total, and Chao has nothing.",Does Chao have none of the staplers?,Yes,-0.6089510917663574,-3.2029995918273926,Yes,True
+54.0,12.0,quantitative-properties,,other,1.0,"There are six staplers in total, and Chao has nothing.",Does Chao have some of the staplers?,No,-1.5461760759353638,-1.5777390003204346,Yes,False
+55.0,12.0,quantitative-properties,,other,2.0,"There are six staplers in total, and Chao has half.",Does Chao have none of the staplers?,No,-4.7184038162231445,-1.1404995918273926,No,True
+56.0,12.0,quantitative-properties,,other,2.0,"There are six staplers in total, and Chao has half.",Does Chao have some of the staplers?,Yes,-0.6638373136520386,-5.093575954437256,Yes,True
+58.0,13.0,quantitative-properties,,number,1.0,There are five staplers. Chao has zero staplers.,Does Chao have all of the staplers?,No,-5.218142509460449,-3.6403424739837646,No,True
+59.0,13.0,quantitative-properties,,number,2.0,There are five staplers. Chao has five staplers.,Does Chao have none of the staplers?,No,-2.155561923980713,-1.030881643295288,No,True
+60.0,13.0,quantitative-properties,,number,2.0,There are five staplers. Chao has five staplers.,Does Chao have all of the staplers?,Yes,-1.5461310148239136,-2.2340009212493896,Yes,True
+62.0,14.0,quantitative-properties,,number,1.0,There are five staplers in total. There are zero staplers in the cooler belonging to Chao.,Does Chao have all of the staplers?,No,-4.374446868896484,-1.1870694160461426,No,True
+63.0,14.0,quantitative-properties,,number,2.0,There are five staplers in total. There are five staplers in the cooler belonging to Chao.,Does Chao have none of the staplers?,No,-2.2022552490234375,-0.48392364382743835,No,True
+64.0,14.0,quantitative-properties,,number,2.0,There are five staplers in total. There are five staplers in the cooler belonging to Chao.,Does Chao have all of the staplers?,Yes,-1.8968995809555054,-0.7375572919845581,No,False
+66.0,15.0,quantitative-properties,,antonym,1.0,"There are six staplers in total, and Chao has nothing.",Does Chao have all of the staplers?,No,-2.6712183952331543,-0.8239545226097107,No,True
+67.0,15.0,quantitative-properties,,antonym,2.0,"There are six staplers in total, and Chao has everything.",Does Chao have none of the staplers?,No,-1.5534515380859375,-1.8352961540222168,Yes,False
+68.0,15.0,quantitative-properties,,antonym,2.0,"There are six staplers in total, and Chao has everything.",Does Chao have all of the staplers?,Yes,-0.4486415982246399,-4.187142848968506,Yes,True
+69.0,16.0,quantitative-properties,,antonym,1.0,Chao has a sufficient number of staplers.,Are there enough staplers?,Yes,-0.8431036472320557,-3.6244471073150635,Yes,True
+70.0,16.0,quantitative-properties,,antonym,1.0,Chao has a sufficient number of staplers.,Are there not enough staplers?,No,-2.546131134033203,-2.108292579650879,No,True
+71.0,16.0,quantitative-properties,,antonym,2.0,Chao has an insufficient number of staplers.,Are there enough staplers?,No,-1.591760277748108,-1.9354472160339355,Yes,False
+72.0,16.0,quantitative-properties,,antonym,2.0,Chao has an insufficient number of staplers.,Are there not enough staplers?,Yes,-1.7098803520202637,-1.9594926834106445,Yes,True
+73.0,17.0,quantitative-properties,,antonym,1.0,Chao does not need more staplers.,Are there enough staplers?,Yes,-0.9055619239807129,-2.499244213104248,Yes,True
+74.0,17.0,quantitative-properties,,antonym,1.0,Chao does not need more staplers.,Are there not enough staplers?,No,-3.9834775924682617,-2.9209775924682617,No,True
+75.0,17.0,quantitative-properties,,antonym,2.0,Chao needs more staplers.,Are there enough staplers?,No,-2.2470145225524902,-3.0593223571777344,Yes,False
+76.0,17.0,quantitative-properties,,antonym,2.0,Chao needs more staplers.,Are there not enough staplers?,Yes,-3.543102502822876,-3.7621893882751465,Yes,True
+77.0,18.0,quantitative-properties,,number,1.0,Chao has a hundred staplers.,Are there many staplers?,Yes,-1.3491441011428833,-2.7010397911071777,Yes,True
+78.0,18.0,quantitative-properties,,number,1.0,Chao has a hundred staplers.,Are there few staplers?,No,-2.0918805599212646,-1.2168214321136475,No,True
+79.0,18.0,quantitative-properties,,number,2.0,Chao has two staplers.,Are there many staplers?,No,-2.1842215061187744,-1.4112356901168823,No,True
+80.0,18.0,quantitative-properties,,number,2.0,Chao has two staplers.,Are there few staplers?,Yes,-1.6775860786437988,-1.6150860786437988,No,False
+81.0,20.0,quantitative-properties,,number,1.0,Chao has a large number of staplers.,Are there many staplers?,Yes,-1.7482978105545044,-2.7167601585388184,Yes,True
+82.0,20.0,quantitative-properties,,number,1.0,Chao has a large number of staplers.,Are there some staplers?,No,-0.8419381380081177,-4.435997486114502,Yes,False
+83.0,20.0,quantitative-properties,,number,2.0,Chao has a few staplers.,Are there many staplers?,No,-2.341195821762085,-1.6767252683639526,No,True
+84.0,20.0,quantitative-properties,,number,2.0,Chao has a few staplers.,Are there some staplers?,Yes,-0.6841176748275757,-4.278169631958008,Yes,True
+86.0,21.0,quantitative-properties,,number,1.0,Chao has a hundred staplers.,Are there no staplers?,No,-3.9185450077056885,-1.2713360786437988,No,True
+88.0,21.0,quantitative-properties,,number,2.0,Chao has zero staplers.,Are there no staplers?,Yes,-2.405115842819214,-1.5929200649261475,No,False
+90.0,22.0,quantitative-properties,,number,1.0,Chao has a large number of staplers.,Are there no staplers?,No,-3.529600143432617,-1.5142782926559448,No,True
+91.0,22.0,quantitative-properties,,number,2.0,Chao has no staplers.,Are there many staplers?,No,-3.1855714321136475,-1.5529450178146362,No,True
+92.0,22.0,quantitative-properties,,number,2.0,Chao has no staplers.,Are there no staplers?,Yes,-2.3261661529541016,-1.3185425996780396,No,False
+93.0,24.0,quantitative-properties,,antonym,1.0,Chao has a large amount of toothpaste.,Is there a lot of toothpaste?,Yes,-1.9578813314437866,-3.3086681365966797,Yes,True
+94.0,24.0,quantitative-properties,,antonym,1.0,Chao has a large amount of toothpaste.,Is there a little toothpaste?,No,-2.605830669403076,-2.918102502822876,Yes,False
+95.0,24.0,quantitative-properties,,antonym,2.0,Chao has a small amount of toothpaste.,Is there a lot of toothpaste?,No,-3.0917601585388184,-1.1846061944961548,No,True
+96.0,24.0,quantitative-properties,,antonym,2.0,Chao has a small amount of toothpaste.,Is there a little toothpaste?,Yes,-1.881200909614563,-4.0604472160339355,Yes,True
+97.0,25.0,quantitative-properties,,antonym,1.0,Chao has five kilograms of toothpaste.,Is there a lot of toothpaste?,Yes,-2.6230714321136475,-1.9898797273635864,No,False
+98.0,25.0,quantitative-properties,,antonym,1.0,Chao has five kilograms of toothpaste.,Is there a little toothpaste?,No,-2.2473649978637695,-2.0286149978637695,No,True
+99.0,25.0,quantitative-properties,,antonym,2.0,Chao has five grams of toothpaste.,Is there a lot of toothpaste?,No,-3.122814893722534,-2.2944376468658447,No,True
+100.0,25.0,quantitative-properties,,antonym,2.0,Chao has five grams of toothpaste.,Is there a little toothpaste?,Yes,-2.8853089809417725,-2.495379686355591,No,False
+101.0,26.0,quantitative-properties,,antonym,1.0,The suitcase with toothpaste is big.,Is there a lot of toothpaste?,Yes,-2.185688018798828,-1.903169870376587,No,False
+102.0,26.0,quantitative-properties,,antonym,1.0,The suitcase with toothpaste is big.,Is there a little toothpaste?,No,-1.8337006568908691,-1.5514345169067383,No,True
+103.0,26.0,quantitative-properties,,antonym,2.0,The suitcase with toothpaste is small.,Is there a lot of toothpaste?,No,-2.982699155807495,-0.8807436227798462,No,True
+104.0,26.0,quantitative-properties,,antonym,2.0,The suitcase with toothpaste is small.,Is there a little toothpaste?,Yes,-1.9984009265899658,-1.7168214321136475,No,False
+105.0,27.0,quantitative-properties,,antonym,1.0,Chao has a large amount of the toothpaste.,Is there a lot of toothpaste?,Yes,-1.7780722379684448,-2.6202335357666016,Yes,True
+107.0,27.0,quantitative-properties,,antonym,2.0,Chao has none of the toothpaste.,Is there a lot of toothpaste?,No,-2.8891913890838623,-1.2940260171890259,No,True
+108.0,27.0,quantitative-properties,,antonym,2.0,Chao has none of the toothpaste.,Is there no toothpaste?,Yes,-2.715035915374756,-2.1051011085510254,No,False
+109.0,28.0,quantitative-properties,,antonym,1.0,Chao has a hundred litres of toothpaste.,Is there a lot of toothpaste?,Yes,-2.1842215061187744,-2.7777605056762695,Yes,True
+110.0,28.0,quantitative-properties,,antonym,1.0,Chao has a hundred litres of toothpaste.,Is there no toothpaste?,No,-4.557582378387451,-2.2468223571777344,No,True
+111.0,28.0,quantitative-properties,,antonym,2.0,Chao has zero litres of toothpaste.,Is there a lot of toothpaste?,No,-2.935797929763794,-0.7793806195259094,No,True
+112.0,28.0,quantitative-properties,,antonym,2.0,Chao has zero litres of toothpaste.,Is there no toothpaste?,Yes,-3.326500654220581,-2.185797929763794,No,False
+113.0,29.0,quantitative-properties,,antonym,1.0,Chao has a sufficient amount of toothpaste.,Is there enough toothpaste?,Yes,-0.8543211817741394,-3.061174154281616,Yes,True
+114.0,29.0,quantitative-properties,,antonym,1.0,Chao has a sufficient amount of toothpaste.,Is there not enough toothpaste?,No,-2.2962183952331543,-1.8184864521026611,No,True
+115.0,29.0,quantitative-properties,,antonym,2.0,Chao has an insufficient amount of toothpaste.,Is there enough toothpaste?,No,-1.9121785163879395,-1.4737356901168823,No,True
+116.0,29.0,quantitative-properties,,antonym,2.0,Chao has an insufficient amount of toothpaste.,Is there not enough toothpaste?,Yes,-1.772444248199463,-3.2788503170013428,Yes,True
+117.0,30.0,quantitative-properties,,antonym,1.0,Chao does not need more toothpaste.,Is there enough toothpaste?,Yes,-1.2335319519042969,-3.0922937393188477,Yes,True
+118.0,30.0,quantitative-properties,,antonym,1.0,Chao does not need more toothpaste.,Is there not enough toothpaste?,No,-4.436400890350342,-2.858069658279419,No,True
+119.0,30.0,quantitative-properties,,antonym,2.0,Chao needs more toothpaste.,Is there enough toothpaste?,No,-2.998188018798828,-3.5135397911071777,Yes,False
+120.0,30.0,quantitative-properties,,antonym,2.0,Chao needs more toothpaste.,Is there not enough toothpaste?,Yes,-3.2793805599212646,-3.0132625102996826,No,False
+121.0,31.0,quantitative-properties,,antonym,1.0,There are equal quantities of toothpaste and gel.,Is the amount of toothpaste and gel the same?,Yes,-1.6773797273635864,-2.26409912109375,Yes,True
+122.0,31.0,quantitative-properties,,antonym,1.0,There are equal quantities of toothpaste and gel.,Is the amount of toothpaste and gel different?,No,-1.9034451246261597,-1.7482978105545044,No,True
+123.0,31.0,quantitative-properties,,antonym,2.0,There are unequal quantities of toothpaste and gel.,Is the amount of toothpaste and gel the same?,No,-3.0612542629241943,-2.060688018798828,No,True
+124.0,31.0,quantitative-properties,,antonym,2.0,There are unequal quantities of toothpaste and gel.,Is the amount of toothpaste and gel different?,Yes,-2.1211681365966797,-3.4033563137054443,Yes,True
+125.0,32.0,quantitative-properties,,number,1.0,Chao has three litres of toothpaste and three litres of gel.,Is the amount of toothpaste and gel the same?,Yes,-2.310997724533081,-3.9667601585388184,Yes,True
+126.0,32.0,quantitative-properties,,number,1.0,Chao has three litres of toothpaste and three litres of gel.,Is the amount of toothpaste and gel different?,No,-1.9663503170013428,-3.0760397911071777,Yes,False
+127.0,32.0,quantitative-properties,,number,2.0,Chao has three litres of toothpaste and five litres of gel.,Is the amount of toothpaste and gel the same?,No,-4.559695243835449,-4.371399879455566,No,True
+128.0,32.0,quantitative-properties,,number,2.0,Chao has three litres of toothpaste and five litres of gel.,Is the amount of toothpaste and gel different?,Yes,-1.919723629951477,-3.966195821762085,Yes,True
+129.0,33.0,quantitative-properties,,antonym,1.0,The amount of toothpaste is greater than the amount of gel.,Is there more toothpaste than gel?,Yes,-1.8970801830291748,-2.952307939529419,Yes,True
+130.0,33.0,quantitative-properties,,antonym,1.0,The amount of toothpaste is greater than the amount of gel.,Is there less toothpaste than gel?,No,-2.8270084857940674,-1.1164376735687256,No,True
+131.0,33.0,quantitative-properties,,antonym,2.0,The amount of toothpaste is smaller than the amount of gel.,Is there more toothpaste than gel?,No,-2.9365885257720947,-1.0384504795074463,No,True
+132.0,33.0,quantitative-properties,,antonym,2.0,The amount of toothpaste is smaller than the amount of gel.,Is there less toothpaste than gel?,Yes,-1.2568939924240112,-2.4525973796844482,Yes,True
+133.0,34.0,quantitative-properties,,antonym,1.0,Toothpaste is added to the truck that initially contained the same amount of toothpaste and gel.,Is there more toothpaste than gel?,Yes,-3.090669870376587,-5.621617794036865,Yes,True
+134.0,34.0,quantitative-properties,,antonym,1.0,Toothpaste is added to the truck that initially contained the same amount of toothpaste and gel.,Is there less toothpaste than gel?,No,-2.9191136360168457,-5.05951452255249,Yes,False
+135.0,34.0,quantitative-properties,,antonym,2.0,Toothpaste is removed from the truck that initially contained the same amount of toothpaste and gel.,Is there more toothpaste than gel?,No,-2.5444376468658447,-4.778531551361084,Yes,False
+136.0,34.0,quantitative-properties,,antonym,2.0,Toothpaste is removed from the truck that initially contained the same amount of toothpaste and gel.,Is there less toothpaste than gel?,Yes,-1.9121785163879395,-4.029260158538818,Yes,True
+137.0,35.0,quantitative-properties,,antonym,1.0,Chao has the greatest amount of toothpaste.,Does Chao have the most toothpate?,Yes,-1.7771716117858887,-1.6205215454101562,No,False
+138.0,35.0,quantitative-properties,,antonym,1.0,Chao has the greatest amount of toothpaste.,Does Chao have the least toothpate?,No,-2.669280767440796,-0.9846102595329285,No,True
+139.0,35.0,quantitative-properties,,antonym,2.0,Chao has the smallest amount of toothpaste.,Does Chao have the most toothpate?,No,-2.0428595542907715,-0.8927353024482727,No,True
+140.0,35.0,quantitative-properties,,antonym,2.0,Chao has the smallest amount of toothpaste.,Does Chao have the least toothpate?,Yes,-2.0415589809417725,-1.2906627655029297,No,False
+141.0,36.0,quantitative-properties,,antonym,1.0,Nobody has more toothpaste than Chao.,Does Chao have the most toothpate?,Yes,-1.9351742267608643,-1.4359976053237915,No,False
+142.0,36.0,quantitative-properties,,antonym,1.0,Nobody has more toothpaste than Chao.,Does Chao have the least toothpate?,No,-2.388110399246216,-1.2090238332748413,No,True
+143.0,36.0,quantitative-properties,,antonym,2.0,Nobody has less toothpaste than Chao.,Does Chao have the most toothpate?,No,-1.9286627769470215,-0.9251620173454285,No,True
+144.0,36.0,quantitative-properties,,antonym,2.0,Nobody has less toothpaste than Chao.,Does Chao have the least toothpate?,Yes,-1.7645760774612427,-1.202488660812378,No,False
+145.0,37.0,quantitative-properties,,antonym,1.0,Chao has the greatest number of staplers.,Does Chao have the most staplers?,Yes,-2.0763959884643555,-1.8578006029129028,No,False
+146.0,37.0,quantitative-properties,,antonym,1.0,Chao has the greatest number of staplers.,Does Chao have the fewest staplers?,No,-3.3422000408172607,-0.9865988492965698,No,True
+147.0,37.0,quantitative-properties,,antonym,2.0,Chao has the smallest number of staplers.,Does Chao have the most staplers?,No,-2.5303666591644287,-0.6475609540939331,No,True
+148.0,37.0,quantitative-properties,,antonym,2.0,Chao has the smallest number of staplers.,Does Chao have the fewest staplers?,Yes,-2.263784646987915,-1.5766915082931519,No,False
+149.0,38.0,quantitative-properties,,antonym,1.0,Nobody has more staplers than Chao.,Does Chao have the most staplers?,Yes,-1.8276293277740479,-2.3903424739837646,Yes,True
+150.0,38.0,quantitative-properties,,antonym,1.0,Nobody has more staplers than Chao.,Does Chao have the fewest staplers?,No,-1.7025632858276367,-1.8903757333755493,Yes,False
+151.0,38.0,quantitative-properties,,antonym,2.0,Nobody has less staplers than Chao.,Does Chao have the most staplers?,No,-1.2965235710144043,-1.6091867685317993,Yes,False
+152.0,38.0,quantitative-properties,,antonym,2.0,Nobody has less staplers than Chao.,Does Chao have the fewest staplers?,Yes,-0.9879283308982849,-1.7654738426208496,Yes,True
+"Overall accuracy: 0.725, TP: 51, TN: 49, FP: 20, FN: 18, Bias score: 0.029",,,,,,,,,,,,

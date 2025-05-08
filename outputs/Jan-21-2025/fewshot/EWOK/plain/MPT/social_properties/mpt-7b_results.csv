@@ -1,0 +1,150 @@
+Question Number,MetaTemplateID,Domain,ItemGroupID,ContextDiff,ContextNum,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+1.0,1.0,social-properties,1.0,antonym,1.0,Chao treats people kindly.,Is Chao friendly?,Yes,-0.6125795841217041,-0.8627347350120544,Yes,True
+2.0,1.0,social-properties,1.0,antonym,1.0,Chao treats people kindly.,Is Chao hostile?,No,-2.5932140350341797,-0.0946611538529396,No,True
+3.0,1.0,social-properties,1.0,antonym,2.0,Chao treats people coldly.,Is Chao friendly?,No,-2.3742902278900146,-0.11724826693534851,No,True
+4.0,1.0,social-properties,1.0,antonym,2.0,Chao treats people coldly.,Is Chao hostile?,Yes,-0.9994470477104187,-0.5033511519432068,No,False
+5.0,2.0,social-properties,2.0,antonym,1.0,Chao greeted Yan.,Is Chao friendly?,Yes,-0.7336539030075073,-0.7336539030075073,No,False
+6.0,2.0,social-properties,2.0,antonym,1.0,Chao greeted Yan.,Is Chao hostile?,No,-1.7336760759353638,-0.23100921511650085,No,True
+7.0,2.0,social-properties,2.0,antonym,2.0,Chao insulted Yan.,Is Chao friendly?,No,-1.350869059562683,-0.346741259098053,No,True
+8.0,2.0,social-properties,2.0,antonym,2.0,Chao insulted Yan.,Is Chao hostile?,Yes,-0.7180401086807251,-0.7178385853767395,No,False
+9.0,3.0,social-properties,3.0,antonym,1.0,Chao enjoys meeting new people.,Is Chao friendly?,Yes,-0.511000394821167,-1.0070970058441162,Yes,True
+10.0,3.0,social-properties,3.0,antonym,1.0,Chao enjoys meeting new people.,Is Chao hostile?,No,-2.593061923980713,-0.09429547190666199,No,True
+11.0,3.0,social-properties,3.0,antonym,2.0,Chao avoids meeting new people.,Is Chao friendly?,No,-1.9289830923080444,-0.18121251463890076,No,True
+12.0,3.0,social-properties,3.0,antonym,2.0,Chao avoids meeting new people.,Is Chao hostile?,Yes,-1.7260223627090454,-0.22525864839553833,No,False
+13.0,4.0,social-properties,4.0,other,1.0,Chao gave Yan a gift.,Is Chao friendly?,Yes,-0.7295464873313904,-0.7295464873313904,No,False
+14.0,4.0,social-properties,4.0,other,1.0,Chao gave Yan a gift.,Is Chao hostile?,No,-1.0070970058441162,-0.5068939328193665,No,True
+15.0,4.0,social-properties,4.0,other,2.0,Chao gave Yan a glare.,Is Chao friendly?,No,-1.350869059562683,-0.3488953411579132,No,True
+16.0,4.0,social-properties,4.0,other,2.0,Chao gave Yan a glare.,Is Chao hostile?,Yes,-1.163369059562683,-0.41168949007987976,No,False
+17.0,5.0,social-properties,5.0,antonym,1.0,Chao is reliable.,Is Chao trustworthy?,Yes,-0.6281934976577759,-0.8781934976577759,Yes,True
+18.0,5.0,social-properties,5.0,antonym,1.0,Chao is reliable.,Is Chao untrustworthy?,No,-2.593061923980713,-0.09514907747507095,No,True
+19.0,5.0,social-properties,5.0,antonym,2.0,Chao is unreliable.,Is Chao trustworthy?,No,-1.749290108680725,-0.2512418031692505,No,True
+20.0,5.0,social-properties,5.0,antonym,2.0,Chao is unreliable.,Is Chao untrustworthy?,Yes,-1.00725519657135,-0.511159360408783,No,False
+21.0,6.0,social-properties,6.0,negation,1.0,Chao can be depended upon.,Is Chao trustworthy?,Yes,-0.7375795841217041,-0.7375795841217041,No,False
+22.0,6.0,social-properties,6.0,negation,1.0,Chao can be depended upon.,Is Chao untrustworthy?,No,-2.139904022216797,-0.14578141272068024,No,True
+23.0,6.0,social-properties,6.0,negation,2.0,Chao cannot be depended upon.,Is Chao trustworthy?,No,-2.1553096771240234,-0.1555401235818863,No,True
+24.0,6.0,social-properties,6.0,negation,2.0,Chao cannot be depended upon.,Is Chao untrustworthy?,Yes,-1.3352106809616089,-0.3373408615589142,No,False
+25.0,7.0,social-properties,7.0,antonym,1.0,"Yan told Chao a secret. Today, no one else knows the secret.",Is Chao trustworthy?,Yes,-0.8899039030075073,-0.6399260759353638,No,False
+26.0,7.0,social-properties,7.0,antonym,1.0,"Yan told Chao a secret. Today, no one else knows the secret.",Is Chao untrustworthy?,No,-1.3666387796401978,-0.36453139781951904,No,True
+27.0,7.0,social-properties,7.0,antonym,2.0,"Yan told Chao a secret. Today, everyone knows the secret.",Is Chao trustworthy?,No,-1.030517578125,-0.5264357924461365,No,True
+28.0,7.0,social-properties,7.0,antonym,2.0,"Yan told Chao a secret. Today, everyone knows the secret.",Is Chao untrustworthy?,Yes,-1.5463305711746216,-0.2963133156299591,No,False
+29.0,8.0,social-properties,8.0,antonym,1.0,Chao is good at completing important tasks.,Is Chao trustworthy?,Yes,-0.647533118724823,-0.897533118724823,Yes,True
+30.0,8.0,social-properties,8.0,antonym,1.0,Chao is good at completing important tasks.,Is Chao untrustworthy?,No,-1.749290108680725,-0.2490885853767395,No,True
+31.0,8.0,social-properties,8.0,antonym,2.0,Chao is bad at completing important tasks.,Is Chao trustworthy?,No,-1.3818939924240112,-0.3838452696800232,No,True
+32.0,8.0,social-properties,8.0,antonym,2.0,Chao is bad at completing important tasks.,Is Chao untrustworthy?,Yes,-1.374446988105774,-0.37249496579170227,No,False
+33.0,9.0,social-properties,9.0,antonym,1.0,Chao usually keeps promises.,Is Chao trustworthy?,Yes,-0.6438295841217041,-0.8939674496650696,Yes,True
+34.0,9.0,social-properties,9.0,antonym,1.0,Chao usually keeps promises.,Is Chao untrustworthy?,No,-2.3742902278900146,-0.12721766531467438,No,True
+35.0,9.0,social-properties,9.0,antonym,2.0,Chao usually breaks promises.,Is Chao trustworthy?,No,-2.389904022216797,-0.1438295990228653,No,True
+36.0,9.0,social-properties,9.0,antonym,2.0,Chao usually breaks promises.,Is Chao untrustworthy?,Yes,-1.0228713750839233,-0.5267755389213562,No,False
+37.0,10.0,social-properties,10.0,antonym,1.0,Chao is respectful towards differences in background and belief.,Is Chao tolerant?,Yes,-0.729750394821167,-0.729750394821167,No,False
+38.0,10.0,social-properties,10.0,antonym,1.0,Chao is respectful towards differences in background and belief.,Is Chao bigoted?,No,-2.593061923980713,-0.09743143618106842,No,True
+39.0,10.0,social-properties,10.0,antonym,2.0,Chao is disrespectful towards differences in background and belief.,Is Chao tolerant?,No,-1.5381721258163452,-0.28814393281936646,No,True
+40.0,10.0,social-properties,10.0,antonym,2.0,Chao is disrespectful towards differences in background and belief.,Is Chao bigoted?,Yes,-1.5381721258163452,-0.2863953411579132,No,False
+41.0,11.0,social-properties,11.0,negation,1.0,Chao is not prejudiced against differences in background and belief.,Is Chao tolerant?,Yes,-1.0070970058441162,-0.5033511519432068,No,False
+42.0,11.0,social-properties,11.0,negation,1.0,Chao is not prejudiced against differences in background and belief.,Is Chao bigoted?,No,-2.8271992206573486,-0.07904472947120667,No,True
+43.0,11.0,social-properties,11.0,negation,2.0,Chao is prejudiced against differences in background and belief.,Is Chao tolerant?,No,-1.9443939924240112,-0.19069351255893707,No,True
+44.0,11.0,social-properties,11.0,negation,2.0,Chao is prejudiced against differences in background and belief.,Is Chao bigoted?,Yes,-1.343061923980713,-0.3430401086807251,No,False
+45.0,12.0,social-properties,12.0,antonym,1.0,Chao thinks having neighbors of a different race is pleasant.,Is Chao tolerant?,Yes,-1.0149039030075073,-0.5112830400466919,No,False
+46.0,12.0,social-properties,12.0,antonym,1.0,Chao thinks having neighbors of a different race is pleasant.,Is Chao bigoted?,No,-1.9524039030075073,-0.199635311961174,No,True
+47.0,12.0,social-properties,12.0,antonym,2.0,Chao thinks having neighbors of a different race is unpleasant.,Is Chao tolerant?,No,-1.538369059562683,-0.290298730134964,No,True
+48.0,12.0,social-properties,12.0,antonym,2.0,Chao thinks having neighbors of a different race is unpleasant.,Is Chao bigoted?,Yes,-1.3586760759353638,-0.3606278896331787,No,False
+49.0,13.0,social-properties,13.0,antonym,1.0,Chao thinks having neighbors of a different religion is pleasant.,Is Chao tolerant?,Yes,-0.8666388392448425,-0.6166388392448425,No,False
+50.0,13.0,social-properties,13.0,antonym,1.0,Chao thinks having neighbors of a different religion is pleasant.,Is Chao bigoted?,No,-1.9524039030075073,-0.19865934550762177,No,True
+51.0,13.0,social-properties,13.0,antonym,2.0,Chao thinks having neighbors of a different religion is unpleasant.,Is Chao tolerant?,No,-1.1713305711746216,-0.4213133156299591,No,True
+52.0,13.0,social-properties,13.0,antonym,2.0,Chao thinks having neighbors of a different religion is unpleasant.,Is Chao bigoted?,Yes,-1.5461760759353638,-0.2943613827228546,No,False
+53.0,14.0,social-properties,14.0,antonym,1.0,Chao thinks having neighbors of a different culture is pleasant.,Is Chao tolerant?,Yes,-0.8664830923080444,-0.6166388392448425,No,False
+54.0,14.0,social-properties,14.0,antonym,1.0,Chao thinks having neighbors of a different culture is pleasant.,Is Chao bigoted?,No,-2.1553666591644287,-0.1633470207452774,No,True
+55.0,14.0,social-properties,14.0,antonym,2.0,Chao thinks having neighbors of a different culture is unpleasant.,Is Chao tolerant?,No,-1.530517578125,-0.27874496579170227,No,True
+56.0,14.0,social-properties,14.0,antonym,2.0,Chao thinks having neighbors of a different culture is unpleasant.,Is Chao bigoted?,Yes,-1.7336760759353638,-0.23480668663978577,No,False
+57.0,15.0,social-properties,15.0,antonym,1.0,Chao talks a lot about past accomplishments.,Is Chao boastful?,Yes,-1.561790108680725,-0.31011709570884705,No,False
+58.0,15.0,social-properties,15.0,antonym,1.0,Chao talks a lot about past accomplishments.,Is Chao humble?,No,-1.9524039030075073,-0.2026875913143158,No,True
+59.0,15.0,social-properties,15.0,antonym,2.0,Chao talks little about past accomplishments.,Is Chao boastful?,No,-2.3744471073150635,-0.12749776244163513,No,True
+60.0,15.0,social-properties,15.0,antonym,2.0,Chao talks little about past accomplishments.,Is Chao humble?,Yes,-1.5463305711746216,-0.2984033524990082,No,False
+61.0,16.0,social-properties,16.0,negation,1.0,Chao talks about past accomplishments.,Is Chao boastful?,Yes,-1.5539830923080444,-0.3060908615589142,No,False
+62.0,16.0,social-properties,16.0,negation,1.0,Chao talks about past accomplishments.,Is Chao humble?,No,-1.5464510917663574,-0.2984033524990082,No,True
+63.0,16.0,social-properties,16.0,negation,2.0,Chao doesn't talk about past accomplishments.,Is Chao boastful?,No,-2.155561923980713,-0.15764907002449036,No,True
+64.0,16.0,social-properties,16.0,negation,2.0,Chao doesn't talk about past accomplishments.,Is Chao humble?,Yes,-1.5463305711746216,-0.298282653093338,No,False
+65.0,17.0,social-properties,17.0,antonym,1.0,Chao brags about about past accomplishments.,Is Chao boastful?,Yes,-1.5535264015197754,-0.30183178186416626,No,False
+66.0,17.0,social-properties,17.0,antonym,1.0,Chao brags about about past accomplishments.,Is Chao humble?,No,-2.1553666591644287,-0.15846766531467438,No,True
+67.0,17.0,social-properties,17.0,antonym,2.0,Chao downplays about past accomplishments.,Is Chao boastful?,No,-1.7414830923080444,-0.23953141272068024,No,True
+68.0,17.0,social-properties,17.0,antonym,2.0,Chao downplays about past accomplishments.,Is Chao humble?,Yes,-1.5539830923080444,-0.3000795841217041,No,False
+69.0,18.0,social-properties,18.0,other,1.0,Ali spent the whole conversation talking about his successes.,Is Ali boastful?,Yes,-1.3506721258163452,-0.352798730134964,No,False
+70.0,18.0,social-properties,18.0,other,1.0,Ali spent the whole conversation talking about his successes.,Is Ali humble?,No,-1.9445970058441162,-0.1955728679895401,No,True
+71.0,18.0,social-properties,18.0,other,2.0,Ali spent the whole conversation talking about his friend's successes.,Is Ali boastful?,No,-1.3506721258163452,-0.3547504246234894,No,True
+72.0,18.0,social-properties,18.0,other,2.0,Ali spent the whole conversation talking about his friend's successes.,Is Ali humble?,Yes,-1.3664830923080444,-0.36823445558547974,No,False
+73.0,19.0,social-properties,19.0,other,1.0,Maria spent the whole conversation talking about her successes.,Is Maria boastful?,Yes,-1.1865885257720947,-0.43463724851608276,No,False
+74.0,19.0,social-properties,19.0,other,1.0,Maria spent the whole conversation talking about her successes.,Is Maria humble?,No,-1.7490885257720947,-0.24713724851608276,No,True
+75.0,19.0,social-properties,19.0,other,2.0,Maria spent the whole conversation talking about her friend's successes.,Is Maria boastful?,No,-1.1865885257720947,-0.43463724851608276,No,True
+76.0,19.0,social-properties,19.0,other,2.0,Maria spent the whole conversation talking about her friend's successes.,Is Maria humble?,Yes,-1.5537830591201782,-0.30183178186416626,No,False
+77.0,20.0,social-properties,20.0,other,1.0,Chao spent the whole conversation talking about their successes.,Is Chao boastful?,Yes,-1.186790108680725,-0.4367901086807251,No,False
+78.0,20.0,social-properties,20.0,other,1.0,Chao spent the whole conversation talking about their successes.,Is Chao humble?,No,-1.749290108680725,-0.25319352746009827,No,True
+79.0,20.0,social-properties,20.0,other,2.0,Chao spent the whole conversation talking about their friend's successes.,Is Chao boastful?,No,-1.5537830591201782,-0.30203139781951904,No,True
+80.0,20.0,social-properties,20.0,other,2.0,Chao spent the whole conversation talking about their friend's successes.,Is Chao humble?,Yes,-1.5615885257720947,-0.30983829498291016,No,False
+81.0,21.0,social-properties,21.0,antonym,1.0,Chao usually makes decisions.,Is Chao dominant?,Yes,-1.0070970058441162,-0.5070970058441162,No,False
+82.0,21.0,social-properties,21.0,antonym,1.0,Chao usually makes decisions.,Is Chao submissive?,No,-1.1787830591201782,-0.4309347867965698,No,True
+83.0,21.0,social-properties,21.0,antonym,2.0,Chao usually obeys decisions.,Is Chao dominant?,No,-1.0146992206573486,-0.5188295841217041,No,True
+84.0,21.0,social-properties,21.0,antonym,2.0,Chao usually obeys decisions.,Is Chao submissive?,Yes,-0.8744470477104187,-0.6245694160461426,No,False
+85.0,22.0,social-properties,22.0,antonym,1.0,Chao often tells others what to do.,Is Chao dominant?,Yes,-0.8740885853767395,-0.6240885853767395,No,False
+86.0,22.0,social-properties,22.0,antonym,1.0,Chao often tells others what to do.,Is Chao submissive?,No,-1.3664830923080444,-0.3646867573261261,No,True
+87.0,22.0,social-properties,22.0,antonym,2.0,Chao rarely tells others what to do.,Is Chao dominant?,No,-1.538369059562683,-0.2883470356464386,No,True
+88.0,22.0,social-properties,22.0,antonym,2.0,Chao rarely tells others what to do.,Is Chao submissive?,Yes,-1.3664830923080444,-0.36273470520973206,No,False
+89.0,23.0,social-properties,23.0,antonym,1.0,Chao often gives instructions.,Is Chao dominant?,Yes,-1.0149039030075073,-0.5188295841217041,No,False
+90.0,23.0,social-properties,23.0,antonym,1.0,Chao often gives instructions.,Is Chao submissive?,No,-1.1791387796401978,-0.4310908615589142,No,True
+91.0,23.0,social-properties,23.0,antonym,2.0,Chao often follows instructions.,Is Chao dominant?,No,-1.1711760759353638,-0.42133060097694397,No,True
+92.0,23.0,social-properties,23.0,antonym,2.0,Chao often follows instructions.,Is Chao submissive?,Yes,-0.8783511519432068,-0.6283511519432068,No,False
+93.0,24.0,social-properties,24.0,other,1.0,"Chao has a large family. Each weekend, Chao decides what the family should do for fun.",Is Chao dominant?,Yes,-1.1785264015197754,-0.42819681763648987,No,False
+94.0,24.0,social-properties,24.0,other,1.0,"Chao has a large family. Each weekend, Chao decides what the family should do for fun.",Is Chao submissive?,No,-1.5457229614257812,-0.2920464873313904,No,True
+95.0,24.0,social-properties,24.0,other,2.0,"Chao has a large family. Each weekend, Chao's partner decides what the family should do for fun.",Is Chao dominant?,No,-1.5301157236099243,-0.284241259098053,No,True
+96.0,24.0,social-properties,24.0,other,2.0,"Chao has a large family. Each weekend, Chao's partner decides what the family should do for fun.",Is Chao submissive?,Yes,-1.5381721258163452,-0.2846011221408844,No,False
+97.0,25.0,social-properties,25.0,other,1.0,"Chao went backpacking with a friend. Every day, Chao decided where they should camp.",Is Chao dominant?,Yes,-1.7332229614257812,-0.23247356712818146,No,False
+98.0,25.0,social-properties,25.0,other,1.0,"Chao went backpacking with a friend. Every day, Chao decided where they should camp.",Is Chao submissive?,No,-1.3662830591201782,-0.36433178186416626,No,True
+99.0,25.0,social-properties,25.0,other,2.0,"Chao went backpacking with a friend. Every day, Chao's friend decided where they should camp.",Is Chao dominant?,No,-1.7332229614257812,-0.23247356712818146,No,True
+100.0,25.0,social-properties,25.0,other,2.0,"Chao went backpacking with a friend. Every day, Chao's friend decided where they should camp.",Is Chao submissive?,Yes,-1.3662830591201782,-0.36433178186416626,No,False
+101.0,26.0,social-properties,26.0,antonym,1.0,Chao is quick to engage in social interactions.,Is Chao extroverted?,Yes,-1.0146992206573486,-0.511159360408783,No,False
+102.0,26.0,social-properties,26.0,antonym,1.0,Chao is quick to engage in social interactions.,Is Chao introverted?,No,-1.725869059562683,-0.22502925992012024,No,True
+103.0,26.0,social-properties,26.0,antonym,2.0,Chao is hesitant to engage in social interactions.,Is Chao extroverted?,No,-2.1553096771240234,-0.15276899933815002,No,True
+104.0,26.0,social-properties,26.0,antonym,2.0,Chao is hesitant to engage in social interactions.,Is Chao introverted?,Yes,-0.8627347350120544,-0.6127347350120544,No,False
+105.0,27.0,social-properties,27.0,antonym,1.0,Chao enjoys spending time with other people.,Is Chao extroverted?,Yes,-0.9990885853767395,-0.5033511519432068,No,False
+106.0,27.0,social-properties,27.0,antonym,1.0,Chao enjoys spending time with other people.,Is Chao introverted?,No,-1.5228713750839233,-0.2746847867965698,No,True
+107.0,27.0,social-properties,27.0,antonym,2.0,Chao enjoys spending time alone.,Is Chao extroverted?,No,-1.5227106809616089,-0.2748408615589142,No,True
+108.0,27.0,social-properties,27.0,antonym,2.0,Chao enjoys spending time alone.,Is Chao introverted?,Yes,-1.0070970058441162,-0.5033511519432068,No,False
+109.0,28.0,social-properties,28.0,antonym,1.0,Chao enjoys large gatherings.,Is Chao extroverted?,Yes,-0.7221182584762573,-0.7219434976577759,No,False
+110.0,28.0,social-properties,28.0,antonym,1.0,Chao enjoys large gatherings.,Is Chao introverted?,No,-1.9289830923080444,-0.1792602241039276,No,True
+111.0,28.0,social-properties,28.0,antonym,2.0,Chao enjoys intimate gatherings.,Is Chao extroverted?,No,-1.335004448890686,-0.3373408615589142,No,True
+112.0,28.0,social-properties,28.0,antonym,2.0,Chao enjoys intimate gatherings.,Is Chao introverted?,Yes,-0.9994470477104187,-0.4992901086807251,No,False
+113.0,29.0,social-properties,29.0,antonym,1.0,Chao is hesitant to share their opinion.,Is Chao shy?,Yes,-1.3586760759353638,-0.3547504246234894,No,False
+114.0,29.0,social-properties,29.0,antonym,1.0,Chao is hesitant to share their opinion.,Is Chao confident?,No,-1.7414830923080444,-0.24441076815128326,No,True
+115.0,29.0,social-properties,29.0,antonym,2.0,Chao is quick to share their opinion.,Is Chao shy?,No,-1.9289830923080444,-0.18171018362045288,No,True
+116.0,29.0,social-properties,29.0,antonym,2.0,Chao is quick to share their opinion.,Is Chao confident?,Yes,-1.0303096771240234,-0.5266366004943848,No,False
+117.0,30.0,social-properties,30.0,antonym,1.0,Chao is hesitant to meet new people.,Is Chao shy?,Yes,-1.350869059562683,-0.3488953411579132,No,False
+118.0,30.0,social-properties,30.0,antonym,1.0,Chao is hesitant to meet new people.,Is Chao confident?,No,-1.7414830923080444,-0.238555446267128,No,True
+119.0,30.0,social-properties,30.0,antonym,2.0,Chao is quick to meet new people.,Is Chao shy?,No,-2.155517578125,-0.14773310720920563,No,True
+120.0,30.0,social-properties,30.0,antonym,2.0,Chao is quick to meet new people.,Is Chao confident?,Yes,-1.0303096771240234,-0.5303385853767395,No,False
+121.0,31.0,social-properties,31.0,antonym,1.0,Speaking up is hard for Chao.,Is Chao shy?,Yes,-1.343061923980713,-0.34694352746009827,No,False
+122.0,31.0,social-properties,31.0,antonym,1.0,Speaking up is hard for Chao.,Is Chao confident?,No,-1.5461760759353638,-0.29240933060646057,No,True
+123.0,31.0,social-properties,31.0,antonym,2.0,Speaking up is easy for Chao.,Is Chao shy?,No,-2.139904022216797,-0.14578141272068024,No,True
+124.0,31.0,social-properties,31.0,antonym,2.0,Speaking up is easy for Chao.,Is Chao confident?,Yes,-1.0149039030075073,-0.5149260759353638,No,False
+125.0,32.0,social-properties,32.0,negation,1.0,Chao does not like to speak up during meetings.,Is Chao shy?,Yes,-1.7336760759353638,-0.23100921511650085,No,False
+126.0,32.0,social-properties,32.0,negation,1.0,Chao does not like to speak up during meetings.,Is Chao confident?,No,-1.7414830923080444,-0.24050725996494293,No,True
+127.0,32.0,social-properties,32.0,negation,2.0,Chao likes to speak up during meetings.,Is Chao shy?,No,-2.358830690383911,-0.11529597640037537,No,True
+128.0,32.0,social-properties,32.0,negation,2.0,Chao likes to speak up during meetings.,Is Chao confident?,Yes,-1.030517578125,-0.5305401086807251,No,False
+129.0,33.0,social-properties,33.0,antonym,1.0,Chao speaks quietly.,Is Chao shy?,Yes,-1.3432140350341797,-0.34694352746009827,No,False
+130.0,33.0,social-properties,33.0,antonym,1.0,Chao speaks quietly.,Is Chao confident?,No,-1.3510223627090454,-0.35490933060646057,No,True
+131.0,33.0,social-properties,33.0,antonym,2.0,Chao speaks loudly.,Is Chao shy?,No,-2.139904022216797,-0.1459367573261261,No,True
+132.0,33.0,social-properties,33.0,antonym,2.0,Chao speaks loudly.,Is Chao confident?,Yes,-1.186790108680725,-0.4367901086807251,No,False
+133.0,34.0,social-properties,34.0,antonym,1.0,Chao has a friendly demeanor.,Is Chao warm?,Yes,-1.0150632858276367,-0.5151876211166382,No,False
+134.0,34.0,social-properties,34.0,antonym,1.0,Chao has a friendly demeanor.,Is Chao cold?,No,-2.8275632858276367,-0.07671139389276505,No,True
+135.0,34.0,social-properties,34.0,antonym,2.0,Chao has a unfriendly demeanor.,Is Chao warm?,No,-2.3740885257720947,-0.12380219995975494,No,True
+136.0,34.0,social-properties,34.0,antonym,2.0,Chao has a unfriendly demeanor.,Is Chao cold?,Yes,-1.3510223627090454,-0.3488953411579132,No,False
+137.0,35.0,social-properties,35.0,antonym,1.0,Chao is approachable.,Is Chao warm?,Yes,-0.8820970058441162,-0.6322552561759949,No,False
+138.0,35.0,social-properties,35.0,antonym,1.0,Chao is approachable.,Is Chao cold?,No,-2.827404022216797,-0.07770106196403503,No,True
+139.0,35.0,social-properties,35.0,antonym,2.0,Chao is distant.,Is Chao warm?,No,-1.7339510917663574,-0.23785564303398132,No,True
+140.0,35.0,social-properties,35.0,antonym,2.0,Chao is distant.,Is Chao cold?,Yes,-1.3510223627090454,-0.34905317425727844,No,False
+141.0,36.0,social-properties,36.0,antonym,1.0,Chao often laughs.,Is Chao warm?,Yes,-1.3664830923080444,-0.3685908615589142,No,False
+142.0,36.0,social-properties,36.0,antonym,1.0,Chao often laughs.,Is Chao cold?,No,-1.936946988105774,-0.1908511221408844,No,True
+143.0,36.0,social-properties,36.0,antonym,2.0,Chao rarely laughs.,Is Chao warm?,No,-1.7416387796401978,-0.23785564303398132,No,True
+144.0,36.0,social-properties,36.0,antonym,2.0,Chao rarely laughs.,Is Chao cold?,Yes,-1.7339510917663574,-0.23198530077934265,No,False
+145.0,37.0,social-properties,37.0,antonym,1.0,Chao often gets into long conversations.,Is Chao warm?,Yes,-1.3666387796401978,-0.3685908615589142,No,False
+146.0,37.0,social-properties,37.0,antonym,1.0,Chao often gets into long conversations.,Is Chao cold?,No,-1.94475519657135,-0.1918272078037262,No,True
+147.0,37.0,social-properties,37.0,antonym,2.0,Chao rarely gets into long conversations.,Is Chao warm?,No,-1.9524039030075073,-0.2055087387561798,No,True
+148.0,37.0,social-properties,37.0,antonym,2.0,Chao rarely gets into long conversations.,Is Chao cold?,Yes,-1.9445970058441162,-0.19264532625675201,No,False
+"Overall accuracy: 0.534, TP: 5, TN: 74, FP: 0, FN: 69, Bias score: -0.932",,,,,,,,,,,,

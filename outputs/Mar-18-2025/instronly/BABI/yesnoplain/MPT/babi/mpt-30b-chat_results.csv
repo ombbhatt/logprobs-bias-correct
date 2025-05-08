@@ -1,0 +1,1201 @@
+task,QID,AnsRefIDs,Context,Question,Correct Answer,yes_logprob,no_logprob,predicted_answer,is_correct
+qa1,15,[13],Sandra went to the hallway.,Is Sandra in the hallway?,Yes,-0.9295650720596313,-0.9296132326126099,Yes,True
+qa1,15,[13],Sandra went to the hallway.,Is Sandra in the bathroom?,No,-3.093703269958496,-0.08688580989837646,No,True
+qa1,6,[1],John travelled to the kitchen.,Is John in the kitchen?,Yes,-0.5935400724411011,-1.0936226844787598,Yes,True
+qa1,6,[1],John travelled to the kitchen.,Is John in the hallway?,No,-3.59363055229187,-0.09465396404266357,No,True
+qa1,6,[2],Sandra moved to the kitchen.,Is Sandra in the kitchen?,Yes,-0.25378239154815674,-3.249925136566162,Yes,True
+qa1,6,[2],Sandra moved to the kitchen.,Is Sandra in the garden?,No,-6.531053066253662,-0.03801286593079567,No,True
+qa1,6,[4],Sandra went to the bathroom.,Is Sandra in the bathroom?,Yes,-1.0858111381530762,-0.5819849967956543,No,False
+qa1,6,[4],Sandra went to the bathroom.,Is Sandra in the bedroom?,No,-6.031172752380371,-0.019381046295166016,No,True
+qa1,6,[4],Sandra travelled to the office.,Is Sandra in the office?,Yes,-0.581689178943634,-1.077918291091919,Yes,True
+qa1,6,[4],Sandra travelled to the office.,Is Sandra in the hallway?,No,-1.3982292413711548,-0.3982292711734772,No,True
+qa1,15,[11],John moved to the bathroom.,Is John in the bathroom?,Yes,-0.22155976295471191,-4.718706130981445,Yes,True
+qa1,15,[11],John moved to the bathroom.,Is John in the office?,No,-7.562368869781494,-0.05729854479432106,No,True
+qa1,15,[11],Sandra went back to the bathroom.,Is Sandra in the bathroom?,Yes,-0.6210192441940308,-2.124925136566162,Yes,True
+qa1,15,[11],Sandra went back to the bathroom.,Is Sandra in the kitchen?,No,-4.062425136566162,-0.05534565821290016,No,True
+qa1,12,[10],Mary went to the bathroom.,Is Mary in the bathroom?,Yes,-1.3514894247055054,-0.3515355587005615,No,False
+qa1,12,[10],Mary went to the bathroom.,Is Mary in the kitchen?,No,-6.031130313873291,-0.03459513559937477,No,True
+qa1,3,[1],John moved to the bathroom.,Is John in the bathroom?,Yes,-0.22155976295471191,-4.718706130981445,Yes,True
+qa1,3,[1],John moved to the bathroom.,Is John in the garden?,No,-6.062376499176025,-0.06291341781616211,No,True
+qa1,3,[2],Mary moved to the bedroom.,Is Mary in the bedroom?,Yes,-0.2352299690246582,-3.7343013286590576,Yes,True
+qa1,3,[2],Mary moved to the bedroom.,Is Mary in the hallway?,No,-6.031053066253662,-0.03947759047150612,No,True
+qa1,9,[7],Mary moved to the hallway.,Is Mary in the hallway?,Yes,-0.35144197940826416,-3.8593013286590576,Yes,True
+qa1,9,[7],Mary moved to the hallway.,Is Mary in the bedroom?,No,-7.062296390533447,-0.05778682604432106,No,True
+qa1,3,[2],Sandra travelled to the bathroom.,Is Sandra in the bathroom?,Yes,-0.8944053649902344,-0.8944849967956543,Yes,True
+qa1,3,[2],Sandra travelled to the bathroom.,Is Sandra in the hallway?,No,-3.5623767375946045,-0.06628239899873734,No,True
+qa1,15,[13],Mary went back to the bathroom.,Is Mary in the bathroom?,Yes,-0.48820722103118896,-1.9843302965164185,Yes,True
+qa1,15,[13],Mary went back to the bathroom.,Is Mary in the bedroom?,No,-4.093672752380371,-0.07807886600494385,No,True
+qa1,9,[5],Daniel journeyed to the office.,Is Daniel in the office?,Yes,-0.8045650720596313,-0.8046132326126099,Yes,True
+qa1,9,[5],Daniel journeyed to the office.,Is Daniel in the hallway?,No,-1.4451881647109985,-0.44909393787384033,No,True
+qa1,15,[13],Daniel went to the garden.,Is Daniel in the garden?,Yes,-1.0545650720596313,-0.5546132326126099,No,False
+qa1,15,[13],Daniel went to the garden.,Is Daniel in the bathroom?,No,-3.1093013286590576,-0.11613678932189941,No,True
+qa1,12,[8],Sandra moved to the garden.,Is Sandra in the garden?,Yes,-0.40018191933631897,-2.9061226844787598,Yes,True
+qa1,12,[8],Sandra moved to the garden.,Is Sandra in the bedroom?,No,-6.5934247970581055,-0.0955054983496666,No,True
+qa1,6,[1],Daniel went back to the hallway.,Is Daniel in the hallway?,Yes,-0.7343013286590576,-1.2343302965164185,Yes,True
+qa1,6,[1],Daniel went back to the hallway.,Is Daniel in the kitchen?,No,-3.093703269958496,-0.09272658824920654,No,True
+qa1,3,[2],Daniel journeyed to the hallway.,Is Daniel in the hallway?,Yes,-1.1951881647109985,-0.6991430521011353,No,False
+qa1,3,[2],Daniel journeyed to the hallway.,Is Daniel in the office?,No,-3.1405489444732666,-0.14643800258636475,No,True
+qa1,6,[2],Daniel journeyed to the hallway.,Is Daniel in the hallway?,Yes,-1.1951881647109985,-0.6991430521011353,No,False
+qa1,6,[2],Daniel journeyed to the hallway.,Is Daniel in the kitchen?,No,-3.593677520751953,-0.09807169437408447,No,True
+qa1,6,[5],Sandra journeyed to the garden.,Is Sandra in the garden?,Yes,-1.062376618385315,-0.5585192441940308,No,False
+qa1,6,[5],Sandra journeyed to the garden.,Is Sandra in the hallway?,No,-3.1248767375946045,-0.11852968484163284,No,True
+qa1,15,[11],John journeyed to the garden.,Is John in the garden?,Yes,-1.0701881647109985,-0.566331148147583,No,False
+qa1,15,[11],John journeyed to the garden.,Is John in the bedroom?,No,-2.656177520751953,-0.16301286220550537,No,True
+qa1,15,[11],John moved to the hallway.,Is John in the hallway?,Yes,-0.2352299690246582,-4.249925136566162,Yes,True
+qa1,15,[11],John moved to the hallway.,Is John in the garden?,No,-6.062296390533447,-0.06579411774873734,No,True
+qa1,12,[7],Mary journeyed to the bedroom.,Is Mary in the bedroom?,Yes,-0.7888637781143188,-0.7889894247055054,Yes,True
+qa1,12,[7],Mary journeyed to the bedroom.,Is Mary in the bathroom?,No,-2.6249547004699707,-0.1288607120513916,No,True
+qa1,6,[4],Daniel went back to the office.,Is Daniel in the office?,Yes,-0.43547213077545166,-1.4374545812606812,Yes,True
+qa1,6,[4],Daniel went back to the office.,Is Daniel in the hallway?,No,-1.062376618385315,-0.5585192441940308,No,True
+qa1,9,[8],Daniel travelled to the garden.,Is Daniel in the garden?,Yes,-1.0858608484268188,-0.5897668600082397,No,False
+qa1,9,[8],Daniel travelled to the garden.,Is Daniel in the bathroom?,No,-2.156177520751953,-0.16203641891479492,No,True
+qa1,15,[14],Daniel travelled to the bedroom.,Is Daniel in the bedroom?,Yes,-0.7420650720596313,-1.2421132326126099,Yes,True
+qa1,15,[14],Daniel travelled to the bedroom.,Is Daniel in the garden?,No,-4.031177520751953,-0.03975057601928711,No,True
+qa1,15,[14],Mary journeyed to the bedroom.,Is Mary in the bedroom?,Yes,-0.7888637781143188,-0.7889894247055054,Yes,True
+qa1,15,[14],Mary journeyed to the bedroom.,Is Mary in the hallway?,No,-4.062425136566162,-0.0609898567199707,No,True
+qa1,6,[5],Sandra moved to the bedroom.,Is Sandra in the bedroom?,Yes,-0.27916979789733887,-2.7811226844787598,Yes,True
+qa1,6,[5],Sandra moved to the bedroom.,Is Sandra in the office?,No,-7.03112268447876,-0.024775870144367218,No,True
+qa1,6,[4],Mary went to the office.,Is Mary in the office?,Yes,-0.3904995918273926,-1.3904995918273926,Yes,True
+qa1,6,[4],Mary went to the office.,Is Mary in the garden?,No,-4.062296390533447,-0.05607796087861061,No,True
+qa1,6,[4],John went back to the bathroom.,Is John in the bathroom?,Yes,-0.48815929889678955,-1.4921424388885498,Yes,True
+qa1,6,[4],John went back to the bathroom.,Is John in the office?,No,-3.0780489444732666,-0.0809783935546875,No,True
+qa1,6,[2],Sandra travelled to the garden.,Is Sandra in the garden?,Yes,-0.9332596659660339,-0.9332596659660339,No,False
+qa1,6,[2],Sandra travelled to the garden.,Is Sandra in the kitchen?,No,-2.6404995918273926,-0.13944198191165924,No,True
+qa1,3,[1],Sandra journeyed to the kitchen.,Is Sandra in the kitchen?,Yes,-0.839716911315918,-0.8397668600082397,Yes,True
+qa1,3,[1],Sandra journeyed to the kitchen.,Is Sandra in the office?,No,-6.031040191650391,-0.029902108013629913,No,True
+qa1,12,[8],Sandra journeyed to the hallway.,Is Sandra in the hallway?,Yes,-1.843540072441101,-0.34362268447875977,No,False
+qa1,12,[8],Sandra journeyed to the hallway.,Is Sandra in the bathroom?,No,-2.6405489444732666,-0.1434783935546875,No,True
+qa1,9,[4],Daniel journeyed to the office.,Is Daniel in the office?,Yes,-0.8045650720596313,-0.8046132326126099,Yes,True
+qa1,9,[4],Daniel journeyed to the office.,Is Daniel in the kitchen?,No,-3.1248767375946045,-0.12585307657718658,No,True
+qa1,9,[8],John travelled to the bathroom.,Is John in the bathroom?,Yes,-0.8319053649902344,-0.8319849967956543,Yes,True
+qa1,9,[8],John travelled to the bathroom.,Is John in the hallway?,No,-3.593672752380371,-0.08930885791778564,No,True
+qa1,3,[2],John travelled to the garden.,Is John in the garden?,Yes,-0.7888637781143188,-0.7889419794082642,Yes,True
+qa1,3,[2],John travelled to the garden.,Is John in the office?,No,-4.031053066253662,-0.03801286593079567,No,True
+qa1,6,[4],Sandra journeyed to the bedroom.,Is Sandra in the bedroom?,Yes,-0.8983111381530762,-0.8983608484268188,Yes,True
+qa1,6,[4],Sandra journeyed to the bedroom.,Is Sandra in the kitchen?,No,-5.031130313873291,-0.045580748468637466,No,True
+qa1,6,[2],Sandra moved to the garden.,Is Sandra in the garden?,Yes,-0.40018191933631897,-2.9061226844787598,Yes,True
+qa1,6,[2],Sandra moved to the garden.,Is Sandra in the bathroom?,No,-5.5934247970581055,-0.10380472987890244,No,True
+qa1,9,[5],Daniel went to the bathroom.,Is Daniel in the bathroom?,Yes,-0.7889419794082642,-0.7889894247055054,Yes,True
+qa1,9,[5],Daniel went to the bathroom.,Is Daniel in the garden?,No,-4.531177520751953,-0.04414486885070801,No,True
+qa1,15,[14],Mary moved to the office.,Is Mary in the office?,Yes,-0.1667928844690323,-3.6718013286590576,Yes,True
+qa1,15,[14],Mary moved to the office.,Is Mary in the kitchen?,No,-6.562376499176025,-0.05070722475647926,No,True
+qa1,12,[5],Mary moved to the office.,Is Mary in the office?,Yes,-0.1667928844690323,-3.6718013286590576,Yes,True
+qa1,12,[5],Mary moved to the office.,Is Mary in the kitchen?,No,-6.562376499176025,-0.05070722475647926,No,True
+qa1,15,[11],Daniel journeyed to the office.,Is Daniel in the office?,Yes,-0.8045650720596313,-0.8046132326126099,Yes,True
+qa1,15,[11],Daniel journeyed to the office.,Is Daniel in the bedroom?,No,-5.624876499176025,-0.12199568748474121,No,True
+qa1,6,[2],Daniel travelled to the bathroom.,Is Daniel in the bathroom?,Yes,-0.6327370405197144,-1.1327667236328125,Yes,True
+qa1,6,[2],Daniel travelled to the bathroom.,Is Daniel in the hallway?,No,-3.1092536449432373,-0.11320722103118896,No,True
+qa1,9,[8],John journeyed to the garden.,Is John in the garden?,Yes,-1.0701881647109985,-0.566331148147583,No,False
+qa1,9,[8],John journeyed to the garden.,Is John in the bathroom?,No,-3.093552827835083,-0.09807169437408447,No,True
+qa1,15,[13],Daniel journeyed to the bedroom.,Is Daniel in the bedroom?,Yes,-0.4999251365661621,-1.499925136566162,Yes,True
+qa1,15,[13],Daniel journeyed to the bedroom.,Is Daniel in the kitchen?,No,-5.031206130981445,-0.03852987289428711,No,True
+qa1,12,[8],Sandra moved to the bedroom.,Is Sandra in the bedroom?,Yes,-0.27916979789733887,-2.7811226844787598,Yes,True
+qa1,12,[8],Sandra moved to the bedroom.,Is Sandra in the kitchen?,No,-7.062368869781494,-0.054809220135211945,No,True
+qa1,9,[7],Sandra moved to the bathroom.,Is Sandra in the bathroom?,Yes,-0.23815929889678955,-3.7343013286590576,Yes,True
+qa1,9,[7],Sandra moved to the bathroom.,Is Sandra in the kitchen?,No,-7.093630313873291,-0.08629942685365677,No,True
+qa1,12,[11],Daniel moved to the hallway.,Is Daniel in the hallway?,Yes,-0.345630407333374,-3.843677520751953,Yes,True
+qa1,12,[11],Daniel moved to the hallway.,Is Daniel in the bathroom?,No,-5.156053066253662,-0.15808331966400146,No,True
+qa1,15,[11],Daniel moved to the hallway.,Is Daniel in the hallway?,Yes,-0.345630407333374,-3.843677520751953,Yes,True
+qa1,15,[11],Daniel moved to the hallway.,Is Daniel in the garden?,No,-6.093553066253662,-0.0955054983496666,No,True
+qa1,6,[1],Sandra travelled to the garden.,Is Sandra in the garden?,Yes,-0.9332596659660339,-0.9332596659660339,No,False
+qa1,6,[1],Sandra travelled to the garden.,Is Sandra in the bedroom?,No,-4.562296390533447,-0.053588636219501495,No,True
+qa10,3,[2],Bill is in the kitchen.,Is Bill in the bedroom?,No,-7.093553066253662,-0.09851265698671341,No,True
+qa10,6,[4],Bill journeyed to the bedroom.,Is Bill in the bedroom?,Yes,-0.5819053649902344,-1.5779995918273926,Yes,True
+qa10,9,[4],Fred went to the bedroom.,Is Fred in the bedroom?,Yes,-0.4843013286590576,-1.4843302965164185,Yes,True
+qa10,12,[11],Mary went back to the office.,Is Mary in the kitchen?,No,-2.6092536449432373,-0.11372458934783936,No,True
+qa10,15,[14],Fred moved to the cinema.,Is Fred in the kitchen?,No,-6.062296390533447,-0.06774700433015823,No,True
+qa10,6,[5],Mary is in the office.,Is Mary in the office?,Yes,-0.09904813766479492,-3.0937232971191406,Yes,True
+qa10,15,[14],Fred is either in the school or the cinema.,Is Fred in the office?,No,-7.0309247970581055,-0.04045415297150612,No,True
+qa10,15,[14],Mary went to the park.,Is Mary in the park?,Yes,-1.0779995918273926,-0.5819549560546875,No,False
+qa10,9,[4],Fred went back to the cinema.,Is Fred in the office?,No,-3.5622966289520264,-0.05993545800447464,No,True
+qa10,6,[2],Mary moved to the school.,Is Mary in the school?,Yes,-0.08581114560365677,-3.593672752380371,Yes,True
+qa10,9,[8],Mary moved to the office.,Is Mary in the office?,Yes,-0.1667928844690323,-3.6718013286590576,Yes,True
+qa10,12,[10],Mary is in the school.,Is Mary in the school?,Yes,-0.2274184226989746,-4.218706130981445,Yes,True
+qa10,15,[13],Fred moved to the office.,Is Fred in the kitchen?,No,-6.031053066253662,-0.039674289524555206,No,True
+qa10,3,[2],Bill is in the office.,Is Bill in the park?,No,-7.562368869781494,-0.06120455637574196,No,True
+qa10,12,[11],Julie went to the park.,Is Julie in the park?,Yes,-1.374925136566162,-0.3769075870513916,No,False
+qa10,12,[11],Bill went to the bedroom.,Is Bill in the bedroom?,Yes,-0.48234832286834717,-1.4843302965164185,Yes,True
+qa10,15,[14],Bill went back to the school.,Is Bill in the park?,No,-4.062425136566162,-0.06782543659210205,No,True
+qa10,12,[8],Mary travelled to the school.,Is Mary in the office?,No,-1.7418546676635742,-0.24491466581821442,No,True
+qa10,15,[8],Mary travelled to the school.,Is Mary in the school?,Yes,-0.39028435945510864,-1.3904995918273926,Yes,True
+qa10,3,[1],Mary went back to the bedroom.,Is Mary in the bedroom?,Yes,-0.42565929889678955,-2.4218013286590576,Yes,True
+qa10,3,[2],Fred is in the office.,Is Fred in the cinema?,No,-7.062164783477783,-0.06188834458589554,No,True
+qa10,6,[5],Bill is in the kitchen.,Is Bill in the kitchen?,Yes,-0.25174930691719055,-3.249925136566162,Yes,True
+qa10,15,[14],Bill journeyed to the park.,Is Bill in the cinema?,No,-5.562296390533447,-0.07352473586797714,No,True
+qa10,3,[2],Bill went to the park.,Is Bill in the bedroom?,No,-6.53112268447876,-0.028395654633641243,No,True
+qa10,9,[8],Mary is in the office.,Is Mary in the office?,Yes,-0.09904813766479492,-3.0937232971191406,Yes,True
+qa10,6,[5],Bill went back to the office.,Is Bill in the kitchen?,No,-2.6248767375946045,-0.12341190129518509,No,True
+qa10,15,[13],Bill travelled to the kitchen.,Is Bill in the kitchen?,Yes,-0.4216747581958771,-1.4217535257339478,Yes,True
+qa10,15,[13],Fred went to the bedroom.,Is Fred in the school?,No,-7.999796390533447,-0.017287733033299446,No,True
+qa10,3,[1],Fred is in the kitchen.,Is Fred in the school?,No,-8.499796867370605,-0.0159151591360569,No,True
+qa10,6,[5],Julie went back to the cinema.,Is Julie in the cinema?,Yes,-0.7224582433700562,-1.7264419794082642,Yes,True
+qa10,9,[4],Julie went back to the park.,Is Julie in the park?,Yes,-0.8319053649902344,-0.8319549560546875,Yes,True
+qa10,3,[2],Fred went to the kitchen.,Is Fred in the park?,No,-6.531130313873291,-0.04316830635070801,No,True
+qa10,9,[8],Bill moved to the cinema.,Is Bill in the cinema?,Yes,-0.25956013798713684,-3.2654995918273926,Yes,True
+qa10,12,[8],Julie journeyed to the office.,Is Julie in the office?,Yes,-0.792769193649292,-0.7928953170776367,Yes,True
+qa10,15,[13],Mary is either in the bedroom or the park.,Is Mary in the school?,No,-9.499738693237305,-0.0188446082174778,No,True
+qa10,12,[11],Fred went to the school.,Is Fred in the cinema?,No,-4.562164783477783,-0.07262922078371048,No,True
+qa10,9,[8],Fred travelled to the bedroom.,Is Fred in the bedroom?,Yes,-0.38073527812957764,-1.8827847242355347,Yes,True
+qa10,12,[11],Bill is in the bedroom.,Is Bill in the kitchen?,No,-6.531053066253662,-0.04431236535310745,No,True
+qa10,3,[2],Julie moved to the office.,Is Julie in the office?,Yes,-0.1346900463104248,-3.140597105026245,Yes,True
+qa10,15,[14],Julie is in the kitchen.,Is Julie in the cinema?,No,-8.624796867370605,-0.13664305210113525,No,True
+qa10,9,[5],Julie went to the kitchen.,Is Julie in the kitchen?,Yes,-0.42768943309783936,-1.4296424388885498,Yes,True
+qa10,12,[11],Julie is in the park.,Is Julie in the school?,No,-7.531172752380371,-0.035617709159851074,No,True
+qa10,15,[14],Mary travelled to the school.,Is Mary in the school?,Yes,-0.39028435945510864,-1.3904995918273926,Yes,True
+qa10,3,[1],Bill went back to the bedroom.,Is Bill in the cinema?,No,-4.593630313873291,-0.1024184301495552,No,True
+qa10,15,[13],Mary is in the cinema.,Is Mary in the office?,No,-7.15612268447876,-0.14933741092681885,No,True
+qa10,12,[7],Julie is in the office.,Is Julie in the office?,Yes,-0.16008341312408447,-2.6562061309814453,Yes,True
+qa10,3,[2],Julie journeyed to the park.,Is Julie in the park?,Yes,-1.3826881647109985,-0.38081371784210205,No,False
+qa10,9,[8],Bill is in the cinema.,Is Bill in the bedroom?,No,-8.062383651733398,-0.06880199909210205,No,True
+qa10,9,[8],Mary is in the kitchen.,Is Mary in the kitchen?,Yes,-0.16496586799621582,-3.671830415725708,Yes,True
+qa10,3,[1],Fred went to the office.,Is Fred in the bedroom?,No,-6.031053066253662,-0.04289532080292702,No,True
+qa10,9,[7],Julie moved to the school.,Is Julie in the school?,Yes,-0.21276403963565826,-2.718703269958496,Yes,True
+qa10,3,[1],Bill went to the cinema.,Is Bill in the cinema?,Yes,-0.7341747283935547,-1.2342535257339478,Yes,True
+qa10,9,[7],Bill went to the bedroom.,Is Bill in the office?,No,-6.531130313873291,-0.04094231501221657,No,True
+qa10,3,[1],Julie is either in the bedroom or the kitchen.,Is Julie in the school?,No,-7.031040191650391,-0.021896127611398697,No,True
+qa10,15,[14],Julie moved to the bedroom.,Is Julie in the school?,No,-8.062420845031738,-0.04196524620056152,No,True
+qa10,15,[14],Mary moved to the office.,Is Mary in the office?,Yes,-0.1667928844690323,-3.6718013286590576,Yes,True
+qa10,3,[1],Julie is in the park.,Is Julie in the cinema?,No,-7.53112268447876,-0.03633272647857666,No,True
+qa10,3,[1],Fred went back to the school.,Is Fred in the school?,Yes,-0.5936226844787598,-1.093672752380371,Yes,True
+qa10,3,[1],Julie went to the school.,Is Julie in the cinema?,No,-5.124664783477783,-0.11120641976594925,No,True
+qa10,6,[5],Julie went to the office.,Is Julie in the bedroom?,No,-6.531130313873291,-0.03386283293366432,No,True
+qa10,3,[1],Fred went back to the office.,Is Fred in the office?,Yes,-0.49987661838531494,-1.499876618385315,Yes,True
+qa10,6,[1],Fred went back to the office.,Is Fred in the office?,Yes,-0.49987661838531494,-1.499876618385315,Yes,True
+qa10,6,[5],Mary is in the school.,Is Mary in the school?,Yes,-0.2274184226989746,-4.218706130981445,Yes,True
+qa10,12,[8],Mary is in the office.,Is Mary in the school?,No,-7.031172752380371,-0.028902292251586914,No,True
+qa10,3,[1],Bill journeyed to the bedroom.,Is Bill in the bedroom?,Yes,-0.5819053649902344,-1.5779995918273926,Yes,True
+qa10,15,[10],Mary is either in the cinema or the office.,Is Mary in the kitchen?,No,-8.062283515930176,-0.03386283293366432,No,True
+qa10,15,[11],Fred went back to the office.,Is Fred in the office?,Yes,-0.49987661838531494,-1.499876618385315,Yes,True
+qa10,3,[2],Julie is in the kitchen.,Is Julie in the office?,No,-7.56242036819458,-0.058792710304260254,No,True
+qa10,15,[11],Julie is in the park.,Is Julie in the school?,No,-7.531172752380371,-0.035617709159851074,No,True
+qa10,3,[2],Julie is in the kitchen.,Is Julie in the kitchen?,Yes,-0.16594231128692627,-2.671830415725708,Yes,True
+qa10,12,[10],Bill journeyed to the kitchen.,Is Bill in the kitchen?,Yes,-0.6404995918273926,-1.1405489444732666,Yes,True
+qa10,15,[14],Fred is in the cinema.,Is Fred in the park?,No,-7.562164783477783,-0.06229653209447861,No,True
+qa10,15,[14],Mary journeyed to the park.,Is Mary in the park?,Yes,-0.7850834131240845,-0.7851120233535767,Yes,True
+qa10,9,[7],Bill is in the park.,Is Bill in the park?,Yes,-0.1415255069732666,-5.156203269958496,Yes,True
+qa10,15,[11],Bill went to the cinema.,Is Bill in the cinema?,Yes,-0.7341747283935547,-1.2342535257339478,Yes,True
+qa10,6,[5],Julie is either in the cinema or the cinema.,Is Julie in the kitchen?,No,-2.7029995918273926,-0.19816648960113525,No,True
+qa10,3,[1],Mary is in the school.,Is Mary in the school?,Yes,-0.2274184226989746,-4.218706130981445,Yes,True
+qa10,12,[11],Bill went to the park.,Is Bill in the office?,No,-6.031053066253662,-0.04240715876221657,No,True
+qa10,15,[13],Bill journeyed to the school.,Is Bill in the kitchen?,No,-3.1090447902679443,-0.10429289191961288,No,True
+qa10,9,[7],Mary went back to the cinema.,Is Mary in the school?,No,-3.577918291091919,-0.07702315598726273,No,True
+qa10,15,[13],Mary went back to the park.,Is Mary in the park?,Yes,-0.8240128755569458,-0.8241430521011353,Yes,True
+qa10,6,[2],Mary went to the park.,Is Mary in the kitchen?,No,-5.03115701675415,-0.046313051134347916,No,True
+qa10,9,[2],Mary went to the park.,Is Mary in the park?,Yes,-1.0779995918273926,-0.5819549560546875,No,False
+qa10,3,[2],Julie travelled to the park.,Is Julie in the bedroom?,No,-4.531130313873291,-0.03508341684937477,No,True
+qa10,12,[11],Bill is in the park.,Is Bill in the cinema?,No,-6.593540191650391,-0.09118164330720901,No,True
+qa10,3,[2],Mary is in the cinema.,Is Mary in the cinema?,Yes,-0.24987663328647614,-3.2499547004699707,Yes,True
+qa10,12,[11],Julie is either in the school or the school.,Is Julie in the office?,No,-0.7850362062454224,-0.7850834131240845,Yes,False
+qa10,6,[4],Mary journeyed to the kitchen.,Is Mary in the office?,No,-6.53112268447876,-0.015700938180088997,No,True
+qa10,12,[5],Bill journeyed to the cinema.,Is Bill in the cinema?,Yes,-0.741854727268219,-1.2420650720596313,Yes,True
+qa10,15,[14],Julie went to the kitchen.,Is Julie in the bedroom?,No,-7.03112268447876,-0.027266863733530045,No,True
+qa10,9,[7],Mary went to the kitchen.,Is Mary in the cinema?,No,-7.06242036819458,-0.055863142013549805,No,True
+qa10,12,[5],Julie is in the park.,Is Julie in the cinema?,No,-7.53112268447876,-0.03633272647857666,No,True
+qa10,15,[14],Bill moved to the park.,Is Bill in the park?,Yes,-0.24011220037937164,-3.7343013286590576,Yes,True
+qa10,15,[14],Julie went back to the school.,Is Julie in the school?,Yes,-0.49011218547821045,-1.4921132326126099,Yes,True
+qa10,9,[7],Julie travelled to the park.,Is Julie in the park?,Yes,-0.6444053649902344,-1.1405489444732666,Yes,True
+qa10,15,[14],Fred is in the cinema.,Is Fred in the cinema?,Yes,-0.24206508696079254,-3.7499547004699707,Yes,True
+qa10,3,[1],Mary is either in the park or the cinema.,Is Mary in the kitchen?,No,-7.062164783477783,-0.05017102509737015,No,True
+qa10,9,[7],Bill is in the school.,Is Bill in the bedroom?,No,-3.5779995918273926,-0.08341968059539795,No,True
+qa10,6,[2],Bill went back to the office.,Is Bill in the office?,Yes,-0.4353438913822174,-1.4372965097427368,Yes,True
+qa10,9,[8],Bill is in the park.,Is Bill in the park?,Yes,-0.1415255069732666,-5.156203269958496,Yes,True
+qa11,15,"[7, 8]",John travelled to the garden. Afterwards he went to the hallway.,Is John in the hallway?,Yes,-1.0468302965164185,-0.542941689491272,No,False
+qa11,15,"[7, 8]",John travelled to the garden. Afterwards he went to the hallway.,Is John in the garden?,No,-4.093677520751953,-0.10588359832763672,No,True
+qa11,6,"[1, 2]",Daniel journeyed to the hallway. Then he journeyed to the bathroom.,Is Daniel in the bathroom?,Yes,-0.3163607120513916,-1.8202956914901733,Yes,True
+qa11,6,"[1, 2]",Daniel journeyed to the hallway. Then he journeyed to the bathroom.,Is Daniel in the office?,No,-2.2343013286590576,-0.23430132865905762,No,True
+qa11,6,"[1, 2]",Sandra moved to the hallway. Following that she went back to the bathroom.,Is Sandra in the bathroom?,Yes,-1.4372965097427368,-0.43737661838531494,No,False
+qa11,6,"[1, 2]",Sandra moved to the hallway. Following that she went back to the bathroom.,Is Sandra in the bedroom?,No,-3.1404995918273926,-0.14147605001926422,No,True
+qa11,6,"[1, 2]",Mary travelled to the kitchen. Following that she journeyed to the garden.,Is Mary in the garden?,Yes,-0.542847752571106,-1.0468013286590576,Yes,True
+qa11,6,"[1, 2]",Mary travelled to the kitchen. Following that she journeyed to the garden.,Is Mary in the bedroom?,No,-4.062425136566162,-0.048754338175058365,No,True
+qa11,6,"[1, 2]",Mary went back to the kitchen. Then she went to the garden.,Is Mary in the garden?,Yes,-0.7812031507492065,-0.7812216281890869,Yes,True
+qa11,6,"[1, 2]",Mary went back to the kitchen. Then she went to the garden.,Is Mary in the kitchen?,No,-2.2342536449432373,-0.22844231128692627,No,True
+qa11,15,"[10, 11]",Mary travelled to the kitchen. Afterwards she journeyed to the hallway.,Is Mary in the hallway?,Yes,-0.7733910083770752,-0.7734204530715942,Yes,True
+qa11,15,"[10, 11]",Mary travelled to the kitchen. Afterwards she journeyed to the hallway.,Is Mary in the bathroom?,No,-3.1092803478240967,-0.10347115993499756,No,True
+qa11,15,"[13, 14]",Sandra moved to the bathroom. Following that she went back to the garden.,Is Sandra in the garden?,Yes,-0.6326881647109985,-1.1327370405197144,Yes,True
+qa11,15,"[13, 14]",Sandra moved to the bathroom. Following that she went back to the garden.,Is Sandra in the kitchen?,No,-1.8201074600219727,-0.32010748982429504,No,True
+qa11,12,"[10, 11]",John went to the bathroom. Afterwards he moved to the office.,Is John in the office?,Yes,-0.5741430521011353,-1.0780788660049438,Yes,True
+qa11,12,"[10, 11]",John went to the bathroom. Afterwards he moved to the office.,Is John in the bathroom?,No,-4.09362268447876,-0.08293139934539795,No,True
+qa11,3,"[1, 2]",Mary moved to the kitchen. Following that she journeyed to the hallway.,Is Mary in the hallway?,Yes,-0.5077667236328125,-1.0077667236328125,Yes,True
+qa11,3,"[1, 2]",Mary moved to the kitchen. Following that she journeyed to the hallway.,Is Mary in the office?,No,-3.1092536449432373,-0.1077888086438179,No,True
+qa11,3,"[1, 2]",Mary went to the garden. Then she journeyed to the bedroom.,Is Mary in the bedroom?,Yes,-0.41792428493499756,-1.4140355587005615,Yes,True
+qa11,3,"[1, 2]",Mary went to the garden. Then she journeyed to the bedroom.,Is Mary in the garden?,No,-2.6718013286590576,-0.17180132865905762,No,True
+qa11,9,"[4, 5]",John went to the office. Afterwards he moved to the garden.,Is John in the garden?,Yes,-0.7888637781143188,-0.7889894247055054,Yes,True
+qa11,9,"[4, 5]",John went to the office. Afterwards he moved to the garden.,Is John in the bedroom?,No,-2.65613055229187,-0.15813040733337402,No,True
+qa11,3,"[1, 2]",Sandra journeyed to the bathroom. After that she went to the garden.,Is Sandra in the garden?,Yes,-1.1013637781143188,-0.5975834131240845,No,False
+qa11,3,"[1, 2]",Sandra journeyed to the bathroom. After that she went to the garden.,Is Sandra in the bathroom?,No,-4.656040191650391,-0.15026403963565826,No,True
+qa11,15,"[13, 14]",Daniel moved to the hallway. After that he moved to the kitchen.,Is Daniel in the kitchen?,Yes,-0.27721691131591797,-2.781172752380371,Yes,True
+qa11,15,"[13, 14]",Daniel moved to the hallway. After that he moved to the kitchen.,Is Daniel in the bedroom?,No,-3.1405489444732666,-0.1405489444732666,No,True
+qa11,9,"[7, 8]",Sandra journeyed to the kitchen. Afterwards she went to the garden.,Is Sandra in the garden?,Yes,-0.7968013286590576,-0.7968013286590576,No,False
+qa11,9,"[7, 8]",Sandra journeyed to the kitchen. Afterwards she went to the garden.,Is Sandra in the bathroom?,No,-2.65613055229187,-0.16103923320770264,No,True
+qa11,15,"[13, 14]",John travelled to the kitchen. Then he travelled to the hallway.,Is John in the hallway?,Yes,-0.3183317184448242,-1.8202956914901733,Yes,True
+qa11,15,"[13, 14]",John travelled to the kitchen. Then he travelled to the hallway.,Is John in the garden?,No,-2.2030489444732666,-0.2021024227142334,No,True
+qa11,12,"[7, 8]",Mary travelled to the kitchen. After that she went to the bathroom.,Is Mary in the bathroom?,Yes,-0.5155788660049438,-1.0155788660049438,Yes,True
+qa11,12,"[7, 8]",Mary travelled to the kitchen. After that she went to the bathroom.,Is Mary in the hallway?,No,-2.187425136566162,-0.1903841495513916,No,True
+qa11,6,"[1, 2]",Sandra went back to the hallway. Following that she went back to the kitchen.,Is Sandra in the kitchen?,Yes,-0.24995458126068115,-1.7499545812606812,Yes,True
+qa11,6,"[1, 2]",Sandra went back to the hallway. Following that she went back to the kitchen.,Is Sandra in the bedroom?,No,-2.6404995918273926,-0.13952316343784332,No,True
+qa11,3,"[1, 2]",Daniel went to the bathroom. Following that he went back to the kitchen.,Is Daniel in the kitchen?,Yes,-0.32018816471099854,-1.8201881647109985,Yes,True
+qa11,3,"[1, 2]",Daniel went to the bathroom. Following that he went back to the kitchen.,Is Daniel in the hallway?,No,-1.0468013286590576,-0.5467535257339478,No,True
+qa11,6,"[1, 2]",Daniel went to the bathroom. Following that he went back to the kitchen.,Is Daniel in the kitchen?,Yes,-0.32018816471099854,-1.8201881647109985,Yes,True
+qa11,6,"[1, 2]",Daniel went to the bathroom. Following that he went back to the kitchen.,Is Daniel in the bathroom?,No,-1.7420650720596313,-0.243041530251503,No,True
+qa11,6,"[1, 2]",Mary went to the office. Afterwards she went back to the bedroom.,Is Mary in the bedroom?,Yes,-0.7772971391677856,-0.7773154973983765,Yes,True
+qa11,6,"[1, 2]",Mary went to the office. Afterwards she went back to the bedroom.,Is Mary in the garden?,No,-1.8513637781143188,-0.35144197940826416,No,True
+qa11,15,"[13, 14]",John went to the office. Then he went to the bedroom.,Is John in the bedroom?,Yes,-0.38664305210113525,-1.3905788660049438,Yes,True
+qa11,15,"[13, 14]",John went to the office. Then he went to the bedroom.,Is John in the hallway?,No,-1.3671424388885498,-0.36716020107269287,No,True
+qa11,15,"[13, 14]",Mary moved to the bathroom. Then she journeyed to the garden.,Is Mary in the garden?,Yes,-0.36125433444976807,-1.3593302965164185,Yes,True
+qa11,15,"[13, 14]",Mary moved to the bathroom. Then she journeyed to the garden.,Is Mary in the bathroom?,No,-3.0779995918273926,-0.0780489444732666,No,True
+qa11,12,"[10, 11]",John travelled to the hallway. Following that he travelled to the bathroom.,Is John in the bathroom?,Yes,-0.2060084342956543,-2.203097105026245,Yes,True
+qa11,12,"[10, 11]",John travelled to the hallway. Following that he travelled to the bathroom.,Is John in the kitchen?,No,-4.062376499176025,-0.05534565821290016,No,True
+qa11,6,"[1, 2]",Daniel journeyed to the hallway. After that he journeyed to the bedroom.,Is Daniel in the bedroom?,Yes,-0.2792501449584961,-2.781203269958496,Yes,True
+qa11,6,"[1, 2]",Daniel journeyed to the hallway. After that he journeyed to the bedroom.,Is Daniel in the hallway?,No,-0.8749545812606812,-0.8749251365661621,No,True
+qa11,9,"[4, 5]",Mary journeyed to the bedroom. Then she moved to the kitchen.,Is Mary in the kitchen?,Yes,-0.7577370405197144,-0.7577667236328125,Yes,True
+qa11,9,"[4, 5]",Mary journeyed to the bedroom. Then she moved to the kitchen.,Is Mary in the bedroom?,No,-3.0779995918273926,-0.0785372257232666,No,True
+qa11,15,"[13, 14]",Sandra went back to the garden. Following that she went back to the bedroom.,Is Sandra in the bedroom?,Yes,-0.42768943309783936,-1.4296424388885498,Yes,True
+qa11,15,"[13, 14]",Sandra went back to the garden. Following that she went back to the bedroom.,Is Sandra in the office?,No,-3.1404995918273926,-0.14635826647281647,No,True
+qa11,15,"[13, 14]",Sandra travelled to the kitchen. After that she journeyed to the garden.,Is Sandra in the garden?,Yes,-0.5780489444732666,-1.0780489444732666,Yes,True
+qa11,15,"[13, 14]",Sandra travelled to the kitchen. After that she journeyed to the garden.,Is Sandra in the kitchen?,No,-2.202918291091919,-0.20500195026397705,No,True
+qa11,6,"[4, 5]",John journeyed to the hallway. Then he travelled to the garden.,Is John in the garden?,Yes,-0.42370641231536865,-1.4218302965164185,Yes,True
+qa11,6,"[4, 5]",John journeyed to the hallway. Then he travelled to the garden.,Is John in the bedroom?,No,-1.7733111381530762,-0.27336084842681885,No,True
+qa11,6,"[4, 5]",Mary went back to the kitchen. Then she went back to the office.,Is Mary in the office?,Yes,-0.6326881647109985,-1.1327667236328125,Yes,True
+qa11,6,"[4, 5]",Mary went back to the kitchen. Then she went back to the office.,Is Mary in the bathroom?,No,-2.6873767375946045,-0.19330072402954102,No,True
+qa11,6,"[4, 5]",Sandra went back to the office. Following that she went to the kitchen.,Is Sandra in the kitchen?,Yes,-0.589716911315918,-1.0858111381530762,Yes,True
+qa11,6,"[4, 5]",Sandra went back to the office. Following that she went to the kitchen.,Is Sandra in the bedroom?,No,-3.6092536449432373,-0.10290659219026566,No,True
+qa11,6,"[4, 5]",Daniel journeyed to the bathroom. Afterwards he went back to the kitchen.,Is Daniel in the kitchen?,Yes,-0.5897668600082397,-1.093672752380371,Yes,True
+qa11,6,"[4, 5]",Daniel journeyed to the bathroom. Afterwards he went back to the kitchen.,Is Daniel in the hallway?,No,-0.8749251365661621,-0.8749251365661621,No,True
+qa11,3,"[1, 2]",Mary went to the garden. Afterwards she moved to the hallway.,Is Mary in the hallway?,Yes,-0.5155788660049438,-1.0155788660049438,Yes,True
+qa11,3,"[1, 2]",Mary went to the garden. Afterwards she moved to the hallway.,Is Mary in the garden?,No,-6.124954700469971,-0.13569629192352295,No,True
+qa11,12,"[7, 8]",John went back to the hallway. Then he moved to the garden.,Is John in the garden?,Yes,-0.2753138542175293,-1.7733910083770752,Yes,True
+qa11,12,"[7, 8]",John went back to the hallway. Then he moved to the garden.,Is John in the office?,No,-2.671830415725708,-0.168900728225708,No,True
+qa11,9,"[4, 5]",Sandra went to the kitchen. After that she journeyed to the hallway.,Is Sandra in the hallway?,Yes,-0.7538607120513916,-0.7538785934448242,Yes,True
+qa11,9,"[4, 5]",Sandra went to the kitchen. After that she journeyed to the hallway.,Is Sandra in the bathroom?,No,-2.1717536449432373,-0.17570722103118896,No,True
+qa11,9,"[7, 8]",Daniel moved to the hallway. Following that he journeyed to the garden.,Is Daniel in the garden?,Yes,-0.5779995918273926,-1.0780489444732666,Yes,True
+qa11,9,"[7, 8]",Daniel moved to the hallway. Following that he journeyed to the garden.,Is Daniel in the kitchen?,No,-2.6248767375946045,-0.12004268169403076,No,True
+qa11,3,"[1, 2]",Mary journeyed to the garden. After that she travelled to the kitchen.,Is Mary in the kitchen?,Yes,-0.3319053649902344,-1.8279995918273926,Yes,True
+qa11,3,"[1, 2]",Mary journeyed to the garden. After that she travelled to the kitchen.,Is Mary in the office?,No,-5.062164783477783,-0.06725884228944778,No,True
+qa11,6,"[4, 5]",Daniel went back to the office. After that he went to the bathroom.,Is Daniel in the bathroom?,Yes,-0.5702667236328125,-1.0702847242355347,Yes,True
+qa11,6,"[4, 5]",Daniel went back to the office. After that he went to the bathroom.,Is Daniel in the kitchen?,No,-1.4296132326126099,-0.4276602268218994,No,True
+qa11,6,"[1, 2]",John journeyed to the kitchen. Then he went to the hallway.,Is John in the hallway?,Yes,-0.7811774015426636,-0.7812060117721558,Yes,True
+qa11,6,"[1, 2]",John journeyed to the kitchen. Then he went to the hallway.,Is John in the office?,No,-2.6093013286590576,-0.10884201526641846,No,True
+qa11,9,"[7, 8]",John travelled to the bathroom. Afterwards he moved to the kitchen.,Is John in the kitchen?,Yes,-0.792847752571106,-0.7928953170776367,Yes,True
+qa11,9,"[7, 8]",John travelled to the bathroom. Afterwards he moved to the kitchen.,Is John in the bathroom?,No,-6.562376499176025,-0.05847085267305374,No,True
+qa11,15,"[13, 14]",John went to the office. Afterwards he went to the bathroom.,Is John in the bathroom?,Yes,-0.7811226844787598,-0.7811727523803711,Yes,True
+qa11,15,"[13, 14]",John went to the office. Afterwards he went to the bathroom.,Is John in the office?,No,-3.1092536449432373,-0.10930132865905762,No,True
+qa11,12,"[10, 11]",Daniel went back to the kitchen. Following that he went back to the hallway.,Is Daniel in the hallway?,Yes,-0.5740939378738403,-1.0702370405197144,Yes,True
+qa11,12,"[10, 11]",Daniel went back to the kitchen. Following that he went back to the hallway.,Is Daniel in the bathroom?,No,-1.374925136566162,-0.37297213077545166,No,True
+qa11,15,"[13, 14]",Daniel went to the kitchen. Afterwards he moved to the hallway.,Is Daniel in the hallway?,Yes,-0.5390181541442871,-1.039018154144287,Yes,True
+qa11,15,"[13, 14]",Daniel went to the kitchen. Afterwards he moved to the hallway.,Is Daniel in the garden?,No,-2.6405489444732666,-0.1435084342956543,No,True
+qa11,6,"[4, 5]",Sandra travelled to the garden. Then she journeyed to the bathroom.,Is Sandra in the bathroom?,Yes,-0.27534401416778564,-1.7733910083770752,Yes,True
+qa11,6,"[4, 5]",Sandra travelled to the garden. Then she journeyed to the bathroom.,Is Sandra in the bedroom?,No,-1.7968013286590576,-0.29875433444976807,No,True
+qa11,9,"[4, 5]",Sandra travelled to the garden. Then she journeyed to the bathroom.,Is Sandra in the bathroom?,Yes,-0.27534401416778564,-1.7733910083770752,Yes,True
+qa11,9,"[4, 5]",Sandra travelled to the garden. Then she journeyed to the bathroom.,Is Sandra in the bedroom?,No,-1.7968013286590576,-0.29875433444976807,No,True
+qa11,15,"[13, 14]",John travelled to the kitchen. Afterwards he went back to the bedroom.,Is John in the bedroom?,Yes,-0.8241430521011353,-0.8241908550262451,Yes,True
+qa11,15,"[13, 14]",John travelled to the kitchen. Afterwards he went back to the bedroom.,Is John in the kitchen?,No,-4.09362268447876,-0.08244311809539795,No,True
+qa11,12,"[7, 8]",Mary moved to the bedroom. After that she travelled to the bathroom.,Is Mary in the bathroom?,Yes,-0.42375433444976807,-1.4218302965164185,Yes,True
+qa11,12,"[7, 8]",Mary moved to the bedroom. After that she travelled to the bathroom.,Is Mary in the hallway?,No,-3.093672752380371,-0.0917501449584961,No,True
+qa11,9,"[1, 2]",Daniel moved to the office. Then he moved to the bedroom.,Is Daniel in the bedroom?,Yes,-0.2059783935546875,-2.2030489444732666,Yes,True
+qa11,9,"[1, 2]",Daniel moved to the office. Then he moved to the bedroom.,Is Daniel in the hallway?,No,-1.0937031507492065,-0.5897668600082397,No,True
+qa11,12,"[7, 8]",Daniel travelled to the kitchen. Following that he went back to the hallway.,Is Daniel in the hallway?,Yes,-0.5741430521011353,-1.0702667236328125,Yes,True
+qa11,12,"[7, 8]",Daniel travelled to the kitchen. Following that he went back to the hallway.,Is Daniel in the office?,No,-2.21863055229187,-0.22644197940826416,No,True
+qa11,15,"[13, 14]",Mary went to the kitchen. After that she travelled to the office.,Is Mary in the office?,Yes,-0.3846900463104248,-1.3827667236328125,Yes,True
+qa11,15,"[13, 14]",Mary went to the kitchen. After that she travelled to the office.,Is Mary in the hallway?,No,-2.6405489444732666,-0.14155542850494385,No,True
+qa11,6,"[1, 2]",John journeyed to the office. After that he moved to the kitchen.,Is John in the kitchen?,Yes,-0.7458910942077637,-0.7460192441940308,Yes,True
+qa11,6,"[1, 2]",John journeyed to the office. After that he moved to the kitchen.,Is John in the hallway?,No,-1.8514419794082642,-0.3553953170776367,No,True
+qa12,15,[14],Daniel and Sandra journeyed to the hallway.,Is Daniel in the hallway?,Yes,-1.7968013286590576,-0.292941689491272,No,False
+qa12,15,[14],Daniel and Sandra journeyed to the hallway.,Is Daniel in the kitchen?,No,-3.5624547004699707,-0.05515921115875244,No,True
+qa12,6,[5],Mary and John went back to the garden.,Is Mary in the garden?,Yes,-0.7381592988967896,-0.738207221031189,Yes,True
+qa12,6,[5],Mary and John went back to the garden.,Is Mary in the kitchen?,No,-1.3592535257339478,-0.36125433444976807,No,True
+qa12,6,[5],Sandra and Mary journeyed to the kitchen.,Is Sandra in the kitchen?,Yes,-1.0467535257339478,-0.5428953170776367,No,False
+qa12,6,[5],Sandra and Mary journeyed to the kitchen.,Is Sandra in the garden?,No,-3.093677520751953,-0.09514224529266357,No,True
+qa12,6,[5],John and Daniel went to the bedroom.,Is Daniel in the bedroom?,Yes,-0.7225834131240845,-0.7226120233535767,Yes,True
+qa12,6,[5],John and Daniel went to the bedroom.,Is Daniel in the kitchen?,No,-3.5623767375946045,-0.05920315533876419,No,True
+qa12,6,[4],Sandra and Daniel journeyed to the bedroom.,Is Daniel in the bedroom?,Yes,-1.0545650720596313,-0.5546424388885498,No,False
+qa12,6,[4],Sandra and Daniel journeyed to the bedroom.,Is Daniel in the bathroom?,No,-3.5623767375946045,-0.06584286689758301,No,True
+qa12,15,[14],Mary and John went to the bedroom.,Is John in the bedroom?,Yes,-1.031040072441101,-0.527216911315918,No,False
+qa12,15,[14],Mary and John went to the bedroom.,Is John in the hallway?,No,-3.0779995918273926,-0.0800318717956543,No,True
+qa12,15,[13],Sandra and John went to the office.,Is Sandra in the office?,Yes,-1.3514419794082642,-0.35148942470550537,No,False
+qa12,15,[13],Sandra and John went to the office.,Is Sandra in the hallway?,No,-1.3747965097427368,-0.3747965395450592,No,True
+qa12,12,[10],Daniel and John travelled to the garden.,Is Daniel in the garden?,Yes,-1.3591747283935547,-0.36120641231536865,No,False
+qa12,12,[10],Daniel and John travelled to the garden.,Is Daniel in the kitchen?,No,-1.7342535257339478,-0.23815929889678955,No,True
+qa12,3,[2],Daniel and John travelled to the bathroom.,Is Daniel in the bathroom?,Yes,-1.0233111381530762,-0.5233608484268188,No,False
+qa12,3,[2],Daniel and John travelled to the bathroom.,Is Daniel in the kitchen?,No,-4.531053066253662,-0.0460212305188179,No,True
+qa12,3,[2],Mary and Sandra moved to the hallway.,Is Mary in the hallway?,Yes,-0.25768816471099854,-2.2654995918273926,Yes,True
+qa12,3,[2],Mary and Sandra moved to the hallway.,Is Mary in the office?,No,-5.062296390533447,-0.052856333553791046,No,True
+qa12,9,[8],Mary and Daniel went back to the bathroom.,Is Mary in the bathroom?,Yes,-0.5467535257339478,-1.0468013286590576,Yes,True
+qa12,9,[8],Mary and Daniel went back to the bathroom.,Is Mary in the hallway?,No,-1.7343013286590576,-0.23723077774047852,No,True
+qa12,3,[2],Mary and Sandra moved to the hallway.,Is Mary in the hallway?,Yes,-0.25768816471099854,-2.2654995918273926,Yes,True
+qa12,3,[2],Mary and Sandra moved to the hallway.,Is Mary in the garden?,No,-5.031053066253662,-0.03972173109650612,No,True
+qa12,15,[14],Daniel and John went to the office.,Is Daniel in the office?,Yes,-1.3436226844787598,-0.33976686000823975,No,False
+qa12,15,[14],Daniel and John went to the office.,Is Daniel in the kitchen?,No,-2.1716747283935547,-0.17558015882968903,No,True
+qa12,9,[8],Sandra and Daniel went back to the bedroom.,Is Daniel in the bedroom?,Yes,-0.628831148147583,-1.1327667236328125,Yes,True
+qa12,9,[8],Sandra and Daniel went back to the bedroom.,Is Daniel in the bathroom?,No,-0.9999545812606812,-0.4999251365661621,No,True
+qa12,15,[13],Daniel and Mary journeyed to the kitchen.,Is Mary in the kitchen?,Yes,-0.5428953170776367,-1.0468302965164185,Yes,True
+qa12,15,[13],Daniel and Mary journeyed to the kitchen.,Is Mary in the bedroom?,No,-4.562425136566162,-0.05363679304718971,No,True
+qa12,12,[11],Mary and Daniel went back to the office.,Is Mary in the office?,Yes,-0.7342535257339478,-0.7343302965164185,Yes,True
+qa12,12,[11],Mary and Daniel went back to the office.,Is Mary in the bedroom?,No,-2.1717536449432373,-0.16980063915252686,No,True
+qa12,6,[5],Mary and John went back to the bedroom.,Is Mary in the bedroom?,Yes,-0.38854682445526123,-1.3905788660049438,Yes,True
+qa12,6,[5],Mary and John went back to the bedroom.,Is Mary in the garden?,No,-2.624925136566162,-0.11955440044403076,No,True
+qa12,3,[2],John and Daniel journeyed to the hallway.,Is John in the hallway?,Yes,-1.0389894247055054,-0.5390355587005615,No,False
+qa12,3,[2],John and Daniel journeyed to the hallway.,Is John in the bedroom?,No,-4.062425136566162,-0.054154157638549805,No,True
+qa12,6,[5],Sandra and John moved to the kitchen.,Is Sandra in the kitchen?,Yes,-0.21276403963565826,-2.2186226844787598,Yes,True
+qa12,6,[5],Sandra and John moved to the kitchen.,Is Sandra in the bedroom?,No,-5.531053066253662,-0.03381562978029251,No,True
+qa12,6,[5],Daniel and Sandra went to the hallway.,Is Sandra in the hallway?,Yes,-1.062376618385315,-0.5624251365661621,No,False
+qa12,6,[5],Daniel and Sandra went to the hallway.,Is Sandra in the garden?,No,-4.531130313873291,-0.044848326593637466,No,True
+qa12,15,[14],Daniel and Sandra travelled to the office.,Is Daniel in the office?,Yes,-1.0388637781143188,-0.5350362062454224,No,False
+qa12,15,[14],Daniel and Sandra travelled to the office.,Is Daniel in the bathroom?,No,-2.6091747283935547,-0.11308016628026962,No,True
+qa12,15,[14],John and Daniel went back to the bedroom.,Is Daniel in the bedroom?,Yes,-0.550707221031189,-1.0546424388885498,Yes,True
+qa12,15,[14],John and Daniel went back to the bedroom.,Is Daniel in the kitchen?,No,-2.609330415725708,-0.10835373401641846,No,True
+qa12,12,[11],Daniel and Mary travelled to the hallway.,Is Daniel in the hallway?,Yes,-1.4061226844787598,-0.40421974658966064,No,False
+qa12,12,[11],Daniel and Mary travelled to the hallway.,Is Daniel in the office?,No,-3.0779995918273926,-0.0712432861328125,No,True
+qa12,6,[5],Daniel and John journeyed to the bathroom.,Is Daniel in the bathroom?,Yes,-1.0077667236328125,-0.5077667236328125,No,False
+qa12,6,[5],Daniel and John journeyed to the bathroom.,Is Daniel in the hallway?,No,-2.1718013286590576,-0.1649947166442871,No,True
+qa12,9,[8],Sandra and John journeyed to the bedroom.,Is John in the bedroom?,Yes,-1.062376618385315,-0.5624545812606812,No,False
+qa12,9,[8],Sandra and John journeyed to the bedroom.,Is John in the kitchen?,No,-5.531172752380371,-0.025466086342930794,No,True
+qa12,15,[14],Mary and Daniel travelled to the hallway.,Is Daniel in the hallway?,Yes,-1.390418291091919,-0.3924524784088135,No,False
+qa12,15,[14],Mary and Daniel travelled to the hallway.,Is Daniel in the bedroom?,No,-4.062376499176025,-0.05070722475647926,No,True
+qa12,15,[14],Mary and John moved to the hallway.,Is John in the hallway?,Yes,-0.3299524784088135,-1.8280788660049438,Yes,True
+qa12,15,[14],Mary and John moved to the hallway.,Is John in the office?,No,-4.531053066253662,-0.042115457355976105,No,True
+qa12,6,[4],Mary and Sandra journeyed to the bathroom.,Is Sandra in the bathroom?,Yes,-0.7460192441940308,-0.7460485696792603,Yes,True
+qa12,6,[4],Mary and Sandra journeyed to the bathroom.,Is Sandra in the office?,No,-2.59363055229187,-0.10054159164428711,No,True
+qa12,6,[4],Sandra and Mary moved to the bedroom.,Is Mary in the bedroom?,Yes,-0.38659393787384033,-1.3827370405197144,Yes,True
+qa12,6,[4],Sandra and Mary moved to the bedroom.,Is Mary in the bathroom?,No,-6.531040191650391,-0.029169805347919464,No,True
+qa12,6,[5],John and Sandra journeyed to the garden.,Is John in the garden?,Yes,-1.749876618385315,-0.2538607120513916,No,False
+qa12,6,[5],John and Sandra journeyed to the garden.,Is John in the bathroom?,No,-3.0936226844787598,-0.0907735824584961,No,True
+qa12,6,[5],John and Sandra went back to the bathroom.,Is John in the bathroom?,Yes,-0.7694549560546875,-0.7694849967956543,Yes,True
+qa12,6,[5],John and Sandra went back to the bathroom.,Is John in the hallway?,No,-1.3514894247055054,-0.3475834131240845,No,True
+qa12,3,[2],John and Mary moved to the hallway.,Is John in the hallway?,Yes,-0.39432385563850403,-1.3983608484268188,Yes,True
+qa12,3,[2],John and Mary moved to the hallway.,Is John in the bathroom?,No,-3.5622966289520264,-0.06628239899873734,No,True
+qa12,12,[11],Daniel and John journeyed to the hallway.,Is John in the hallway?,Yes,-1.0702667236328125,-0.5663785934448242,No,False
+qa12,12,[11],Daniel and John journeyed to the hallway.,Is John in the garden?,No,-2.1874547004699707,-0.19137859344482422,No,True
+qa12,9,[8],Sandra and Daniel went to the bedroom.,Is Sandra in the bedroom?,Yes,-0.792847752571106,-0.7928953170776367,Yes,True
+qa12,9,[8],Sandra and Daniel went to the bedroom.,Is Sandra in the kitchen?,No,-4.53112268447876,-0.027999166399240494,No,True
+qa12,9,[8],Mary and Daniel journeyed to the hallway.,Is Mary in the hallway?,Yes,-1.0233910083770752,-0.523409366607666,No,False
+qa12,9,[8],Mary and Daniel journeyed to the hallway.,Is Mary in the bathroom?,No,-2.1718013286590576,-0.17473077774047852,No,True
+qa12,3,[2],Sandra and Mary went to the hallway.,Is Mary in the hallway?,Yes,-1.0467535257339478,-0.5506592988967896,No,False
+qa12,3,[2],Sandra and Mary went to the hallway.,Is Mary in the garden?,No,-4.531130313873291,-0.03215396776795387,No,True
+qa12,6,[4],John and Daniel journeyed to the kitchen.,Is Daniel in the kitchen?,Yes,-1.3670650720596313,-0.37101924419403076,No,False
+qa12,6,[4],John and Daniel journeyed to the kitchen.,Is Daniel in the office?,No,-3.5468013286590576,-0.05368363857269287,No,True
+qa12,6,[5],Daniel and Sandra went to the office.,Is Sandra in the office?,Yes,-1.0233111381530762,-0.527216911315918,No,False
+qa12,6,[5],Daniel and Sandra went to the office.,Is Sandra in the hallway?,No,-1.4061226844787598,-0.40416979789733887,No,True
+qa12,9,[8],John and Mary journeyed to the bathroom.,Is John in the bathroom?,Yes,-1.343672752380371,-0.3417501449584961,No,False
+qa12,9,[8],John and Mary journeyed to the bathroom.,Is John in the hallway?,No,-2.1717536449432373,-0.16594231128692627,No,True
+qa12,15,[14],John and Mary moved to the hallway.,Is Mary in the hallway?,Yes,-0.4880801737308502,-1.4843013286590576,Yes,True
+qa12,15,[14],John and Mary moved to the hallway.,Is Mary in the office?,No,-4.531053066253662,-0.043824203312397,No,True
+qa12,12,[10],John and Mary travelled to the bedroom.,Is John in the bedroom?,Yes,-0.7420650720596313,-0.7421132326126099,Yes,True
+qa12,12,[10],John and Mary travelled to the bedroom.,Is John in the bathroom?,No,-4.531053066253662,-0.0460212305188179,No,True
+qa12,15,[14],John and Mary moved to the bedroom.,Is Mary in the bedroom?,Yes,-0.27726686000823975,-1.773409366607666,Yes,True
+qa12,15,[14],John and Mary moved to the bedroom.,Is Mary in the garden?,No,-6.03112268447876,-0.029219750314950943,No,True
+qa12,6,[5],John and Daniel journeyed to the garden.,Is Daniel in the garden?,Yes,-1.3983111381530762,-0.3944849967956543,No,False
+qa12,6,[5],John and Daniel journeyed to the garden.,Is Daniel in the bedroom?,No,-2.6093013286590576,-0.1117715835571289,No,True
+qa12,9,[8],Mary and Daniel travelled to the garden.,Is Daniel in the garden?,Yes,-1.0622965097427368,-0.5623766183853149,No,False
+qa12,9,[8],Mary and Daniel travelled to the garden.,Is Daniel in the hallway?,No,-2.1716747283935547,-0.16980063915252686,No,True
+qa12,15,[14],Daniel and John went to the office.,Is Daniel in the office?,Yes,-1.3436226844787598,-0.33976686000823975,No,False
+qa12,15,[14],Daniel and John went to the office.,Is Daniel in the bedroom?,No,-4.062296390533447,-0.05681038275361061,No,True
+qa12,12,[10],Sandra and John travelled to the office.,Is Sandra in the office?,Yes,-0.7771346569061279,-0.7771346569061279,No,False
+qa12,12,[10],Sandra and John travelled to the office.,Is Sandra in the hallway?,No,-1.3980940580368042,-0.398094117641449,No,True
+qa12,9,[8],Mary and Sandra went back to the garden.,Is Mary in the garden?,Yes,-1.1014419794082642,-0.6014894247055054,No,False
+qa12,9,[8],Mary and Sandra went back to the garden.,Is Mary in the bathroom?,No,-2.6092536449432373,-0.11516022682189941,No,True
+qa12,12,[8],John and Daniel moved to the bedroom.,Is Daniel in the bedroom?,Yes,-0.3651602268218994,-1.3671132326126099,Yes,True
+qa12,12,[8],John and Daniel moved to the bedroom.,Is Daniel in the garden?,No,-6.031053066253662,-0.03137446194887161,No,True
+qa12,15,[14],Daniel and Mary went to the hallway.,Is Daniel in the hallway?,Yes,-1.0311774015426636,-0.5351120233535767,No,False
+qa12,15,[14],Daniel and Mary went to the hallway.,Is Daniel in the bedroom?,No,-3.562425136566162,-0.06245458126068115,No,True
+qa12,6,[5],Daniel and Sandra travelled to the garden.,Is Sandra in the garden?,Yes,-0.8006592988967896,-0.8006592988967896,No,False
+qa12,6,[5],Daniel and Sandra travelled to the garden.,Is Sandra in the kitchen?,No,-1.7420650720596313,-0.24011220037937164,No,True
+qa13,15,"[13, 14]",Daniel and Sandra journeyed to the hallway. After that they went to the bedroom.,Is Daniel in the bedroom?,Yes,-1.039018154144287,-0.5390355587005615,No,False
+qa13,15,"[13, 14]",Daniel and Sandra journeyed to the hallway. After that they went to the bedroom.,Is Daniel in the garden?,No,-2.6404995918273926,-0.1346900463104248,No,True
+qa13,6,"[4, 5]",John and Mary went back to the garden. Then they moved to the office.,Is Mary in the office?,Yes,-0.5194053649902344,-1.0233608484268188,Yes,True
+qa13,6,"[4, 5]",John and Mary went back to the garden. Then they moved to the office.,Is Mary in the hallway?,No,-1.3827370405197144,-0.38273704051971436,No,True
+qa13,6,"[4, 5]",Daniel and John went to the bathroom. After that they went back to the hallway.,Is John in the hallway?,Yes,-0.35933029651641846,-1.3593302965164185,Yes,True
+qa13,6,"[4, 5]",Daniel and John went to the bathroom. After that they went back to the hallway.,Is John in the bedroom?,No,-1.7654995918273926,-0.26359593868255615,No,True
+qa13,6,"[4, 5]",John and Sandra went back to the bathroom. Afterwards they went back to the office.,Is Sandra in the office?,Yes,-0.7421424388885498,-0.7421602010726929,Yes,True
+qa13,6,"[4, 5]",John and Sandra went back to the bathroom. Afterwards they went back to the office.,Is Sandra in the kitchen?,No,-1.0233910083770752,-0.523409366607666,No,True
+qa13,6,"[4, 5]",Mary and Daniel moved to the bedroom. Then they went back to the kitchen.,Is Mary in the kitchen?,Yes,-0.7577370405197144,-0.7577370405197144,No,False
+qa13,6,"[4, 5]",Mary and Daniel moved to the bedroom. Then they went back to the kitchen.,Is Mary in the garden?,No,-1.7576881647109985,-0.25378239154815674,No,True
+qa13,15,"[13, 14]",John and Mary travelled to the garden. Then they moved to the office.,Is John in the office?,Yes,-1.054485559463501,-0.5584708452224731,No,False
+qa13,15,"[13, 14]",John and Mary travelled to the garden. Then they moved to the office.,Is John in the bathroom?,No,-3.5623767375946045,-0.06218099966645241,No,True
+qa13,15,"[13, 14]",Mary and Daniel went to the bathroom. Afterwards they moved to the bedroom.,Is Daniel in the bedroom?,Yes,-0.7499251365661621,-0.7499251365661621,No,False
+qa13,15,"[13, 14]",Mary and Daniel went to the bathroom. Afterwards they moved to the bedroom.,Is Daniel in the hallway?,No,-2.6093013286590576,-0.11471879482269287,No,True
+qa13,12,"[10, 11]",John and Sandra went to the office. Then they went back to the bathroom.,Is John in the bathroom?,Yes,-0.9960192441940308,-0.4960663318634033,No,False
+qa13,12,"[10, 11]",John and Sandra went to the office. Then they went back to the bathroom.,Is John in the kitchen?,No,-2.1873767375946045,-0.1874251365661621,No,True
+qa13,3,"[1, 2]",Mary and Sandra journeyed to the bedroom. Afterwards they journeyed to the hallway.,Is Mary in the hallway?,Yes,-0.5233608484268188,-1.0233910083770752,Yes,True
+qa13,3,"[1, 2]",Mary and Sandra journeyed to the bedroom. Afterwards they journeyed to the hallway.,Is Mary in the kitchen?,No,-2.1717190742492676,-0.17766022682189941,No,True
+qa13,3,"[1, 2]",Sandra and Daniel travelled to the garden. After that they moved to the office.,Is Daniel in the office?,Yes,-0.7576881647109985,-0.7577370405197144,Yes,True
+qa13,3,"[1, 2]",Sandra and Daniel travelled to the garden. After that they moved to the office.,Is Daniel in the hallway?,No,-2.1873767375946045,-0.191331148147583,No,True
+qa13,9,"[7, 8]",John and Sandra went back to the office. Following that they went to the hallway.,Is John in the hallway?,Yes,-1.0233608484268188,-0.5194849967956543,No,False
+qa13,9,"[7, 8]",John and Sandra went back to the office. Following that they went to the hallway.,Is John in the bathroom?,No,-2.156177520751953,-0.15718257427215576,No,True
+qa13,3,"[1, 2]",Daniel and John went to the bedroom. Then they travelled to the garden.,Is John in the garden?,Yes,-0.7655489444732666,-0.7655788660049438,Yes,True
+qa13,3,"[1, 2]",Daniel and John went to the bedroom. Then they travelled to the garden.,Is John in the office?,No,-1.7421424388885498,-0.2421424388885498,No,True
+qa13,15,"[13, 14]",Daniel and Sandra journeyed to the hallway. Following that they went to the garden.,Is Daniel in the garden?,Yes,-0.7343013286590576,-0.7343302965164185,Yes,True
+qa13,15,"[13, 14]",Daniel and Sandra journeyed to the hallway. Following that they went to the garden.,Is Daniel in the bedroom?,No,-1.3671132326126099,-0.36711323261260986,No,True
+qa13,9,"[7, 8]",Daniel and Mary went back to the kitchen. Following that they went to the bathroom.,Is Mary in the bathroom?,Yes,-0.7343302965164185,-0.734347939491272,Yes,True
+qa13,9,"[7, 8]",Daniel and Mary went back to the kitchen. Following that they went to the bathroom.,Is Mary in the kitchen?,No,-1.3983910083770752,-0.40034401416778564,No,True
+qa13,15,"[13, 14]",Sandra and John journeyed to the bathroom. Afterwards they went back to the garden.,Is John in the garden?,Yes,-1.0468013286590576,-0.5429242849349976,No,False
+qa13,15,"[13, 14]",Sandra and John journeyed to the bathroom. Afterwards they went back to the garden.,Is John in the bathroom?,No,-2.624925136566162,-0.12004268169403076,No,True
+qa13,12,"[10, 11]",Mary and John went back to the office. Afterwards they went back to the garden.,Is Mary in the garden?,Yes,-0.738207221031189,-0.7382364273071289,Yes,True
+qa13,12,"[10, 11]",Mary and John went back to the office. Afterwards they went back to the garden.,Is Mary in the bedroom?,No,-1.7732292413711548,-0.2753138542175293,No,True
+qa13,6,"[4, 5]",John and Daniel moved to the garden. Afterwards they went back to the hallway.,Is Daniel in the hallway?,Yes,-0.7811727523803711,-0.7812031507492065,Yes,True
+qa13,6,"[4, 5]",John and Daniel moved to the garden. Afterwards they went back to the hallway.,Is Daniel in the garden?,No,-3.624925136566162,-0.12687814235687256,No,True
+qa13,3,"[1, 2]",Daniel and Sandra moved to the bedroom. Then they went back to the office.,Is Sandra in the office?,Yes,-0.7499251365661621,-0.7499251365661621,No,False
+qa13,3,"[1, 2]",Daniel and Sandra moved to the bedroom. Then they went back to the office.,Is Sandra in the bedroom?,No,-2.624925136566162,-0.12053096294403076,No,True
+qa13,6,"[4, 5]",John and Mary went back to the garden. Then they travelled to the bathroom.,Is Mary in the bathroom?,Yes,-0.5467535257339478,-1.0468302965164185,Yes,True
+qa13,6,"[4, 5]",John and Mary went back to the garden. Then they travelled to the bathroom.,Is Mary in the kitchen?,No,-1.7968013286590576,-0.29683029651641846,No,True
+qa13,6,"[4, 5]",Sandra and John went back to the office. After that they moved to the hallway.,Is Sandra in the hallway?,Yes,-0.7187060117721558,-0.7187232971191406,Yes,True
+qa13,6,"[4, 5]",Sandra and John went back to the office. After that they moved to the hallway.,Is Sandra in the garden?,No,-4.031177520751953,-0.03584444522857666,No,True
+qa13,15,"[13, 14]",Daniel and Mary journeyed to the kitchen. Then they went back to the garden.,Is Daniel in the garden?,Yes,-0.359347939491272,-1.359347939491272,Yes,True
+qa13,15,"[13, 14]",Daniel and Mary journeyed to the kitchen. Then they went back to the garden.,Is Daniel in the bedroom?,No,-2.171830415725708,-0.17085373401641846,No,True
+qa13,15,"[13, 14]",Mary and Daniel went back to the kitchen. Following that they moved to the hallway.,Is Mary in the hallway?,Yes,-0.7303953170776367,-0.7304242849349976,Yes,True
+qa13,15,"[13, 14]",Mary and Daniel went back to the kitchen. Following that they moved to the hallway.,Is Mary in the bathroom?,No,-3.0780489444732666,-0.0717017650604248,No,True
+qa13,12,"[10, 11]",John and Mary moved to the kitchen. Following that they journeyed to the garden.,Is John in the garden?,Yes,-1.3358608484268188,-0.335909366607666,No,False
+qa13,12,"[10, 11]",John and Mary moved to the kitchen. Following that they journeyed to the garden.,Is John in the kitchen?,No,-1.7342535257339478,-0.23430132865905762,No,True
+qa13,6,"[4, 5]",Daniel and Mary went to the garden. Then they went to the hallway.,Is Mary in the hallway?,Yes,-0.49801933765411377,-0.9999898672103882,Yes,True
+qa13,6,"[4, 5]",Daniel and Mary went to the garden. Then they went to the hallway.,Is Mary in the office?,No,-1.3593302965164185,-0.3612833023071289,No,True
+qa13,9,"[4, 5]",Daniel and Mary journeyed to the office. Following that they went back to the bedroom.,Is Mary in the bedroom?,Yes,-0.7694053649902344,-0.7694849967956543,Yes,True
+qa13,9,"[4, 5]",Daniel and Mary journeyed to the office. Following that they went back to the bedroom.,Is Mary in the hallway?,No,-1.3592535257339478,-0.36315929889678955,No,True
+qa13,15,"[13, 14]",Sandra and Daniel went to the hallway. Afterwards they moved to the office.,Is Sandra in the office?,Yes,-0.5468013286590576,-1.0468013286590576,Yes,True
+qa13,15,"[13, 14]",Sandra and Daniel went to the hallway. Afterwards they moved to the office.,Is Sandra in the bedroom?,No,-4.062454700469971,-0.04733610153198242,No,True
+qa13,15,"[13, 14]",Sandra and John went to the bathroom. Following that they journeyed to the hallway.,Is Sandra in the hallway?,Yes,-1.0077370405197144,-0.5077370405197144,No,False
+qa13,15,"[13, 14]",Sandra and John went to the bathroom. Following that they journeyed to the hallway.,Is Sandra in the office?,No,-1.7342535257339478,-0.23527777194976807,No,True
+qa13,6,"[4, 5]",Mary and Daniel went back to the hallway. Afterwards they moved to the kitchen.,Is Mary in the kitchen?,Yes,-0.5585192441940308,-1.0624545812606812,Yes,True
+qa13,6,"[4, 5]",Mary and Daniel went back to the hallway. Afterwards they moved to the kitchen.,Is Mary in the bathroom?,No,-2.6093013286590576,-0.10788309574127197,No,True
+qa13,6,"[4, 5]",John and Sandra went to the office. After that they went to the garden.,Is Sandra in the garden?,Yes,-1.0233111381530762,-0.5233608484268188,No,False
+qa13,6,"[4, 5]",John and Sandra went to the office. After that they went to the garden.,Is Sandra in the bathroom?,No,-3.0936570167541504,-0.09517073631286621,No,True
+qa13,6,"[4, 5]",John and Mary travelled to the garden. After that they went to the hallway.,Is John in the hallway?,Yes,-1.0155489444732666,-0.5194849967956543,No,False
+qa13,6,"[4, 5]",John and Mary travelled to the garden. After that they went to the hallway.,Is John in the kitchen?,No,-2.6404995918273926,-0.13854683935642242,No,True
+qa13,6,"[4, 5]",John and Sandra went to the bathroom. Then they went back to the office.,Is Sandra in the office?,Yes,-1.0155489444732666,-0.5155788660049438,No,False
+qa13,6,"[4, 5]",John and Sandra went to the bathroom. Then they went back to the office.,Is Sandra in the garden?,No,-2.6561899185180664,-0.152307391166687,No,True
+qa13,3,"[1, 2]",Sandra and John journeyed to the office. Then they went to the garden.,Is Sandra in the garden?,Yes,-1.0466747283935547,-0.5467535257339478,No,False
+qa13,3,"[1, 2]",Sandra and John journeyed to the office. Then they went to the garden.,Is Sandra in the bathroom?,No,-1.7811226844787598,-0.27721691131591797,No,True
+qa13,12,"[10, 11]",Sandra and John journeyed to the bedroom. Following that they went to the office.,Is John in the office?,Yes,-1.0076881647109985,-0.5077667236328125,No,False
+qa13,12,"[10, 11]",Sandra and John journeyed to the bedroom. Following that they went to the office.,Is John in the bedroom?,No,-1.7342535257339478,-0.2362833023071289,No,True
+qa13,9,"[7, 8]",Mary and Daniel moved to the kitchen. After that they went to the bedroom.,Is Daniel in the bedroom?,Yes,-0.7499251365661621,-0.7499545812606812,Yes,True
+qa13,9,"[7, 8]",Mary and Daniel moved to the kitchen. After that they went to the bedroom.,Is Daniel in the hallway?,No,-2.2030489444732666,-0.1952667236328125,No,True
+qa13,9,"[7, 8]",Daniel and Sandra went back to the bedroom. Following that they moved to the bathroom.,Is Daniel in the bathroom?,Yes,-0.5155788660049438,-1.0155969858169556,Yes,True
+qa13,9,"[7, 8]",Daniel and Sandra went back to the bedroom. Following that they moved to the bathroom.,Is Daniel in the hallway?,No,-2.6248767375946045,-0.12687814235687256,No,True
+qa13,3,"[1, 2]",Mary and Daniel moved to the bedroom. Then they travelled to the hallway.,Is Daniel in the hallway?,Yes,-0.5194549560546875,-1.0155788660049438,Yes,True
+qa13,3,"[1, 2]",Mary and Daniel moved to the bedroom. Then they travelled to the hallway.,Is Daniel in the office?,No,-2.15613055229187,-0.16011202335357666,No,True
+qa13,6,"[4, 5]",John and Sandra travelled to the garden. After that they went back to the kitchen.,Is John in the kitchen?,Yes,-0.7889894247055054,-0.7890181541442871,Yes,True
+qa13,6,"[4, 5]",John and Sandra travelled to the garden. After that they went back to the kitchen.,Is John in the bathroom?,No,-3.5779995918273926,-0.0858910083770752,No,True
+qa13,6,"[4, 5]",Mary and John travelled to the bedroom. Following that they travelled to the kitchen.,Is John in the kitchen?,Yes,-0.7849582433700562,-0.7850834131240845,Yes,True
+qa13,6,"[4, 5]",Mary and John travelled to the bedroom. Following that they travelled to the kitchen.,Is John in the bathroom?,No,-3.5779640674591064,-0.07756078243255615,No,True
+qa13,9,"[7, 8]",Mary and Sandra travelled to the garden. Then they travelled to the office.,Is Sandra in the office?,Yes,-0.8005801439285278,-0.800707221031189,Yes,True
+qa13,9,"[7, 8]",Mary and Sandra travelled to the garden. Then they travelled to the office.,Is Sandra in the garden?,No,-2.1717536449432373,-0.16594231128692627,No,True
+qa13,15,"[13, 14]",John and Sandra went back to the bedroom. After that they travelled to the hallway.,Is Sandra in the hallway?,Yes,-1.031172752380371,-0.5272971391677856,No,False
+qa13,15,"[13, 14]",John and Sandra went back to the bedroom. After that they travelled to the hallway.,Is Sandra in the bathroom?,No,-2.6093013286590576,-0.11470115184783936,No,True
+qa13,12,"[10, 11]",John and Daniel moved to the garden. Afterwards they travelled to the kitchen.,Is John in the kitchen?,Yes,-1.0936774015426636,-0.5975834131240845,No,False
+qa13,12,"[10, 11]",John and Daniel moved to the garden. Afterwards they travelled to the kitchen.,Is John in the hallway?,No,-1.7654995918273926,-0.2655489444732666,No,True
+qa13,15,"[13, 14]",John and Sandra went to the hallway. Then they went to the bedroom.,Is John in the bedroom?,Yes,-0.5233910083770752,-1.0233910083770752,Yes,True
+qa13,15,"[13, 14]",John and Sandra went to the hallway. Then they went to the bedroom.,Is John in the bathroom?,No,-2.1873767375946045,-0.1855015754699707,No,True
+qa13,6,"[1, 2]",Sandra and Daniel went back to the garden. Afterwards they moved to the bedroom.,Is Daniel in the bedroom?,Yes,-0.8514419794082642,-0.8514894247055054,Yes,True
+qa13,6,"[1, 2]",Sandra and Daniel went back to the garden. Afterwards they moved to the bedroom.,Is Daniel in the kitchen?,No,-1.749925136566162,-0.2519075870513916,No,True
+qa13,9,"[7, 8]",Mary and Sandra moved to the hallway. Following that they went to the bedroom.,Is Mary in the bedroom?,Yes,-0.5545650720596313,-1.0545650720596313,Yes,True
+qa13,9,"[7, 8]",Mary and Sandra moved to the hallway. Following that they went to the bedroom.,Is Mary in the kitchen?,No,-2.6092536449432373,-0.11174249649047852,No,True
+qa13,15,"[13, 14]",Mary and Sandra moved to the kitchen. Afterwards they journeyed to the office.,Is Sandra in the office?,Yes,-1.0311774015426636,-0.5351294279098511,No,False
+qa13,15,"[13, 14]",Mary and Sandra moved to the kitchen. Afterwards they journeyed to the office.,Is Sandra in the bedroom?,No,-2.2186570167541504,-0.22357606887817383,No,True
+qa13,12,"[10, 11]",Mary and Sandra went back to the kitchen. Following that they went back to the office.,Is Mary in the office?,Yes,-0.7498766183853149,-0.7499545812606812,Yes,True
+qa13,12,"[10, 11]",Mary and Sandra went back to the kitchen. Following that they went back to the office.,Is Mary in the bathroom?,No,-3.0780489444732666,-0.0751492977142334,No,True
+qa13,9,"[7, 8]",Sandra and John moved to the hallway. Following that they moved to the garden.,Is Sandra in the garden?,Yes,-0.5506592988967896,-1.0468013286590576,Yes,True
+qa13,9,"[7, 8]",Sandra and John moved to the hallway. Following that they moved to the garden.,Is Sandra in the office?,No,-3.5779995918273926,-0.07018817216157913,No,True
+qa13,12,"[10, 11]",John and Mary moved to the office. After that they journeyed to the bedroom.,Is John in the bedroom?,Yes,-1.3593013286590576,-0.357394814491272,No,False
+qa13,12,"[10, 11]",John and Mary moved to the office. After that they journeyed to the bedroom.,Is John in the hallway?,No,-2.187441825866699,-0.18161320686340332,No,True
+qa13,15,"[13, 14]",Sandra and John journeyed to the bathroom. Then they travelled to the hallway.,Is Sandra in the hallway?,Yes,-1.374925136566162,-0.37495458126068115,No,False
+qa13,15,"[13, 14]",Sandra and John journeyed to the bathroom. Then they travelled to the hallway.,Is Sandra in the garden?,No,-3.1248767375946045,-0.11955440044403076,No,True
+qa13,6,"[4, 5]",Sandra and Mary moved to the hallway. Following that they went back to the kitchen.,Is Mary in the kitchen?,Yes,-1.390418291091919,-0.3904995918273926,No,False
+qa13,6,"[4, 5]",Sandra and Mary moved to the hallway. Following that they went back to the kitchen.,Is Mary in the bathroom?,No,-4.062376499176025,-0.05998397246003151,No,True
+qa15,12,"[5, 1]",Winona is a sheep. Sheep are afraid of wolves.,Is winona afraid of a wolf?,Yes,-0.8437031507492065,-0.8437216281890869,Yes,True
+qa15,12,"[5, 1]",Winona is a sheep. Sheep are afraid of wolves.,Is winona afraid of a cat?,No,-5.1559247970581055,-0.16386379301548004,No,True
+qa15,9,"[4, 2]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a mouse?,Yes,-1.8279995918273926,-0.3299524784088135,No,False
+qa15,9,"[4, 2]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a wolf?,No,-2.65613055229187,-0.1629655361175537,No,True
+qa15,9,"[8, 3]",Gertrude is a cat. Cats are afraid of wolves.,Is gertrude afraid of a wolf?,Yes,-2.2182140350341797,-0.2253873497247696,No,False
+qa15,9,"[8, 3]",Gertrude is a cat. Cats are afraid of wolves.,Is gertrude afraid of a cat?,No,-2.265284299850464,-0.2633318305015564,No,True
+qa15,10,"[7, 1]",Gertrude is a mouse. Mice are afraid of wolves.,Is gertrude afraid of a wolf?,Yes,-2.687164545059204,-0.18436743319034576,No,False
+qa15,10,"[7, 1]",Gertrude is a mouse. Mice are afraid of wolves.,Is gertrude afraid of a sheep?,No,-6.0934247970581055,-0.0969701036810875,No,True
+qa15,9,"[8, 6]",Gertrude is a mouse. Mice are afraid of cats.,Is gertrude afraid of a cat?,Yes,-1.1480940580368042,-0.6483111381530762,No,False
+qa15,9,"[8, 6]",Gertrude is a mouse. Mice are afraid of cats.,Is gertrude afraid of a mouse?,No,-1.3902842998504639,-0.39223676919937134,No,True
+qa15,12,"[3, 1]",Emily is a cat. Cats are afraid of sheep.,Is emily afraid of a sheep?,Yes,-3.1561226844787598,-0.15026403963565826,No,False
+qa15,12,"[3, 1]",Emily is a cat. Cats are afraid of sheep.,Is emily afraid of a wolf?,No,-4.124876499176025,-0.12394869327545166,No,True
+qa15,11,"[5, 1]",Gertrude is a cat. Cats are afraid of mice.,Is gertrude afraid of a mouse?,Yes,-0.640418291091919,-1.1405489444732666,Yes,True
+qa15,11,"[5, 1]",Gertrude is a cat. Cats are afraid of mice.,Is gertrude afraid of a cat?,No,-1.390418291091919,-0.3923710882663727,No,True
+qa15,11,"[7, 2]",Jessica is a cat. Cats are afraid of wolves.,Is jessica afraid of a wolf?,Yes,-3.624664545059204,-0.12585307657718658,No,False
+qa15,11,"[7, 2]",Jessica is a cat. Cats are afraid of wolves.,Is jessica afraid of a cat?,No,-3.640418291091919,-0.1423710733652115,No,True
+qa15,11,"[8, 3]",Jessica is a sheep. Sheep are afraid of mice.,Is jessica afraid of a mouse?,Yes,-1.1717535257339478,-0.6718013286590576,No,False
+qa15,11,"[8, 3]",Jessica is a sheep. Sheep are afraid of mice.,Is jessica afraid of a wolf?,No,-4.124664783477783,-0.12878240644931793,No,True
+qa15,12,"[8, 4]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a mouse?,Yes,-1.8279995918273926,-0.3299524784088135,No,False
+qa15,12,"[8, 4]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a sheep?,No,-4.187296390533447,-0.18347086012363434,No,True
+qa15,10,"[2, 1]",Jessica is a sheep. Sheep are afraid of wolves.,Is jessica afraid of a wolf?,Yes,-0.9137348532676697,-0.9138637781143188,Yes,True
+qa15,10,"[2, 1]",Jessica is a sheep. Sheep are afraid of wolves.,Is jessica afraid of a cat?,No,-5.6559038162231445,-0.15416981279850006,No,True
+qa15,9,"[4, 1]",Emily is a wolf. Wolves are afraid of sheep.,Is emily afraid of a sheep?,Yes,-3.59363055229187,-0.09807169437408447,No,False
+qa15,9,"[4, 1]",Emily is a wolf. Wolves are afraid of sheep.,Is emily afraid of a wolf?,No,-3.1716747283935547,-0.17565929889678955,No,True
+qa15,12,"[2, 1]",Jessica is a wolf. Wolves are afraid of sheep.,Is jessica afraid of a sheep?,Yes,-2.6561226844787598,-0.1532433032989502,No,False
+qa15,12,"[2, 1]",Jessica is a wolf. Wolves are afraid of sheep.,Is jessica afraid of a mouse?,No,-3.140418291091919,-0.14245249330997467,No,True
+qa15,9,"[8, 1]",Gertrude is a wolf. Wolves are afraid of cats.,Is gertrude afraid of a cat?,Yes,-3.124664545059204,-0.12487662583589554,No,False
+qa15,9,"[8, 1]",Gertrude is a wolf. Wolves are afraid of cats.,Is gertrude afraid of a wolf?,No,-2.640284299850464,-0.14334739744663239,No,True
+qa15,12,"[5, 1]",Emily is a mouse. Mice are afraid of wolves.,Is emily afraid of a wolf?,Yes,-2.2498767375946045,-0.2469473034143448,No,False
+qa15,12,"[5, 1]",Emily is a mouse. Mice are afraid of wolves.,Is emily afraid of a mouse?,No,-2.1718013286590576,-0.17961323261260986,No,True
+qa15,9,"[6, 5]",Jessica is a mouse. Mice are afraid of sheep.,Is jessica afraid of a sheep?,Yes,-2.2342536449432373,-0.24011220037937164,No,False
+qa15,9,"[6, 5]",Jessica is a mouse. Mice are afraid of sheep.,Is jessica afraid of a cat?,No,-3.1248767375946045,-0.11760151386260986,No,True
+qa15,11,"[6, 1]",Winona is a sheep. Sheep are afraid of wolves.,Is winona afraid of a wolf?,Yes,-0.8437031507492065,-0.8437216281890869,Yes,True
+qa15,11,"[6, 1]",Winona is a sheep. Sheep are afraid of wolves.,Is winona afraid of a mouse?,No,-4.593553066253662,-0.106324203312397,No,True
+qa15,11,"[4, 2]",Emily is a mouse. Mice are afraid of wolves.,Is emily afraid of a wolf?,Yes,-2.2498767375946045,-0.2469473034143448,No,False
+qa15,11,"[4, 2]",Emily is a mouse. Mice are afraid of wolves.,Is emily afraid of a sheep?,No,-5.093630313873291,-0.10485947877168655,No,True
+qa15,12,"[7, 1]",Jessica is a wolf. Wolves are afraid of mice.,Is jessica afraid of a mouse?,Yes,-2.202918291091919,-0.20109593868255615,No,False
+qa15,12,"[7, 1]",Jessica is a wolf. Wolves are afraid of mice.,Is jessica afraid of a cat?,No,-2.7494471073150635,-0.2533511221408844,No,True
+qa15,12,"[8, 1]",Emily is a mouse. Mice are afraid of wolves.,Is emily afraid of a wolf?,Yes,-2.2498767375946045,-0.2469473034143448,No,False
+qa15,12,"[8, 1]",Emily is a mouse. Mice are afraid of wolves.,Is emily afraid of a mouse?,No,-2.1718013286590576,-0.17961323261260986,No,True
+qa15,12,"[5, 2]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a mouse?,Yes,-1.8279995918273926,-0.3299524784088135,No,False
+qa15,12,"[5, 2]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a sheep?,No,-4.187296390533447,-0.18347086012363434,No,True
+qa15,12,"[8, 4]",Jessica is a sheep. Sheep are afraid of cats.,Is jessica afraid of a cat?,Yes,-1.5154995918273926,-0.5115939378738403,No,False
+qa15,12,"[8, 4]",Jessica is a sheep. Sheep are afraid of cats.,Is jessica afraid of a sheep?,No,-2.6716747283935547,-0.16980063915252686,No,True
+qa15,10,"[6, 5]",Emily is a wolf. Wolves are afraid of cats.,Is emily afraid of a cat?,Yes,-4.093540191650391,-0.08629942685365677,No,False
+qa15,10,"[6, 5]",Emily is a wolf. Wolves are afraid of cats.,Is emily afraid of a wolf?,No,-2.7186226844787598,-0.21471692621707916,No,True
+qa15,10,"[5, 3]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a mouse?,Yes,-1.8279995918273926,-0.3299524784088135,No,False
+qa15,10,"[5, 3]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a cat?,No,-3.2341747283935547,-0.23222197592258453,No,True
+qa15,12,"[4, 1]",Jessica is a cat. Cats are afraid of sheep.,Is jessica afraid of a sheep?,Yes,-2.6872966289520264,-0.1863202005624771,No,False
+qa15,12,"[4, 1]",Jessica is a cat. Cats are afraid of sheep.,Is jessica afraid of a wolf?,No,-4.187164783477783,-0.17447346448898315,No,True
+qa15,10,"[7, 3]",Jessica is a wolf. Wolves are afraid of cats.,Is jessica afraid of a cat?,Yes,-3.1559250354766846,-0.1628873497247696,No,False
+qa15,10,"[7, 3]",Jessica is a wolf. Wolves are afraid of cats.,Is jessica afraid of a mouse?,No,-2.249664545059204,-0.2516170144081116,No,True
+qa15,9,"[8, 1]",Jessica is a mouse. Mice are afraid of wolves.,Is jessica afraid of a wolf?,Yes,-2.265284299850464,-0.25956013798713684,No,False
+qa15,9,"[8, 1]",Jessica is a mouse. Mice are afraid of wolves.,Is jessica afraid of a mouse?,No,-2.2185401916503906,-0.21463467180728912,No,True
+qa15,10,"[7, 4]",Emily is a cat. Cats are afraid of wolves.,Is emily afraid of a wolf?,Yes,-4.124664783477783,-0.12954574823379517,No,False
+qa15,10,"[7, 4]",Emily is a cat. Cats are afraid of wolves.,Is emily afraid of a cat?,No,-3.6560401916503906,-0.15311099588871002,No,True
+qa15,10,"[6, 1]",Jessica is a wolf. Wolves are afraid of cats.,Is jessica afraid of a cat?,Yes,-3.1559250354766846,-0.1628873497247696,No,False
+qa15,10,"[6, 1]",Jessica is a wolf. Wolves are afraid of cats.,Is jessica afraid of a sheep?,No,-3.640284299850464,-0.14614170789718628,No,True
+qa15,11,"[3, 2]",Jessica is a wolf. Wolves are afraid of sheep.,Is jessica afraid of a sheep?,Yes,-2.6561226844787598,-0.1532433032989502,No,False
+qa15,11,"[3, 2]",Jessica is a wolf. Wolves are afraid of sheep.,Is jessica afraid of a mouse?,No,-3.140418291091919,-0.14245249330997467,No,True
+qa15,9,"[5, 4]",Jessica is a cat. Cats are afraid of wolves.,Is jessica afraid of a wolf?,Yes,-3.624664545059204,-0.12585307657718658,No,False
+qa15,9,"[5, 4]",Jessica is a cat. Cats are afraid of wolves.,Is jessica afraid of a mouse?,No,-1.843424916267395,-0.3453773856163025,No,True
+qa15,9,"[6, 2]",Winona is a cat. Cats are afraid of sheep.,Is winona afraid of a sheep?,Yes,-2.1717536449432373,-0.17473077774047852,No,False
+qa15,9,"[6, 2]",Winona is a cat. Cats are afraid of sheep.,Is winona afraid of a mouse?,No,-1.390418291091919,-0.3924524784088135,No,True
+qa15,11,"[5, 2]",Gertrude is a sheep. Sheep are afraid of cats.,Is gertrude afraid of a cat?,Yes,-1.1482292413711548,-0.6444549560546875,No,False
+qa15,11,"[5, 2]",Gertrude is a sheep. Sheep are afraid of cats.,Is gertrude afraid of a mouse?,No,-3.6090447902679443,-0.1121828630566597,No,True
+qa15,12,"[4, 3]",Jessica is a sheep. Sheep are afraid of cats.,Is jessica afraid of a cat?,Yes,-1.5154995918273926,-0.5115939378738403,No,False
+qa15,12,"[4, 3]",Jessica is a sheep. Sheep are afraid of cats.,Is jessica afraid of a mouse?,No,-3.6247966289520264,-0.13073529303073883,No,True
+qa15,10,"[3, 1]",Emily is a cat. Cats are afraid of sheep.,Is emily afraid of a sheep?,Yes,-3.1561226844787598,-0.15026403963565826,No,False
+qa15,10,"[3, 1]",Emily is a cat. Cats are afraid of sheep.,Is emily afraid of a cat?,No,-3.124925136566162,-0.12492513656616211,No,True
+qa15,9,"[8, 3]",Emily is a sheep. Sheep are afraid of wolves.,Is emily afraid of a wolf?,Yes,-1.093672752380371,-0.5937031507492065,No,False
+qa15,9,"[8, 3]",Emily is a sheep. Sheep are afraid of wolves.,Is emily afraid of a cat?,No,-4.624796390533447,-0.1136474683880806,No,True
+qa15,10,"[5, 2]",Gertrude is a mouse. Mice are afraid of wolves.,Is gertrude afraid of a wolf?,Yes,-2.687164545059204,-0.18436743319034576,No,False
+qa15,10,"[5, 2]",Gertrude is a mouse. Mice are afraid of wolves.,Is gertrude afraid of a mouse?,No,-1.7730940580368042,-0.2771346867084503,No,True
+qa15,12,"[4, 1]",Winona is a mouse. Mice are afraid of cats.,Is winona afraid of a cat?,Yes,-0.898094117641449,-0.8983111381530762,Yes,True
+qa15,12,"[4, 1]",Winona is a mouse. Mice are afraid of cats.,Is winona afraid of a sheep?,No,-5.156040191650391,-0.15311099588871002,No,True
+qa15,10,"[4, 1]",Winona is a sheep. Sheep are afraid of wolves.,Is winona afraid of a wolf?,Yes,-0.8437031507492065,-0.8437216281890869,Yes,True
+qa15,10,"[4, 1]",Winona is a sheep. Sheep are afraid of wolves.,Is winona afraid of a mouse?,No,-4.593553066253662,-0.106324203312397,No,True
+qa15,12,"[7, 1]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a mouse?,Yes,-1.8279995918273926,-0.3299524784088135,No,False
+qa15,12,"[7, 1]",Emily is a wolf. Wolves are afraid of mice.,Is emily afraid of a sheep?,No,-4.187296390533447,-0.18347086012363434,No,True
+qa15,12,"[7, 3]",Jessica is a mouse. Mice are afraid of sheep.,Is jessica afraid of a sheep?,Yes,-2.2342536449432373,-0.24011220037937164,No,False
+qa15,12,"[7, 3]",Jessica is a mouse. Mice are afraid of sheep.,Is jessica afraid of a cat?,No,-3.1248767375946045,-0.11760151386260986,No,True
+qa15,12,"[7, 5]",Gertrude is a cat. Cats are afraid of wolves.,Is gertrude afraid of a wolf?,Yes,-2.2182140350341797,-0.2253873497247696,No,False
+qa15,12,"[7, 5]",Gertrude is a cat. Cats are afraid of wolves.,Is gertrude afraid of a mouse?,No,-1.804485559463501,-0.30456507205963135,No,True
+qa15,10,"[8, 3]",Winona is a mouse. Mice are afraid of wolves.,Is winona afraid of a wolf?,Yes,-1.3514894247055054,-0.3534886837005615,No,False
+qa15,10,"[8, 3]",Winona is a mouse. Mice are afraid of wolves.,Is winona afraid of a mouse?,No,-2.218552827835083,-0.22058331966400146,No,True
+qa15,11,"[7, 1]",Jessica is a wolf. Wolves are afraid of cats.,Is jessica afraid of a cat?,Yes,-3.1559250354766846,-0.1628873497247696,No,False
+qa15,11,"[7, 1]",Jessica is a wolf. Wolves are afraid of cats.,Is jessica afraid of a sheep?,No,-3.640284299850464,-0.14614170789718628,No,True
+qa15,9,"[7, 2]",Jessica is a mouse. Mice are afraid of sheep.,Is jessica afraid of a sheep?,Yes,-2.2342536449432373,-0.24011220037937164,No,False
+qa15,9,"[7, 2]",Jessica is a mouse. Mice are afraid of sheep.,Is jessica afraid of a mouse?,No,-3.1090447902679443,-0.10917475074529648,No,True
+qa15,11,"[5, 1]",Emily is a cat. Cats are afraid of wolves.,Is emily afraid of a wolf?,Yes,-4.124664783477783,-0.12954574823379517,No,False
+qa15,11,"[5, 1]",Emily is a cat. Cats are afraid of wolves.,Is emily afraid of a sheep?,No,-4.124796390533447,-0.1355365663766861,No,True
+qa15,12,"[3, 1]",Winona is a sheep. Sheep are afraid of mice.,Is winona afraid of a mouse?,Yes,-1.0936774015426636,-0.5937060117721558,No,False
+qa15,12,"[3, 1]",Winona is a sheep. Sheep are afraid of mice.,Is winona afraid of a wolf?,No,-4.187164783477783,-0.1921783834695816,No,True
+qa15,10,"[5, 4]",Emily is a mouse. Mice are afraid of cats.,Is emily afraid of a cat?,Yes,-1.4216747283935547,-0.41980063915252686,No,False
+qa15,10,"[5, 4]",Emily is a mouse. Mice are afraid of cats.,Is emily afraid of a wolf?,No,-4.593553066253662,-0.10624565929174423,No,True
+qa15,11,"[5, 4]",Emily is a mouse. Mice are afraid of cats.,Is emily afraid of a cat?,Yes,-1.4216747283935547,-0.41980063915252686,No,False
+qa15,11,"[5, 4]",Emily is a mouse. Mice are afraid of cats.,Is emily afraid of a mouse?,No,-2.1873767375946045,-0.1921783834695816,No,True
+qa15,11,"[4, 1]",Jessica is a wolf. Wolves are afraid of mice.,Is jessica afraid of a mouse?,Yes,-2.202918291091919,-0.20109593868255615,No,False
+qa15,11,"[4, 1]",Jessica is a wolf. Wolves are afraid of mice.,Is jessica afraid of a sheep?,No,-3.6715447902679443,-0.16874565184116364,No,True
+qa17,3,"[1, 2]",The pink rectangle is to the left of the triangle. The triangle is to the left of the red square.,Is the pink rectangle to the right of the red square?,No,-0.9882540702819824,-0.49020707607269287,No,True
+qa17,4,"[1, 2]",The pink rectangle is to the left of the triangle. The triangle is to the left of the red square.,Is the pink rectangle to the left of the red square?,Yes,-0.9999251365661621,-0.49995458126068115,No,False
+qa17,4,"[1, 2]",The pink rectangle is to the left of the triangle. The triangle is below the red sphere.,Is the pink rectangle below the red sphere?,Yes,-2.1405789852142334,-0.14646732807159424,No,False
+qa17,7,"[1, 2]",The pink rectangle is to the left of the triangle. The triangle is below the red sphere.,Is the pink rectangle above the red sphere?,No,-3.0624547004699707,-0.06394815444946289,No,True
+qa17,9,"[2, 1]",The triangle is below the red sphere. The pink rectangle is to the left of the triangle.,Is the red sphere below the pink rectangle?,No,-2.1562061309814453,-0.15915286540985107,No,True
+qa17,10,"[1, 2]",The pink rectangle is to the left of the triangle. The triangle is below the red sphere.,Is the pink rectangle below the red sphere?,Yes,-2.1405789852142334,-0.14646732807159424,No,False
+qa17,7,"[2, 1]",The pink rectangle is to the left of the red square. The red square is below the triangle.,Is the pink rectangle above the triangle?,No,-1.351518154144287,-0.3534886837005615,No,True
+qa17,8,"[2, 1]",The pink rectangle is to the left of the red square. The red square is below the triangle.,Is the pink rectangle below the triangle?,Yes,-2.140597105026245,-0.13474881649017334,No,False
+qa17,5,"[1, 2]",The pink rectangle is below the red square. The triangle is to the left of the red square.,Is the pink rectangle to the right of the triangle?,Yes,-1.351518154144287,-0.3495825529098511,No,False
+qa17,4,"[1, 2]",The red sphere is above the yellow square. The red sphere is to the right of the red square.,Is the yellow square above the red square?,No,-0.7732292413711548,-0.7733608484268188,Yes,False
+qa17,5,"[2, 1]",The red sphere is to the right of the red square. The red sphere is above the yellow square.,Is the red square above the yellow square?,Yes,-1.3591747283935547,-0.3553953170776367,No,False
+qa17,5,"[1, 2]",The blue square is below the yellow square. The red sphere is below the blue square.,Is the yellow square to the right of the red sphere?,No,-1.0311774015426636,-0.5351294279098511,No,True
+qa17,7,"[1, 2]",The blue square is below the yellow square. The red sphere is below the blue square.,Is the yellow square above the red sphere?,Yes,-0.7616430521011353,-0.7616908550262451,Yes,True
+qa17,9,"[1, 2]",The blue square is to the left of the red sphere. The blue square is below the pink rectangle.,Is the red sphere to the left of the pink rectangle?,No,-0.7147668600082397,-0.7147971391677856,Yes,False
+qa17,3,"[1, 2]",The triangle is to the left of the red sphere. The pink rectangle is to the right of the red sphere.,Is the triangle to the right of the pink rectangle?,No,-2.593677520751953,-0.09858858585357666,No,True
+qa17,8,"[1, 2]",The triangle is to the left of the red sphere. The pink rectangle is to the right of the red sphere.,Is the triangle to the left of the pink rectangle?,Yes,-1.7343013286590576,-0.232377290725708,No,False
+qa17,5,"[2, 1]",The red square is above the pink rectangle. The triangle is above the red square.,Is the pink rectangle below the triangle?,Yes,-0.3593013286590576,-1.3593302965164185,Yes,True
+qa17,7,"[2, 1]",The red square is above the pink rectangle. The triangle is above the red square.,Is the pink rectangle to the right of the triangle?,No,-0.7381592988967896,-0.7382364273071289,Yes,False
+qa17,4,"[1, 2]",The red square is below the red sphere. The red sphere is to the left of the pink rectangle.,Is the red square below the pink rectangle?,Yes,-2.6092536449432373,-0.10592997074127197,No,False
+qa17,6,"[2, 1]",The red sphere is to the left of the pink rectangle. The red square is below the red sphere.,Is the pink rectangle to the left of the red square?,No,-0.7069549560546875,-0.707003116607666,Yes,False
+qa17,10,"[2, 1]",The red sphere is to the left of the pink rectangle. The red square is below the red sphere.,Is the pink rectangle to the left of the red square?,No,-0.7069549560546875,-0.707003116607666,Yes,False
+qa17,3,"[1, 2]",The pink rectangle is to the right of the blue square. The red sphere is below the blue square.,Is the pink rectangle to the right of the red sphere?,Yes,-1.726518154144287,-0.22360599040985107,No,False
+qa17,6,"[1, 2]",The pink rectangle is to the right of the blue square. The red sphere is below the blue square.,Is the pink rectangle above the red sphere?,Yes,-1.7421132326126099,-0.2421424388885498,No,False
+qa17,9,"[2, 1]",The red sphere is below the blue square. The pink rectangle is to the right of the blue square.,Is the red sphere to the left of the pink rectangle?,Yes,-1.7343013286590576,-0.23239481449127197,No,False
+qa17,10,"[2, 1]",The red sphere is below the blue square. The pink rectangle is to the right of the blue square.,Is the red sphere to the right of the pink rectangle?,No,-3.5468013286590576,-0.049515724182128906,No,True
+qa17,4,"[2, 1]",The yellow square is to the left of the red square. The yellow square is to the right of the red sphere.,Is the red square to the left of the red sphere?,No,-1.3280489444732666,-0.32809698581695557,No,True
+qa17,3,"[1, 2]",The red sphere is below the red square. The red square is to the left of the pink rectangle.,Is the red sphere below the pink rectangle?,Yes,-1.3514894247055054,-0.34956514835357666,No,False
+qa17,9,"[2, 1]",The red square is to the left of the pink rectangle. The red sphere is below the red square.,Is the pink rectangle to the left of the red sphere?,No,-0.9843302965164185,-0.486311674118042,No,True
+qa17,10,"[1, 2]",The red sphere is below the red square. The red square is to the left of the pink rectangle.,Is the red sphere to the left of the pink rectangle?,Yes,-4.031177520751953,-0.04391825199127197,No,False
+qa17,7,"[1, 2]",The red square is to the left of the yellow square. The red square is to the right of the red sphere.,Is the yellow square to the left of the red sphere?,No,-1.7187031507492065,-0.2158031463623047,No,True
+qa17,4,"[2, 1]",The red square is below the pink rectangle. The pink rectangle is to the right of the red sphere.,Is the red square below the red sphere?,Yes,-0.9999724626541138,-0.4999833106994629,No,False
+qa17,7,"[1, 2]",The yellow square is below the red sphere. The blue square is to the left of the yellow square.,Is the red sphere below the blue square?,No,-1.0233608484268188,-0.519503116607666,No,True
+qa17,4,"[2, 1]",The red square is to the left of the red sphere. The blue square is above the red square.,Is the red sphere below the blue square?,Yes,-0.5272668600082397,-1.0233910083770752,Yes,True
+qa17,6,"[2, 1]",The yellow square is below the triangle. The yellow square is to the right of the blue square.,Is the triangle below the blue square?,No,-1.3593013286590576,-0.359347939491272,No,True
+qa17,9,"[1, 2]",The red sphere is to the left of the pink rectangle. The red sphere is below the red square.,Is the pink rectangle to the right of the red square?,Yes,-0.4921424388885498,-0.9921602010726929,Yes,True
+qa17,9,"[2, 1]",The triangle is to the right of the blue square. The triangle is above the red sphere.,Is the blue square above the red sphere?,Yes,-1.7186774015426636,-0.22067642211914062,No,False
+qa17,10,"[2, 1]",The triangle is to the right of the blue square. The triangle is above the red sphere.,Is the blue square to the left of the red sphere?,Yes,-0.4980015754699707,-0.9999724626541138,Yes,True
+qa17,3,"[2, 1]",The red square is below the red sphere. The red square is to the left of the triangle.,Is the red sphere below the triangle?,No,-0.7421132326126099,-0.7421424388885498,Yes,False
+qa17,9,"[2, 1]",The red sphere is below the red square. The red sphere is to the right of the blue square.,Is the red square to the right of the blue square?,Yes,-0.7576074600219727,-0.7576881647109985,Yes,True
+qa17,3,"[1, 2]",The pink rectangle is above the blue square. The yellow square is above the pink rectangle.,Is the blue square below the yellow square?,Yes,-1.0233608484268188,-0.5273154973983765,No,False
+qa17,3,"[2, 1]",The yellow square is to the left of the triangle. The yellow square is to the right of the blue square.,Is the triangle to the left of the blue square?,No,-1.3280788660049438,-0.3261439800262451,No,True
+qa17,5,"[2, 1]",The yellow square is to the left of the triangle. The yellow square is to the right of the blue square.,Is the triangle above the blue square?,No,-1.031172752380371,-0.5312031507492065,No,True
+qa17,10,"[2, 1]",The yellow square is above the pink rectangle. The yellow square is to the left of the triangle.,Is the pink rectangle below the triangle?,Yes,-0.49604856967926025,-0.9960663318634033,Yes,True
+qa17,5,"[2, 1]",The triangle is above the yellow square. The triangle is to the right of the pink rectangle.,Is the yellow square to the left of the pink rectangle?,No,-1.3593013286590576,-0.3612833023071289,No,True
+qa17,3,"[1, 2]",The red sphere is above the yellow square. The red sphere is to the left of the red square.,Is the yellow square above the red square?,No,-0.7342535257339478,-0.7343013286590576,Yes,False
+qa17,6,"[1, 2]",The pink rectangle is to the left of the red sphere. The yellow square is above the pink rectangle.,Is the red sphere above the yellow square?,No,-1.3358910083770752,-0.335909366607666,No,True
+qa17,6,"[2, 1]",The blue square is to the right of the pink rectangle. The blue square is to the left of the red sphere.,Is the pink rectangle to the left of the red sphere?,Yes,-2.6093013286590576,-0.10542428493499756,No,False
+qa17,6,"[1, 2]",The yellow square is to the right of the red square. The yellow square is below the blue square.,Is the red square above the blue square?,No,-0.7070142030715942,-0.7070208787918091,Yes,False
+qa17,8,"[2, 1]",The red sphere is to the left of the blue square. The blue square is to the left of the red square.,Is the red sphere to the left of the red square?,Yes,-0.9882364273071289,-0.49020707607269287,No,False
+qa17,9,"[1, 2]",The pink rectangle is below the blue square. The red square is above the blue square.,Is the pink rectangle above the red square?,No,-2.1405789852142334,-0.14547967910766602,No,True
+qa17,6,"[2, 1]",The red square is above the pink rectangle. The red square is to the right of the triangle.,Is the pink rectangle to the right of the triangle?,Yes,-1.0233111381530762,-0.5233910083770752,No,False
+qa17,3,"[2, 1]",The yellow square is below the blue square. The yellow square is to the right of the triangle.,Is the blue square to the right of the triangle?,Yes,-1.0154995918273926,-0.5155788660049438,No,False
+qa17,4,"[2, 1]",The yellow square is below the blue square. The yellow square is to the right of the triangle.,Is the blue square to the left of the triangle?,No,-0.5155489444732666,-1.0155969858169556,Yes,False
+qa17,5,"[1, 2]",The pink rectangle is above the red sphere. The pink rectangle is to the left of the triangle.,Is the red sphere below the triangle?,Yes,-0.5233608484268188,-1.0233910083770752,Yes,True
+qa17,3,"[2, 1]",The red sphere is to the left of the yellow square. The yellow square is above the triangle.,Is the red sphere below the triangle?,No,-0.5038607120513916,-1.0077667236328125,Yes,False
+qa17,4,"[1, 2]",The triangle is to the left of the red square. The red sphere is below the red square.,Is the triangle to the right of the red sphere?,No,-1.3437031507492065,-0.3437216281890869,No,True
+qa17,6,"[1, 2]",The red sphere is to the right of the yellow square. The red sphere is above the red square.,Is the yellow square to the right of the red square?,No,-0.49601924419403076,-0.9960663318634033,Yes,False
+qa17,3,"[1, 2]",The red square is to the left of the triangle. The triangle is to the left of the blue square.,Is the red square to the right of the blue square?,No,-2.1405489444732666,-0.14549076557159424,No,True
+qa17,4,"[1, 2]",The red square is to the left of the triangle. The triangle is to the left of the blue square.,Is the red square to the left of the blue square?,Yes,-0.9960663318634033,-0.49412405490875244,No,False
+qa17,5,"[2, 1]",The triangle is to the left of the blue square. The red square is to the left of the triangle.,Is the blue square above the red square?,No,-0.5233608484268188,-1.0233608484268188,Yes,False
+qa17,4,"[1, 2]",The triangle is above the pink rectangle. The triangle is to the right of the yellow square.,Is the pink rectangle below the yellow square?,Yes,-0.9921424388885498,-0.4941132068634033,No,False
+qa17,6,"[2, 1]",The triangle is to the right of the yellow square. The triangle is above the pink rectangle.,Is the yellow square above the pink rectangle?,Yes,-2.1405489444732666,-0.1435084342956543,No,False
+qa17,8,"[1, 2]",The blue square is above the red square. The red square is to the left of the triangle.,Is the blue square to the right of the triangle?,No,-1.0233910083770752,-0.523409366607666,No,True
+qa17,10,"[1, 2]",The blue square is above the red square. The red square is to the left of the triangle.,Is the blue square above the triangle?,Yes,-0.7499251365661621,-0.7499545812606812,Yes,True
+qa17,5,"[2, 1]",The blue square is above the red sphere. The red square is to the left of the blue square.,Is the red sphere above the red square?,No,-1.0545650720596313,-0.5546424388885498,No,True
+qa17,6,"[1, 2]",The red square is to the left of the blue square. The blue square is above the red sphere.,Is the red square above the red sphere?,Yes,-1.7187060117721558,-0.22067642211914062,No,False
+qa17,3,"[1, 2]",The pink rectangle is to the left of the red square. The red square is to the left of the blue square.,Is the pink rectangle to the left of the blue square?,Yes,-0.7108910083770752,-0.710909366607666,Yes,True
+qa17,5,"[2, 1]",The red sphere is above the pink rectangle. The red sphere is to the right of the yellow square.,Is the pink rectangle above the yellow square?,No,-1.749876618385315,-0.2538785934448242,No,True
+qa17,5,"[2, 1]",The pink rectangle is to the right of the triangle. The pink rectangle is below the yellow square.,Is the triangle to the left of the yellow square?,Yes,-0.9999545812606812,-0.49997246265411377,No,False
+qa17,9,"[1, 2]",The pink rectangle is below the yellow square. The pink rectangle is to the right of the triangle.,Is the yellow square to the left of the triangle?,No,-0.800707221031189,-0.800707221031189,No,True
+qa17,9,"[1, 2]",The triangle is below the red sphere. The red square is to the left of the triangle.,Is the red sphere above the red square?,Yes,-0.9960485696792603,-0.4960663318634033,No,False
+qa17,8,"[2, 1]",The triangle is to the left of the blue square. The blue square is above the pink rectangle.,Is the triangle to the left of the pink rectangle?,Yes,-1.0077667236328125,-0.5116908550262451,No,False
+qa17,5,"[1, 2]",The red square is below the yellow square. The pink rectangle is above the yellow square.,Is the red square below the pink rectangle?,Yes,-1.749925136566162,-0.25192558765411377,No,False
+qa17,6,"[2, 1]",The pink rectangle is above the yellow square. The red square is below the yellow square.,Is the pink rectangle below the red square?,No,-2.6092536449432373,-0.10933029651641846,No,True
+qa17,8,"[1, 2]",The red square is below the yellow square. The pink rectangle is above the yellow square.,Is the red square to the right of the pink rectangle?,No,-0.734347939491272,-0.7343649864196777,Yes,False
+qa17,8,"[1, 2]",The red square is to the left of the pink rectangle. The red square is below the blue square.,Is the pink rectangle to the left of the blue square?,No,-0.4863009452819824,-0.9843649864196777,Yes,False
+qa17,6,"[2, 1]",The pink rectangle is below the triangle. The triangle is to the left of the red square.,Is the pink rectangle to the left of the red square?,Yes,-2.1405789852142334,-0.14547967910766602,No,False
+qa17,3,"[1, 2]",The yellow square is above the pink rectangle. The triangle is to the right of the pink rectangle.,Is the yellow square to the left of the triangle?,Yes,-1.0312031507492065,-0.5312031507492065,No,False
+qa17,7,"[2, 1]",The triangle is to the right of the pink rectangle. The yellow square is above the pink rectangle.,Is the triangle to the left of the yellow square?,No,-1.3671132326126099,-0.3651602268218994,No,True
+qa17,3,"[2, 1]",The blue square is below the red square. The blue square is above the pink rectangle.,Is the red square above the pink rectangle?,Yes,-1.3593013286590576,-0.35933029651641846,No,False
+qa17,10,"[1, 2]",The blue square is above the pink rectangle. The blue square is below the red square.,Is the pink rectangle above the red square?,No,-1.7343302965164185,-0.23239481449127197,No,True
+qa17,3,"[1, 2]",The triangle is above the red sphere. The blue square is to the left of the triangle.,Is the red sphere to the left of the blue square?,No,-1.726518154144287,-0.2265181541442871,No,True
+qa17,4,"[2, 1]",The red square is to the right of the red sphere. The red square is to the left of the pink rectangle.,Is the red sphere to the left of the pink rectangle?,Yes,-2.5937061309814453,-0.0971517562866211,No,False
+qa17,10,"[2, 1]",The pink rectangle is to the right of the blue square. The pink rectangle is above the red square.,Is the blue square to the right of the red square?,No,-1.0077667236328125,-0.5038607120513916,No,True
+qa17,4,"[1, 2]",The yellow square is below the pink rectangle. The pink rectangle is below the red square.,Is the yellow square below the red square?,Yes,-0.3632364273071289,-1.3593302965164185,Yes,True
+qa17,4,"[2, 1]",The triangle is to the left of the red square. The red sphere is to the left of the triangle.,Is the red square above the red sphere?,No,-0.7420650720596313,-0.7421424388885498,Yes,False
+qa17,6,"[2, 1]",The triangle is to the left of the red square. The red sphere is to the left of the triangle.,Is the red square to the right of the red sphere?,Yes,-0.35542428493499756,-1.351518154144287,Yes,True
+qa17,10,"[2, 1]",The triangle is to the left of the red square. The red sphere is to the left of the triangle.,Is the red square to the right of the red sphere?,Yes,-0.35542428493499756,-1.351518154144287,Yes,True
+qa17,3,"[1, 2]",The pink rectangle is above the red sphere. The pink rectangle is to the right of the yellow square.,Is the red sphere to the left of the yellow square?,No,-1.3514894247055054,-0.34956514835357666,No,True
+qa17,7,"[1, 2]",The pink rectangle is above the red sphere. The pink rectangle is to the right of the yellow square.,Is the red sphere above the yellow square?,No,-1.351518154144287,-0.3495825529098511,No,True
+qa17,3,"[1, 2]",The pink rectangle is above the triangle. The triangle is to the right of the blue square.,Is the pink rectangle to the left of the blue square?,No,-1.0077370405197144,-0.5038607120513916,No,True
+qa17,8,"[2, 1]",The triangle is to the right of the blue square. The pink rectangle is above the triangle.,Is the blue square below the pink rectangle?,Yes,-0.4980015754699707,-0.9960485696792603,Yes,True
+qa17,7,"[1, 2]",The blue square is above the yellow square. The triangle is below the yellow square.,Is the blue square to the right of the triangle?,No,-0.7499545812606812,-0.7499833106994629,Yes,False
+qa17,7,"[1, 2]",The red square is below the red sphere. The red sphere is below the triangle.,Is the red square below the triangle?,Yes,-0.7265181541442871,-0.7265355587005615,Yes,True
+qa17,9,"[2, 1]",The red sphere is below the triangle. The red square is below the red sphere.,Is the triangle below the red square?,No,-1.3592535257339478,-0.3593013286590576,No,True
+qa17,8,"[2, 1]",The pink rectangle is above the red sphere. The blue square is above the pink rectangle.,Is the red sphere below the blue square?,Yes,-1.3437031507492065,-0.3417797088623047,No,False
+qa17,8,"[1, 2]",The yellow square is below the red square. The pink rectangle is below the yellow square.,Is the red square to the left of the pink rectangle?,No,-0.7343013286590576,-0.734347939491272,Yes,False
+qa17,3,"[1, 2]",The yellow square is to the left of the blue square. The blue square is above the red square.,Is the yellow square to the left of the red square?,Yes,-1.3358910083770752,-0.33592045307159424,No,False
+qa17,7,"[2, 1]",The blue square is above the red square. The yellow square is to the left of the blue square.,Is the red square to the left of the yellow square?,No,-2.5937061309814453,-0.09959304332733154,No,True
+qa17,9,"[1, 2]",The yellow square is to the left of the blue square. The blue square is above the red square.,Is the yellow square above the red square?,Yes,-1.7186774015426636,-0.22262942790985107,No,False
+qa18,11,"[8, 1]",The chocolate fits inside the suitcase. The suitcase fits inside the box.,Does the box fit in the chocolate?,No,-2.1872966289520264,-0.18151797354221344,No,True
+qa18,9,"[1, 2]",The box fits inside the chest. The chocolate fits inside the box.,Is the chest bigger than the chocolate?,Yes,-0.7381592988967896,-0.738207221031189,Yes,True
+qa18,10,"[5, 1]",The chocolate fits inside the suitcase. The box is bigger than the suitcase.,Is the chocolate bigger than the box?,No,-1.3593013286590576,-0.35542428493499756,No,True
+qa18,9,"[5, 4]",The box is bigger than the box of chocolates. The suitcase is bigger than the box.,Does the suitcase fit in the box of chocolates?,No,-5.031172752380371,-0.01585221290588379,No,True
+qa18,7,"[2, 3]",The chest fits inside the box. The chest is bigger than the box of chocolates.,Does the box of chocolates fit in the box?,Yes,-1.0233608484268188,-0.5233608484268188,No,False
+qa18,10,"[2, 3]",The chest fits inside the box. The chest is bigger than the box of chocolates.,Is the box bigger than the box of chocolates?,Yes,-1.015418291091919,-0.5193238258361816,No,False
+qa18,6,"[4, 1]",The chest is bigger than the suitcase. The box of chocolates fits inside the suitcase.,Is the chest bigger than the box of chocolates?,Yes,-1.3593013286590576,-0.355441689491272,No,False
+qa18,8,"[1, 2]",The container is bigger than the chocolate. The box is bigger than the container.,Does the box fit in the chocolate?,No,-2.156177520751953,-0.15915286540985107,No,True
+qa18,6,"[1, 2]",The box fits inside the suitcase. The chest fits inside the box.,Does the chest fit in the suitcase?,Yes,-1.0154995918273926,-0.5116430521011353,No,False
+qa18,8,"[2, 1]",The container is bigger than the chest. The chest is bigger than the box of chocolates.,Does the box of chocolates fit in the container?,Yes,-3.0624725818634033,-0.06394815444946289,No,False
+qa18,7,"[5, 1]",The suitcase fits inside the box. The chocolate fits inside the suitcase.,Does the chocolate fit in the box?,Yes,-1.3514419794082642,-0.34761202335357666,No,False
+qa18,7,"[1, 3]",The box is bigger than the chocolate. The container is bigger than the box.,Does the container fit in the chocolate?,No,-2.1717536449432373,-0.17085373401641846,No,True
+qa18,6,"[4, 1]",The chocolate fits inside the container. The box is bigger than the container.,Is the chocolate bigger than the box?,No,-1.0389894247055054,-0.5351120233535767,No,True
+qa18,8,"[4, 3]",The box is bigger than the chocolate. The container is bigger than the box.,Does the container fit in the chocolate?,No,-2.1717536449432373,-0.17085373401641846,No,True
+qa18,10,"[3, 4]",The container is bigger than the box. The box is bigger than the chocolate.,Does the chocolate fit in the container?,Yes,-2.624925136566162,-0.12155461311340332,No,False
+qa18,24,"[9, 1]",The chocolate fits inside the box of chocolates. The box is bigger than the box of chocolates.,Does the box fit in the chocolate?,No,-1.031040072441101,-0.527216911315918,No,True
+qa18,6,"[5, 4]",The box fits inside the container. The suitcase fits inside the box.,Does the suitcase fit in the container?,Yes,-0.38664305210113525,-1.3905969858169556,Yes,True
+qa18,10,"[5, 4]",The box fits inside the container. The suitcase fits inside the box.,Does the suitcase fit in the container?,Yes,-0.38664305210113525,-1.3905969858169556,Yes,True
+qa18,11,"[8, 3]",The box of chocolates fits inside the box. The box of chocolates is bigger than the chocolate.,Is the box bigger than the chocolate?,Yes,-1.7264894247055054,-0.2274947166442871,No,False
+qa18,7,"[2, 3]",The container is bigger than the box of chocolates. The box of chocolates is bigger than the chocolate.,Is the container bigger than the chocolate?,Yes,-0.5154995918273926,-1.0155489444732666,Yes,True
+qa18,6,"[2, 4]",The box is bigger than the container. The chocolate fits inside the container.,Is the box bigger than the chocolate?,Yes,-0.738207221031189,-0.7382364273071289,Yes,True
+qa18,7,"[5, 3]",The box of chocolates is bigger than the chocolate. The box of chocolates fits inside the chest.,Does the chest fit in the chocolate?,No,-2.1716747283935547,-0.16394197940826416,No,True
+qa18,8,"[3, 5]",The box of chocolates fits inside the chest. The box of chocolates is bigger than the chocolate.,Does the chocolate fit in the chest?,Yes,-3.0623767375946045,-0.0663607120513916,No,False
+qa18,9,"[2, 4]",The box is bigger than the container. The chocolate fits inside the container.,Does the chocolate fit in the box?,Yes,-0.9960663318634033,-0.4980301856994629,No,False
+qa18,6,"[1, 2]",The box of chocolates fits inside the chest. The chest fits inside the box.,Does the box fit in the box of chocolates?,No,-0.550707221031189,-1.0468302965164185,Yes,False
+qa18,9,"[5, 4]",The box of chocolates fits inside the container. The container fits inside the box.,Is the box of chocolates bigger than the box?,No,-0.7382364273071289,-0.7382364273071289,No,True
+qa18,12,"[5, 10]",The container is bigger than the chocolate. The suitcase is bigger than the container.,Does the suitcase fit in the chocolate?,No,-3.5780789852142334,-0.08249139785766602,No,True
+qa18,13,"[9, 1]",The box is bigger than the box of chocolates. The chest is bigger than the box.,Does the chest fit in the box of chocolates?,No,-4.031203269958496,-0.028065800666809082,No,True
+qa18,15,"[5, 10]",The container is bigger than the chocolate. The suitcase is bigger than the container.,Does the suitcase fit in the chocolate?,No,-3.5780789852142334,-0.08249139785766602,No,True
+qa18,6,"[4, 1]",The container is bigger than the box. The suitcase is bigger than the container.,Is the box bigger than the suitcase?,No,-1.3515355587005615,-0.3495994806289673,No,True
+qa18,10,"[3, 2]",The container fits inside the box. The chocolate fits inside the container.,Does the chocolate fit in the box?,Yes,-0.5505801439285278,-1.0468013286590576,Yes,True
+qa18,9,"[2, 1]",The suitcase fits inside the container. The suitcase is bigger than the box of chocolates.,Is the container bigger than the box of chocolates?,Yes,-1.7186774015426636,-0.21968257427215576,No,False
+qa18,7,"[2, 3]",The box of chocolates is bigger than the chocolate. The box is bigger than the box of chocolates.,Is the chocolate bigger than the box?,No,-1.3358608484268188,-0.333956241607666,No,True
+qa18,8,"[1, 2]",The chest is bigger than the box. The container fits inside the box.,Is the chest bigger than the container?,Yes,-0.7811727523803711,-0.7812031507492065,Yes,True
+qa18,10,"[2, 1]",The container fits inside the box. The chest is bigger than the box.,Does the chest fit in the container?,No,-3.5468013286590576,-0.04562723636627197,No,True
+qa18,6,"[4, 1]",The chocolate fits inside the box of chocolates. The box of chocolates fits inside the box.,Does the box fit in the chocolate?,No,-1.3592535257339478,-0.3553953170776367,No,True
+qa18,13,"[5, 6]",The chocolate fits inside the container. The chest is bigger than the container.,Does the chest fit in the chocolate?,No,-1.4138637781143188,-0.4120364189147949,No,True
+qa18,8,"[5, 1]",The container is bigger than the chest. The chest is bigger than the suitcase.,Does the suitcase fit in the container?,Yes,-2.609330415725708,-0.11618363857269287,No,False
+qa18,7,"[3, 1]",The container is bigger than the box. The box of chocolates fits inside the box.,Is the container bigger than the box of chocolates?,Yes,-0.7499251365661621,-0.7499545812606812,Yes,True
+qa18,10,"[5, 2]",The chest is bigger than the suitcase. The box is bigger than the chest.,Is the suitcase bigger than the box?,No,-1.7655788660049438,-0.26755011081695557,No,True
+qa18,10,"[1, 2]",The box of chocolates fits inside the container. The chocolate fits inside the box of chocolates.,Is the container bigger than the chocolate?,Yes,-0.7733111381530762,-0.7733608484268188,Yes,True
+qa18,9,"[4, 3]",The chocolate fits inside the chest. The chest fits inside the box.,Does the box fit in the chocolate?,No,-2.1717536449432373,-0.17180132865905762,No,True
+qa18,9,"[2, 5]",The container is bigger than the suitcase. The container fits inside the chest.,Does the chest fit in the suitcase?,No,-2.1405789852142334,-0.13962054252624512,No,True
+qa18,9,"[5, 1]",The box of chocolates fits inside the suitcase. The box of chocolates is bigger than the chocolate.,Does the chocolate fit in the suitcase?,Yes,-1.7187060117721558,-0.22165286540985107,No,False
+qa18,8,"[3, 2]",The box fits inside the chest. The chocolate fits inside the box.,Does the chocolate fit in the chest?,Yes,-0.5545650720596313,-1.0546132326126099,Yes,True
+qa18,7,"[5, 3]",The box of chocolates is bigger than the chocolate. The container is bigger than the box of chocolates.,Is the chocolate bigger than the container?,No,-2.609330415725708,-0.10446524620056152,No,True
+qa18,11,"[10, 5]",The container is bigger than the suitcase. The box fits inside the suitcase.,Does the box fit in the container?,Yes,-1.351518154144287,-0.35349929332733154,No,False
+qa18,7,"[5, 2]",The box is bigger than the chest. The container is bigger than the box.,Is the chest bigger than the container?,No,-1.7577370405197144,-0.2538785934448242,No,True
+qa18,15,"[9, 8]",The container fits inside the chest. The container is bigger than the chocolate.,Is the chest bigger than the chocolate?,Yes,-1.0233608484268188,-0.5272971391677856,No,False
+qa18,8,"[4, 1]",The container fits inside the suitcase. The container is bigger than the box of chocolates.,Is the suitcase bigger than the box of chocolates?,Yes,-1.3358910083770752,-0.33786237239837646,No,False
+qa18,11,"[9, 1]",The box is bigger than the box of chocolates. The chest is bigger than the box.,Is the box of chocolates bigger than the chest?,No,-2.156221628189087,-0.15231549739837646,No,True
+qa18,7,"[1, 3]",The chocolate fits inside the box. The box fits inside the container.,Is the chocolate bigger than the container?,No,-1.3358608484268188,-0.333956241607666,No,True
+qa18,13,"[6, 10]",The box of chocolates fits inside the chest. The chocolate fits inside the box of chocolates.,Is the chest bigger than the chocolate?,Yes,-1.366985559463501,-0.3690662384033203,No,False
+qa18,6,"[1, 4]",The chest fits inside the suitcase. The chest is bigger than the chocolate.,Is the suitcase bigger than the chocolate?,Yes,-1.062425136566162,-0.5585485696792603,No,False
+qa18,10,"[1, 3]",The box is bigger than the box of chocolates. The container is bigger than the box.,Is the box of chocolates bigger than the container?,No,-1.7187232971191406,-0.2206869125366211,No,True
+qa18,8,"[2, 3]",The box of chocolates is bigger than the chocolate. The box of chocolates fits inside the box.,Is the chocolate bigger than the box?,No,-1.3358910083770752,-0.333956241607666,No,True
+qa18,7,"[4, 3]",The suitcase fits inside the chest. The suitcase is bigger than the chocolate.,Does the chocolate fit in the chest?,Yes,-1.7421132326126099,-0.2421424388885498,No,False
+qa18,7,"[5, 3]",The suitcase fits inside the chest. The box is bigger than the chest.,Is the suitcase bigger than the box?,No,-4.031223297119141,-0.031722068786621094,No,True
+qa18,6,"[2, 1]",The box is bigger than the container. The container is bigger than the suitcase.,Does the suitcase fit in the box?,Yes,-3.093672752380371,-0.08688580989837646,No,False
+qa18,9,"[1, 2]",The container is bigger than the suitcase. The box is bigger than the container.,Is the suitcase bigger than the box?,No,-1.3437232971191406,-0.34374022483825684,No,True
+qa18,12,"[9, 4]",The suitcase is bigger than the chocolate. The suitcase fits inside the box.,Does the box fit in the chocolate?,No,-2.593677520751953,-0.09956514835357666,No,True
+qa18,13,"[8, 2]",The chocolate fits inside the box of chocolates. The box is bigger than the box of chocolates.,Is the chocolate bigger than the box?,No,-1.7186304330825806,-0.22261202335357666,No,True
+qa18,6,"[2, 1]",The container is bigger than the box. The chocolate fits inside the box.,Does the chocolate fit in the container?,Yes,-2.187425136566162,-0.19233715534210205,No,False
+qa18,7,"[2, 1]",The container is bigger than the box. The chocolate fits inside the box.,Does the chocolate fit in the container?,Yes,-2.187425136566162,-0.19233715534210205,No,False
+qa18,10,"[1, 3]",The suitcase is bigger than the chocolate. The chest is bigger than the suitcase.,Is the chocolate bigger than the chest?,No,-2.6093480587005615,-0.11227750778198242,No,True
+qa18,8,"[5, 1]",The suitcase is bigger than the box of chocolates. The suitcase fits inside the chest.,Is the box of chocolates bigger than the chest?,No,-1.343672752380371,-0.3437216281890869,No,True
+qa18,6,"[4, 1]",The suitcase is bigger than the container. The chocolate fits inside the container.,Is the suitcase bigger than the chocolate?,Yes,-0.9882364273071289,-0.49020707607269287,No,False
+qa18,13,"[9, 1]",The suitcase is bigger than the box of chocolates. The suitcase fits inside the box.,Is the box of chocolates bigger than the box?,No,-0.9960485696792603,-0.4941132068634033,No,True
+qa18,10,"[4, 1]",The suitcase fits inside the chest. The suitcase is bigger than the box.,Does the box fit in the chest?,Yes,-2.1405789852142334,-0.14256107807159424,No,False
+qa18,7,"[1, 5]",The box is bigger than the container. The container is bigger than the box of chocolates.,Does the box of chocolates fit in the box?,Yes,-2.1405789852142334,-0.1396315097808838,No,False
+qa18,8,"[2, 4]",The chocolate fits inside the box of chocolates. The suitcase is bigger than the box of chocolates.,Is the chocolate bigger than the suitcase?,No,-2.593672752380371,-0.09176850318908691,No,True
+qa18,15,"[7, 2]",The container is bigger than the chest. The chocolate fits inside the chest.,Is the container bigger than the chocolate?,Yes,-3.109330415725708,-0.10493600368499756,No,False
+qa18,7,"[4, 1]",The box of chocolates fits inside the chest. The suitcase is bigger than the chest.,Does the suitcase fit in the box of chocolates?,No,-3.546830415725708,-0.04147696495056152,No,True
+qa18,7,"[2, 3]",The chest is bigger than the box. The box is bigger than the container.,Is the chest bigger than the container?,Yes,-0.714716911315918,-1.2108910083770752,Yes,True
+qa18,8,"[3, 1]",The chocolate fits inside the chest. The chest fits inside the container.,Does the container fit in the chocolate?,No,-1.0467535257339478,-0.5506592988967896,No,True
+qa18,7,"[2, 1]",The box fits inside the container. The box is bigger than the suitcase.,Is the container bigger than the suitcase?,Yes,-0.503831148147583,-1.0077667236328125,Yes,True
+qa18,10,"[5, 1]",The chest fits inside the container. The container fits inside the box.,Does the box fit in the chest?,No,-1.7576881647109985,-0.25773704051971436,No,True
+qa18,6,"[4, 2]",The chest fits inside the suitcase. The chocolate fits inside the chest.,Does the chocolate fit in the suitcase?,Yes,-0.7616430521011353,-0.761672854423523,Yes,True
+qa18,8,"[2, 4]",The chocolate fits inside the chest. The chest fits inside the suitcase.,Is the chocolate bigger than the suitcase?,No,-1.718721628189087,-0.2177562713623047,No,True
+qa18,7,"[3, 1]",The suitcase fits inside the box. The suitcase is bigger than the chocolate.,Does the chocolate fit in the box?,Yes,-2.156172752380371,-0.15620315074920654,No,False
+qa18,6,"[2, 3]",The chocolate fits inside the box. The chest is bigger than the box.,Does the chest fit in the chocolate?,No,-1.1013637781143188,-0.605347752571106,No,True
+qa18,6,"[3, 1]",The container fits inside the chest. The suitcase fits inside the container.,Is the chest bigger than the suitcase?,Yes,-0.35933029651641846,-1.359347939491272,Yes,True
+qa18,9,"[3, 4]",The chocolate fits inside the chest. The chest fits inside the suitcase.,Does the suitcase fit in the chocolate?,No,-2.1873767375946045,-0.1874251365661621,No,True
+qa18,10,"[3, 4]",The chocolate fits inside the chest. The chest fits inside the suitcase.,Is the chocolate bigger than the suitcase?,No,-1.718721628189087,-0.2177562713623047,No,True
+qa18,10,"[1, 3]",The chocolate fits inside the box of chocolates. The container is bigger than the box of chocolates.,Is the chocolate bigger than the container?,No,-2.1404995918273926,-0.14836084842681885,No,True
+qa18,8,"[1, 3]",The box of chocolates fits inside the chest. The box of chocolates is bigger than the chocolate.,Does the chocolate fit in the chest?,Yes,-3.0623767375946045,-0.0663607120513916,No,False
+qa18,10,"[2, 1]",The container is bigger than the chest. The box of chocolates fits inside the chest.,Does the box of chocolates fit in the container?,Yes,-1.7421424388885498,-0.24020707607269287,No,False
+qa18,9,"[5, 2]",The chest is bigger than the container. The container is bigger than the box of chocolates.,Does the box of chocolates fit in the chest?,Yes,-2.609330415725708,-0.10397696495056152,No,False
+qa18,8,"[1, 2]",The box is bigger than the suitcase. The suitcase is bigger than the container.,Is the box bigger than the container?,Yes,-0.5155788660049438,-1.0155788660049438,Yes,True
+qa18,10,"[4, 3]",The box of chocolates fits inside the container. The chocolate fits inside the box of chocolates.,Does the chocolate fit in the container?,Yes,-0.7615939378738403,-0.7616430521011353,Yes,True
+qa18,11,"[3, 7]",The chocolate fits inside the suitcase. The suitcase fits inside the container.,Is the chocolate bigger than the container?,No,-1.343672752380371,-0.3417501449584961,No,True
+qa18,14,"[10, 1]",The chest fits inside the box. The chocolate fits inside the chest.,Is the box bigger than the chocolate?,Yes,-1.0076881647109985,-0.5077370405197144,No,False
+qa18,12,"[8, 3]",The box is bigger than the box of chocolates. The chest is bigger than the box.,Is the box of chocolates bigger than the chest?,No,-2.156221628189087,-0.15231549739837646,No,True
+qa18,7,"[4, 1]",The suitcase is bigger than the box of chocolates. The container is bigger than the suitcase.,Is the box of chocolates bigger than the container?,No,-1.3202956914901733,-0.32225537300109863,No,True
+qa18,15,"[6, 7]",The box of chocolates fits inside the box. The box of chocolates is bigger than the chocolate.,Is the box bigger than the chocolate?,Yes,-1.7264894247055054,-0.2274947166442871,No,False
+qa18,6,"[3, 1]",The box is bigger than the box of chocolates. The container is bigger than the box.,Is the box of chocolates bigger than the container?,No,-1.7187232971191406,-0.2206869125366211,No,True
+qa18,8,"[4, 1]",The suitcase fits inside the box. The suitcase is bigger than the container.,Is the box bigger than the container?,Yes,-2.6093013286590576,-0.10788309574127197,No,False
+qa18,6,"[3, 1]",The chocolate fits inside the container. The container fits inside the suitcase.,Is the chocolate bigger than the suitcase?,No,-3.0624547004699707,-0.06443643569946289,No,True
+qa18,7,"[3, 1]",The chocolate fits inside the container. The container fits inside the suitcase.,Is the chocolate bigger than the suitcase?,No,-3.0624547004699707,-0.06443643569946289,No,True
+qa18,9,"[1, 3]",The container fits inside the suitcase. The chocolate fits inside the container.,Does the chocolate fit in the suitcase?,Yes,-0.7421132326126099,-0.7421424388885498,Yes,True
+qa2,31,"[30, 29]",John left the apple there. John went back to the bedroom.,Is the apple in the bedroom?,Yes,-0.5233608484268188,-1.0233608484268188,Yes,True
+qa2,31,"[30, 29]",John left the apple there. John went back to the bedroom.,Is the apple in the hallway?,No,-1.3671132326126099,-0.3690662384033203,No,True
+qa2,12,"[8, 11]",Mary grabbed the milk there. Mary moved to the hallway.,Is the milk in the hallway?,Yes,-0.8513637781143188,-0.8513637781143188,No,False
+qa2,12,"[8, 11]",Mary grabbed the milk there. Mary moved to the hallway.,Is the milk in the garden?,No,-2.6872966289520264,-0.19518817961215973,No,True
+qa2,12,"[7, 8]",John got the football there. John moved to the bathroom.,Is the football in the bathroom?,Yes,-1.374876618385315,-0.37487661838531494,No,False
+qa2,12,"[7, 8]",John got the football there. John moved to the bathroom.,Is the football in the garden?,No,-2.6560401916503906,-0.1512404829263687,No,True
+qa2,18,"[13, 8]",John discarded the milk. John journeyed to the office.,Is the milk in the office?,Yes,-3.124664545059204,-0.12772561609745026,No,False
+qa2,18,"[13, 8]",John discarded the milk. John journeyed to the office.,Is the milk in the bedroom?,No,-2.7340447902679443,-0.22636379301548004,No,True
+qa2,14,"[13, 8]",Sandra left the milk. Sandra travelled to the office.,Is the milk in the office?,Yes,-1.4372965097427368,-0.43924930691719055,No,False
+qa2,14,"[13, 8]",Sandra left the milk. Sandra travelled to the office.,Is the milk in the hallway?,No,-2.265418291091919,-0.25956013798713684,No,True
+qa2,27,"[21, 26]",Sandra took the football there. Sandra journeyed to the bathroom.,Is the football in the bathroom?,Yes,-2.2030489444732666,-0.20788182318210602,No,False
+qa2,27,"[21, 26]",Sandra took the football there. Sandra journeyed to the bathroom.,Is the football in the kitchen?,No,-2.21863055229187,-0.22058331966400146,No,True
+qa2,23,"[21, 11]",Daniel dropped the apple. Daniel went back to the bathroom.,Is the apple in the bathroom?,Yes,-2.6249547004699707,-0.13083171844482422,No,False
+qa2,23,"[21, 11]",Daniel dropped the apple. Daniel went back to the bathroom.,Is the apple in the garden?,No,-1.5780489444732666,-0.5780788660049438,No,True
+qa2,14,"[12, 13]",John grabbed the milk there. John went back to the kitchen.,Is the milk in the kitchen?,Yes,-0.2966747581958771,-1.7967535257339478,Yes,True
+qa2,14,"[12, 13]",John grabbed the milk there. John went back to the kitchen.,Is the milk in the bathroom?,No,-6.062296390533447,-0.07702315598726273,No,True
+qa2,7,"[5, 3]",Mary dropped the football. Mary journeyed to the kitchen.,Is the football in the kitchen?,Yes,-2.1717536449432373,-0.16789531707763672,No,False
+qa2,7,"[5, 3]",Mary dropped the football. Mary journeyed to the kitchen.,Is the football in the garden?,No,-1.8201881647109985,-0.3221900463104248,No,True
+qa2,9,"[8, 3]",John left the apple. John moved to the bedroom.,Is the apple in the bedroom?,Yes,-2.1873767375946045,-0.19421173632144928,No,False
+qa2,9,"[8, 3]",John left the apple. John moved to the bedroom.,Is the apple in the kitchen?,No,-3.1092536449432373,-0.10832476615905762,No,True
+qa2,11,"[4, 1]",Sandra put down the milk. Sandra moved to the hallway.,Is the milk in the hallway?,Yes,-2.1873767375946045,-0.1824944168329239,No,False
+qa2,11,"[4, 1]",Sandra put down the milk. Sandra moved to the hallway.,Is the milk in the kitchen?,No,-1.3592535257339478,-0.36120641231536865,No,True
+qa2,11,"[9, 2]",Sandra left the football. Sandra went to the bathroom.,Is the football in the bathroom?,Yes,-2.6092536449432373,-0.11657679826021194,No,False
+qa2,11,"[9, 2]",Sandra left the football. Sandra went to the bathroom.,Is the football in the hallway?,No,-1.7733608484268188,-0.2753138542175293,No,True
+qa2,37,"[32, 28]",Mary put down the apple. Mary moved to the bathroom.,Is the apple in the bathroom?,Yes,-3.577918291091919,-0.07555855065584183,No,False
+qa2,37,"[32, 28]",Mary put down the apple. Mary moved to the bathroom.,Is the apple in the garden?,No,-2.2029995918273926,-0.20885826647281647,No,True
+qa2,11,"[9, 4]",Mary dropped the milk. Mary moved to the kitchen.,Is the milk in the kitchen?,Yes,-0.7537823915481567,-0.753831148147583,Yes,True
+qa2,11,"[9, 4]",Mary dropped the milk. Mary moved to the kitchen.,Is the milk in the bedroom?,No,-6.031053066253662,-0.041871316730976105,No,True
+qa2,31,"[29, 30]",Daniel got the football there. Daniel went back to the kitchen.,Is the football in the kitchen?,Yes,-0.5546132326126099,-1.0546132326126099,Yes,True
+qa2,31,"[29, 30]",Daniel got the football there. Daniel went back to the kitchen.,Is the football in the office?,No,-1.4605940580368042,-0.4588582515716553,No,True
+qa2,22,"[18, 9]",Daniel discarded the football. Daniel went to the garden.,Is the football in the garden?,Yes,-1.0389419794082642,-0.542847752571106,No,False
+qa2,22,"[18, 9]",Daniel discarded the football. Daniel went to the garden.,Is the football in the office?,No,-1.827918291091919,-0.3279995918273926,No,True
+qa2,10,"[5, 6]",Mary got the football there. Mary went back to the garden.,Is the football in the garden?,Yes,-0.5389419794082642,-1.0389894247055054,Yes,True
+qa2,10,"[5, 6]",Mary got the football there. Mary went back to the garden.,Is the football in the bathroom?,No,-2.265418291091919,-0.26541832089424133,No,True
+qa2,7,"[4, 6]",Sandra took the football there. Sandra went back to the kitchen.,Is the football in the kitchen?,Yes,-0.7889419794082642,-0.7889419794082642,No,False
+qa2,7,"[4, 6]",Sandra took the football there. Sandra went back to the kitchen.,Is the football in the hallway?,No,-1.8122965097427368,-0.31237661838531494,No,True
+qa2,10,"[9, 2]",Daniel dropped the apple there. Daniel moved to the kitchen.,Is the apple in the kitchen?,Yes,-1.062376618385315,-0.5623766183853149,No,False
+qa2,10,"[9, 2]",Daniel dropped the apple there. Daniel moved to the kitchen.,Is the apple in the hallway?,No,-2.1873767375946045,-0.1844473034143448,No,True
+qa2,14,"[8, 10]",John got the milk there. John moved to the garden.,Is the milk in the garden?,Yes,-1.3826074600219727,-0.38073527812957764,No,False
+qa2,14,"[8, 10]",John got the milk there. John moved to the garden.,Is the milk in the hallway?,No,-2.218552827835083,-0.2235126495361328,No,True
+qa2,23,"[18, 12]",Mary put down the milk. Mary went back to the hallway.,Is the milk in the hallway?,Yes,-1.3982292413711548,-0.3982292711734772,No,False
+qa2,23,"[18, 12]",Mary put down the milk. Mary went back to the hallway.,Is the milk in the bedroom?,No,-2.6716747283935547,-0.16581644117832184,No,True
+qa2,43,"[38, 17]",Sandra put down the milk. Sandra travelled to the hallway.,Is the milk in the hallway?,Yes,-1.8279995918273926,-0.32409393787384033,No,False
+qa2,43,"[38, 17]",Sandra put down the milk. Sandra travelled to the hallway.,Is the milk in the garden?,No,-3.6717536449432373,-0.16980063915252686,No,True
+qa2,22,"[21, 8]",John put down the milk there. John went to the office.,Is the milk in the office?,Yes,-2.1716747283935547,-0.1707770824432373,No,False
+qa2,22,"[21, 8]",John put down the milk there. John went to the office.,Is the milk in the hallway?,No,-1.3904995918273926,-0.38659393787384033,No,True
+qa2,22,"[18, 15]",Mary left the apple. Mary moved to the office.,Is the apple in the office?,Yes,-1.0701881647109985,-0.5662823915481567,No,False
+qa2,22,"[18, 15]",Mary left the apple. Mary moved to the office.,Is the apple in the hallway?,No,-1.7577370405197144,-0.253831148147583,No,True
+qa2,13,"[6, 12]",John took the milk there. John journeyed to the garden.,Is the milk in the garden?,Yes,-2.2029995918273926,-0.20207250118255615,No,False
+qa2,13,"[6, 12]",John took the milk there. John journeyed to the garden.,Is the milk in the bedroom?,No,-2.2809040546417236,-0.28104010224342346,No,True
+qa2,23,"[21, 22]",Mary got the football there. Mary went to the hallway.,Is the football in the hallway?,Yes,-0.8005801439285278,-0.8006592988967896,Yes,True
+qa2,23,"[21, 22]",Mary got the football there. Mary went to the hallway.,Is the football in the bathroom?,No,-3.124664545059204,-0.1296783834695816,No,True
+qa2,25,"[18, 17]",John left the milk. John journeyed to the garden.,Is the milk in the garden?,Yes,-1.827918291091919,-0.3298710882663727,No,False
+qa2,25,"[18, 17]",John left the milk. John journeyed to the garden.,Is the milk in the hallway?,No,-1.8358111381530762,-0.33586084842681885,No,True
+qa2,22,"[20, 18]",Daniel discarded the apple. Daniel moved to the kitchen.,Is the apple in the kitchen?,Yes,-2.156172752380371,-0.15229713916778564,No,False
+qa2,22,"[20, 18]",Daniel discarded the apple. Daniel moved to the kitchen.,Is the apple in the bedroom?,No,-5.062376499176025,-0.06291341781616211,No,True
+qa2,14,"[10, 9]",John left the football. John moved to the bedroom.,Is the football in the bedroom?,Yes,-2.1405489444732666,-0.14546144008636475,No,False
+qa2,14,"[10, 9]",John left the football. John moved to the bedroom.,Is the football in the garden?,No,-3.0780489444732666,-0.0843961238861084,No,True
+qa2,12,"[7, 8]",Mary picked up the football there. Mary journeyed to the kitchen.,Is the football in the kitchen?,Yes,-0.8238794207572937,-0.8240128755569458,Yes,True
+qa2,12,"[7, 8]",Mary picked up the football there. Mary journeyed to the kitchen.,Is the football in the hallway?,No,-1.062425136566162,-0.5624251365661621,No,True
+qa2,18,"[13, 7]",John discarded the football. John went to the garden.,Is the football in the garden?,Yes,-2.1559250354766846,-0.1610126495361328,No,False
+qa2,18,"[13, 7]",John discarded the football. John went to the garden.,Is the football in the bathroom?,No,-3.1716747283935547,-0.17265106737613678,No,True
+qa2,11,"[10, 1]",Daniel left the football. Daniel moved to the office.,Is the football in the office?,Yes,-1.0389894247055054,-0.5389894247055054,No,False
+qa2,11,"[10, 1]",Daniel left the football. Daniel moved to the office.,Is the football in the hallway?,No,-1.0312060117721558,-0.5312060117721558,No,True
+qa2,28,"[25, 26]",Mary got the milk there. Mary went to the bathroom.,Is the milk in the bathroom?,Yes,-4.062376499176025,-0.07702315598726273,No,False
+qa2,28,"[25, 26]",Mary got the milk there. Mary went to the bathroom.,Is the milk in the kitchen?,No,-1.4216747283935547,-0.42370641231536865,No,True
+qa2,21,"[20, 7]",John put down the football there. John went back to the garden.,Is the football in the garden?,Yes,-0.7537823915481567,-0.7537823915481567,No,False
+qa2,21,"[20, 7]",John put down the football there. John went back to the garden.,Is the football in the kitchen?,No,-3.140418291091919,-0.13561750948429108,No,True
+qa2,17,"[16, 6]",Mary dropped the milk. Mary went to the bathroom.,Is the milk in the bathroom?,Yes,-3.5779995918273926,-0.0756077766418457,No,False
+qa2,17,"[16, 6]",Mary dropped the milk. Mary went to the bathroom.,Is the milk in the hallway?,No,-2.2029995918273926,-0.1971900463104248,No,True
+qa2,9,"[6, 8]",Sandra grabbed the apple there. Sandra moved to the garden.,Is the apple in the garden?,Yes,-0.8435400724411011,-0.8436226844787598,Yes,True
+qa2,9,"[6, 8]",Sandra grabbed the apple there. Sandra moved to the garden.,Is the apple in the office?,No,-2.2185401916503906,-0.21254664659500122,No,True
+qa2,12,"[11, 4]",Daniel discarded the milk. Daniel went to the office.,Is the milk in the office?,Yes,-2.656052827835083,-0.1610126495361328,No,False
+qa2,12,"[11, 4]",Daniel discarded the milk. Daniel went to the office.,Is the milk in the hallway?,No,-1.0858111381530762,-0.589716911315918,No,True
+qa2,16,"[15, 14]",Daniel dropped the football. Daniel journeyed to the hallway.,Is the football in the hallway?,Yes,-1.4295650720596313,-0.42961323261260986,No,False
+qa2,16,"[15, 14]",Daniel dropped the football. Daniel journeyed to the hallway.,Is the football in the bathroom?,No,-3.1405789852142334,-0.1337432861328125,No,True
+qa2,15,"[8, 3]",Daniel discarded the milk. Daniel went to the garden.,Is the milk in the garden?,Yes,-1.7733111381530762,-0.2714078426361084,No,False
+qa2,15,"[8, 3]",Daniel discarded the milk. Daniel went to the garden.,Is the milk in the bedroom?,No,-1.5076074600219727,-0.5037823915481567,No,True
+qa2,31,"[29, 26]",Daniel dropped the apple. Daniel journeyed to the bedroom.,Is the apple in the bedroom?,Yes,-2.2030489444732666,-0.2059783935546875,No,False
+qa2,31,"[29, 26]",Daniel dropped the apple. Daniel journeyed to the bedroom.,Is the apple in the office?,No,-3.1248767375946045,-0.127854585647583,No,True
+qa2,18,"[17, 16]",John left the milk. John journeyed to the bathroom.,Is the milk in the bathroom?,Yes,-2.6716747283935547,-0.16784775257110596,No,False
+qa2,18,"[17, 16]",John left the milk. John journeyed to the bathroom.,Is the milk in the bedroom?,No,-2.702918291091919,-0.19518817961215973,No,True
+qa2,31,"[30, 16]",Daniel put down the milk there. Daniel moved to the garden.,Is the milk in the garden?,Yes,-1.413734793663025,-0.4177692234516144,No,False
+qa2,31,"[30, 16]",Daniel put down the milk there. Daniel moved to the garden.,Is the milk in the kitchen?,No,-0.7654995918273926,-0.7654995918273926,No,True
+qa2,10,"[4, 5]",Daniel got the milk there. Daniel journeyed to the bedroom.,Is the milk in the bedroom?,Yes,-1.3982292413711548,-0.39831113815307617,No,False
+qa2,10,"[4, 5]",Daniel got the milk there. Daniel journeyed to the bedroom.,Is the milk in the office?,No,-1.4139419794082642,-0.41198909282684326,No,True
+qa2,15,"[14, 5]",Daniel discarded the milk. Daniel journeyed to the bedroom.,Is the milk in the bedroom?,Yes,-3.093552827835083,-0.09655977040529251,No,False
+qa2,15,"[14, 5]",Daniel discarded the milk. Daniel journeyed to the bedroom.,Is the milk in the hallway?,No,-1.7968013286590576,-0.29480063915252686,No,True
+qa2,29,"[28, 16]",Daniel left the milk. Daniel travelled to the bathroom.,Is the milk in the bathroom?,Yes,-2.2654995918273926,-0.2654995918273926,No,False
+qa2,29,"[28, 16]",Daniel left the milk. Daniel travelled to the bathroom.,Is the milk in the bedroom?,No,-2.6717536449432373,-0.1707770824432373,No,True
+qa2,26,"[22, 24]",Mary took the football there. Mary went to the bathroom.,Is the football in the bathroom?,Yes,-2.2029995918273926,-0.2059783935546875,No,False
+qa2,26,"[22, 24]",Mary took the football there. Mary went to the bathroom.,Is the football in the kitchen?,No,-2.2654995918273926,-0.26164305210113525,No,True
+qa2,19,"[17, 12]",Sandra left the milk there. Sandra travelled to the kitchen.,Is the milk in the kitchen?,Yes,-1.062164545059204,-0.5622965097427368,No,False
+qa2,19,"[17, 12]",Sandra left the milk there. Sandra travelled to the kitchen.,Is the milk in the garden?,No,-4.124796390533447,-0.136512890458107,No,True
+qa2,24,"[23, 19]",Mary left the apple. Mary travelled to the kitchen.,Is the apple in the kitchen?,Yes,-0.5779995918273926,-1.0779995918273926,Yes,True
+qa2,24,"[23, 19]",Mary left the apple. Mary travelled to the kitchen.,Is the apple in the office?,No,-4.562296390533447,-0.053100354969501495,No,True
+qa2,29,"[26, 27]",Mary picked up the apple there. Mary travelled to the office.,Is the apple in the office?,Yes,-0.527216911315918,-1.0311226844787598,Yes,True
+qa2,29,"[26, 27]",Mary picked up the apple there. Mary travelled to the office.,Is the apple in the bedroom?,No,-2.640418291091919,-0.14334739744663239,No,True
+qa2,8,"[6, 4]",John dropped the football. John moved to the kitchen.,Is the football in the kitchen?,Yes,-2.1717536449432373,-0.17277777194976807,No,False
+qa2,8,"[6, 4]",John dropped the football. John moved to the kitchen.,Is the football in the bedroom?,No,-5.531053066253662,-0.04650939255952835,No,True
+qa4,3,[2],The kitchen is south of the garden.,Is the garden north of the kitchen?,Yes,-0.5428953170776367,-1.039018154144287,Yes,True
+qa4,3,[2],The kitchen is south of the garden.,Is the garden north of the garden?,No,-0.4980015754699707,-0.9960663318634033,Yes,False
+qa4,3,[1],The bedroom is west of the hallway.,Is the hallway east of the bedroom?,Yes,-0.36711323261260986,-1.3671424388885498,Yes,True
+qa4,3,[1],The bedroom is west of the hallway.,Is the hallway east of the garden?,No,-0.866854727268219,-0.8670650720596313,Yes,False
+qa4,3,[1],The bedroom is east of the kitchen.,Is the kitchen west of the bedroom?,Yes,-0.34948909282684326,-1.3514419794082642,Yes,True
+qa4,3,[1],The bedroom is east of the kitchen.,Is the kitchen west of the kitchen?,No,-1.0154995918273926,-0.5116430521011353,No,True
+qa4,3,[2],The kitchen is south of the hallway.,Is the kitchen south of the hallway?,Yes,-0.49401795864105225,-1.9921132326126099,Yes,True
+qa4,3,[2],The kitchen is south of the hallway.,Is the bedroom south of the hallway?,No,-0.9099582433700562,-0.9100362062454224,Yes,False
+qa4,3,[2],The bathroom is north of the bedroom.,Is the bedroom south of the bathroom?,Yes,-0.7537823915481567,-0.7538607120513916,Yes,True
+qa4,3,[2],The bathroom is north of the bedroom.,Is the bedroom south of the bedroom?,No,-2.156172752380371,-0.1483910083770752,No,True
+qa4,3,[2],The hallway is west of the kitchen.,Is the hallway west of the kitchen?,Yes,-0.12243545800447464,-3.624925136566162,Yes,True
+qa4,3,[2],The hallway is west of the kitchen.,Is the office west of the kitchen?,No,-0.33768191933631897,-1.8358608484268188,Yes,False
+qa4,3,[2],The bathroom is south of the office.,Is the bathroom south of the office?,Yes,-0.3279995918273926,-5.343703269958496,Yes,True
+qa4,3,[2],The bathroom is south of the office.,Is the hallway south of the office?,No,-0.39831113815307617,-1.8983608484268188,Yes,False
+qa4,3,[1],The garden is south of the hallway.,Is the garden south of the hallway?,Yes,-0.3261258602142334,-2.3280789852142334,Yes,True
+qa4,3,[1],The garden is south of the hallway.,Is the kitchen south of the hallway?,No,-0.7497965097427368,-1.249925136566162,Yes,False
+qa4,3,[2],The office is south of the bedroom.,Is the office south of the bedroom?,Yes,-0.5037020444869995,-1.999925136566162,Yes,True
+qa4,3,[2],The office is south of the bedroom.,Is the kitchen south of the bedroom?,No,-0.5505801439285278,-1.054485559463501,Yes,False
+qa4,3,[1],The kitchen is east of the bedroom.,Is the kitchen east of the bedroom?,Yes,-0.23527777194976807,-3.734330415725708,Yes,True
+qa4,3,[1],The kitchen is east of the bedroom.,Is the hallway east of the bedroom?,No,-0.7537823915481567,-0.7538607120513916,Yes,False
+qa4,3,[1],The bathroom is east of the garden.,Is the bathroom east of the garden?,Yes,-0.33768191933631897,-4.343672752380371,Yes,True
+qa4,3,[1],The bathroom is east of the garden.,Is the hallway east of the garden?,No,-1.054485559463501,-0.5546132326126099,No,True
+qa4,3,[2],The hallway is north of the garden.,Is the hallway north of the garden?,Yes,-0.14538182318210602,-4.65612268447876,Yes,True
+qa4,3,[2],The hallway is north of the garden.,Is the kitchen north of the garden?,No,-0.3865129053592682,-1.3905489444732666,Yes,False
+qa4,3,[2],The kitchen is west of the bathroom.,Is the bathroom east of the kitchen?,Yes,-0.5233608484268188,-1.0233910083770752,Yes,True
+qa4,3,[2],The kitchen is west of the bathroom.,Is the bathroom east of the bathroom?,No,-2.156177520751953,-0.15617740154266357,No,True
+qa4,3,[2],The bathroom is east of the garden.,Is the bathroom east of the garden?,Yes,-0.33768191933631897,-4.343672752380371,Yes,True
+qa4,3,[2],The bathroom is east of the garden.,Is the garden east of the garden?,No,-2.156172752380371,-0.14938580989837646,No,True
+qa4,3,[1],The hallway is west of the garden.,Is the garden east of the hallway?,Yes,-0.43932950496673584,-1.437425136566162,Yes,True
+qa4,3,[1],The hallway is west of the garden.,Is the garden east of the kitchen?,No,-0.5388637781143188,-1.0389419794082642,Yes,False
+qa4,3,[1],The bathroom is east of the garden.,Is the garden west of the bathroom?,Yes,-0.7537823915481567,-0.753831148147583,Yes,True
+qa4,3,[1],The bathroom is east of the garden.,Is the garden west of the garden?,No,-0.9999251365661621,-0.49995458126068115,No,True
+qa4,3,[2],The garden is west of the office.,Is the garden west of the office?,Yes,-0.24894869327545166,-3.7499547004699707,Yes,True
+qa4,3,[2],The garden is west of the office.,Is the bathroom west of the office?,No,-1.0467535257339478,-0.5428953170776367,No,True
+qa4,3,[2],The bathroom is north of the garden.,Is the garden south of the bathroom?,Yes,-0.5233910083770752,-1.023409366607666,Yes,True
+qa4,3,[2],The bathroom is north of the garden.,Is the garden south of the hallway?,No,-0.5974582433700562,-1.0936304330825806,Yes,False
+qa4,3,[2],The bathroom is east of the hallway.,Is the hallway west of the bathroom?,Yes,-0.9998766183853149,-0.4999251365661621,No,False
+qa4,3,[2],The bathroom is east of the hallway.,Is the hallway west of the bedroom?,No,-0.527216911315918,-1.031172752380371,Yes,False
+qa4,3,[2],The hallway is north of the kitchen.,Is the hallway north of the kitchen?,Yes,-0.23034775257110596,-4.218677520751953,Yes,True
+qa4,3,[2],The hallway is north of the kitchen.,Is the office north of the kitchen?,No,-0.2176462560892105,-2.2186226844787598,Yes,False
+qa4,3,[1],The garden is north of the office.,Is the office south of the garden?,Yes,-0.5467535257339478,-1.0468013286590576,Yes,True
+qa4,3,[1],The garden is north of the office.,Is the office south of the bathroom?,No,-1.0389419794082642,-0.5351120233535767,No,True
+qa4,3,[1],The hallway is north of the bathroom.,Is the bathroom south of the hallway?,Yes,-0.5858608484268188,-1.0858910083770752,Yes,True
+qa4,3,[1],The hallway is north of the bathroom.,Is the bathroom south of the garden?,No,-1.0701074600219727,-0.5702370405197144,No,True
+qa4,3,[1],The garden is north of the office.,Is the garden north of the office?,Yes,-0.35730063915252686,-3.8593013286590576,Yes,True
+qa4,3,[1],The garden is north of the office.,Is the hallway north of the office?,No,-0.49589112401008606,-1.499925136566162,Yes,False
+qa4,3,[2],The hallway is west of the bathroom.,Is the hallway west of the bathroom?,Yes,-0.17175352573394775,-3.6718013286590576,Yes,True
+qa4,3,[2],The hallway is west of the bathroom.,Is the garden west of the bathroom?,No,-0.28503620624542236,-1.7812060117721558,Yes,False
+qa4,3,[2],The bathroom is west of the garden.,Is the bathroom west of the garden?,Yes,-0.16594231128692627,-3.671830415725708,Yes,True
+qa4,3,[2],The bathroom is west of the garden.,Is the office west of the garden?,No,-0.7771346569061279,-0.777216911315918,Yes,False
+qa4,3,[1],The hallway is south of the bathroom.,Is the hallway south of the bathroom?,Yes,-0.21471692621707916,-2.718703269958496,Yes,True
+qa4,3,[1],The hallway is south of the bathroom.,Is the office south of the bathroom?,No,-0.3924524784088135,-1.3905489444732666,Yes,False
+qa4,3,[2],The hallway is south of the bedroom.,Is the bedroom north of the hallway?,Yes,-0.3964078426361084,-1.3983608484268188,Yes,True
+qa4,3,[2],The hallway is south of the bedroom.,Is the bedroom north of the kitchen?,No,-0.5623766183853149,-1.062425136566162,Yes,False
+qa4,3,[2],The kitchen is north of the bathroom.,Is the bathroom south of the kitchen?,Yes,-0.7615128755569458,-0.7616430521011353,Yes,True
+qa4,3,[2],The kitchen is north of the bathroom.,Is the bathroom south of the office?,No,-1.0388637781143188,-0.5428953170776367,No,True
+qa4,3,[1],The office is north of the kitchen.,Is the kitchen south of the office?,Yes,-0.7458910942077637,-0.7459708452224731,Yes,True
+qa4,3,[1],The office is north of the kitchen.,Is the kitchen south of the hallway?,No,-0.7615128755569458,-0.7616430521011353,Yes,False
+qa4,3,[2],The office is south of the garden.,Is the garden north of the office?,Yes,-0.7693238258361816,-0.7694549560546875,Yes,True
+qa4,3,[2],The office is south of the garden.,Is the garden north of the hallway?,No,-0.7498766183853149,-0.7499251365661621,Yes,False
+qa4,3,[1],The bedroom is east of the kitchen.,Is the kitchen west of the bedroom?,Yes,-0.34948909282684326,-1.3514419794082642,Yes,True
+qa4,3,[1],The bedroom is east of the kitchen.,Is the kitchen west of the bathroom?,No,-0.7693238258361816,-0.7694053649902344,Yes,False
+qa4,3,[1],The kitchen is west of the garden.,Is the garden east of the kitchen?,Yes,-0.40808331966400146,-1.4061774015426636,Yes,True
+qa4,3,[1],The kitchen is west of the garden.,Is the garden east of the office?,No,-0.5936304330825806,-1.0936774015426636,Yes,False
+qa4,3,[1],The garden is north of the bedroom.,Is the bedroom south of the garden?,Yes,-0.7616430521011353,-0.761672854423523,Yes,True
+qa4,3,[1],The garden is north of the bedroom.,Is the bedroom south of the bathroom?,No,-1.062376618385315,-0.5663607120513916,No,True
+qa4,3,[2],The office is west of the bathroom.,Is the office west of the bathroom?,Yes,-0.4529995918273926,-2.4530489444732666,Yes,True
+qa4,3,[2],The office is west of the bathroom.,Is the bedroom west of the bathroom?,No,-1.1013637781143188,-0.6014419794082642,No,True
+qa4,3,[2],The bedroom is west of the kitchen.,Is the bedroom west of the kitchen?,Yes,-0.25964105129241943,-3.2655789852142334,Yes,True
+qa4,3,[2],The bedroom is west of the kitchen.,Is the kitchen west of the kitchen?,No,-3.5468013286590576,-0.053177714347839355,No,True
+qa4,3,[1],The hallway is west of the garden.,Is the garden east of the hallway?,Yes,-0.43932950496673584,-1.437425136566162,Yes,True
+qa4,3,[1],The hallway is west of the garden.,Is the garden east of the garden?,No,-0.9999545812606812,-0.4999833106994629,No,True
+qa4,3,[1],The bedroom is east of the garden.,Is the garden west of the bedroom?,Yes,-0.7499251365661621,-0.7499724626541138,Yes,True
+qa4,3,[1],The bedroom is east of the garden.,Is the garden west of the office?,No,-0.8083910942077637,-0.8083910942077637,No,True
+qa4,3,[2],The bathroom is south of the office.,Is the office north of the bathroom?,Yes,-0.5076881647109985,-1.0077370405197144,Yes,True
+qa4,3,[2],The bathroom is south of the office.,Is the office north of the office?,No,-0.7459708452224731,-0.7459708452224731,No,True
+qa4,3,[1],The bathroom is west of the bedroom.,Is the bedroom east of the bathroom?,Yes,-1.0155489444732666,-0.5155489444732666,No,False
+qa4,3,[1],The bathroom is west of the bedroom.,Is the bedroom east of the office?,No,-0.8083910942077637,-0.8084708452224731,Yes,False
+qa4,3,[2],The bathroom is west of the office.,Is the office east of the bathroom?,Yes,-0.7459708452224731,-0.7460192441940308,Yes,True
+qa4,3,[2],The bathroom is west of the office.,Is the office east of the kitchen?,No,-0.5154995918273926,-1.0155489444732666,Yes,False
+qa4,3,[1],The bathroom is north of the garden.,Is the bathroom north of the garden?,Yes,-0.2293713092803955,-4.218677520751953,Yes,True
+qa4,3,[1],The bathroom is north of the garden.,Is the office north of the garden?,No,-0.8005801439285278,-0.800707221031189,Yes,False
+qa4,3,[1],The hallway is west of the office.,Is the hallway west of the office?,Yes,-0.23417474329471588,-4.249876499176025,Yes,True
+qa4,3,[1],The hallway is west of the office.,Is the bathroom west of the office?,No,-0.3415873348712921,-1.8436226844787598,Yes,False
+qa4,3,[1],The hallway is west of the kitchen.,Is the hallway west of the kitchen?,Yes,-0.12243545800447464,-3.624925136566162,Yes,True
+qa4,3,[1],The hallway is west of the kitchen.,Is the kitchen west of the kitchen?,No,-3.0779995918273926,-0.07365477085113525,No,True
+qa4,3,[2],The office is east of the bathroom.,Is the bathroom west of the office?,Yes,-1.3514419794082642,-0.3515181541442871,No,False
+qa4,3,[2],The office is east of the bathroom.,Is the bathroom west of the bedroom?,No,-1.0076074600219727,-0.5115939378738403,No,True
+qa4,3,[1],The bathroom is west of the kitchen.,Is the kitchen east of the bathroom?,Yes,-1.0233111381530762,-0.5194549560546875,No,False
+qa4,3,[1],The bathroom is west of the kitchen.,Is the kitchen east of the office?,No,-0.7497965097427368,-0.7499251365661621,Yes,False
+qa4,3,[1],The kitchen is south of the bedroom.,Is the kitchen south of the bedroom?,Yes,-0.3279995918273926,-2.3280489444732666,Yes,True
+qa4,3,[1],The kitchen is south of the bedroom.,Is the office south of the bedroom?,No,-0.804485559463501,-0.804485559463501,No,True
+qa4,3,[2],The bathroom is south of the kitchen.,Is the kitchen north of the bathroom?,Yes,-0.7420650720596313,-0.7421132326126099,Yes,True
+qa4,3,[2],The bathroom is south of the kitchen.,Is the kitchen north of the kitchen?,No,-1.7342535257339478,-0.23332476615905762,No,True
+qa4,3,[2],The kitchen is north of the hallway.,Is the kitchen north of the hallway?,Yes,-0.29081645607948303,-2.7968013286590576,Yes,True
+qa4,3,[2],The kitchen is north of the hallway.,Is the bathroom north of the hallway?,No,-1.0622965097427368,-0.566331148147583,No,True
+qa4,3,[2],The kitchen is west of the hallway.,Is the kitchen west of the hallway?,Yes,-0.3337765038013458,-2.3280489444732666,Yes,True
+qa4,3,[2],The kitchen is west of the hallway.,Is the bedroom west of the hallway?,No,-0.792847752571106,-0.7928953170776367,Yes,False
+qa4,3,[1],The kitchen is north of the garden.,Is the garden south of the kitchen?,Yes,-0.5546132326126099,-1.0546602010726929,Yes,True
+qa4,3,[1],The kitchen is north of the garden.,Is the garden south of the garden?,No,-0.7342535257339478,-0.7343302965164185,Yes,False
+qa6,3,[2],John moved to the bedroom.,Is John in the kitchen?,No,-7.999796390533447,-0.028975728899240494,No,True
+qa6,9,[5],John went to the garden.,Is John in the garden?,Yes,-1.374876618385315,-0.3730015754699707,No,False
+qa6,15,[10],Daniel travelled to the bathroom.,Is Daniel in the bedroom?,No,-6.031177520751953,-0.04536557197570801,No,True
+qa6,9,[8],Daniel went to the hallway.,Is Daniel in the hallway?,Yes,-1.1561774015426636,-0.6601120233535767,No,False
+qa6,6,[1],John journeyed to the hallway.,Is John in the hallway?,Yes,-1.8279995918273926,-0.3319549560546875,No,False
+qa6,15,[8],Daniel went back to the garden.,Is Daniel in the bedroom?,No,-1.4218013286590576,-0.42375433444976807,No,True
+qa6,9,[7],Daniel moved to the bathroom.,Is Daniel in the bathroom?,Yes,-0.34558331966400146,-3.8437061309814453,Yes,True
+qa6,12,[11],Sandra journeyed to the hallway.,Is Sandra in the bedroom?,No,-3.593672752380371,-0.09171974658966064,No,True
+qa6,15,[13],Sandra went back to the kitchen.,Is Sandra in the kitchen?,Yes,-0.5779995918273926,-1.5780788660049438,Yes,True
+qa6,9,[8],Sandra moved to the kitchen.,Is Sandra in the office?,No,-8.562283515930176,-0.03386283293366432,No,True
+qa6,3,[2],John travelled to the kitchen.,Is John in the kitchen?,Yes,-0.5935400724411011,-1.0936226844787598,Yes,True
+qa6,15,[14],John journeyed to the bathroom.,Is John in the garden?,No,-3.1092536449432373,-0.10783660411834717,No,True
+qa6,9,[8],John went to the bedroom.,Is John in the kitchen?,No,-5.562425136566162,-0.04806852340698242,No,True
+qa6,6,[1],Daniel travelled to the hallway.,Is Daniel in the hallway?,Yes,-1.0936304330825806,-0.5975834131240845,No,False
+qa6,12,[5],Daniel went back to the office.,Is Daniel in the bedroom?,No,-3.093677520751953,-0.09858858585357666,No,True
+qa6,15,[8],Mary went back to the garden.,Is Mary in the hallway?,No,-2.656052827835083,-0.16105985641479492,No,True
+qa6,6,[1],John went back to the hallway.,Is John in the bathroom?,No,-3.5780489444732666,-0.07759058475494385,No,True
+qa6,9,[4],Mary moved to the kitchen.,Is Mary in the office?,No,-8.999796867370605,-0.022292496636509895,No,True
+qa6,3,[2],Daniel travelled to the garden.,Is Daniel in the kitchen?,No,-2.2341747283935547,-0.2313241958618164,No,True
+qa6,6,[2],Daniel travelled to the garden.,Is Daniel in the garden?,Yes,-1.0858608484268188,-0.5897668600082397,No,False
+qa6,9,[2],Daniel travelled to the garden.,Is Daniel in the bedroom?,No,-3.0936226844787598,-0.0902550220489502,No,True
+qa6,6,[2],John journeyed to the kitchen.,Is John in the hallway?,No,-2.6249547004699707,-0.1288607120513916,No,True
+qa6,6,[5],Sandra moved to the garden.,Is Sandra in the garden?,Yes,-0.40018191933631897,-2.9061226844787598,Yes,True
+qa6,3,[2],John moved to the hallway.,Is John in the bedroom?,No,-6.031130313873291,-0.04094231501221657,No,True
+qa6,9,[5],Daniel journeyed to the kitchen.,Is Daniel in the kitchen?,Yes,-0.9412823915481567,-0.941331148147583,Yes,True
+qa6,12,[7],John went to the office.,Is John in the office?,Yes,-0.7811226844787598,-0.7811727523803711,Yes,True
+qa6,12,[10],Sandra went to the kitchen.,Is Sandra in the kitchen?,Yes,-0.6444053649902344,-1.1404995918273926,Yes,True
+qa6,15,[11],Daniel journeyed to the hallway.,Is Daniel in the hallway?,Yes,-1.1951881647109985,-0.6991430521011353,No,False
+qa6,14,[10],John moved to the office.,Is John in the hallway?,No,-5.562296390533447,-0.048266056925058365,No,True
+qa6,3,[2],Sandra went back to the kitchen.,Is Sandra in the kitchen?,Yes,-0.5779995918273926,-1.5780788660049438,Yes,True
+qa6,12,[7],John went back to the office.,Is John in the office?,Yes,-0.39831113815307617,-1.8983608484268188,Yes,True
+qa6,3,[1],John travelled to the kitchen.,Is John in the kitchen?,Yes,-0.5935400724411011,-1.0936226844787598,Yes,True
+qa6,12,[10],Mary went back to the hallway.,Is Mary in the kitchen?,No,-3.093672752380371,-0.0902853012084961,No,True
+qa6,9,[8],Sandra went to the bathroom.,Is Sandra in the office?,No,-5.53112268447876,-0.022018197923898697,No,True
+qa6,15,[10],Daniel went to the bedroom.,Is Daniel in the bedroom?,Yes,-0.6327370405197144,-1.1327370405197144,Yes,True
+qa6,15,[10],Mary journeyed to the kitchen.,Is Mary in the kitchen?,Yes,-0.7811226844787598,-0.7812031507492065,Yes,True
+qa6,15,[11],Sandra moved to the hallway.,Is Sandra in the bedroom?,No,-6.5934038162231445,-0.09207560867071152,No,True
+qa6,3,[2],Sandra went back to the bedroom.,Is Sandra in the bedroom?,Yes,-0.49401795864105225,-1.9921132326126099,Yes,True
+qa6,6,[2],Sandra went back to the bedroom.,Is Sandra in the kitchen?,No,-5.531130313873291,-0.03996587172150612,No,True
+qa6,15,[14],John moved to the office.,Is John in the office?,Yes,-0.10393059253692627,-4.093706130981445,Yes,True
+qa6,6,[5],Mary journeyed to the office.,Is Mary in the hallway?,No,-1.366985559463501,-0.37097084522247314,No,True
+qa6,6,[1],Sandra journeyed to the garden.,Is Sandra in the garden?,Yes,-1.062376618385315,-0.5585192441940308,No,False
+qa6,9,[2],Mary went back to the bedroom.,Is Mary in the bathroom?,No,-4.562376499176025,-0.053421854972839355,No,True
+qa6,3,[2],John moved to the garden.,Is John in the bedroom?,No,-6.562164783477783,-0.07018817216157913,No,True
+qa6,12,[10],Sandra went back to the office.,Is Sandra in the bedroom?,No,-5.031130313873291,-0.03801286593079567,No,True
+qa6,15,[14],Mary travelled to the bathroom.,Is Mary in the bathroom?,Yes,-0.777216911315918,-0.7772971391677856,Yes,True
+qa6,12,[10],Daniel journeyed to the office.,Is Daniel in the office?,Yes,-0.8045650720596313,-0.8046132326126099,Yes,True
+qa6,17,[15],Daniel journeyed to the hallway.,Is Daniel in the garden?,No,-3.156177520751953,-0.16105985641479492,No,True
+qa6,12,[5],Mary moved to the kitchen.,Is Mary in the garden?,No,-6.031053066253662,-0.044068343937397,No,True
+qa6,6,[4],Sandra went to the bedroom.,Is Sandra in the bedroom?,Yes,-0.9100362062454224,-0.9100834131240845,Yes,True
+qa6,9,[7],Mary travelled to the hallway.,Is Mary in the hallway?,Yes,-0.7811774015426636,-0.7812060117721558,Yes,True
+qa6,6,[2],John went back to the garden.,Is John in the garden?,Yes,-1.187376618385315,-1.187425136566162,Yes,True
+qa6,15,[11],Mary journeyed to the garden.,Is Mary in the office?,No,-4.562164783477783,-0.05847085267305374,No,True
+qa6,6,[1],Mary moved to the office.,Is Mary in the office?,Yes,-0.1667928844690323,-3.6718013286590576,Yes,True
+qa6,6,[4],Sandra went to the bathroom.,Is Sandra in the office?,No,-5.53112268447876,-0.022018197923898697,No,True
+qa6,3,[1],John went back to the garden.,Is John in the kitchen?,No,-1.7733608484268188,-0.2753138542175293,No,True
+qa6,3,[2],John went to the bedroom.,Is John in the bedroom?,Yes,-0.730347752571106,-1.2264894247055054,Yes,True
+qa6,9,[8],John travelled to the bathroom.,Is John in the bathroom?,Yes,-0.8319053649902344,-0.8319849967956543,Yes,True
+qa6,15,[8],Sandra moved to the bathroom.,Is Sandra in the office?,No,-8.062283515930176,-0.03650081902742386,No,True
+qa6,3,[2],Sandra travelled to the garden.,Is Sandra in the bedroom?,No,-4.562296390533447,-0.053588636219501495,No,True
+qa6,12,[10],Mary moved to the kitchen.,Is Mary in the kitchen?,Yes,-0.11662495136260986,-3.6093480587005615,Yes,True
+qa6,6,[4],John went back to the kitchen.,Is John in the kitchen?,Yes,-0.3338582515716553,-1.8358608484268188,Yes,True
+qa6,9,[2],Daniel journeyed to the kitchen.,Is Daniel in the garden?,No,-2.687425136566162,-0.18547213077545166,No,True
+qa6,15,[14],John went back to the kitchen.,Is John in the garden?,No,-2.624925136566162,-0.12004268169403076,No,True
+qa6,3,[1],Sandra moved to the hallway.,Is Sandra in the hallway?,Yes,-0.34558331966400146,-4.343630313873291,Yes,True
+qa6,3,[1],Mary travelled to the kitchen.,Is Mary in the kitchen?,Yes,-0.3240129053592682,-1.8201881647109985,Yes,True
+qa6,6,[1],Mary went to the bathroom.,Is Mary in the bedroom?,No,-5.531172752380371,-0.030367136001586914,No,True
+qa6,15,[10],Daniel went to the office.,Is Daniel in the kitchen?,No,-4.562376499176025,-0.048021916300058365,No,True
+qa6,3,[1],Mary moved to the garden.,Is Mary in the garden?,Yes,-0.20885826647281647,-2.7030789852142334,Yes,True
+qa6,15,[13],John moved to the kitchen.,Is John in the kitchen?,Yes,-0.16589486598968506,-3.6718013286590576,Yes,True
+qa6,12,[5],Sandra moved to the hallway.,Is Sandra in the hallway?,Yes,-0.34558331966400146,-4.343630313873291,Yes,True
+qa6,15,[10],John travelled to the bedroom.,Is John in the kitchen?,No,-5.062376499176025,-0.05339265242218971,No,True
+qa6,3,[2],John moved to the bathroom.,Is John in the bedroom?,No,-6.531053066253662,-0.039674289524555206,No,True
+qa6,15,[11],Mary journeyed to the hallway.,Is Mary in the hallway?,Yes,-1.4764419794082642,-0.47844231128692627,No,False
+qa6,15,[13],Mary went back to the kitchen.,Is Mary in the hallway?,No,-5.062425136566162,-0.048021916300058365,No,True
+qa6,15,[14],Daniel went back to the hallway.,Is Daniel in the bedroom?,No,-3.1405789852142334,-0.1444849967956543,No,True
+qa6,15,[14],Daniel went back to the office.,Is Daniel in the office?,Yes,-0.43547213077545166,-1.4374545812606812,Yes,True
+qa6,15,[14],Sandra went back to the bathroom.,Is Sandra in the bathroom?,Yes,-0.6210192441940308,-2.124925136566162,Yes,True
+qa6,9,[5],Daniel moved to the hallway.,Is Daniel in the bedroom?,No,-7.593553066253662,-0.0878138542175293,No,True
+qa6,9,[7],Daniel went back to the kitchen.,Is Daniel in the kitchen?,Yes,-0.5779995918273926,-1.5780788660049438,Yes,True
+qa6,9,[2],Daniel went back to the office.,Is Daniel in the office?,Yes,-0.43547213077545166,-1.4374545812606812,Yes,True
+qa6,3,[1],Mary went back to the garden.,Is Mary in the office?,No,-4.562296390533447,-0.05510151758790016,No,True
+qa6,15,[14],Sandra moved to the kitchen.,Is Sandra in the garden?,No,-6.531053066253662,-0.03801286593079567,No,True
+qa6,9,[7],Sandra went back to the garden.,Is Sandra in the garden?,Yes,-0.9373766183853149,-0.9374251365661621,Yes,True
+qa6,9,[5],Sandra went to the garden.,Is Sandra in the kitchen?,No,-4.562376499176025,-0.05168378725647926,No,True
+qa6,15,[10],Daniel travelled to the bathroom.,Is Daniel in the office?,No,-6.03112268447876,-0.028365377336740494,No,True
+qa6,9,[2],Sandra went to the hallway.,Is Sandra in the office?,No,-5.562376499176025,-0.05998397246003151,No,True
+qa6,15,[8],Mary travelled to the hallway.,Is Mary in the hallway?,Yes,-0.7811774015426636,-0.7812060117721558,Yes,True
+qa6,15,[14],Mary moved to the bathroom.,Is Mary in the bathroom?,Yes,-0.22253620624542236,-4.718677520751953,Yes,True
+qa6,9,[5],John went back to the garden.,Is John in the garden?,Yes,-1.187376618385315,-1.187425136566162,Yes,True
+qa6,6,[5],Sandra went to the bedroom.,Is Sandra in the bathroom?,No,-4.062425136566162,-0.0780489444732666,No,True
+qa6,3,[2],Mary journeyed to the office.,Is Mary in the office?,Yes,-0.5818238258361816,-1.0857292413711548,Yes,True
+qa6,3,[1],John journeyed to the hallway.,Is John in the office?,No,-3.6247966289520264,-0.1269075870513916,No,True
+qa6,15,[14],Sandra went back to the kitchen.,Is Sandra in the kitchen?,Yes,-0.5779995918273926,-1.5780788660049438,Yes,True
+qa6,9,[5],Sandra moved to the bathroom.,Is Sandra in the office?,No,-8.062283515930176,-0.03650081902742386,No,True
+qa6,15,[10],Sandra went back to the garden.,Is Sandra in the garden?,Yes,-0.9373766183853149,-0.9374251365661621,Yes,True
+qa6,12,[10],John moved to the hallway.,Is John in the hallway?,Yes,-0.2352299690246582,-4.249925136566162,Yes,True
+qa6,9,[8],Sandra went back to the garden.,Is Sandra in the kitchen?,No,-3.5936226844787598,-0.09269630908966064,No,True
+qa6,9,[7],Daniel moved to the garden.,Is Daniel in the garden?,Yes,-0.28503620624542236,-2.781177520751953,Yes,True
+qa6,6,[5],Daniel journeyed to the hallway.,Is Daniel in the kitchen?,No,-3.593677520751953,-0.09807169437408447,No,True
+qa9,9,[8],Mary went back to the kitchen.,Is Mary in the garden?,No,-3.5779995918273926,-0.07799959927797318,No,True
+qa9,15,[11],Mary journeyed to the kitchen.,Is Mary in the kitchen?,Yes,-0.7811226844787598,-0.7812031507492065,Yes,True
+qa9,15,[14],Sandra is no longer in the kitchen.,Is Sandra in the kitchen?,No,-10.062331199645996,-0.05558967962861061,No,True
+qa9,15,[14],Mary went back to the kitchen.,Is Mary in the kitchen?,Yes,-0.38859593868255615,-1.8905788660049438,Yes,True
+qa9,9,[7],Sandra is no longer in the hallway.,Is Sandra in the hallway?,No,-8.562445640563965,-0.06782543659210205,No,True
+qa9,9,[8],Mary is in the bedroom.,Is Mary in the bedroom?,Yes,-0.2069549560546875,-2.7030789852142334,Yes,True
+qa9,9,[7],Daniel travelled to the office.,Is Daniel in the bathroom?,No,-3.0779995918273926,-0.0843961238861084,No,True
+qa9,15,[13],Mary went back to the bathroom.,Is Mary in the garden?,No,-4.531130313873291,-0.04021001234650612,No,True
+qa9,6,[5],Mary is in the bathroom.,Is Mary in the bathroom?,Yes,-0.11852968484163284,-3.624925136566162,Yes,True
+qa9,6,[5],Sandra is not in the kitchen.,Is Sandra in the kitchen?,No,-8.062420845031738,-0.056107282638549805,No,True
+qa9,12,[11],John is in the kitchen.,Is John in the kitchen?,Yes,-0.16589486598968506,-3.671830415725708,Yes,True
+qa9,15,[13],Sandra is no longer in the kitchen.,Is Sandra in the kitchen?,No,-10.062331199645996,-0.05558967962861061,No,True
+qa9,15,[13],Sandra journeyed to the bathroom.,Is Sandra in the bathroom?,Yes,-0.839716911315918,-0.8397971391677856,Yes,True
+qa9,15,[13],John went back to the bathroom.,Is John in the bathroom?,Yes,-0.48815929889678955,-1.4921424388885498,Yes,True
+qa9,6,[5],Daniel went back to the bathroom.,Is Daniel in the kitchen?,No,-3.593703269958496,-0.08979713916778564,No,True
+qa9,9,[7],Mary is in the hallway.,Is Mary in the hallway?,Yes,-0.18347086012363434,-3.187425136566162,Yes,True
+qa9,12,[7],Mary is in the hallway.,Is Mary in the garden?,No,-5.53112268447876,-0.031081082299351692,No,True
+qa9,12,[11],Daniel is no longer in the bathroom.,Is Daniel in the bathroom?,No,-8.562409400939941,-0.06294286251068115,No,True
+qa9,12,[10],John went back to the garden.,Is John in the garden?,Yes,-1.187376618385315,-1.187425136566162,Yes,True
+qa9,6,[4],Mary travelled to the garden.,Is Mary in the garden?,Yes,-0.7888637781143188,-0.7889419794082642,Yes,True
+qa9,9,[7],Mary travelled to the office.,Is Mary in the garden?,No,-4.031053066253662,-0.045824769884347916,No,True
+qa9,15,[14],John went to the bedroom.,Is John in the hallway?,No,-4.062376499176025,-0.06196630001068115,No,True
+qa9,6,[4],John went to the garden.,Is John in the kitchen?,No,-3.65567946434021,-0.14920558035373688,No,True
+qa9,3,[2],Daniel is no longer in the bedroom.,Is Daniel in the bedroom?,No,-9.062429428100586,-0.0922384262084961,No,True
+qa9,15,[8],Mary went back to the kitchen.,Is Mary in the kitchen?,Yes,-0.38859593868255615,-1.8905788660049438,Yes,True
+qa9,6,[4],Mary moved to the bathroom.,Is Mary in the bathroom?,Yes,-0.22253620624542236,-4.718677520751953,Yes,True
+qa9,9,[8],Daniel journeyed to the office.,Is Daniel in the office?,Yes,-0.8045650720596313,-0.8046132326126099,Yes,True
+qa9,12,[8],Sandra is no longer in the hallway.,Is Sandra in the hallway?,No,-8.562445640563965,-0.06782543659210205,No,True
+qa9,3,[2],Sandra is in the hallway.,Is Sandra in the hallway?,Yes,-0.28698909282684326,-2.7812061309814453,Yes,True
+qa9,6,[4],John is no longer in the hallway.,Is John in the hallway?,No,-8.124876976013184,-0.09807169437408447,No,True
+qa9,9,[7],Sandra went to the garden.,Is Sandra in the garden?,Yes,-0.8319053649902344,-0.8319053649902344,No,False
+qa9,12,[11],Mary is in the bedroom.,Is Mary in the bedroom?,Yes,-0.2069549560546875,-2.7030789852142334,Yes,True
+qa9,6,[5],John is no longer in the bedroom.,Is John in the bedroom?,No,-9.062397956848145,-0.048783302307128906,No,True
+qa9,3,[2],John is in the bedroom.,Is John in the bedroom?,Yes,-0.29089486598968506,-2.796830415725708,Yes,True
+qa9,3,[2],Daniel travelled to the garden.,Is Daniel in the garden?,Yes,-1.0858608484268188,-0.5897668600082397,No,False
+qa9,15,[11],Sandra is no longer in the bathroom.,Is Sandra in the bathroom?,No,-8.562383651733398,-0.0931844711303711,No,True
+qa9,15,[13],John went to the office.,Is John in the office?,Yes,-0.7811226844787598,-0.7811727523803711,Yes,True
+qa9,12,[11],Mary travelled to the bathroom.,Is Mary in the kitchen?,No,-5.531177520751953,-0.03337455168366432,No,True
+qa9,15,[8],John moved to the bathroom.,Is John in the bedroom?,No,-6.531053066253662,-0.039674289524555206,No,True
+qa9,6,[2],Sandra moved to the hallway.,Is Sandra in the hallway?,Yes,-0.34558331966400146,-4.343630313873291,Yes,True
+qa9,15,[13],Sandra journeyed to the kitchen.,Is Sandra in the kitchen?,Yes,-0.839716911315918,-0.8397668600082397,Yes,True
+qa9,6,[1],Daniel is not in the bathroom.,Is Daniel in the bathroom?,No,-8.12492561340332,-0.09517073631286621,No,True
+qa9,6,[4],Sandra went to the bathroom.,Is Sandra in the bathroom?,Yes,-1.0858111381530762,-0.5819849967956543,No,False
+qa9,6,[1],John is no longer in the bathroom.,Is John in the bathroom?,No,-8.124903678894043,-0.09858858585357666,No,True
+qa9,9,[8],Mary went back to the bathroom.,Is Mary in the bathroom?,Yes,-0.48820722103118896,-1.9843302965164185,Yes,True
+qa9,9,[2],Sandra travelled to the kitchen.,Is Sandra in the bedroom?,No,-6.031203269958496,-0.023165225982666016,No,True
+qa9,9,[5],John travelled to the hallway.,Is John in the hallway?,Yes,-1.1014419794082642,-0.605347752571106,No,False
+qa9,9,[7],Daniel moved to the office.,Is Daniel in the hallway?,No,-4.593677520751953,-0.10588359832763672,No,True
+qa9,6,[5],Mary went to the garden.,Is Mary in the garden?,Yes,-1.0936304330825806,-0.5936774015426636,No,False
+qa9,9,[8],John is in the bedroom.,Is John in the bedroom?,Yes,-0.29089486598968506,-2.796830415725708,Yes,True
+qa9,6,[2],Daniel journeyed to the hallway.,Is Daniel in the bedroom?,No,-3.6248767375946045,-0.12687814235687256,No,True
+qa9,6,[1],Mary is in the bedroom.,Is Mary in the garden?,No,-7.062384128570557,-0.06343114376068115,No,True
+qa9,15,[11],Daniel went to the kitchen.,Is Daniel in the kitchen?,Yes,-0.7850834131240845,-0.7851120233535767,Yes,True
+qa9,15,[14],Sandra went to the hallway.,Is Sandra in the hallway?,Yes,-0.9295650720596313,-0.9296132326126099,Yes,True
+qa9,9,[8],Daniel is not in the office.,Is Daniel in the office?,No,-8.562383651733398,-0.06294286251068115,No,True
+qa9,15,[14],Mary is in the garden.,Is Mary in the garden?,Yes,-0.1766357421875,-3.1718480587005615,Yes,True
+qa9,9,[7],John went to the garden.,Is John in the office?,No,-4.562296390533447,-0.053588636219501495,No,True
+qa9,3,[2],Daniel is not in the bathroom.,Is Daniel in the bathroom?,No,-8.12492561340332,-0.09517073631286621,No,True
+qa9,9,[8],Daniel is not in the bathroom.,Is Daniel in the bathroom?,No,-8.12492561340332,-0.09517073631286621,No,True
+qa9,3,[1],John went to the bathroom.,Is John in the bathroom?,Yes,-1.3436774015426636,-0.3456590175628662,No,False
+qa9,9,[5],Sandra moved to the hallway.,Is Sandra in the hallway?,Yes,-0.34558331966400146,-4.343630313873291,Yes,True
+qa9,6,[2],Daniel is no longer in the hallway.,Is Daniel in the hallway?,No,-7.84365701675415,-0.33976686000823975,No,True
+qa9,9,[8],Sandra is in the bathroom.,Is Sandra in the bathroom?,Yes,-0.1668713092803955,-3.6718013286590576,Yes,True
+qa9,15,[13],Sandra went back to the bedroom.,Is Sandra in the bathroom?,No,-3.6248767375946045,-0.11999440938234329,No,True
+qa9,6,[4],Daniel is no longer in the kitchen.,Is Daniel in the kitchen?,No,-9.56235122680664,-0.0883021354675293,No,True
+qa9,9,[8],Daniel is in the bedroom.,Is Daniel in the bedroom?,Yes,-0.28308331966400146,-2.781177520751953,Yes,True
+qa9,15,[14],Mary is not in the kitchen.,Is Mary in the kitchen?,No,-8.562368392944336,-0.05534565821290016,No,True
+qa9,12,[11],Daniel is in the kitchen.,Is Daniel in the kitchen?,Yes,-0.38854682445526123,-2.8905789852142334,Yes,True
+qa9,12,[11],Mary is in the bathroom.,Is Mary in the bathroom?,Yes,-0.11852968484163284,-3.624925136566162,Yes,True
+qa9,3,[2],John went to the garden.,Is John in the hallway?,No,-3.1248767375946045,-0.11906623840332031,No,True
+qa9,15,[14],Mary went back to the office.,Is Mary in the office?,Yes,-0.42175352573394775,-1.4218302965164185,Yes,True
+qa9,15,[13],Sandra travelled to the bedroom.,Is Sandra in the garden?,No,-5.53112268447876,-0.026900652796030045,No,True
+qa9,3,[2],Daniel is in the bathroom.,Is Daniel in the kitchen?,No,-7.562368869781494,-0.056595444679260254,No,True
+qa9,15,[14],Daniel moved to the bedroom.,Is Daniel in the bedroom?,Yes,-0.21086084842681885,-2.7030489444732666,Yes,True
+qa9,15,[14],Daniel moved to the office.,Is Daniel in the office?,Yes,-0.21081115305423737,-2.7030489444732666,Yes,True
+qa9,6,[2],Sandra is in the hallway.,Is Sandra in the hallway?,Yes,-0.28698909282684326,-2.7812061309814453,Yes,True
+qa9,15,[8],John is not in the kitchen.,Is John in the kitchen?,No,-8.062383651733398,-0.08979713916778564,No,True
+qa9,9,[4],Daniel is not in the bathroom.,Is Daniel in the bathroom?,No,-8.12492561340332,-0.09517073631286621,No,True
+qa9,9,[7],Sandra moved to the garden.,Is Sandra in the garden?,Yes,-0.40018191933631897,-2.9061226844787598,Yes,True
+qa9,9,[7],Mary is in the kitchen.,Is Mary in the bedroom?,No,-7.562384128570557,-0.06730759143829346,No,True
+qa9,3,[1],Mary went back to the kitchen.,Is Mary in the kitchen?,Yes,-0.38859593868255615,-1.8905788660049438,Yes,True
+qa9,12,[7],Mary moved to the bathroom.,Is Mary in the bathroom?,Yes,-0.22253620624542236,-4.718677520751953,Yes,True
+qa9,3,[2],John moved to the garden.,Is John in the office?,No,-6.531053066253662,-0.03210688382387161,No,True
+qa9,3,[2],Daniel travelled to the kitchen.,Is Daniel in the kitchen?,Yes,-0.6327370405197144,-1.1327370405197144,Yes,True
+qa9,6,[5],John is not in the kitchen.,Is John in the kitchen?,No,-8.062383651733398,-0.08979713916778564,No,True
+qa9,15,[13],John is in the garden.,Is John in the office?,No,-7.5623087882995605,-0.06437814235687256,No,True
+qa9,6,[4],Daniel went to the hallway.,Is Daniel in the hallway?,Yes,-1.1561774015426636,-0.6601120233535767,No,False
+qa9,15,[13],Sandra moved to the office.,Is Sandra in the bedroom?,No,-8.062283515930176,-0.041139014065265656,No,True
+qa9,6,[5],Sandra travelled to the garden.,Is Sandra in the garden?,Yes,-0.9332596659660339,-0.9332596659660339,No,False
+qa9,6,[1],John is no longer in the bathroom.,Is John in the bathroom?,No,-8.124903678894043,-0.09858858585357666,No,True
+qa9,3,[1],Mary moved to the office.,Is Mary in the office?,Yes,-0.1667928844690323,-3.6718013286590576,Yes,True
+qa9,15,[11],Sandra went back to the hallway.,Is Sandra in the office?,No,-4.562376499176025,-0.048539161682128906,No,True
+qa9,9,[7],Mary went to the hallway.,Is Mary in the hallway?,Yes,-1.0780489444732666,-0.5819849967956543,No,False
+qa9,15,[14],Sandra moved to the kitchen.,Is Sandra in the kitchen?,Yes,-0.25378239154815674,-3.249925136566162,Yes,True
+qa9,3,[2],Sandra is not in the garden.,Is Sandra in the garden?,No,-8.49992561340332,-0.024367572739720345,No,True
+qa9,15,[13],Sandra moved to the hallway.,Is Sandra in the garden?,No,-6.593540191650391,-0.09061100333929062,No,True
+qa9,3,[2],John is in the hallway.,Is John in the hallway?,Yes,-0.28308331966400146,-2.7812061309814453,Yes,True
+qa9,3,[2],Sandra is not in the hallway.,Is Sandra in the hallway?,No,-9.062451362609863,-0.05710148811340332,No,True
+qa9,12,[11],Sandra is in the office.,Is Sandra in the office?,Yes,-0.27721691131591797,-2.781172752380371,Yes,True
+qa9,12,[8],Daniel is in the bedroom.,Is Daniel in the garden?,No,-6.562376499176025,-0.06481767445802689,No,True
